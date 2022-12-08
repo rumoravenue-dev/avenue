@@ -10,8 +10,6 @@ function Form() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  // console.log(name, role, email, message)
-
     return (
       <div className="form-container">
           <form className="form-box">
