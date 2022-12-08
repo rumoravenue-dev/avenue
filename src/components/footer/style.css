@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Poppins:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+}
+
+.footer {
+    width: 1440px;
+    height: 600px;
+    background-color: #fff7db;
+    padding-top: 290px;
+}
+
+.footer .footerCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerCopy button {
+    background-color: rgba(244, 189, 3, 1.0);
+    padding: 18px 36px;
+    width: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 0;
+}
+
+.footer .footerCopy p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 6em;
+}
+
+.footer .footerLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10em;
+}
+
+.footer .footerLinks a {
+    font-family: 'Antonio', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    margin-bottom: 1em;
+}
+
+.footer .footerMedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .footerMedia .socialMedia img {
+    margin-right: 2em;
+}
+
+.footer .footerMedia .backToTop {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer .footerMedia .backToTop p {
+    margin-right: 2em;
+    margin-left: 3em;
+}

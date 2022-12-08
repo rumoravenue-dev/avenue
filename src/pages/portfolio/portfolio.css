@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.main-portfolio {
+    width: 1440px;
+    height: 900px;
+    background-color: rgb(40, 44, 52);
+    position: relative;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+}
+
+.title-container h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 30px;
+}
+
+.title-container img {
+    width: 500px;
+    height: 120px;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow-container img {
+    width: 17px;
+    height: 34px;
+}
+
+.arrow-container > img {
+    margin-right: 15px;
+}
+
+.portfolio-container {
+    margin-left: 170px;
+}
+
+.portfolio-container img {
+    width: 507.49px;
+    height: 326px;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container-main {
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-somewhere-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.div-somewhere-text h1 {
+  position: absolute;
+  width: 972px;
+  height: 134px;
+  left: 450px;
+  top: 270px;
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.4em;
+  line-height: 134px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.div-icon {
+  margin-top: 5em;
+  position: absolute;
+  top: 11em;
+  left: 15em;
+}
+
+.sunset-img {
+  width: 550px;
+  height: 550px;
+  top: 0px;
+}
+
+.div-contactus-text {
+  position: relative;
+  color: #000000;
+}
+
+.div-contactus-text h2 {
+  position: absolute;
+  width: 750px;
+  height: 166px;
+  margin-top: -8em;
+  margin-left: -2em;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.div-contactus-text p {
+  position: absolute;
+  width: 620px;
+  height: 68px;
+  margin-top: -15em;
+  margin-left: -2em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.btn-start {
+  position: absolute;
+  width: 304px;
+  height: 72px;
+  left: 570px;
+  margin-top: -8em;
+  margin-left: -21.5em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  background: #F4BD03;
+  border-radius: 8px;
+  border: none;
+}
