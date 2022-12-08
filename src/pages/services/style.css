@@ -378,13 +378,13 @@ body {
 
     .thirdColProcess h3 {
         font-size: 25px;
-        margin-top: -80px;
+        margin-top: 0px;
     }
 
     .thirdColProcess p {
         padding-right: 0px;
         font-size: 15px;
-        margin-bottom: 200px;
+        margin-bottom: 90px;
     }
 
     .goodToKnowServices img {
