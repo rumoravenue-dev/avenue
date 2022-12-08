@@ -17,14 +17,13 @@ body {
 }
 
 .homeMain h1 {
-    width: 919px;
-    height: 219px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 130%;
     color: #FFFFFF;
+    padding-right: 380px!important;
 }
 
 .homeMain p {
@@ -149,4 +148,17 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #888888;
+}
+
+
+
+@media screen and (max-width: 350px ) {
+}
+
+
+@media screen and (max-width: 576px ) {
+}
+
+@media screen and (max-width: 992px ) { 
+    
 }

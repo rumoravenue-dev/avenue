@@ -1,0 +1,245 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.mainServices {
+    height: 801px;
+    background: linear-gradient(56.55deg, rgba(0, 0, 0, 0.3) 7.84%, rgba(0, 0, 0, 0) 62.32%), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../public/assets/img/bg/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainServices h1 {
+    font-weight: 700;
+    font-size: 68px;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 1000px;
+}
+
+.mainServicesText {
+    padding-top: 14em;
+    padding-left: 12em;
+}
+
+.mainServices span {
+    background-color: #F4BD03;
+}
+
+.aproachServices {
+    background-color: #000000;
+    height: 750px;
+}
+
+.rowAproach {
+    padding-left: 10em;
+}
+
+.aproachServices h2 {
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    width: 588px;
+    color: #7D7D7D;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.aproachServices h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 0.5em;
+}
+
+.aproachServices h3:hover {
+    text-decoration: underline;  
+}
+
+.imgBackgroundAproach {
+    position: relative;
+    margin-top: 12em;
+}
+
+.imgModelAproach {
+    position: absolute;
+    left: 54%;
+    top: 135.6%;
+    height: 90%;
+}
+
+.processServices .firstColProcess {
+    padding-left: 7em;
+    padding-bottom: 3em;
+}
+
+.firstColProcess h2 {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 92px;
+    color: #000000;
+    margin-top: 1.5em;
+}
+
+.firstColProcess p {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 400;
+    font-size: 20px;
+    color: #989898;
+}
+
+.processServices img {
+    margin-left: -0.8em;
+}
+
+.processServices .secondColProcess {
+    padding-left: 6em;
+    padding-top: 5em;
+}
+
+.secondColProcess h3 {
+    font-family: 'Antonio';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 42px;
+    color: #F4BD03;
+}
+
+.secondColProcess p {
+    width: 440px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 4em;
+}
+
+.secondColProcess .anotherPProcess {
+    height: 120px;
+}
+
+.processServices .thirdColProcess {
+    padding-top: 5em;
+    padding-left: 2em;
+}
+
+.thirdColProcess h3 {
+    font-family: 'Antonio';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 42px;
+    color: #F4BD03;
+}
+
+.thirdColProcess p {
+    width: 440px; 
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 2.5em;
+}
+
+.goodToKnowServices {
+    padding-bottom: 8em;
+}
+
+.goodToKnowServices img {
+    margin-left: 41.5em!important;
+}
+
+.goodToKnowText {
+    padding-left: 8em;
+    margin-top: -2em;
+}
+
+.goodToKnowText h2 {
+    font-family: 'Antonio';
+    font-weight: 400;
+    font-size: 64px;
+    color: #F4BD03;
+}
+
+.goodToKnowText h2 span {
+    font-family: 'Antonio';
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.presentationSevices {
+    padding-left: 9em;
+    padding-bottom: 10em;
+}
+
+.presentationSevices h4 {
+    font-family: 'Poppins';
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.presentationSevices h4:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.presentationSevices p {
+    padding-top: 3em;
+    width: 538px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.addonsServices {
+    background-color: #000000;
+    height: 1000px;
+    text-align: center;
+}
+
+.addonsServices h2 {
+    font-family: 'Antonio';
+    font-weight: 400;
+    font-size: 92px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.addonsServices img {
+    margin-bottom: 1em;
+}
+
+.addonsServices h3 {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F4BD03;
+    padding-bottom: 4em;
+}
+
+.addonsServices span {
+    font-size: 24px;
+}
+
+.secondRowAddons {
+    padding-left: 1em;
+}
+
+@media screen and (min-width: ) {
+
+}

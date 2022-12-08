@@ -1,8 +1,9 @@
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+
 import "./style.css"
 import Home from "./pages/home/home";
-import Services from "./pages/services";
+import Services from "./pages/services/services";
 // import Portfolio from "./pages/portfolio";
 // import Contact from "./pages/contact";
 // import About from "./pages/portfolio";
@@ -10,13 +11,13 @@ import Services from "./pages/services";
 const App = () => {
    return(
        <BrowserRouter>
-        <Routes>
-           <Route element = { <Home/> }  path="/" exact />
-           <Route element = { <Services/> }  path="/services" />
-           {/* <Route element = { Portfolio }  path="/portfolio" />
-           <Route element = { Contact }  path="/contact" />
-           <Route element = { About }  path="/about" /> */}
-        </Routes>
+            <Routes>
+                <Route element = { <Home /> }  path="/" />
+                <Route element = { <Services /> }  path="/services" />
+                {/* <Route component = { Portfolio }  path="/portfolio" />
+                <Route component = { Contact }  path="/contact" />
+                <Route component = { About }  path="/about" /> */}
+           </Routes>
        </BrowserRouter>
    )
 }
