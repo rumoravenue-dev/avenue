@@ -1,0 +1,646 @@
+.ourServices {
+    padding-left: 144px;
+    padding-bottom: 100px;
+}
+
+.ourServices h2 {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.ourServices p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #989898;
+}
+
+.ourServices hr {
+    width: 1153px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.ourServices a {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000!important;
+    text-decoration: none;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+
+.ourServices a active {
+    color: #000000!important;
+}
+
+.ourServices a:hover {
+    text-decoration: underline #F4BD03!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    text-decoration: underline #F4BD03!important;
+    background-color: transparent;
+}
+
+.fundsServices {
+    display: flex;
+    gap: 24px;
+}
+
+.cardIntro {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/pagerintro.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardIntro p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+    padding-right: 70px;
+}
+
+.cardAgency {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/agency.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardAgency p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardBranding {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/branding.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBranding p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardTraining {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/corporatetraining.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardTraining p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.cardRedesign {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/redesign.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardRedesign p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardReview {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/review.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardReview p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardMagazine {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/magazine.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardMagazine p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardProgressReport1 {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/progressreport1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardProgressReport1 p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardConference {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/conference.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardConference p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.cardLegalPresentations {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/legalpresentation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardLegalPresentations p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.cardQuickPresentations {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/quickpresentations.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardQuickPresentations p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.cardTrialExhibits {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/trialexhibits.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardTrialExhibits p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-right: 60px;
+}
+
+.cardInvestorDeck {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/investordeck.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardInvestorDeck img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardInvestorDeck p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 60px;
+}
+
+.cardStartupPitch {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/startuppitch.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardStartupPitch img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardStartupPitch p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 60px;
+}
+
+.cardProductPresentation {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/productspresentation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardProductPresentation img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardProductPresentation p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardBusinessProposal {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/businessproposal.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBusinessProposal img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardBusinessProposal p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 60px;
+}
+
+.cardCompanyPresentation {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/companypresentation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardCompanyPresentation img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardCompanyPresentation p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardSalesDeck {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/salesdeck.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardSalesDeck img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardSalesDeck p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.cardServiceDeck {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/servicedeck.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardServiceDeck img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardServiceDeck p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.cardBigNewsDeck {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/bignewsdeck.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBigNewsDeck img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardBigNewsDeck p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardBrandedTemplate {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/brandedtemplate.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBrandedTemplate img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardBrandedTemplate p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardBoardingPresentation {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/onboardingpresentation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBoardingPresentation img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardBoardingPresentation p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardPolicyPlaybook {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/policydeckandplaybook.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardPolicyPlaybook img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardPolicyPlaybook p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.cardProgressReport {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/progressreport.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardProgressReport img {
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.cardProgressReport p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 992px ) { 
+    .ourServices {
+        padding-left: 50px;
+    }
+
+    .ourServices hr {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 576px ) {
+    .ourServices {
+        padding-left: 10px;
+    }
+
+    .ourServices h2 {
+        font-size: 56px;
+    }
+
+    .ourServices p {
+        font-size: 15px;
+    }
+
+    .ourServices hr {
+        width: 300px;
+    }
+
+    .ourServices a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px ) {
+    .ourServices hr {
+        width: 250px;
+    }
+}
+
