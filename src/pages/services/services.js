@@ -58,8 +58,8 @@ const Services = () => {
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                         <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                         <div className='goodToKnowText'>
-                            <h2> GOOD TO </h2>
-                            <h2> <span> know </span> </h2>
+                            <span id="changeText"> GOOD TO </span>
+                            <h2> know </h2>
                         </div>
                     </div>
                 </div>
