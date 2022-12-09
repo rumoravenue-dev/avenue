@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import HeaderSidebar from '../headerSidebar/HeaderSidebar'
-import './style.css';
+import HeaderSidebar from '../headerSidebar/headerSidebar'
+import '../styles/header.css';
 
 const Header = () => {
 
