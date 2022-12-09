@@ -43,7 +43,7 @@
     text-decoration: underline #F4BD03!important;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     text-decoration: underline #F4BD03!important;
     background-color: transparent;
 }

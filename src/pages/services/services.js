@@ -1,4 +1,5 @@
 import style from './style.css'
+import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices.js'
 
 const Services = () => {
@@ -64,19 +65,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <section className='presentationSevices container-fluid'>
-                <div className='row'>
-                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12'>
-                        <h4> <a> Presentation types </a> </h4>
-                        <h4> <a> TIMEZONES </a> </h4>
-                        <h4> <a> File Types </a> </h4>
-                        <h4> <a> ETC </a> </h4>
-                    </div>
-                    <div className='col-12 col-sm-7 col-xl-7 col-lg-7 col-md-12'>
-                        <p> We use our presentations to tell stories. Whether you’re looking to raise funds, sell a product, or hire and manage people, we’ve got you covered. Join us so we can tell a magical story together. </p>
-                    </div>
-                </div>
-            </section>
+            <Presentation /> 
 
             <OurServices />
 

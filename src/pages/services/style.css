@@ -137,7 +137,7 @@ body {
 }
 
 .goodToKnowServices {
-    padding-bottom: 150px;
+    padding-bottom: 179px;
 }
 
 .goodToKnowServices img {
@@ -162,33 +162,6 @@ body {
     font-size: 64px;
     text-transform: uppercase;
     color: #000000;
-}
-
-.presentationSevices {
-    padding-left: 180px;
-    padding-bottom: 200px;
-}
-
-.presentationSevices h4 {
-    font-family: 'Poppins';
-    font-size: 26px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.presentationSevices a:hover {
-    font-weight: 600;
-    text-decoration: underline #F4BD03!important;
-}
-
-.presentationSevices p {
-    padding-top: 50px;
-    padding-right: 200px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-    opacity: 0.4;
 }
 
 .addonsServices {
@@ -284,15 +257,6 @@ body {
     .goodToKnowText {
         padding-left: 10px;
         margin-top: 50px;
-    }
-
-    .presentationSevices {
-        padding-left: 30px;
-    }
-
-    .presentationSevices p {
-        padding-top: 40px;
-        padding-right: 0px;
     }
 
     .addonsServices h3 {
@@ -403,19 +367,6 @@ body {
 
     .goodToKnowText h2 span {
         font-size: 32px;
-    }
-
-    .presentationSevices {
-        padding-left: 15px;
-    }
-
-    .presentationSevices h4 {
-        font-size: 16px;
-    }
-
-    .presentationSevices p {
-        padding-right: 0px;
-        font-size: 15px;
     }
 
     .addonsServices {
