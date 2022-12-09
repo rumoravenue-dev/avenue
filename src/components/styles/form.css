@@ -71,6 +71,8 @@
     height: 250;
 }
 
+input[type=text]{outline:none}
+
 .form-inputs h4 {
     font-size: 12px;
 }
@@ -79,6 +81,7 @@
     background-color: #000000;
     border: none;
     border-bottom: 2px solid #9B9B9B !important;
+    color: #FFFFFF;
 }
 
 .name-role :first-child {
@@ -119,4 +122,5 @@
 
     background: #FFFFFF;
     border-radius: 8px;
+    border: none;
 }
