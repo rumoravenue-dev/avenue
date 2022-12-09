@@ -1,13 +1,16 @@
 import React from "react";
 import icon from './images/Vector.svg';
 import sunset from './images/Sunset.svg';
-import Form from '../../components/Form';
+import Form from '../../components/form/Form';
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
 import "./contact.css";
 
 function Contact() {
   return (
     <div>
       <section className="container-main">
+        <Header />
         <div className="row">
           <div className="col-12 col-sm-2 div-icon">
             <img src={ icon } alt="sunset" />
@@ -33,6 +36,7 @@ function Contact() {
       <section className="container-main">
         <Form />
       </section>
+      <Footer />
     </div>
   );
 }
