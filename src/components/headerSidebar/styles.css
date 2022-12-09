@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.navSidebar{
+    height: 100vh;
+    margin: 0 42.5px;
+    box-sizing: 0;
+    padding: 80px 0px 40px 0px;
+    position: absolute;
+}
+
+.navSidebar li {
+    position: relative;
+    margin-bottom: 14px;
+    list-style-type: none;
+}
+.navSidebar a {
+    height: 27px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff!important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navSidebar a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    top: 30px;
+    left: 0;
+    position: absolute;
+    transition: 0.5s  ease-in-out;
+}
+.navSidebar a:hover::after{
+    width:100%;
+}
+
+/* mostrar subItems   */
+.showList {
+    display: block;
+}
+
+/* ocultar listas*/
+.hiddenList {
+    display: none;
+}
+
+
+
+
+

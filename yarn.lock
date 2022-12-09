@@ -4625,7 +4625,7 @@ fraction.js@^4.2.0:
 
 framer-motion@^7.6.19:
   version "7.6.19"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-7.6.19.tgz"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.6.19.tgz#a24ea890881374f4184be5abb773ce8e4a0d3734"
   integrity sha512-U+ogwGwNw6Y+pdq6GZB5xvnvLDlq3FTmcKaG5MCUjXuqRLrjKbKTqN4iwZISv3ajwUfgNHM6+tu31LRbYfF9YQ==
   dependencies:
     "@motionone/dom" "10.13.1"
