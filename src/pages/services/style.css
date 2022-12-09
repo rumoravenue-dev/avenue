@@ -49,16 +49,28 @@ body {
     margin-bottom: 70px;
 }
 
-.aproachServices h3 {
+.aproachServices a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 40px;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
     margin-top: 25px;
+    position: relative;
 }
 
-.aproachServices a:hover {
-    text-decoration: underline #F4BD03!important;
+.aproachServices a::after {
+    content : " ";
+    width: 0%;
+    height: 5px;
+    background-color: #F4BD03;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.aproachServices a:hover:after {
+    width: 100%!important;
 }
 
 .imgModelAproach {
@@ -149,14 +161,14 @@ body {
     margin-top: -40px;
 }
 
-.goodToKnowText h2 {
+.goodToKnowText span {
     font-family: 'Antonio';
     font-weight: 400;
     font-size: 64px;
     color: #F4BD03;
 }
 
-.goodToKnowText h2 span {
+.goodToKnowText h2 {
     font-family: 'Antonio';
     font-weight: 400;
     font-size: 64px;
@@ -298,7 +310,7 @@ body {
         height: 800px;
     }
 
-    .aproachServices h3 {
+    .aproachServices a {
         font-size: 20px;
     }
 
