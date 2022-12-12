@@ -1,11 +1,23 @@
 import style from './style.css'
+import Header from '../../components/header/header.js'
 import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices.js'
 import Footer from '../../components/footer/footer.js'
+import { useEffect, useState } from 'react'
 
 const Services = () => {
+    // const [changeText, setChangeText] = useState("GOOD TO")
+
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         setChangeText("WHAT TO")
+    //     }, 1000);
+    // })
+
     return (
         <>
+            {/* <Header />  */}
+
             <section className="mainServices container-fluid">
                 <div className="row">
                     <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainServicesText">
@@ -16,13 +28,13 @@ const Services = () => {
 
             <section className='aproachServices container-fluid'>
                 <div className='row rowAproach'>
-                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12'>
+                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 firstColAproach'>
                         <h2> We do this by following a simple approach: </h2>
                         <h3> <a> SETTING A GOAL </a> </h3>
                         <h3> <a> IDENTIFYING AUDIENCE </a> </h3>
                         <h3> <a> CONTEXT IS KEY </a> </h3>
                     </div>
-                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
+                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12 secondColAproach'>
                         <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image"/>
                     </div>
                 </div>
@@ -59,7 +71,7 @@ const Services = () => {
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                         <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                         <div className='goodToKnowText'>
-                            <span id="changeText"> GOOD TO </span>
+                            <span> GOOD TO </span>
                             <h2> know </h2>
                         </div>
                     </div>
@@ -110,6 +122,7 @@ const Services = () => {
                 </div>
             </section>
 
+            <Footer />
         </>
     )
 }

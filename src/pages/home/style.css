@@ -7,13 +7,20 @@ body {
 }
 
 .homeMain {
-    width: 1440px;
     height: 714px;
     background: linear-gradient(359.69deg, rgba(0, 0, 0, 0.3) 0.37%, rgba(0, 0, 0, 0) 99.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/public/assets/img/home/main/bg.webp');
     background-position: center;
     background-size: cover;
-    padding-top: 20em;
+    padding-top: 190px;
     padding-left: 5em;
+}
+
+.homeMain .row {
+    max-width: 100%;
+}
+
+.homeText {
+    padding: 0;
 }
 
 .homeMain h1 {
@@ -23,12 +30,10 @@ body {
     font-size: 56px;
     line-height: 130%;
     color: #FFFFFF;
-    padding-right: 380px!important;
+    padding-right: 380px;
 }
 
 .homeMain p {
-    width: 590px;
-    height: 26px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -37,13 +42,45 @@ body {
     color: #989898;
 }
 
+.homeMain img {
+    padding-bottom: 32px;
+}
+
+.homePresentations {
+    background-color: rgb(244, 189, 3);
+    padding: 120px 50px;
+}
+
+.homePresentations h3 {
+    font-size: 27px;
+    line-height: 43.5px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    padding: 32px 180px 96px 180px;
+}
+
+.homePresentations .homeCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePresentations .homeCarousel .carousel-control-next-icon,
+.homePresentations .homeCarousel .carousel-control-prev-icon {
+    display: none;
+}
+.homePresentations .carousel-indicators {
+    display: none;
+}
+
 .homePartnerships {
     height: 795.09px;
-    width: 1440px;
+    padding-bottom: 15em;
 }
 
 .homePartnerships .partnershipsTitle {
-    width: 1440px;
     height: 386px;
     background-image: url('../../../public/assets/img/home/Partnerships/Frame.webp');
     background-position: center;
@@ -57,7 +94,6 @@ body {
 
 .homePartnerships .col-12 h2 {
     position: absolute;
-    width: 1078px;
     height: 114px;
     font-family: 'Poppins';
     font-style: normal;
@@ -72,14 +108,20 @@ body {
     padding-left: 10em;
 }
 
-.homePartnerships .partnershipsImages .col-12 {
+.homePartnerships .partnershipsImages .partnershipsImage {
+    max-width: 100%;
     padding-bottom: 4em;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
+.homePartnerships .row {
+    max-width: 100%;
+}
+
 .homeQuestions {
-    padding: 5em 5em;
+    padding: 15em 5em;
 }
 
 .homeQuestions h1 {
@@ -151,14 +193,263 @@ body {
 }
 
 
-
 @media screen and (max-width: 350px ) {
-}
-
-
-@media screen and (max-width: 576px ) {
-}
-
-@media screen and (max-width: 992px ) { 
+    .homeMain {
+        height:1150px;
+        padding-top: 190px;
+        padding-left: 20px!important;
+    }
     
+    .homeMain h1 {
+        max-width: 90%;
+        font-size:32px!important;
+        padding-right: 120px;
+    }
+    
+    .homeMain p {
+        font-size: 18px;
+    }
+    
+    .homeMain img {
+        padding-bottom: 32px;
+    }
+
+    .homePresentations {
+        padding: 40px 20px!important;
+    }
+    
+    .homePresentations h3 {
+        font-size: 14px!important;
+        line-height: 26px;
+        padding: 8px 12px 30px 12px!important;
+    }
+
+    .homePresentations .homeCarousel {
+        padding-left: 15px!important;
+    }
+
+    .homePresentations img {
+        width: 100%;
+    }
+
+    .homePartnerships {
+        height: 199vh;
+    }
+
+    .homePartnershipsRow {
+        padding-left: 32px;
+    }
+
+    .homePartnerships h2 {
+        font-size: 22px!important;
+    }
+
+    .homePartnerships .partnershipsImages {
+        padding: 0 0px!important;
+    }
+
+    .homePartnerships .partnershipsImages .partnershipsImage img {
+        width: 100px;
+    }
+
+    .homeQuestions {
+        padding: 200px 32px;
+    }
+
+    .homeQuestions h1 {
+        font-size: 28px;
+    }
+
+    .homeQuestions p {
+        font-size: 16px;
+    }
+
+    .homeQuestions .faqQuestion {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .homeQuestions .faqAnswer {
+        font-size: 12px;
+    }
+    
+}
+
+
+@media (min-width: 351px) and (max-width: 576px ) {
+    .homeMain {
+        height: 950px;
+        padding-top: 120px;
+        padding-left: 40px;
+    }
+
+    .homeMain .row {
+        margin: 0;
+    }
+
+    .homeMain .homeText {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .homeMain h1 {
+        max-width: 90%;
+        font-size: 32px;
+        padding-right: 100px!important;
+        margin-right: 0;
+    }
+    
+    .homeMain p {
+        font-size: 20px;
+        padding-right: 50px;
+    }
+
+    .homePresentations {
+        padding: 80px 50px;
+    }
+    
+    .homePresentations h3 {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 20px 30px 20px;
+    }
+
+    .homePresentations .homeCarousel {
+        padding-left: 15px;
+    }
+
+    .homePresentations img {
+        width: 100%;
+    }
+
+    .homePartnerships {
+        height: 1800px!important;
+        padding-bottom: 0px;
+    }
+    
+    .homePartnerships .partnershipsTitle {
+        height: 386px;
+        margin-top: 8px;
+    }
+    
+    .homePartnerships .partnershipsTitle h2 {
+        position: absolute;
+        height: 114px;
+        font-size: 28px!important;
+        padding-left: 8px;
+    }
+    
+    .homePartnerships .partnershipsImages {
+        padding-left: 32px!important;
+    }
+
+    .homeQuestions {
+        padding: 80px 30px;
+        text-align: left;
+    }
+    
+    .homeQuestions h1 {
+        font-size: 40px;
+    }
+    
+    .homeQuestions p {
+        font-size: 22px;
+    }
+    
+    .homeQuestions .faqQuestion {
+        text-align: left;
+        font-size: 22px;
+    }
+    
+    .homeQuestions .faqAnswer {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px ) { 
+    .homeMain {
+        height: 850px;
+        padding-top:60px;
+        padding-left: 80px;
+    }
+    
+    .homeMain h1 {
+        font-size: 56px;
+        line-height: 130%;
+        padding-right: 180px;
+        padding-top: 90px;
+    }
+
+    .homePresentations {
+        padding: 120px 50px;
+    }
+    
+    .homePresentations h3 {
+        padding: 8px 20px 30px 20px;
+    }
+
+    .homePresentations .homeCarousel {
+        padding-left: 30px;
+    }
+
+    .homePresentations img {
+        width: 100%;
+    }
+    
+    .homePartnerships {
+        height: 1000px;
+        padding: 80px 32px;
+    }
+    
+    .homePartnerships .partnershipsTitle {
+        margin-top: 20px;
+    }
+    
+    .homePartnerships .col-12 h2 {
+        font-size: 44px;
+        text-align: center;
+        padding: 0 8px;
+    }
+    
+    .homePartnerships .partnershipsImages {
+        padding-left: 32px;
+    }
+    
+    .homePartnerships .partnershipsImages .col-12 {
+        padding-bottom: 4em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .homeQuestions {
+        padding: 80px 20px;
+    }
+
+    .homeQuestions .faqQuestion {
+        text-align: left;
+    }
+    
+    .homeQuestions .btn-link {
+        text-decoration: none!important;
+    }
+    
+    .homeQuestions .card-header {
+        background-color: #fff;
+    }
+    
+    .homeQuestions .card {
+        border-bottom: 1px solid #000000!important;
+        border: none;
+    }
+    
+    .homeQuestions .faqAnswer {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #888888;
+    }
 }

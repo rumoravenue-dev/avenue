@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+.form-box {
+    width: 1156px;
+    height: 480px;
+    background: #000000;
+    border-radius: 16px;
+    margin-left: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.form-left-side {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.form-left-side h1 {
+    width: 226px;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.form-left-side h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #9B9B9B;
+    margin-bottom: 60px;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.contact-information img {
+    margin-right: 10px;
+}
+
+.form-right-side {
+    margin-left: 190px;
+    margin-top: 80px;
+}
+
+.form-right-side label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.form-inputs {
+    width: 566px;
+    height: 250;
+}
+
+input[type=text]{outline:none}
+
+.form-inputs h4 {
+    font-size: 12px;
+}
+
+.form-inputs input {
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid #9B9B9B !important;
+    color: #FFFFFF;
+}
+
+.name-role :first-child {
+    margin-right: 50px;
+}
+
+.email-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email-message input {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.email-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.form-right-side button {
+    color: #000000;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    padding: 16px 48px;
+    gap: 10px;
+
+    /* position: absolute; */
+    width: 208px;
+    height: 56px;
+    left: 513px;
+    /* top: 357px; */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
