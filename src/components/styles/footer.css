@@ -10,6 +10,7 @@ body {
     height: 600px;
     background-color: #fff7db;
     padding-top: 290px;
+    padding-left: 150px;
 }
 
 .footer .footerRow {
@@ -86,6 +87,7 @@ body {
         height: auto;
         padding-top: 290px;
         padding-bottom: 40px;
+        padding-left: 0px;
     }
 
     .footerRow {
@@ -109,18 +111,34 @@ body {
         margin-top: 30px;
     }
 
+    .footer .footerCopy button {
+        padding: 10px 20px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 992px ) { 
     .footer {
         height: 750px;
     }
+
+    .footer .footerLinks {
+        padding-left: 54px;
+    }
+
     .footer .footerMedia {
         height: 172px;
         margin-top: 12px;
     }
+
+    .footer .footerMedia .socialMedia {
+        margin-left: 0;
+    }
    
     .footer .footerMedia .socialMedia img {
-        margin-right: 10px;
+        margin-right: 20px;
+    }
+
+    .footer .footerMedia .backToTop p {
+        margin-left: 8px;
     }
 }
