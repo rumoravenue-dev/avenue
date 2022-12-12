@@ -2,7 +2,6 @@ import React from "react";
 import icon from './images/Vector.svg';
 import sunset from './images/Sunset.svg';
 import Form from '../../components/form/Form';
-
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import "./contact.css";
