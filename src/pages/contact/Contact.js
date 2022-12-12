@@ -28,7 +28,7 @@ function Contact() {
           <div className="col-12 col-sm-10 div-contactus-text">
             <img className="sunset-img" src={ sunset } alt="sunset" />
             <h2>We're here ready 24/7 feel free to Contact us at anytime.</h2>
-            <p>It's always 5pm somewhere. Get in touch with us and Find The best way below to reach us out, or fill up the form.</p>
+            <p><strong>It's always 5pm somewhere.</strong> Get in touch with us and Find The best way below to reach us out, or fill up the form.</p>
             <button className="btn-start">Start a new project</button>
           </div>
         </div>

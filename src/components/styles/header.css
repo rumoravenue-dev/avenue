@@ -117,12 +117,10 @@ body {
 @media screen and (max-width: 576px ) {
     .wrap {
         padding-top: 32px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 20%;
+        display: block;
         top: 0;
-        left: 0;
+        right: 0;
         position: absolute;
     }
     .header {

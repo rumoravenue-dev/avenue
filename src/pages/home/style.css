@@ -31,6 +31,7 @@ body {
     line-height: 130%;
     color: #FFFFFF;
     padding-right: 380px;
+    padding-top: 150px;
 }
 
 .homeMain p {
@@ -58,7 +59,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    padding: 32px 180px 96px 180px;
+    padding: 32px 300px 96px 225px;
 }
 
 .homePresentations .homeCarousel {
@@ -102,6 +103,7 @@ body {
     line-height: 130%;
     text-align: center;
     color: #000000;
+    padding: 0 180px;
 }
 
 .homePartnerships .partnershipsImages {
@@ -195,15 +197,16 @@ body {
 
 @media screen and (max-width: 350px ) {
     .homeMain {
-        height:1150px;
+        height: 850px;
         padding-top: 190px;
         padding-left: 20px!important;
     }
     
     .homeMain h1 {
         max-width: 90%;
-        font-size:32px!important;
-        padding-right: 120px;
+        font-size: 24px!important;
+        padding-right: 50px;
+        padding-top: 10px;
     }
     
     .homeMain p {
@@ -240,8 +243,10 @@ body {
         padding-left: 32px;
     }
 
-    .homePartnerships h2 {
+    .homePartnerships .col-12 h2 {
         font-size: 22px!important;
+        width: 90%;
+        padding: 0;
     }
 
     .homePartnerships .partnershipsImages {
@@ -325,6 +330,7 @@ body {
     .homePartnerships {
         height: 1800px!important;
         padding-bottom: 0px;
+        padding-left: 32px;
     }
     
     .homePartnerships .partnershipsTitle {
@@ -337,6 +343,7 @@ body {
         height: 114px;
         font-size: 28px!important;
         padding-left: 8px;
+        padding-right: 8px;
     }
     
     .homePartnerships .partnershipsImages {
@@ -377,7 +384,7 @@ body {
         font-size: 56px;
         line-height: 130%;
         padding-right: 180px;
-        padding-top: 90px;
+        padding-top: 160px;
     }
 
     .homePresentations {
@@ -398,7 +405,7 @@ body {
     
     .homePartnerships {
         height: 1000px;
-        padding: 80px 32px;
+        padding: 80px 32px 80px 48px;
     }
     
     .homePartnerships .partnershipsTitle {
@@ -408,7 +415,7 @@ body {
     .homePartnerships .col-12 h2 {
         font-size: 44px;
         text-align: center;
-        padding: 0 8px;
+        padding: 0 32px;
     }
     
     .homePartnerships .partnershipsImages {
