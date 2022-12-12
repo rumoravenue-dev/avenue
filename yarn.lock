@@ -4757,6 +4757,9 @@
     "@babel/code-frame" "^7.8.3"
     "@types/json-schema" "^7.0.5"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c69a021bb2e4ec66c3cb9c9a6969958928deb2d
     "chalk" "^4.1.0"
     "chokidar" "^3.4.2"
     "cosmiconfig" "^6.0.0"
@@ -4792,6 +4795,7 @@
   "integrity" "sha512-U+ogwGwNw6Y+pdq6GZB5xvnvLDlq3FTmcKaG5MCUjXuqRLrjKbKTqN4iwZISv3ajwUfgNHM6+tu31LRbYfF9YQ=="
   "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-7.6.19.tgz"
   "version" "7.6.19"
+<<<<<<< HEAD
 =======
     chalk "^4.1.0"
     chokidar "^3.4.2"
@@ -4829,6 +4833,9 @@ framer-motion@^7.6.19:
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.6.19.tgz#a24ea890881374f4184be5abb773ce8e4a0d3734"
   integrity sha512-U+ogwGwNw6Y+pdq6GZB5xvnvLDlq3FTmcKaG5MCUjXuqRLrjKbKTqN4iwZISv3ajwUfgNHM6+tu31LRbYfF9YQ==
 >>>>>>> 8b835241f740bcdc8dd7e3b86697393e8e6bbb89
+=======
+>>>>>>> 5bc3c9754fff8ab130c60d313adf7c7634b15f21
+>>>>>>> 8c69a021bb2e4ec66c3cb9c9a6969958928deb2d
   dependencies:
     "@motionone/dom" "10.13.1"
     "framesync" "6.1.2"

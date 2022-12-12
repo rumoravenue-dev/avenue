@@ -6,8 +6,8 @@ import Photo1 from "./images/Rectangle1.webp";
 import Photo2 from "./images/Rectangle2.webp";
 import Photo3 from "./images/Rectangle3.webp";
 import Photo4 from "./images/Rectangle4.webp";
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 import "./portfolio.css";
 
 function Portfolio() {

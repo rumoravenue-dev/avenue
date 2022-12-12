@@ -1,10 +1,10 @@
 import React from "react";
 import './style.css';
 
-import Header from "../../components/header/header";
-import ControlledCarousel from "../../components/carousel/carousel";
-import Faq from '../../components/faq/faq'
-import Footer from "../../components/footer/footer";
+import Header from "../../components/header";
+import ControlledCarousel from "../../components/carousel";
+import Faq from '../../components/faq'
+import Footer from "../../components/footer";
 
 function App() {
 

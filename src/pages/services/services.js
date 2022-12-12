@@ -1,8 +1,8 @@
 import style from './style.css'
-import Header from '../../components/header/header.js'
+import Header from '../../components/header'
 import Presentation from '../../components/presentation'
-import OurServices from '../../components/ourservices.js'
-import Footer from '../../components/footer/footer.js'
+import OurServices from '../../components/ourservices'
+import Footer from '../../components/footer'
 import { useEffect, useState } from 'react'
 
 const Services = () => {
