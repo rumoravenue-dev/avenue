@@ -16,7 +16,7 @@ const Services = () => {
 
     return (
         <>
-            {/* <Header />  */}
+            <Header /> 
 
             <section className="mainServices container-fluid">
                 <div className="row">
