@@ -10,7 +10,7 @@ body {
 }
 
 .container-main {
-  width: 1440px;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -25,9 +25,7 @@ body {
 
 .div-somewhere-text h1 {
   position: absolute;
-  width: 972px;
-  height: 134px;
-  left: 450px;
+  left: 385px;
   top: 270px;
   font-family: 'Antonio', sans-serif;
   font-style: normal;
@@ -60,7 +58,6 @@ body {
 .div-contactus-text h2 {
   position: absolute;
   width: 750px;
-  height: 166px;
   margin-top: -8em;
   margin-left: -2em;
   font-family: 'Antonio';
@@ -104,4 +101,53 @@ body {
   background: #F4BD03;
   border-radius: 8px;
   border: none;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width: 350px) {
+
+  .div-icon img {
+    width: 30px;
+    margin-top: 600;
+    margin-left: 400;
+  }
+
+  .sunset-img {
+    width: 230px;
+  }
+
+  .div-somewhere-text h1 {
+    width: 80%;
+    margin-top: -140px;
+    margin-left: -320px;
+    font-size: 27px;
+  }
+
+  .div-contactus-text h2 {
+    font-size: 1em;
+    width: 95%;
+    margin-top: -500;
+    margin-left: 0;
+    border: 3px solid blue;
+  }
+
+  .div-contactus-text p {
+    font-size: 0.8em;
+    border: 3px solid green;
+    margin-top: 0;
+    margin-left: 0;
+  } 
+
+  .btn-start {
+    width: 204px;
+    margin-top: 0;
+    left: 500;
+  }
 }

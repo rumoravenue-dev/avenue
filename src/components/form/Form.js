@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 import Phone from "./images/VectorPhone.svg";
 import Mail from "./images/VectorMail.svg";
-import "./form.css";
+import "../styles/form.css";
 
 function Form() {
   const [name, setName] = useState('');

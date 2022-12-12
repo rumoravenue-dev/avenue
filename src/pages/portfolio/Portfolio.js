@@ -6,11 +6,14 @@ import Photo1 from "./images/Rectangle1.webp";
 import Photo2 from "./images/Rectangle2.webp";
 import Photo3 from "./images/Rectangle3.webp";
 import Photo4 from "./images/Rectangle4.webp";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 import "./portfolio.css";
 
 function Portfolio() {
   return (
     <div className="main-portfolio">
+      <Header />
       <div className="title-container">
           <h4>portfolio</h4>
           <img src={TakeALook} alt=""/>
@@ -25,6 +28,7 @@ function Portfolio() {
         <img src={Photo3} alt="portfolio-3"/>
         <img src={Photo4} alt="portfolio-4"/>
       </div>
+      <Footer />
     </div>
   );
 }
