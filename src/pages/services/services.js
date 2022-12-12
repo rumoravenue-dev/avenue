@@ -1,7 +1,7 @@
 import style from './style.css'
 import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices.js'
-import Footer from '../../components/footer/footer.js'
+import Footer from '../../components/footer'
 
 const Services = () => {
     return (
