@@ -13,7 +13,7 @@ body {
   align-items: center;
 }
 
-.mainContent {
+.mainContact .mainContent {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,20 +21,29 @@ body {
   padding-left: 22em;
 }
 
-.sunsetImage {
+.mainContact .sunsetImage {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.mainContent h1{
-  width: 100%;
-  font-size: 73.75px;
-  text-transform: uppercase;
-  font-family: 'Poppins';
+.mainContact .mainContent img {
+  margin-left: -240px;
 }
 
-.container-main {
+.mainContact .mainContent h1 {
+  width: 90%;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.5em;
+  line-height: 134px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.containerMain {
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -42,37 +51,12 @@ body {
   align-items: center;
 }
 
-.div-somewhere-text h1 {
-  position: absolute;
-  left: 385px;
-  top: 270px;
-  font-family: 'Antonio', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.4em;
-  line-height: 134px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.div-icon {
-  margin-top: 12em;
-  margin-left: -7em;
-  margin-right: 2em;
-}
-
-.sunset-img {
-  height: 550px;
-  top: 0px;
-}
-
-.div-contactus-text {
+.containerMain .contactusText {
   position: relative;
   color: #000000;
 }
 
-.div-contactus-text h2 {
+.containerMain .contactusText h2 {
   position: absolute;
   width: 720px;
   margin-top: -8em;
@@ -86,7 +70,7 @@ body {
   text-transform: uppercase;
 }
 
-.div-contactus-text p {
+.containerMain .contactusText p {
   position: absolute;
   width: 700px;
   margin-top: -13em;
@@ -100,7 +84,7 @@ body {
   text-transform: uppercase;
 }
 
-.btn-start {
+.containerMain .btnStart {
   position: absolute;
   width: 304px;
   height: 72px;
@@ -121,89 +105,87 @@ body {
 
 @media screen and (max-width: 350px) {
   .mainContact {
-    height: 100vh;
-    max-width: 90%;
+    height: 350px;
+    max-width: 335px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
-  .mainContent {
+
+  .mainContact .row {
+    max-width: 340px;
+  }
+
+  .mainContact .sunsetImage {
+    max-width: 340px;
+  }
+
+  .mainContact .mainContent {
     max-width: 100%;
     padding-left: 1.5em;
     padding-right: 0!important;
   }
 
-  .mainContact .row {
-    max-width: 100%;
-  }
-
-  .mainContent {
-    margin-top: -260px;
+  .mainContact .mainContent {
+    margin-top: -100px;
+    width: 70%;
   }
   
-  .mainContent h1{
+  .mainContact .mainContent h1 {
     width: 100%;
-    font-size: 28px;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 300px;
+    margin-top: -110px;
   }
 
-  .mainContent img {
+  .mainContact .mainContent img {
     height: 70px;
+    margin-left: 240px;
+    margin-top: -180px;
   }
   
-  .container-main {
-    max-width: 90%;
-  }
-
-  .div-somewhere-text h1 {
-    left: 50px;
-    top: 270px;
-    font-size: 24px;
-    line-height: 40px;
-    padding: 0;
-  }
-  
-  .div-icon {
-    width: 30%;
-    margin-top: 12em;
-    margin-left: 1em;
-    margin-right: 0em;
-    padding: 0;
-  }
-
-  .div-icon img {
-    height: 100px;
-  }
-  
-  .sunset-img {
+  .sunsetImg {
     height: 220px;
     top: 0px;
     margin-left: 40px;
   }
+
+  .containerMain {
+    height: 350px;
+    max-width: 335px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
   
-  .div-contactus-text {
+  .containerMain .contactusText {
     max-width: 100%;
     position: relative;
     color: #000000;
   }
   
-  .div-contactus-text h2 {
-    max-width: 100%;
-    margin-top: -10em;
-    margin-left: -0.5em;
+  .containerMain .contactusText h2 {
+    max-width: 52%;
+    margin-top: -150px;
+    margin-left: 150px;
     font-size: 20px;
     padding-left: 1em;
   }
   
-  .div-contactus-text p {
-    max-width: 70%;
-    margin-top: -10em;
-    margin-left: 3em;
-    font-size: 12px;
+  .containerMain .contactusText p {
+    max-width: 55%;
+    margin-top: -80px;
+    margin-left: 140px;
+    font-size: 8px;
   }
   
-  .btn-start {
+  .containerMain .btnStart {
     position: absolute;
     width: auto;
-    height: 32px;
-    left: 355px;
-    margin-top: 16em;
+    height: 28px;
+    margin-top: 170px;
+    margin-left: -305px;
     font-size: 12px;
     line-height: 24px;
     border-radius: 8px;
@@ -214,93 +196,182 @@ body {
 
 @media (min-width: 351px) and (max-width: 576px) {
   .mainContact {
-    height: 100vh;
+    height: 350px;
+    max-width: 335px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
-  .mainContent {
+
+  .mainContact .row {
+    max-width: 340px;
+  }
+
+  .mainContact .sunsetImage {
+    max-width: 340px;
+  }
+
+  .mainContact .mainContent {
     max-width: 100%;
     padding-left: 1.5em;
     padding-right: 0!important;
   }
 
-  .mainContact .row {
-    max-width: 100%;
-  }
-
-  .mainContent {
-    margin-top: -300px;
+  .mainContact .mainContent {
+    margin-top: -100px;
+    width: 70%;
   }
   
-  .mainContent h1{
+  .mainContact .mainContent h1 {
     width: 100%;
-    font-size: 28px;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 300px;
+    margin-top: -110px;
+    border: 2px solid blue;
   }
 
-  .mainContent img {
+  .mainContact .mainContent img {
     height: 70px;
-  }
-
-  .container-main {
-    height: 400px;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .div-icon img {
-    height: 50px;
-    margin-left: 100px;
-    margin-right: -70px;
-    margin-top: -220px;
-  }
-
-  .sunset-img {
-    height: 300px;
-    margin-top: -280px;
-    margin-left: 20px;
-  }
-
-  .div-somewhere-text h1 {
-    margin-top: -160px;
-    margin-left: -310px;
-    font-size: 27px;
-  }
-
-  .div-contactus-text h2 {
-    font-size: 1em;
-    width: 95%;
-    margin-top: -230px;
-    margin-left: 0;
-  }
-
-  .div-contactus-text p {
-    max-width: 100%;
-    font-size: 0.8em;
-    margin-top: -170px;
-    margin-left: 0px;
-  } 
-
-  .btn-start {
-    width: 180px;
-    margin-top: -80px;
-    left: 350px;
-    font-size: 12px;
+    margin-left: 240px;
+    margin-top: -180px;
   }
   
+  .sunsetImg {
+    height: 220px;
+    top: 0px;
+    margin-left: 40px;
+  }
+
+  .containerMain {
+    height: 350px;
+    max-width: 335px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerMain .contactusText {
+    max-width: 100%;
+    position: relative;
+    color: #000000;
+  }
+  
+  .containerMain .contactusText h2 {
+    max-width: 52%;
+    margin-top: -150px;
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 1em;
+  }
+  
+  .containerMain .contactusText p {
+    max-width: 55%;
+    margin-top: -80px;
+    margin-left: 140px;
+    font-size: 8px;
+  }
+  
+  .containerMain .btnStart {
+    position: absolute;
+    width: auto;
+    height: 28px;
+    margin-top: 170px;
+    margin-left: -305px;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 8px;
+    border: none;
+  }
 }
 
 
-@media (min-width: 576px) and (max-width: 992px) { 
-  .mainContent {
-    max-width: 95%;
-    padding-left: 4.5em;
-    padding-right: 0!important;
+@media (min-width: 576px) and (max-width: 992px) {
+  .mainContact {
+    height: 600px;
+    max-width: 575px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .mainContact .row {
+    max-width: 340px;
+  }
+
+  .mainContact .sunsetImage {
+    max-width: 340px;
+  }
+
+  .mainContact .mainContent {
     max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 0!important;
+  }
+
+  .mainContact .mainContent {
+    margin-top: -100px;
+    width: 70%;
   }
   
-  .mainContent h1{
+  .mainContact .mainContent h1 {
     width: 100%;
-    font-size: 50.75px;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 300px;
+    margin-top: -110px;
+    border: 2px solid blue;
   }
+
+  .mainContact .mainContent img {
+    height: 70px;
+    margin-left: 10px;
+    margin-top: -400px;
+  }
+  
+  .sunsetImg {
+    height: 420px;
+  }
+
+  .containerMain {
+    height: 600px;
+    max-width: 575px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerMain .contactusText {
+    max-width: 100%;
+    position: relative;
+    color: #000000;
+  }
+  
+  .containerMain .contactusText h2 {
+    max-width: 550px;
+    margin-top: -320px;
+    margin-left: -10px;
+    font-size: 34px;
+    padding-left: 1em;
+  }
+  
+  .containerMain .contactusText p {
+    max-width: 550px;
+    margin-top: -200px;
+    margin-left: -10px;
+    font-size: 16px;
+  }
+  
+  .containerMain .btnStart {
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    margin-top: -100px;
+    margin-left: -395px;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 8px;
+    border: none;
+  }
+
 }
