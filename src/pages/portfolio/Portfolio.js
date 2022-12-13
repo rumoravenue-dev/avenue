@@ -1,32 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import TakeALook from "./images/takealook.svg";
 import arrowRight from "./images/Arrowright.svg";
 import arrowLeft from "./images/Arrowleft.svg"
-import Photo1 from "./images/Rectangle1.webp";
-import Photo2 from "./images/Rectangle2.webp";
-import Photo3 from "./images/Rectangle3.webp";
-import Photo4 from "./images/Rectangle4.webp";
+import Carousel from "../../components/carouselPortfolio";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import "./portfolio.css";
 
 function Portfolio() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <div className="main-portfolio">
       <Header />
-      <div className="title-container">
+      <div className="row title-container">
+        <div className="col-12 col-sm-12">
           <h4>portfolio</h4>
           <img src={TakeALook} alt=""/>
-        <div className="arrow-container">
+        </div>
+        <div className="col-12 col-sm-12 arrow-container" activeIndex={index} onSelect={handleSelect}>
           <img src={arrowLeft} alt="arrow-left"/>
           <img src={arrowRight} alt="arrow-right"/>
         </div>
       </div>
-      <div className="portfolio-container">
-        <img src={Photo1} alt="portfolio-1"/>
-        <img src={Photo2} alt="portfolio-2"/>
-        <img src={Photo3} alt="portfolio-3"/>
-        <img src={Photo4} alt="portfolio-4"/>
+      <div className="col-12 col-sm-12 portfolio-container">
+        <Carousel />
       </div>
       <Footer />
     </div>

@@ -59,3 +59,11 @@ body {
     width: 507.49px;
     height: 326px;
 }
+
+.portfolio-container .carousel-control-next-icon,
+.portfolio-container .carousel-control-prev-icon {
+    display: none;
+}
+.portfolio-container .carousel-indicators {
+    display: none;
+}
