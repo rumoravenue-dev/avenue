@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+.containerGetInTouch {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSomewhereText {
+  justify-content: center;
+  align-items: center;
+}
+
+.divSomewhereText h1 {
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 150px;
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 134px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.divIcon {
+  margin-top: 4em;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 90px;
+}
+
+.sunsetImg {
+  width: 550px;
+  height: 550px;
+  top: 0px;
+}

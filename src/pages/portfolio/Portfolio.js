@@ -8,11 +8,7 @@ import Footer from "../../components/footer";
 import "./portfolio.css";
 
 function Portfolio() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  const home = true;
 
   return (
     <div className="main-portfolio">

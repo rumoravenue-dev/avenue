@@ -11,7 +11,7 @@ const OurServices = () => {
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                         <h2> OUR SERVICES </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur. Eleifend etiam lobortis pretium velit sit. Suspendisse eu arcu morbi ac. </p>
+                        <p> One-stop-shop to solve all your presentation problems and headaches. </p>
                         <hr></hr>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/raisefunds.svg' alt="raise funds icon"/>
-                                                        <p> INVESTOR DECK </p>
+                                                        <p> INVESTOR DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -56,7 +56,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/raisefunds.svg' alt="investor deck icon"/>
-                                                        <p> STARTUP PITCH </p>
+                                                        <p> STARTUP PITCH <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,7 +70,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
-                                                        <p> BUSINESS PROPOSAL </p>
+                                                        <p> BUSINESS PROPOSAL <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -80,7 +80,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
-                                                        <p> COMPANY PRESENTATION </p>
+                                                        <p> COMPANY PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -90,7 +90,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
-                                                        <p> PRODUCT PRESENTATION </p>
+                                                        <p> PRODUCT PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
-                                                        <p> SALES DECK </p>
+                                                        <p> SALES DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -112,7 +112,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
-                                                        <p> SERVICE DECK </p>
+                                                        <p> SERVICE DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -126,7 +126,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
-                                                        <p> BIG NEWS DECK </p>
+                                                        <p> BIG NEWS DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -136,7 +136,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
-                                                        <p> BRANDED TEMPLATE </p>
+                                                        <p> BRANDED TEMPLATE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -146,7 +146,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
-                                                        <p> ON-BOARDING PRESENTATION </p>
+                                                        <p> ON-BOARDING PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -158,7 +158,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
-                                                        <p> POLICY DECK & PLAYBOOK </p>
+                                                        <p> POLICY DECK & PLAYBOOK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -168,7 +168,7 @@ const OurServices = () => {
                                                 <div className='card-body'>
                                                     <div className='card-text'>
                                                         <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
-                                                        <p> PROGRESS REPORT </p>
+                                                        <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -181,7 +181,8 @@ const OurServices = () => {
                                             <div className='card cardIntro'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> 1 PAGER INTRO </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> 1 PAGER INTRO <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -190,7 +191,8 @@ const OurServices = () => {
                                             <div className='card cardAgency'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> AGENCY </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> AGENCY <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -199,7 +201,8 @@ const OurServices = () => {
                                         <div className='card cardBranding'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> BRANDING </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> BRANDING <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,7 +213,8 @@ const OurServices = () => {
                                             <div className='card cardTraining'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> CORPORATE TRAINING </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> CORPORATE TRAINING <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -219,7 +223,8 @@ const OurServices = () => {
                                             <div className='card cardRedesign'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> REDESIGN </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> REDESIGN <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,7 +233,8 @@ const OurServices = () => {
                                         <div className='card cardReview'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> REVIEW </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> REVIEW <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -239,7 +245,8 @@ const OurServices = () => {
                                             <div className='card cardMagazine'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> MAGAZINE </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> MAGAZINE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -248,7 +255,8 @@ const OurServices = () => {
                                             <div className='card cardProgressReport1'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> PROGRESS REPORT </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -257,7 +265,8 @@ const OurServices = () => {
                                         <div className='card cardConference'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> CONFERENCE </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> CONFERENCE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -268,7 +277,8 @@ const OurServices = () => {
                                             <div className='card cardLegalPresentations'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> LEGAL PRESENTATIONS </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> LEGAL PRESENTATIONS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -277,7 +287,8 @@ const OurServices = () => {
                                             <div className='card cardQuickPresentations'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> QUICK PRESENTATIONS </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> QUICK PRESENTATIONS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,7 +297,8 @@ const OurServices = () => {
                                         <div className='card cardTrialExhibits'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> TRIAL EXHIBITS </p>
+                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
+                                                        <p> TRIAL EXHIBITS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
                                             </div>

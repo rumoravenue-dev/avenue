@@ -1,4 +1,5 @@
 import style from './style.css'
+import Helmet, { HelmetProvider } from 'react-helmet-async';
 import Header from '../../components/header'
 import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices'
@@ -6,16 +7,30 @@ import Footer from '../../components/footer'
 import { useEffect, useState } from 'react'
 
 const Services = () => {
-    // const [changeText, setChangeText] = useState("GOOD TO")
+    const [changeText, setChangeText] = useState("GOOD TO")
 
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         setChangeText("WHAT TO")
-    //     }, 1000);
-    // })
+    useEffect(() => {
+        setInterval(() => {
+            if(changeText == "GOOD TO") {
+                setChangeText("WHAT TO")
+            } else if(changeText == "WHAT TO") {
+                setChangeText("YOU SHOULD")
+            } else if(changeText == "YOU SHOULD") {
+                setChangeText("GOOD TO")
+            }
+        }, 2000);
+    }, [changeText])
 
     return (
-        <>
+        <>  
+            <div className='wrapper'>
+                <HelmetProvider>
+                    <title> Services - 5pm </title>
+                    <meta property="twitter:title" content="Services - 5pm"/>
+                    <meta property="og:title" content="Services - 5pm"/>
+                </HelmetProvider>
+            </div>
+
             <Header /> 
 
             <section className="mainServices container-fluid">
@@ -44,7 +59,7 @@ const Services = () => {
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 firstColProcess'>
                         <h2> OUR PROCESS </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur. Eleifend etiam lobortis pretium velit sit. Suspendisse eu arcu morbi ac. </p>
+                        <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                     </div>
                     <div className='col-12 col-sm-2 col-xl-2 col-lg-2 col-md-12'>
                         <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
@@ -71,7 +86,7 @@ const Services = () => {
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                         <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                         <div className='goodToKnowText'>
-                            <span> GOOD TO </span>
+                            <span> {changeText} </span>
                             <h2> know </h2>
                         </div>
                     </div>

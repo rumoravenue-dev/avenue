@@ -11,7 +11,7 @@ const Faq = ({faqs}) => {
                         <div className="card" key={index}>
                             <div className="card-header accordion-header" id={'acc_' + index} >
                                 <h5>
-                                    <button className="btn btn-link" data-bs-toggle="collapse" data-bs-target={"#collapse_" + index} aria-expanded="false" aria-controls={"collapse_"+index}>
+                                    <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target={"#collapse_" + index} aria-expanded="false" aria-controls={"collapse_"+index}>
                                         {faq.q}
                                     </button>
                                 </h5>

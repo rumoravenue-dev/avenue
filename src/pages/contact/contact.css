@@ -5,20 +5,39 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  overflow-x: hidden;
-}
-
-.container-main {
-  width: 100%;
+.mainContact {
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.div-somewhere-text {
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -550px;
+  padding-left: 22em;
+}
+
+.sunsetImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContent h1{
+  width: 100%;
+  font-size: 73.75px;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+}
+
+.container-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -38,14 +57,12 @@ body {
 }
 
 .div-icon {
-  margin-top: 5em;
-  position: absolute;
-  top: 11em;
-  left: 15em;
+  margin-top: 12em;
+  margin-left: -7em;
+  margin-right: 2em;
 }
 
 .sunset-img {
-  width: 550px;
   height: 550px;
   top: 0px;
 }
@@ -57,13 +74,13 @@ body {
 
 .div-contactus-text h2 {
   position: absolute;
-  width: 750px;
+  width: 720px;
   margin-top: -8em;
   margin-left: -2em;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3.1em;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -71,14 +88,13 @@ body {
 
 .div-contactus-text p {
   position: absolute;
-  width: 620px;
-  height: 68px;
-  margin-top: -15em;
-  margin-left: -2em;
+  width: 700px;
+  margin-top: -13em;
+  margin-left: -5em;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -89,7 +105,7 @@ body {
   width: 304px;
   height: 72px;
   left: 570px;
-  margin-top: -8em;
+  margin-top: -7em;
   margin-left: -21.5em;
   font-family: 'Poppins';
   font-style: normal;
@@ -103,51 +119,188 @@ body {
   border: none;
 }
 
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 576px) {
-  
-}
-
 @media screen and (max-width: 350px) {
-
-  .div-icon img {
-    width: 30px;
-    margin-top: 600;
-    margin-left: 400;
+  .mainContact {
+    height: 100vh;
+    max-width: 90%;
+  }
+  .mainContent {
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 0!important;
   }
 
-  .sunset-img {
-    width: 230px;
+  .mainContact .row {
+    max-width: 100%;
+  }
+
+  .mainContent {
+    margin-top: -260px;
+  }
+  
+  .mainContent h1{
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .mainContent img {
+    height: 70px;
+  }
+  
+  .container-main {
+    max-width: 90%;
   }
 
   .div-somewhere-text h1 {
-    width: 80%;
-    margin-top: -140px;
-    margin-left: -320px;
+    left: 50px;
+    top: 270px;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0;
+  }
+  
+  .div-icon {
+    width: 30%;
+    margin-top: 12em;
+    margin-left: 1em;
+    margin-right: 0em;
+    padding: 0;
+  }
+
+  .div-icon img {
+    height: 100px;
+  }
+  
+  .sunset-img {
+    height: 220px;
+    top: 0px;
+    margin-left: 40px;
+  }
+  
+  .div-contactus-text {
+    max-width: 100%;
+    position: relative;
+    color: #000000;
+  }
+  
+  .div-contactus-text h2 {
+    max-width: 100%;
+    margin-top: -10em;
+    margin-left: -0.5em;
+    font-size: 20px;
+    padding-left: 1em;
+  }
+  
+  .div-contactus-text p {
+    max-width: 70%;
+    margin-top: -10em;
+    margin-left: 3em;
+    font-size: 12px;
+  }
+  
+  .btn-start {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    left: 355px;
+    margin-top: 16em;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+}
+
+@media (min-width: 351px) and (max-width: 576px) {
+  .mainContact {
+    height: 100vh;
+  }
+  .mainContent {
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 0!important;
+  }
+
+  .mainContact .row {
+    max-width: 100%;
+  }
+
+  .mainContent {
+    margin-top: -300px;
+  }
+  
+  .mainContent h1{
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .mainContent img {
+    height: 70px;
+  }
+
+  .container-main {
+    height: 400px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .div-icon img {
+    height: 50px;
+    margin-left: 100px;
+    margin-right: -70px;
+    margin-top: -220px;
+  }
+
+  .sunset-img {
+    height: 300px;
+    margin-top: -280px;
+    margin-left: 20px;
+  }
+
+  .div-somewhere-text h1 {
+    margin-top: -160px;
+    margin-left: -310px;
     font-size: 27px;
   }
 
   .div-contactus-text h2 {
     font-size: 1em;
     width: 95%;
-    margin-top: -500;
+    margin-top: -230px;
     margin-left: 0;
-    border: 3px solid blue;
   }
 
   .div-contactus-text p {
+    max-width: 100%;
     font-size: 0.8em;
-    border: 3px solid green;
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: -170px;
+    margin-left: 0px;
   } 
 
   .btn-start {
-    width: 204px;
-    margin-top: 0;
-    left: 500;
+    width: 180px;
+    margin-top: -80px;
+    left: 350px;
+    font-size: 12px;
+  }
+  
+}
+
+
+@media (min-width: 576px) and (max-width: 992px) { 
+  .mainContent {
+    max-width: 95%;
+    padding-left: 4.5em;
+    padding-right: 0!important;
+  }
+
+  .mainContact .row {
+    max-width: 100%;
+  }
+  
+  .mainContent h1{
+    width: 100%;
+    font-size: 50.75px;
   }
 }
