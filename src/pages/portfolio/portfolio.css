@@ -9,6 +9,12 @@ body {
     position: relative;
 }
 
+.main-portfolio a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 190px;
+}
+
 .title-container {
     display: flex;
     flex-direction: column;
