@@ -3,7 +3,7 @@ import './style.css';
 
 import Header from "../../components/header";
 import ControlledCarousel from "../../components/carousel";
-import Faq from '../../components/faq'
+import Faq from '../../components/faq/faq'
 import Footer from "../../components/footer";
 
 function App() {

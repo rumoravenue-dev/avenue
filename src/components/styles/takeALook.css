@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+.main-portfolio {
+  background-color: rgb(40, 44, 52);
+  position: relative;
+}
+
+.main-portfolio a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 119%;
+  margin-left: 180px;
+/* identical to box height, or 29px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+/* Secondary Colours/Light Yellow */
+
+  color: #FFF7DB;
+
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+}
+
+.title-container h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 130%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 120px;
+}
+
+.title-container img {
+  width: 500px;
+  height: 120px;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-container img {
+  width: 17px;
+  height: 34px;
+}
+
+.arrow-container > img {
+  margin-right: 15px;
+}
+
+.portfolio-container {
+  margin-left: 170px;
+}
+
+.portfolio-container img {
+  width: 507.49px;
+  height: 326px;
+}
