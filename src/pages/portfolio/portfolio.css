@@ -5,8 +5,6 @@ body {
 }
 
 .main-portfolio {
-    width: 1440px;
-    height: auto;
     background-color: rgb(40, 44, 52);
     position: relative;
 }

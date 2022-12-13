@@ -7,7 +7,7 @@ body {
 }
 
 .homeMain {
-    height: 714px;
+    height: 870px;
     background: linear-gradient(359.69deg, rgba(0, 0, 0, 0.3) 0.37%, rgba(0, 0, 0, 0) 99.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/public/assets/img/home/main/bg.webp');
     background-position: center;
     background-size: cover;
@@ -107,7 +107,7 @@ body {
 }
 
 .homePartnerships .partnershipsImages {
-    padding-left: 10em;
+    padding-left: 5em;
 }
 
 .homePartnerships .partnershipsImages .partnershipsImage {
