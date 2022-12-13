@@ -11,7 +11,7 @@ const OurServices = () => {
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                         <h2> OUR SERVICES </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur. Eleifend etiam lobortis pretium velit sit. Suspendisse eu arcu morbi ac. </p>
+                        <p> One-stop-shop to solve all your presentation problems and headaches. </p>
                         <hr></hr>
                     </div>
                 </div>

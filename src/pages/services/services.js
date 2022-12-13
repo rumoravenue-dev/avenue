@@ -59,7 +59,7 @@ const Services = () => {
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 firstColProcess'>
                         <h2> OUR PROCESS </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur. Eleifend etiam lobortis pretium velit sit. Suspendisse eu arcu morbi ac. </p>
+                        <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                     </div>
                     <div className='col-12 col-sm-2 col-xl-2 col-lg-2 col-md-12'>
                         <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
