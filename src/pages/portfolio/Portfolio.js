@@ -8,24 +8,26 @@ function Portfolio() {
   const home = true;
 
   return (
-    <div className="main-portfolio">
-      <Header />
-      <div className="row title-container">
-        <div className="col-12 col-sm-12">
-          <h4>portfolio</h4>
-          <img src='/assets/img/portfolio/takealook.svg' alt="takeALook"/>
+    <>
+      {/* <Header /> */}
+      <div className="mainPortfolio">
+        <div className="row titleContainer">
+          <div className="col-12 col-sm-12">
+            <h4>portfolio</h4>
+            <img className="takeALook" src='/assets/img/portfolio/takealook.svg' alt="takeALook" />
+          </div>
+          <div className="col-12 col-sm-12 arrowContainer">
+            <img src='/assets/img/portfolio/Arrowleft.svg' alt="arrow-left" />
+            <img src='/assets/img/portfolio/Arrowright.svg' alt="arrow-right" />
+          </div>
         </div>
-        <div className="col-12 col-sm-12 arrow-container">
-          <img src='/assets/img/portfolio/Arrowleft.svg' alt="arrow-left"/>
-          <img src='/assets/img/portfolio/Arrowright.svg' alt="arrow-right"/>
+        <div className="col-12 col-sm-12 portfolioContainer">
+          <Carousel />
         </div>
-      </div>
-      <div className="col-12 col-sm-12 portfolio-container">
-        <Carousel />
-      </div>
-      { home && <a href="/">See all projects →</a>}
-      <Footer />
+        {home && <a href="/">See all projects →</a>}
     </div>
+    {/* <Footer /> */}
+    </>
   );
 }
 
