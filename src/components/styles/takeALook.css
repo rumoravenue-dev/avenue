@@ -4,42 +4,23 @@ body {
   overflow-x: hidden;
 }
 
-.main-portfolio {
+.mainPortfolio {
   background-color: rgb(40, 44, 52);
-  position: relative;
 }
 
-.main-portfolio a {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 119%;
-  margin-left: 180px;
-/* identical to box height, or 29px */
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-
-/* Secondary Colours/Light Yellow */
-
-  color: #FFF7DB;
-
-
-/* Inside auto layout */
-
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+.mainPortfolio a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 160px;
 }
 
-.title-container {
+.mainPortfolio .titleContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 190px;
+  margin-left: 160px;
 }
 
-.title-container h4 {
+.mainPortfolio .titleContainer h4 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -48,36 +29,91 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin-top: 120px;
+  margin-bottom: 40px;
+  width: 50%;
 }
 
-.title-container img {
-  width: 500px;
+.mainPortfolio .titleContainer .takeALook {
   height: 120px;
+  margin-bottom: 40px;
 }
 
-.arrow-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.arrow-container img {
-  width: 17px;
+.mainPortfolio .arrowContainer img {
   height: 34px;
+  margin-bottom: 20px;
 }
 
-.arrow-container > img {
+.mainPortfolio .arrowContainer > img {
   margin-right: 15px;
 }
 
-.portfolio-container {
-  margin-left: 170px;
+.mainPortfolio .portfolioContainer {
+  margin-left: 150px;
 }
 
-.portfolio-container img {
+.mainPortfolio .portfolioContainer img {
   width: 507.49px;
   height: 326px;
+}
+
+.mainPortfolio .portfolioContainer .carousel-control-next-icon,
+.mainPortfolio .portfolioContainer .carousel-control-prev-icon {
+  display: none;
+}
+
+.mainPortfolio .portfolioContainer .carousel-indicators {
+  display: none;
+}
+
+  
+@media screen and (max-width: 576px ) {
+
+  .mainPortfolio a {
+    margin-left: 20px;
+  }
+
+  .mainPortfolio .titleContainer {
+    max-width: 90%;
+    margin-top: -70px;
+    margin-left: 15px;
+  }
+
+  .mainPortfolio .titleContainer h4 {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .arrowContainer {
+    height: 14px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .mainPortfolio .arrowContainer img {
+    height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .arrowContainer > img {
+    margin-right: 1px;
+  }
+
+  .mainPortfolio .portfolioContainer {
+    margin-left: 20px;
+    width: 80%;
+  }
+
+  .mainPortfolio .portfolioContainer img {
+    height: 180px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px ) {
 }
