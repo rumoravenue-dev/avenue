@@ -70,16 +70,6 @@
     opacity: 1;
 }
 
-.card-body .imgHover {
-    opacity: 0;
-    margin-left: 30px;
-    margin-top: 20px
-}
-
-.card-body:hover .imgHover {
-    opacity: 1;
-}
-
 .cardIntro {
     margin-top: 35px;
     width: 248px;
@@ -96,8 +86,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
     padding-right: 70px;
 }
 
@@ -117,8 +107,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardBranding {
@@ -137,8 +127,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardTraining {
@@ -157,8 +147,9 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 90px;
+    margin-left: 10px;
+    padding-right: 20px;
 }
 
 .cardRedesign {
@@ -177,8 +168,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardReview {
@@ -197,8 +188,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardMagazine {
@@ -217,8 +208,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardProgressReport1 {
@@ -237,8 +228,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding-right: 50px;
 }
 
@@ -258,8 +249,8 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardLegalPresentations {
@@ -278,7 +269,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 90px;
     margin-left: 30px;
 }
 
@@ -298,7 +289,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-left: 30px;
 }
 
@@ -318,7 +309,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-left: 30px;
     padding-right: 60px;
 }
@@ -334,19 +325,14 @@
     border-radius: 12px;
 }
 
-.cardInvestorDeck img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardInvestorDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding-right: 60px;
+    margin-top: 100px;
+    margin-left: 10px;
+    padding-right: 70px;
 }
 
 .cardStartupPitch {
@@ -360,19 +346,14 @@
     border-radius: 12px;
 }
 
-.cardStartupPitch img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardStartupPitch p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding-right: 60px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding-right: 70px;
 }
 
 .cardProductPresentation {
@@ -386,18 +367,13 @@
     border-radius: 12px;
 }
 
-.cardProductPresentation img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardProductPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding-right: 20px;
 }
 
@@ -412,18 +388,13 @@
     border-radius: 12px;
 }
 
-.cardBusinessProposal img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardBusinessProposal p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding-right: 60px;
 }
 
@@ -438,18 +409,13 @@
     border-radius: 12px;
 }
 
-.cardCompanyPresentation img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardCompanyPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding-right: 20px;
 }
 
@@ -464,18 +430,13 @@
     border-radius: 12px;
 }
 
-.cardSalesDeck img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardSalesDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardServiceDeck {
@@ -489,18 +450,13 @@
     border-radius: 12px;
 }
 
-.cardServiceDeck img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardServiceDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .cardBigNewsDeck {
@@ -514,19 +470,14 @@
     border-radius: 12px;
 }
 
-.cardBigNewsDeck img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardBigNewsDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding-right: 50px;
+    margin-top: 95px;
+    margin-left: 20px;
+    padding-right: 60px;
 }
 
 .cardBrandedTemplate {
@@ -540,18 +491,13 @@
     border-radius: 12px;
 }
 
-.cardBrandedTemplate img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardBrandedTemplate p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 95px;
+    margin-left: 20px;
     padding-right: 50px;
 }
 
@@ -566,18 +512,13 @@
     border-radius: 12px;
 }
 
-.cardBoardingPresentation img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardBoardingPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 95px;
+    margin-left: 20px;
     padding-right: 20px;
 }
 
@@ -592,18 +533,13 @@
     border-radius: 12px;
 }
 
-.cardPolicyPlaybook img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardPolicyPlaybook p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 95px;
+    margin-left: 20px;
     padding-right: 50px;
 }
 
@@ -618,18 +554,13 @@
     border-radius: 12px;
 }
 
-.cardProgressReport img {
-    margin-left: 30px;
-    margin-top: 20px
-}
-
 .cardProgressReport p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding-right: 50px;
 }
 
@@ -665,7 +596,7 @@
     }
     
     .card-text p {
-        margin-top: 80px;
+        margin-top: 150px;
         padding-right: 0px;
     }
 }

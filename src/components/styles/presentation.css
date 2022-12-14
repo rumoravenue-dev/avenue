@@ -3,14 +3,18 @@
     margin-bottom: 144px;
 }
 
-.presentationServices h3 {
+.presentationServices a {
     font-family: 'Poppins';
     font-size: 26px;
     text-transform: uppercase;
-    color: #000000;
+    color: #000000!important;
 }
 
-.presentationServices h3:hover {
+.presentationServices a active {
+    color: #000000!important;
+}
+
+.presentationServices a:hover {
     text-decoration: underline #F4BD03!important;
 }
 

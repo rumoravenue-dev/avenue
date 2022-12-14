@@ -1,3 +1,4 @@
+import LazyLoad from 'react-lazy-load';
 import style from './style.css'
 import Helmet, { HelmetProvider } from 'react-helmet-async';
 import Header from '../../components/header'
@@ -50,7 +51,9 @@ const Services = () => {
                         <h3> <a> CONTEXT IS KEY </a> </h3>
                     </div>
                     <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12 secondColAproach'>
-                        <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image"/>
+                        <LazyLoad threshold={1}>
+                            <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image"/>
+                        </LazyLoad>
                     </div>
                 </div>
             </section>
@@ -62,7 +65,9 @@ const Services = () => {
                         <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                     </div>
                     <div className='col-12 col-sm-2 col-xl-2 col-lg-2 col-md-12'>
-                        <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
+                        <LazyLoad>
+                            <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
+                        </LazyLoad>
                     </div>
                     <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 secondColProcess'>
                         <h3> 1. Discovery </h3>
@@ -84,7 +89,9 @@ const Services = () => {
             <section className='goodToKnowServices container-fluid'>
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
-                        <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
+                        <LazyLoad>
+                            <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
+                        </LazyLoad>
                         <div className='goodToKnowText'>
                             <span> {changeText} </span>
                             <h2> know </h2>
