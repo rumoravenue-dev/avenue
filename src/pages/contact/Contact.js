@@ -1,5 +1,4 @@
 import React from "react";
-
 import GetInContact from "../../components/getInContact/getInContact";
 import Header from "../../components/header";
 import Footer from "../../components/footer";

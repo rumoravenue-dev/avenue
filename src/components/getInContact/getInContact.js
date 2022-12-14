@@ -2,9 +2,9 @@ import React from 'react';
 import Form from '../form/Form';
 import "../styles/getInContact.css";
 
-function getInContact() {
+function getInContact(props) {
   return (
-      <section className="containerGetInTouch">
+      <section className={props.portfolio ? "containerGetInTouchPort": "containerGetInTouch"}>
         <div className="row">
           <div className="col-12 col-sm-2 divIcon">
             <img src="/assets/img/contact/Vector2.svg" alt="logo" />
