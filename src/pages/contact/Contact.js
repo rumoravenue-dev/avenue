@@ -6,9 +6,11 @@ import Footer from "../../components/footer";
 import "./contact.css";
 
 function Contact() {
+  const contact = true;
+  
   return (
     <div>
-      <Header />
+      <Header contact={contact}/>
 
       <section className="mainContact">
         <div className="row">
