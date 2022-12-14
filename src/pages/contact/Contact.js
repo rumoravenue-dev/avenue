@@ -8,7 +8,7 @@ import "./contact.css";
 function Contact() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
 
       <section className="mainContact">
         <div className="row">
@@ -33,8 +33,8 @@ function Contact() {
         </div>
       </section>
       
-      {/* <GetInContact />
-      <Footer /> */}
+      <GetInContact />
+      <Footer />
     </div>
   );
 }
