@@ -80,10 +80,16 @@ body {
     height: 650px;
 }
 
-.processServices .firstColProcess {
-    margin-left: 143px;
-    margin-bottom: 80px;
-}
+.aproachServices .LazyLoad {
+    opacity: 0;
+    transition: all 1s ease-in;
+    margin-left: 100%;
+  }
+  
+  .aproachServices .is-visible {
+    opacity: 1;
+    margin-left: 0%;
+  }
 
 .firstColProcess h2 {
     font-family: 'Antonio';
@@ -99,6 +105,17 @@ body {
     font-size: 20px;
     color: #989898;
 }
+
+.processServices .LazyLoad {
+        opacity: 0;
+        transition: all 1s ease-in;
+        margin-left: -100%;
+    }
+
+.processServices .is-visible {
+    opacity: 1;
+    margin-left: 0%;
+  }
 
 .processServices img {
     margin-left: -18px;
@@ -155,6 +172,17 @@ body {
 .goodToKnowServices img {
     margin-left: 800px!important;
 }
+
+    .goodToKnowServices .LazyLoad {
+        opacity: 0;
+        transition: all 2s ease-in;
+        margin-left: 100%;
+    }
+
+.goodToKnowServices .is-visible {
+    opacity: 1;
+    margin-left: 0%;
+  }
 
 .goodToKnowText {
     padding-left: 150px;
