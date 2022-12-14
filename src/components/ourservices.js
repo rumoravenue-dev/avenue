@@ -45,7 +45,6 @@ const OurServices = () => {
                                             <div className='card cardInvestorDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/raisefunds.svg' alt="raise funds icon"/>
                                                         <p> INVESTOR DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -55,7 +54,6 @@ const OurServices = () => {
                                         <div className='card cardStartupPitch'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/raisefunds.svg' alt="investor deck icon"/>
                                                         <p> STARTUP PITCH <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -69,7 +67,6 @@ const OurServices = () => {
                                             <div className='card cardBusinessProposal'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
                                                         <p> BUSINESS PROPOSAL <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -79,7 +76,6 @@ const OurServices = () => {
                                         <div className='card cardCompanyPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
                                                         <p> COMPANY PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -89,7 +85,6 @@ const OurServices = () => {
                                         <div className='card cardProductPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
                                                         <p> PRODUCT PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -101,7 +96,6 @@ const OurServices = () => {
                                             <div className='card cardSalesDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
                                                         <p> SALES DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -111,7 +105,6 @@ const OurServices = () => {
                                         <div className='card cardServiceDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/sellproducts.svg' alt="sell products icon"/>
                                                         <p> SERVICE DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -125,7 +118,6 @@ const OurServices = () => {
                                             <div className='card cardBigNewsDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
                                                         <p> BIG NEWS DECK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -135,7 +127,6 @@ const OurServices = () => {
                                         <div className='card cardBrandedTemplate'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
                                                         <p> BRANDED TEMPLATE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -145,7 +136,6 @@ const OurServices = () => {
                                         <div className='card cardBoardingPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
                                                         <p> ON-BOARDING PRESENTATION <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -157,7 +147,6 @@ const OurServices = () => {
                                             <div className='card cardPolicyPlaybook'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
                                                         <p> POLICY DECK & PLAYBOOK <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -167,7 +156,6 @@ const OurServices = () => {
                                         <div className='card cardProgressReport'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img src='/assets/img/ourservices/hireandmanage.svg' alt="hire and manage icon"/>
                                                         <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -181,7 +169,6 @@ const OurServices = () => {
                                             <div className='card cardIntro'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> 1 PAGER INTRO <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -191,7 +178,6 @@ const OurServices = () => {
                                             <div className='card cardAgency'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> AGENCY <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -201,7 +187,6 @@ const OurServices = () => {
                                         <div className='card cardBranding'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> BRANDING <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -213,7 +198,6 @@ const OurServices = () => {
                                             <div className='card cardTraining'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> CORPORATE TRAINING <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -223,7 +207,6 @@ const OurServices = () => {
                                             <div className='card cardRedesign'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> REDESIGN <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -233,7 +216,6 @@ const OurServices = () => {
                                         <div className='card cardReview'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> REVIEW <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -245,7 +227,6 @@ const OurServices = () => {
                                             <div className='card cardMagazine'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> MAGAZINE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -255,7 +236,6 @@ const OurServices = () => {
                                             <div className='card cardProgressReport1'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -265,7 +245,6 @@ const OurServices = () => {
                                         <div className='card cardConference'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> CONFERENCE <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -277,7 +256,6 @@ const OurServices = () => {
                                             <div className='card cardLegalPresentations'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> LEGAL PRESENTATIONS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -287,7 +265,6 @@ const OurServices = () => {
                                             <div className='card cardQuickPresentations'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> QUICK PRESENTATIONS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>
@@ -297,7 +274,6 @@ const OurServices = () => {
                                         <div className='card cardTrialExhibits'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <img className='imgHover' src='/assets/img/ourservices/additional.svg' alt="additional icon"/>
                                                         <p> TRIAL EXHIBITS <span className='textHover'> → </span> </p>
                                                     </div>
                                                 </div>

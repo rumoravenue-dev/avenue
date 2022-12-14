@@ -15,16 +15,16 @@ const Presentation = () => {
                                 <Col sm={6}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
-                                    <Nav.Link eventKey="presentationtypes"> <h3> PRESENTATION TYPES </h3> </Nav.Link>
+                                    <Nav.Link eventKey="presentationtypes"> PRESENTATION TYPES </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                    <Nav.Link eventKey="timezones"> <h3> TIMEZONES </h3> </Nav.Link>
+                                    <Nav.Link eventKey="timezones"> TIMEZONES </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                    <Nav.Link eventKey="filetypes"> <h3> FILE TYPES </h3> </Nav.Link>
+                                    <Nav.Link eventKey="filetypes"> FILE TYPES </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                    <Nav.Link eventKey="etc"> <h3> ETC </h3> </Nav.Link>
+                                    <Nav.Link eventKey="etc"> ETC </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                                 </Col>
