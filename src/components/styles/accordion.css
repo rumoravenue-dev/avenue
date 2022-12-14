@@ -1,0 +1,107 @@
+.accordion {
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+.accordionItem {
+    border-bottom: 1px solid #000000!important;
+    border: none;
+}
+
+.accordionTitle {
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none!important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordionTitle .title {
+    max-width: 80%;
+}
+
+.accordionTitle .icon {
+    background-color: #000000;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordionTitle .icon strong {
+    height:35px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+
+.accordionTitle,
+.accordionContent {
+    padding: 25px 12px;
+}
+
+.accordionContent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+@media screen and (max-width: 350px) {
+    .accordionTitle {
+        font-size: 18px;
+    }
+
+    .accordionContent {
+        font-size: 12px;
+    }
+
+    .accordionTitle .icon {
+        padding: 2px;
+        border-radius: 5px;
+        width: 25px;
+        height: 25px;
+    } 
+
+    .accordionTitle .icon strong {
+        height:25px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 576px) {
+    .accordionTitle {
+        font-size: 20px;
+    }
+
+    .accordionContent {
+        font-size: 16px;
+    }
+
+    .accordionTitle .icon {
+        padding: 2px;
+        border-radius: 5px;
+        width: 30px;
+        height: 25px;
+    } 
+
+    .accordionTitle .icon strong {
+        height:25px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+}

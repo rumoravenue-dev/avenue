@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/takeALook.css";
+import "./styles/takeALook.css";
 
 function Portfolio(props) {
   return (

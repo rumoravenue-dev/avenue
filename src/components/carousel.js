@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import ImageSlider from 'react-image-comparison-slider';
+
+import './styles/carousel.css';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -9,15 +12,18 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img src='assets/img/home/presentations/Frame 214.webp' alt="slide-1" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src="assets/img/home/presentations/Frame 214.webp" alt="Second slide"/>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src="assets/img/home/presentations/Frame 214.webp" alt="Third slide" />
+    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselMain">
+      <Carousel.Item className='carouselItem'>
+        <div className="carouselContent">
+          <ImageSlider
+            image1="assets/img/home/carousel/Atria-Ventures-LP-Presentation.webp"
+            image2="assets/img/home/carousel/Atria-Ventures-v6.webp"
+            onSlide={() => {
+              console.log("sliding");
+            }}
+            sliderColor="transparent"
+          />
+        </div>
       </Carousel.Item>
     </Carousel>
   );

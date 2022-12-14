@@ -1,0 +1,91 @@
+.container img {
+    height: 100px;
+    width: 100px;
+}
+
+.slider__handle {
+    background-image: url("../../../public//assets/img/home/carousel/Vector.webp");
+    background-color: transparent;
+    background-position: right;
+    background-size: cover;
+    height: 600px;
+    width: 270px;
+    left: 1050%;
+}
+
+.slider__handle svg {
+    display: none;
+}
+
+.carouselContent {
+    width: 700px;
+    height: 450px;
+}
+
+@media only screen and (max-width: 350px) {
+    .carouselItem {
+        width: 50%;
+   }
+
+   .carouselContent {
+        width: 200px;
+        height: 150px;
+    }
+
+    .slider__handle {
+        height: 150px;
+        width: 80px;
+        left: 50%;
+    }
+
+    .slider__container .img-comp-overlay img{
+        width: 70%;
+        height: 45px;
+    }
+}
+
+
+@media (min-width: 351px) and (max-width: 576px) {
+   .carouselItem {
+        width: 70%;
+   }
+
+   .carouselContent {
+        width: 300px;
+        height: 150px;
+    }
+
+    .slider__handle {
+        height: 150px;
+        width: 80px;
+        left: 50%;
+    }
+
+    .slider__container .img-comp-overlay img{
+        width: 70%;
+        height: 45px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .carouselItem {
+         width: 100%;
+    }
+ 
+    .carouselContent {
+         width: 550px;
+         height: 450px;
+    }
+ 
+     .slider__handle {
+         height: 460px;
+         width: 200px;
+         left: 105%;
+         top: 35%;
+     }
+ 
+     .slider__container .img-comp-overlay img{
+         width: 50%;
+         height: 185px;
+     }
+ }
