@@ -1,15 +1,14 @@
 import React from "react";
-
 import GetInContact from "../../components/getInContact";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import "./contact.css";
 
 function Contact() {
-  const contactColor = true;
+  const contact = true;
   return (
     <div className="contact">
-      <Header page={contactColor} /> 
+      <Header contact={contact}  /> 
 
       <section className="mainContact">
         <div className="row">

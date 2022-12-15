@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .mainContact .mainContent {
@@ -36,11 +37,12 @@ body {
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
-  font-size: 5.5em;
+  font-size: 4.5em;
   line-height: 134px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #000000;
+  margin-left: 15px;
 }
 
 .containerMain {

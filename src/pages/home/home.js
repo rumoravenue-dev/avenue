@@ -10,6 +10,7 @@ import Accordion from "../../components/Accordion";
 import { accordionData } from '../../components/AccordionContent';
 
 function App() {
+  const home = true;
 
   return (
     <div className="App">
@@ -82,7 +83,7 @@ function App() {
 
       <OurServices />
 
-      <TakeALook />
+      <TakeALook home={home}/>
 
       <section className="homeQuestions">
         <div className="row">

@@ -66,8 +66,16 @@ body {
   display: none;
 }
 
+
+@media screen and (max-width: 350px) {
+  .mainPortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
   
-@media screen and (max-width: 576px ) {
+@media screen and (max-width: 576px) {
 
   .mainPortfolio a {
     margin-left: 20px;
@@ -75,7 +83,7 @@ body {
 
   .mainPortfolio .titleContainer {
     max-width: 90%;
-    margin-top: -70px;
+    margin-top: -100px;
     margin-left: 15px;
   }
 
@@ -115,5 +123,58 @@ body {
   }
 }
 
-@media screen and (max-width: 992px ) {
+@media screen and (max-width: 992px) {
+  .mainPortfolio a {
+    margin-left: 20px;
+  }
+
+  .mainPortfolio {
+    overflow-x: hidden;
+  }
+
+  .mainPortfolio .titleContainer .takeALook {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  /* .mainPortfolio .titleContainer {
+    max-width: 90%;
+    margin-top: -100px;
+    margin-left: 15px;
+  }
+
+  .mainPortfolio .titleContainer h4 {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .arrowContainer {
+    height: 14px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .mainPortfolio .arrowContainer img {
+    height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .mainPortfolio .arrowContainer > img {
+    margin-right: 1px;
+  }
+
+  .mainPortfolio .portfolioContainer {
+    margin-left: 20px;
+    width: 80%;
+  }
+
+  .mainPortfolio .portfolioContainer img {
+    height: 180px;
+    width: 100%;
+  } */
 }
