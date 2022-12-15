@@ -1,7 +1,7 @@
 import React from "react";
 import TakeALook from "../../components/takeALook";
 import Header from "../../components/header";
-import GetInContact from "../../components/getInContact/getInContact";
+import GetInContact from "../../components/getInContact";
 import Footer from "../../components/footer";
 import "./portfolio.css";
 

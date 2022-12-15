@@ -75,7 +75,7 @@ body {
 }
 .wrap .strip div {
     height: 3px;
-    background: #F4BD03;
+    background: #fff;
     margin: 10px;
     transition: all .55s cubic-bezier(0.075, 0.82, 0.165, 1);
     width: 40px;
@@ -102,19 +102,38 @@ body {
     transition: all .25s ease .05s;
 }
 
-.showSidebar {
-    display: block;
+
+.showSidebar,
+.hiddenSidebar {
+    display: none;
     background-color: #F4BD03;
     width: 100vw;
     height: 100vh;
     min-height: 10232.500px;
     position: absolute;
-    left: 0;
+    top: 0;
     margin-top: 0px;
-    z-index: 99999;
+    transition: 0.5 ease all;
+    z-index: 99;
 }
+
+.showSidebar {
+    animation: showsidebar 1s;
+    left: 0;
+}
+@keyframes showsidebar {
+    from {left: 100vw;}
+    to {left: 0;}
+}
+
 .hiddenSidebar{
-    display: none;
+    position: fixed;
+    animation: hiddensidebar 1s;
+    left: 100vw;
+}
+@keyframes hiddensidebar {
+    from {left: 0;}
+    to {left: 100vw;}
 }
 
 
@@ -126,10 +145,16 @@ body {
         top: 0;
         right: 0;
         position: absolute;
+        z-index: 9999;
     }
     .header {
         display: none;
     }
+    .showSidebar,
+    .hiddenSidebar {
+        display: block;
+    }
+    
 }
 @media (min-width:577px) and (max-width: 992px ) { 
     .header {
