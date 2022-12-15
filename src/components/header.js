@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import HeaderSidebar from './headerSidebar'
 import './styles/header.css';
+import MenuIcon from '@mui/icons-material/Menu';
+import { grey } from '@mui/material/colors';
 
-const Header = () => {
+const Header = (props) => {
 
     const [openSidebar, setOpenSidebar] = useState(false);
 
@@ -27,16 +29,10 @@ const Header = () => {
                 </div>
             </div>
             <div className="wrap" onClick={toShowSidebar}>
-                <div className="burger">
-                    <div className="strip burger-strip-5">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
+               <MenuIcon fontSize="large" sx={{ color: props.page ? "primary" : grey[50]}}/>
             </div>
 
-            <div className={openSidebar ? 'showSidebar' : 'hiddenSidebar'}>
+            <div className={openSidebar ? 'showSidebar' : 'hiddenSidebar'} >
                 <HeaderSidebar />
             </div>
         </>

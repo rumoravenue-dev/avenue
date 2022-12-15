@@ -7797,6 +7797,11 @@ react-bootstrap@^2.6.0:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
+react-collapsible@^2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/react-collapsible/-/react-collapsible-2.10.0.tgz#57330f9f4f968a41ece49c651b56cf30f9a06d19"
+  integrity sha512-kEVsmlFfXBMTCnU5gwIv19MdmPAhbIPzz5Er37TiJSzRKS0IHrqAKQyQeHEmtoGIQMTcVI46FzE4z3NlVTx77A==
+
 react-compare-image@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/react-compare-image/-/react-compare-image-3.3.0.tgz#5666205f80ddbfeab56b1ae49d67e145482a4649"
