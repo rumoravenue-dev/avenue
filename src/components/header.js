@@ -12,7 +12,7 @@ const Header = (props) => {
 
     return (
         <>
-            <div className="header">
+            <div className={props.contact ? "headerBlack": "header"}>
                 <div className="row">
                     <div className="col-12 col-sm-2 col-md-3 col-lg-2 col-xl-4 headerImage">
                         <img src="/assets/img/header/Vector(1).svg" alt="logo header" />
