@@ -3,6 +3,11 @@
     margin-bottom: 144px;
 }
 
+.presentationServices a .ativo {
+    border-bottom: 1px solid green;
+    background-color: red;
+}
+
 .presentationServices a {
     font-family: 'Poppins';
     font-size: 26px;
@@ -22,6 +27,13 @@
     text-decoration: underline #F4BD03!important;
     background-color: transparent;
     /* font-weight: 600!important; */
+}
+.presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link .ativo {
+    text-decoration: none;
+}
+
+.presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link .inativo {
+    text-decoration: underline green!important;
 }
 
 .presentationServices p {

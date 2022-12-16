@@ -6,7 +6,7 @@ body {
 }
 
 .mainContact {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: -550px;
+  margin-top: -800px;
   padding-left: 22em;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .containerMain {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,8 +61,8 @@ body {
 .containerMain .contactusText h2 {
   position: absolute;
   width: 720px;
-  margin-top: -8em;
-  margin-left: -2em;
+  margin-top: -12em;
+  margin-left: 1em;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
@@ -75,8 +75,8 @@ body {
 .containerMain .contactusText p {
   position: absolute;
   width: 700px;
-  margin-top: -13em;
-  margin-left: -5em;
+  margin-top: -21em;
+  margin-left: 3em;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -91,8 +91,8 @@ body {
   width: 304px;
   height: 72px;
   left: 570px;
-  margin-top: -7em;
-  margin-left: -21.5em;
+  margin-top: -11em;
+  margin-left: -15.5em;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;

@@ -8,7 +8,7 @@ function Contact() {
   const contact = true;
   return (
     <div className="contact">
-      <Header contact={contact}  /> 
+      {/*<Header contact={contact}  /> */}
 
       <section className="mainContact">
         <div className="row">

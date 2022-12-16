@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
 
-.containerGetInTouch {
-  padding-top: 70px;
+.containerGetInTouch,
+.containerGetInTouchPort {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.containerGetInTouch {
+  padding-top: 70px;
 }
 
 .containerGetInTouchPort {
   padding-top: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(40, 44, 52);
 }
 
-.divSomewhereText {
+.containerGetInTouch .getInContactSomewhereText,
+.containerGetInTouchPort .getInContactSomewhereText {
   justify-content: center;
   align-items: center;
 }
 
-.divSomewhereText h1 {
+.getInContactSomewhereText h1 {
   position: absolute;
   margin-top: -450px;
   margin-left: 150px;
@@ -38,15 +38,17 @@
   color: #FFFFFF;
 }
 
-.divIcon {
+.getInContactSomewhereText .divIcon {
   margin-top: 4em;
   position: absolute;
   margin-top: 140px;
   margin-left: 90px;
 }
 
-.sunsetImg {
-  width: 550px;
-  height: 550px;
-  top: 0px;
+.getInContactSomewhereText .sunsetImg {
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 350px) {
+
 }

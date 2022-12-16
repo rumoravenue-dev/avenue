@@ -9,7 +9,7 @@ function getInContact(props) {
           <div className="col-12 col-sm-2 divIcon">
             <img src="/assets/img/contact/Vector2.svg" alt="logo" />
           </div>
-          <div className="col-12 col-sm-10 col-xl-10 col-lg-10 col-md-10 divSomewhereText">
+          <div className="col-12 col-sm-10 col-xl-10 col-lg-10 col-md-10 getInContactSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
             <h1>It's 5pm somewhere</h1>
           </div>
