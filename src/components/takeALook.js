@@ -5,7 +5,7 @@ import "./styles/takeALook.css";
 function Portfolio(props) {
 
   return (
-    <div className="mainPortfolio">
+    <div className={props.home ? "homePortfolio": "mainPortfolio"}>
         <div className="row titleContainer">
           <div className="col-12 col-sm-12">
             <h4>portfolio</h4>
