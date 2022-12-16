@@ -1079,6 +1079,18 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@coreui/coreui@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-4.2.4.tgz#8050810849ba4f0ed411f2a91d5ae2cab87522d6"
+  integrity sha512-ENXa+SJab0Wv4TggVmY2umrWKEapWaCYPDwfdxGWd9SywsJX16R35lejpeSaHSZpgTZq+8WlFu/AyOhI1M/d9A==
+  dependencies:
+    postcss-combine-duplicated-selectors "^10.0.3"
+
+"@coreui/react@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@coreui/react/-/react-4.4.1.tgz#5bf9a33e81c792c8658fb1504a758b9282a11cd3"
+  integrity sha512-tbocOzxUMEU10WemF0THnR+Z9fWaVkUnh+oJkUUOBsU0k6/chNCGIcJyag3ZAfyZoYW1DW4PetYoJ+ZJGB+WOQ==
+
 "@csstools/normalize.css@*":
   version "12.0.0"
   resolved "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-12.0.0.tgz"
@@ -7117,6 +7129,13 @@ postcss-colormin@^5.3.0:
     caniuse-api "^3.0.0"
     colord "^2.9.1"
     postcss-value-parser "^4.2.0"
+
+postcss-combine-duplicated-selectors@^10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-combine-duplicated-selectors/-/postcss-combine-duplicated-selectors-10.0.3.tgz#71e8b6783e99cd560cf08ba7b896ad0db318c11c"
+  integrity sha512-IP0BmwFloCskv7DV7xqvzDXqMHpwdczJa6ZvIW8abgHdcIHs9mCJX2ltFhu3EwA51ozp13DByng30+Ke+eIExA==
+  dependencies:
+    postcss-selector-parser "^6.0.4"
 
 postcss-convert-values@^5.1.3:
   version "5.1.3"
