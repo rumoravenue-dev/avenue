@@ -6,8 +6,8 @@ import OurServices from '../../components/ourservices'
 import TakeALook from '../../components/takeALook'
 import ControlledCarousel from "../../components/carousel";
 import Footer from "../../components/footer";
-import Accordion from "../../components/Accordion";
-import { accordionData } from '../../components/AccordionContent';
+import Accordion from "../../components/q&a";
+import { accordionData } from '../../components/q&aContent';
 
 function App() {
   const home = true;

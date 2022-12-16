@@ -204,6 +204,10 @@ body {
     color: #000000;
 }
 
+.goodknowcarousel {
+    width: 350px;
+}
+
 .addonsServices {
     background-color: #000000;
     height: 1000px;
@@ -408,6 +412,10 @@ body {
     .goodToKnowText h2 span {
         font-size: 32px;
     }
+
+    .goodknowcarousel {
+        width: 150px;
+    }    
 
     .addonsServices {
         height: 2000px;
