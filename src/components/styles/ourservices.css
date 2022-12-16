@@ -24,28 +24,47 @@
     border: 1px solid #000000;
 }
 
-.ourServices a {
+.tabsOurServices {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
     color: #000000!important;
-    text-decoration: none;
     margin-left: -15px;
     margin-top: 35px;
+    position: relative;
 }
 
-.ourServices a active {
-    color: #000000!important;
+.tabsOurServices::after {
+    content : " ";
+    width: 0%;
+    height: 5px;
+    background-color: #F4BD03;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transition: 0.5s ease-in-out;
 }
 
-.ourServices a:hover {
-    text-decoration: underline #F4BD03!important;
+.tabsOurServices:hover:after {
+    width: 58%!important;
 }
 
 .ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    text-decoration: underline #F4BD03!important;
     background-color: transparent;
+}
+
+.arrowOurServices {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF!important;
+    text-decoration: none;
+}
+
+.arrowOurServices active {
+    color: #FFFFFF!important;
+    text-decoration: none;
 }
 
 .fundsServices {
@@ -129,27 +148,6 @@
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardTraining {
-    margin-top: 35px;
-    width: 248px;
-    height: 224px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/corporatetraining.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-}
-
-.cardTraining p {
-    font-family: 'Antonio';
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-top: 90px;
-    margin-left: 10px;
-    padding-right: 20px;
 }
 
 .cardRedesign {
@@ -273,26 +271,6 @@
     margin-left: 30px;
 }
 
-.cardQuickPresentations {
-    margin-top: 35px;
-    width: 248px;
-    height: 224px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/quickpresentations.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-}
-
-.cardQuickPresentations p {
-    font-family: 'Antonio';
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-top: 100px;
-    margin-left: 30px;
-}
-
 .cardTrialExhibits {
     margin-top: 35px;
     width: 248px;
@@ -312,6 +290,27 @@
     margin-top: 100px;
     margin-left: 30px;
     padding-right: 60px;
+}
+
+.cardEventTalks {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/eventtalks.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardEventTalks p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-right: 80px;
 }
 
 .cardInvestorDeck {
@@ -356,27 +355,6 @@
     padding-right: 70px;
 }
 
-.cardProductPresentation {
-    margin-top: 35px;
-    width: 248px;
-    height: 224px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/productspresentation.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-}
-
-.cardProductPresentation p {
-    font-family: 'Antonio';
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-top: 100px;
-    margin-left: 20px;
-    padding-right: 20px;
-}
-
 .cardBusinessProposal {
     margin-top: 35px;
     width: 248px;
@@ -410,6 +388,27 @@
 }
 
 .cardCompanyPresentation p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.cardProductPresentation {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/productspresentation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardProductPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -555,6 +554,89 @@
 }
 
 .cardProgressReport p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+
+.cardTraining {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/corporatetraining.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardTraining p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+.cardQuickPresentations {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/quickpresentations.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardQuickPresentations p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.cardWedding {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/wedding.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardWedding p {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+
+.cardBirthday {
+    margin-top: 35px;
+    width: 248px;
+    height: 224px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/img/ourservices/birthday.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cardBirthday p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;

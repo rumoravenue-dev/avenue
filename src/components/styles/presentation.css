@@ -8,20 +8,26 @@
     font-size: 26px;
     text-transform: uppercase;
     color: #000000!important;
+    position: relative;
 }
 
-.presentationServices a active {
-    color: #000000!important;
+.presentationServices a::after {
+    content : " ";
+    width: 0%;
+    height: 5px;
+    background-color: #F4BD03;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transition: 0.5s ease-in-out;
 }
 
-.presentationServices a:hover {
-    text-decoration: underline #F4BD03!important;
+.presentationServices a:hover:after {
+    width: 38%!important;
 }
 
 .presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    text-decoration: underline #F4BD03!important;
     background-color: transparent;
-    /* font-weight: 600!important; */
 }
 
 .presentationServices p {
@@ -30,7 +36,30 @@
     font-size: 20px;
     color: #000000;
     opacity: 0.4;
-    margin-top: 120px;
+    margin-top: 50px;
+}
+
+.timezones {
+    margin-top: 80px!important;
+}
+
+.presentationFileTypes {
+    margin-top: -80px!important;
+}
+
+.presentationServices li {
+    list-style-type: none;
+    margin-left: -39px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.presentationServices img {
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 992px ) {
@@ -40,6 +69,18 @@
     
     .presentationServices {
         margin-left: 7px;
+    }
+
+    .presentationServices p {
+        margin-top: 10px;
+    }
+    
+    .timezones {
+        margin-top: 20px!important;
+    }
+    
+    .presentationFileTypes {
+        margin-top: -20px!important;
     }
 }
 
@@ -52,9 +93,27 @@
         margin-left: -5px;
     }
 
+    .presentationServices a:hover:after {
+        width: 70%!important;
+    }
+
     .presentationServices p {
-        font-size: 18px;
-        margin-left: 15px;
+        margin-top: 50px;
+        margin-left: 21px;
+    }
+    
+    .timezones {
+        margin-top: 80px!important;
+    }
+    
+    .presentationFileTypes {
+        margin-top: 80px!important;
+    }
+    
+    .presentationServices li {
+        margin-top: 80px;
+        font-size: 15px!important;
+        margin-left: -19px;
     }
 
     .presentationServices h3 {
