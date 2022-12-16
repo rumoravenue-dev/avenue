@@ -33,7 +33,7 @@ function Contact() {
         </div>
       </section>
       
-      {/*<GetInContact />*/}
+      <GetInContact />
       <Footer />
     </div>
   );

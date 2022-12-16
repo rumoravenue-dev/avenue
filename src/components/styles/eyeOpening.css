@@ -1,0 +1,243 @@
+.eyeSection {
+  height: 1904.43px;
+  background: #000000;
+}
+
+.eyeSection .eyeOpening h1 {
+  height: 310px;
+  width: 40%;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 155px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 400px;
+  margin-left: 180px;
+}
+
+.eyeSection .eyeOpening p {
+  height: 120px;
+  width: 40%;
+  padding-right: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ACACAC;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.eyeSection .eyeCatching h1 {
+  height: 310px;
+  width: 40%;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 155px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 400px;
+  margin-left: 180px;
+  margin-right: 50px;
+}
+
+.eyeSection .eyeCatching p {
+  height: 120px;
+  width: 40%;
+  padding-right: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ACACAC;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+/* .eyeSection .eyeSunset {
+  position: absolute;
+  height: 225px;
+  margin-top: -330px;
+  margin-left: 195px;
+} */
+
+.eyeSection .eyeOpen {
+  width: 40%;
+  margin-top: -450px;
+  margin-left: 600px;
+}
+
+.eyeSection .eyeCatch {
+  width: 40%;
+  margin-top: -450px;
+  margin-left: 600px;
+}
+
+@media screen and (max-width: 992px ) {
+
+  .eyeSection {
+    height: auto;
+  }
+
+  .eyeSection .eyeOpening h1 {
+    font-size: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+
+  .eyeSection .eyeOpening p {
+    margin-left: 100px;
+    width: 70%;
+  }
+
+  .eyeSection .eyeCatching h1 {
+    font-size: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+
+  .eyeSection .eyeCatching p {
+    margin-left: 100px;
+    width: 70%;
+    margin-bottom: 100px;
+  }
+
+  .eyeSection .eyeOpen {
+    width: 40%;
+    margin-top: -650px;
+    margin-left: 220px;
+  }
+
+  .eyeSection .eyeCatch {
+    width: 40%;
+    margin-top: -740px;
+    margin-left: 220px;
+  }
+
+}
+
+@media screen and (max-width: 576px ) {
+
+  .eyeSection {
+    height: auto;
+  }
+
+  .eyeSection .eyeOpening h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 20px;
+    line-height: 65px;
+  }
+
+  .eyeSection .eyeOpening p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -160px;
+    width: 90%;
+    line-height: 20px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+  }
+
+  .eyeSection .eyeCatching h1 {
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left: 20px;
+    line-height: 65px;
+  }
+
+  .eyeSection .eyeCatching p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -160px;
+    width: 90%;
+    line-height: 20px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+  }
+
+  .eyeSection .eyeOpen {
+    width: 40%;
+    margin-top: -650px;
+    margin-left: 220px;
+  }
+
+  .eyeSection .eyeCatch {
+    width: 40%;
+    margin-top: -660px;
+    margin-left: 220px;
+  }
+
+  .eye {
+    height: 180px!important;
+    margin-top: 200px!important;
+    margin-left: -280px!important;
+  }
+}
+
+@media screen and (max-width: 350px ) {
+
+  .eyeSection {
+    height: auto;
+  }
+
+  .eyeSection .eyeOpening h1 {
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 20px;
+    line-height: 50px;
+  }
+
+  .eyeSection .eyeOpening p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: -200px;
+    width: 90%;
+    line-height: 20px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+  }
+
+  .eyeSection .eyeCatching h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 20px;
+    line-height: 50px;
+  }
+
+  .eyeSection .eyeCatching p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: -180px;
+    width: 90%;
+    line-height: 20px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+  }
+
+  .eyeSection .eyeOpen {
+    width: 40%;
+    margin-top: -650px;
+    margin-left: 220px;
+  }
+
+  .eyeSection .eyeCatch {
+    width: 40%;
+    margin-top: -670px;
+    margin-left: 220px;
+  }
+
+  .eye {
+    height: 130px!important;
+    margin-top: 255px!important;
+    margin-left: -350px!important;
+  }
+}

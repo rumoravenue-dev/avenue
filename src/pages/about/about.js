@@ -39,22 +39,22 @@ function About() {
 
       <section className='weFocus container-fluid'>
         <div className='row'>
-          {/* <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12 divWine'>
+          <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
             <img className='wineImage' src="/assets/img/about/Slide01.webp" alt="wine"/>
-          </div> */}
+          </div>
           <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 focusText'>
             <h1>We focus <span className="yellow">on presentations</span> exclusively,</h1>
             <h4>that’s the reason we are so good at all their aspects – storytelling, design, delivery and tools. No matter the challenge – from quarterly result presentations to a game-changing IPO, we can help you achieve your goal.</h4>
             <h2>WE <span className="yellow">COME THROUGH</span> FOR YOU</h2>
             <p>RELIABLE, QUALITY, AND (REASONABLY) AFFORDABLE.</p>
           </div>
-          {/* <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12 divWine'>
+          <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
             <img className='ParallaxImage' src="/assets/img/about/ParallaxSlide.webp" alt="wine"/>
-          </div> */}
+          </div>
         </div>
       </section>
-{/* 
-      <EyeOpening /> */}
+
+      <EyeOpening />
 {/* 
       <Footer /> */}
     </ div>
