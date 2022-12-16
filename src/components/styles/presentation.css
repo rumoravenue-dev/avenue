@@ -23,7 +23,7 @@
 }
 
 .presentationServices a:hover:after {
-    width: 38%!important;
+    width: 42%!important;
 }
 
 .presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -47,13 +47,16 @@
     margin-top: -80px!important;
 }
 
-.presentationServices li {
+.presentationServices ul li {
     list-style-type: none;
+}
+
+.presentationServices h5 {
     margin-left: -39px;
     margin-top: 30px;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20px!important;
     color: #000000;
     opacity: 0.8;
 }
@@ -63,12 +66,13 @@
 }
 
 @media screen and (max-width: 992px ) {
+    .presentationServices {
+        margin-left: 0px;
+        padding-left: 80px!important;
+    }
+
     .presentationMainRow {
         max-width: 100%;
-    }
-    
-    .presentationServices {
-        margin-left: 7px;
     }
 
     .presentationServices p {
@@ -76,25 +80,30 @@
     }
     
     .timezones {
-        margin-top: 20px!important;
+        margin-top: 10px!important;
     }
     
     .presentationFileTypes {
-        margin-top: -20px!important;
+        margin-top: -30px!important;
+    }
+
+    .presentationServices a:hover:after {
+        width: 65%!important;
     }
 }
 
 @media screen and (max-width: 576px ) {
+    .presentationServices {
+        margin-left: 0px!important;
+        padding-left: 7px!important;
+    }
+
     .presentationMainRow {
         max-width: 100%;
     }
 
     .presentationServices {
         margin-left: -5px;
-    }
-
-    .presentationServices a:hover:after {
-        width: 70%!important;
     }
 
     .presentationServices p {
@@ -110,7 +119,7 @@
         margin-top: 80px!important;
     }
     
-    .presentationServices li {
+    .presentationServices h5 {
         margin-top: 80px;
         font-size: 15px!important;
         margin-left: -19px;
@@ -119,8 +128,15 @@
     .presentationServices h3 {
         font-size: 20px;
     }
+
+    .presentationServices a:hover:after {
+        width: 82%!important;
+    }
 }
 
 @media screen and (max-width: 350px ) {
-
+    .presentationServices {
+        margin-left: 0px!important;
+        padding-left: 4px!important;
+    }
 }

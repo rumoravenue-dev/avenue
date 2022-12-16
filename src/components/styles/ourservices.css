@@ -1,6 +1,6 @@
 .ourServices {
-    padding-left: 144px;
-    padding-bottom: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
 }
 
 .ourServices h2 {
@@ -47,7 +47,7 @@
 }
 
 .tabsOurServices:hover:after {
-    width: 58%!important;
+    width: 68%!important;
 }
 
 .ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -648,7 +648,8 @@
 
 @media screen and (max-width: 992px ) { 
     .ourServices {
-        padding-left: 20px;
+        margin-left: 0px;
+        padding-left: 90px;
     }
 
     .ourServices hr {
@@ -658,7 +659,8 @@
 
 @media screen and (max-width: 576px ) {
     .ourServices {
-        padding-left: 10px;
+        margin-left: 0px;
+        padding-left: 26px!important;
     }
 
     .ourServices h2 {
@@ -681,9 +683,18 @@
         margin-top: 150px;
         padding-right: 0px;
     }
+
+    .tabsOurServices:hover:after {
+        width: 52%!important;
+    }
 }
 
 @media screen and (max-width: 350px ) {
+    .ourServices {
+        margin-left: 0px;
+        padding-left: 20px!important;
+    }
+    
     .ourServices hr {
         width: 250px;
     }
