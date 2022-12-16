@@ -19,11 +19,11 @@ body {
   justify-content: center;
 }
 
-.mainAbout .mainSomewhereText img {
+.mainSomewhereText img {
   height: 625px;
 }
 
-.mainAbout .mainSomewhereText h1 {
+.mainSomewhereText h1 {
   position: absolute;
   font-family: 'Antonio';
   font-style: normal;
@@ -50,46 +50,145 @@ body {
   justify-content: center;
 }
 
-.weAreTextContainer .weAreText h1 {
+.weAreText h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-  line-height: 150%;
   color: #A0A0A0;
   width: 70%;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .weFocus {
-  height: 1.484px;
-  background: #FFFFFF;
-}
-
-.focusText {
-  
-}
-
-.divWine {
-
+  height: 800px;
 }
 
 .wineImage {
   position: absolute;
-  width: 980px;
   height: 550px;
-  left: 769px;
-  top: 722px;
+  left: 685px;
+  top: 1650px;
 
-  /* background: url(Artboard 1.png); */
   /* Slide shadow */
-
   filter: drop-shadow(15px 13px 34px rgba(0, 0, 0, 0.25));
   border-radius: 3.75525px;
+}
+
+.weFocus .focusText {
+  border: 2px solid blue;
+}
+
+.weFocus .focusText h1 {
+  position: absolute;
+  height: 465px;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 150px;
+  margin-top: 160px;
+}
+
+.weFocus .focusText h4 {
+  width: 925px;
+  height: 192px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #767676;
+  margin-top: 660px;
+  margin-left: 150px;
+}
+
+.weFocus .focusText h2 {
+  height: 101px;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 101px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 150px;
+}
+
+.weFocus .focusText .yellow {
+  color: #F4BD03;
+}
+
+.weFocus .focusText p {
+  width: 980px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.19em;
+  color: #7D7D7D;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+.ParallaxImage {
+  position: absolute;
+  height: 550px;
+  left: 0;
+  top: 3000px;
+
+  /* Slide shadow */
+  filter: drop-shadow(15px 13px 34px rgba(0, 0, 0, 0.25));
+  border-radius: 3.75525px;
+}
+
+.eyeSection {
+  height: 1904.43px;
+  background: #000000;
+}
+
+.eyeOpening h1 {
+  position: absolute;
+  height: 310px;
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 155px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.eyeOpening p {
+  width: 466px;
+  height: 120px;
+  left: 196px;
+  top: 638.43px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ACACAC;
+}
+
+.eyeSunset {
+  position: absolute;
+  height: 279px;
+  left: 699px;
+  top: 2399.43px;
+}
+
+.eyeCatching {
+
 }
 
 @media screen and (max-width: 1024px ) {
@@ -105,6 +204,10 @@ body {
 
 @media screen and (max-width: 992px ) {
 
+  .mainAbout {
+    height: 925px;
+  }
+
   .mainAbout .mainSomewhereText img {
     height: 525px;
   }
@@ -113,9 +216,67 @@ body {
     font-size: 82px;
   }
 
+  .weAreTextContainer {
+    height: 700px;
+  }
+
   .weAreTextContainer .weAreText h1 {
     font-size: 27px;
     width: 80%;
+  }
+
+  .weFocus {
+    height: auto;
+    width: 100%;
+  }
+
+  .wineImage {
+    height: 250px;
+    margin-left: -190px;
+    margin-top: -30px;
+  }
+
+  .ParallaxImage {
+    height: 250px;
+    margin-left: 0;
+    margin-top: -720px;
+  }
+
+  .weFocus .focusText h1 {
+    font-size: 60px;
+    width: 40%;
+    height: auto;
+    margin: 0;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+  .weFocus .focusText h4 {
+    font-size: 21px;
+    width: 70%;
+    height: auto;
+    margin-top: 500px;
+    line-height: 28px;
+    margin-top: 350px;
+    margin-left: 100px;
+  }
+
+  .weFocus .focusText h2 {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+    height: auto;
+  }
+
+  .weFocus .focusText p {
+    font-size: 13px;
+    margin: 0;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
   }
 }
 
@@ -153,6 +314,61 @@ body {
   .weAreTextContainer .weAreText h1 {
     font-size: 16px;
   }
+
+  .weFocus {
+    height: auto;
+    width: 100%;
+  }
+
+  .wineImage {
+    height: 200px;
+    margin-left: -190px;
+    margin-top: -30px;
+  }
+
+  .ParallaxImage {
+    height: 200px;
+    margin-left: 0;
+    margin-top: -720px;
+  }
+
+  .weFocus .focusText h1 {
+    font-size: 40px;
+    width: 40%;
+    height: auto;
+    margin: 0;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .weFocus .focusText h4 {
+    font-size: 13.5px;
+    width: 80%;
+    height: auto;
+    margin-top: 500px;
+    line-height: 28px;
+    margin-top: 240px;
+    margin-left: 20px;
+  }
+
+  .weFocus .focusText h2 {
+    font-size: 24px;
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+  }
+
+  .weFocus .focusText p {
+    font-size: 10px;
+    margin: 0;
+    width: 90%;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    letter-spacing: 0.09em;
+  }
 }
 
 @media screen and (max-width: 350px ) {
@@ -167,5 +383,60 @@ body {
 
   .weAreTextContainer .weAreText h1 {
     font-size: 12px;
+  }
+
+  .weFocus {
+    height: auto;
+    width: 100%;
+  }
+
+  .wineImage {
+    height: 180px;
+    margin-left: -190px;
+    margin-top: -30px;
+  }
+
+  .ParallaxImage {
+    height: 180px;
+    margin-left: 0;
+    margin-top: -720px;
+  }
+
+  .weFocus .focusText h1 {
+    font-size: 30px;
+    width: 40%;
+    height: auto;
+    margin: 0;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .weFocus .focusText h4 {
+    font-size: 13.5px;
+    width: 80%;
+    height: auto;
+    margin-top: 500px;
+    line-height: 28px;
+    margin-top: 180px;
+    margin-left: 20px;
+  }
+
+  .weFocus .focusText h2 {
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+  }
+
+  .weFocus .focusText p {
+    font-size: 8px;
+    margin: 0;
+    width: 90%;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 0.05em;
   }
 }
