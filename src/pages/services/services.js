@@ -1,4 +1,5 @@
 import LazyLoad from 'react-lazy-load';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import style from './style.css'
 import Helmet, { HelmetProvider } from 'react-helmet-async';
 import Header from '../../components/header'

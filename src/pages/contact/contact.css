@@ -157,14 +157,14 @@ body {
   .containerMain .contactusText h2 {
     max-width: 80%;
     margin-top: -200px;
-    margin-left:25px;
+    margin-left:35px;
     font-size: 20px;
-    padding-left: 1em;
+    padding-left: 0em;
   }
   
   .containerMain .contactusText p {
-    max-width: 55%;
-    margin-top: -100px;
+    max-width: 60%;
+    margin-top: -110px;
     margin-left: 70px;
     font-size: 8px;
   }
@@ -246,23 +246,23 @@ body {
   .containerMain .contactusText h2 {
     max-width: 90%;
     margin-top: -190px;
-    margin-left: 43px;
-    font-size: 20px;
+    margin-left: 40px;
+    font-size: 18px;
   }
   
   .containerMain .contactusText p {
     max-width: 90%;
     margin-top: -125px;
-    margin-left:40px;
-    font-size: 12px;
+    margin-left:35px;
+    font-size: 10px;
   }
   
   .containerMain .btnStart {
     position: absolute;
     width: auto;
     height: 40px;
-    margin-top: -45px;
-    margin-left: -430px;
+    margin-top: -60px;
+    margin-left: -470px;
     font-size: 12px;
     line-height: 24px;
     border-radius: 8px;
@@ -316,7 +316,7 @@ body {
   .containerMain .contactusText h2 {
     max-width: 550px;
     margin-top: -320px;
-    margin-left: -10px;
+    margin-left: -80px;
     font-size: 34px;
     padding-left: 1em;
   }
@@ -324,7 +324,7 @@ body {
   .containerMain .contactusText p {
     max-width: 550px;
     margin-top: -200px;
-    margin-left: -10px;
+    margin-left: -60px;
     font-size: 16px;
   }
   
@@ -333,7 +333,7 @@ body {
     width: 230px;
     height: 48px;
     margin-top: -100px;
-    margin-left: -395px;
+    margin-left: -465px;
     font-size: 20px;
     line-height: 24px;
     border-radius: 8px;

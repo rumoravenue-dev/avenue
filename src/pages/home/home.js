@@ -8,6 +8,7 @@ import ControlledCarousel from "../../components/carousel";
 import Footer from "../../components/footer";
 import Accordion from "../../components/q&a";
 import { accordionData } from '../../components/q&aContent';
+import GetInContact from "../../components/getInContact";
 
 function App() {
   const home = true;
@@ -102,6 +103,7 @@ function App() {
         </div>
       </section>
 
+    <GetInContact />
     <Footer />
     </div>
   );

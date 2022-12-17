@@ -91,6 +91,10 @@ body {
     margin-left: 0%;
   }
 
+.firstColProcess {
+    margin-left: 150px;
+}
+
 .firstColProcess h2 {
     font-family: 'Antonio';
     font-weight: 700;
@@ -261,11 +265,12 @@ body {
     }
 
     .rowAproach {
-        margin-left: 15px;
+        margin-left: 8px!important;
     }
 
     .aproachServices {
         height: 1300px;
+        padding-left: 80px;
     }
 
     .imgModelAproach {
@@ -275,18 +280,22 @@ body {
 
     .aproachServices h2 {
         margin-right: 0px;
+        padding-right: 10px;
     }
 
     .processServices .firstColProcess {
         margin-left: 0px;
+        padding-left: 100px;
     }
 
     .processServices .secondColProcess {
         margin-left: 0px;
+        padding-left: 100px;
     }
 
     .processServices .thirdColProcess {
         margin-left: 0px;
+        padding-left: 100px;
         margin-top: 0px;
     }
 
@@ -295,11 +304,11 @@ body {
     }
 
     .goodToKnowServices img {
-        margin-left: 100px!important;
+        margin-left: 180px!important;
     }
 
     .goodToKnowText {
-        padding-left: 10px;
+        padding-left: 90px;
         margin-top: 50px;
     }
 
@@ -340,6 +349,8 @@ body {
 
     .aproachServices {
         height: 800px;
+        margin-left: 0px;
+        padding-left: 10px;
     }
 
     .aproachServices a {
@@ -353,6 +364,7 @@ body {
 
     .processServices .firstColProcess {
         margin-left: 0px;
+        padding-left: 30px!important;
     }
 
     .firstColProcess h2 {
@@ -369,6 +381,7 @@ body {
 
     .processServices .secondColProcess {
         margin-left: 0px;
+        padding-left: 30px!important;
     }
 
     .secondColProcess h3 {
@@ -382,6 +395,7 @@ body {
 
     .processServices .thirdColProcess {
         margin-left: 0px;
+        padding-left: 30px!important;
     }
 
     .thirdColProcess h3 {
@@ -401,7 +415,7 @@ body {
     }
 
     .goodToKnowText {
-        padding-left: 0px;
+        padding-left: 16px;
         margin-top: 100px;
     }
 
@@ -443,6 +457,23 @@ body {
     .imgModelAproach {
         height: 250px;
         margin-top: 0px;
+    }
+
+    .processServices .firstColProcess {
+        padding-left: 25px!important;
+    }
+
+    .processServices .secondColProcess {
+        padding-left: 25px!important;
+    }
+
+    .processServices .thirdColProcess {
+        padding-left: 25px!important;
+    }
+
+    .goodToKnowText {
+        padding-left: 12px;
+        margin-top: 100px;
     }
 
     .goodToKnowServices img {

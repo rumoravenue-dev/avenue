@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
 
 .form-container {
-  position: absolute;
+  position: relative;
   margin-top: 250px;
-  margin-left: -200px;
+  margin-left: -160px;
+  z-index: 2;
 }
 
 .form-box {
@@ -166,10 +167,12 @@ input[type=text]{outline:none}
 
 @media (min-width: 351px) and (max-width: 576px) {
   .form-box {
+    width: 100%;
     height: auto;
     max-width: 100%;
     flex-direction: column;
-    margin-left: 210px;
+    margin-left: 160px;
+    margin-top: -110px;
   }
 
   .form-left-side {
@@ -220,10 +223,19 @@ input[type=text]{outline:none}
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
+  .form-container {
+    position: relative;
+    margin-top: 250px;
+    margin-left: -160px;
+    z-index: 2;
+  }
+
   .form-box {
+    width: 90%;
     height: auto;
     max-width: 95%;
-    margin-left: 90px;
+    margin-top: -80px;
+    margin-left: 210px;
     padding: 10px;
   }
 
@@ -237,6 +249,7 @@ input[type=text]{outline:none}
   }
 
   .form-right-side  {
+    width: 60%;
     margin-left: 10px;
     padding: 15px;
   }
