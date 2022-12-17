@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import style from './styles/ourservices.css'
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
@@ -5,6 +6,9 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
 const OurServices = () => {
+    $(document).on('click', 'a', function() {
+        $(this).addClass('actived')
+    })
     return (
         <>
             <section className='ourServices container-fluid'>
@@ -20,21 +24,21 @@ const OurServices = () => {
                         <Tab.Container defaultActiveKey="additional">
                         <Row>
                             <Col sm={3}>
-                            <Nav variant="pills" className="flex-column">
+                            <Nav variant="pills" className="flex-column tabsOurServices">
                                 <Nav.Item>
-                                <Nav.Link eventKey="funds" className='tabsOurServices'> RAISE FUNDS </Nav.Link>
+                                <Nav.Link eventKey="funds"> RAISE FUNDS </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="sell" className='tabsOurServices'> SELL PRODUCTS </Nav.Link>
+                                <Nav.Link eventKey="sell"> SELL PRODUCTS </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="hire" className='tabsOurServices'> HIRE & MANAGE PEOPLE </Nav.Link>
+                                <Nav.Link eventKey="hire"> HIRE & MANAGE PEOPLE </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="personal" className='tabsOurServices'> PERSONAL </Nav.Link>
+                                <Nav.Link eventKey="personal"> PERSONAL </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="additional" className='tabsOurServices'> ADDITIONAL </Nav.Link>
+                                <Nav.Link eventKey="additional"> ADDITIONAL </Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             </Col>

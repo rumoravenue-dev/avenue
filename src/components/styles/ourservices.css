@@ -24,7 +24,7 @@
     border: 1px solid #000000;
 }
 
-.tabsOurServices {
+.ourServices .tabsOurServices a {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -35,19 +35,30 @@
     position: relative;
 }
 
-.tabsOurServices::after {
+.tabsOurServices a::after {
     content : " ";
     width: 0%;
     height: 5px;
     background-color: #F4BD03;
     position: absolute;
     bottom: 0;
-    left: 20px;
+    left: 15px;
     transition: 0.5s ease-in-out;
 }
 
-.tabsOurServices:hover:after {
-    width: 68%!important;
+.tabsOurServices a.actived::after {
+    content : " ";
+    width: 60%;
+    height: 5px;
+    background-color: #F4BD03;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.tabsOurServices a:hover:after {
+    width: 60%!important;
 }
 
 .ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -655,6 +666,10 @@
     .ourServices hr {
         width: 700px;
     }
+
+    .ourServices a:hover:after {
+        width: 70%!important;
+    }
 }
 
 @media screen and (max-width: 576px ) {
@@ -684,8 +699,8 @@
         padding-right: 0px;
     }
 
-    .tabsOurServices:hover:after {
-        width: 52%!important;
+    .ourServices a:hover:after {
+        width: 56%!important;
     }
 }
 
@@ -697,6 +712,10 @@
     
     .ourServices hr {
         width: 250px;
+    }
+
+    .ourServices a:hover:after {
+        width: 80%!important;
     }
 }
 
