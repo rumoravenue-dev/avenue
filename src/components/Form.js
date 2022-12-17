@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from 'react';
-import Phone from "./images/VectorPhone.svg";
-import Mail from "./images/VectorMail.svg";
-import "../styles/form.css";
+import "./styles/form.css";
 
 function Form() {
   const [name, setName] = useState('');
@@ -19,11 +17,11 @@ function Form() {
                 <h4>Ask us anything or just say hi 🖐 </h4>
               </div>
               <div className="contact-information">
-                <img src={Phone} alt="phone-icon"/>
+                <img src="/assets/img/form/VectorPhone.svg" alt="phone-icon"/>
                 <p>+0123 4567 8910</p>
               </div>
               <div className="contact-information">
-                <img src={Mail} alt="mail-icon"/>
+                <img src="/assets/img/form/VectorMail.svg" alt="mail-icon"/>
                 <p>hello@only5pm.com</p>
               </div>
             </div>

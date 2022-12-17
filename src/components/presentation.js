@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import style from './styles/presentation.css'
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
@@ -5,7 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
 const Presentation = () => {
-
+    $(document).on('click', 'a', function() {
+        $(this).addClass('actived')
+    })
+    
     return (
         <>
             <section className="presentationServices containter-fluid">

@@ -33,11 +33,11 @@ body {
 }
 
 .mainContact .mainContent h1 {
-  width: 90%;
+  width: 100%;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
-  font-size: 4.5em;
+  font-size: 103.75px;
   line-height: 134px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -282,7 +282,7 @@ body {
   .mainContact .mainContent {
     padding-right: 0!important;
     padding-left: 120px;
-    margin-top: -380px;
+    margin-top: -420px;
   }
   
   .mainContact .mainContent h1 {

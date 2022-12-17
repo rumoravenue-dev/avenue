@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './form/Form';
+import Form from './Form';
 import "./styles/getInContact.css";
 
 function getInContact(props) {
