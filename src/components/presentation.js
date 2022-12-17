@@ -9,7 +9,7 @@ const Presentation = () => {
     $(document).on('click', 'a', function() {
         $(this).addClass('actived')
     })
-    
+
     return (
         <>
             <section className="presentationServices containter-fluid">
