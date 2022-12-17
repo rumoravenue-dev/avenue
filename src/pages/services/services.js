@@ -1,4 +1,5 @@
 import LazyLoad from 'react-lazy-load';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import style from './style.css'
 import Helmet, { HelmetProvider } from 'react-helmet-async';
 import Header from '../../components/header'
@@ -6,6 +7,7 @@ import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices'
 import Footer from '../../components/footer'
 import { useEffect, useState } from 'react'
+import CarouselWords from '../../components/carouselWords';
 
 const Services = () => {
     const [changeText, setChangeText] = useState("GOOD TO")
@@ -93,7 +95,7 @@ const Services = () => {
                             <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                         </LazyLoad>
                         <div className='goodToKnowText'>
-                            <span> {changeText} </span>
+                            <div className='goodknowcarousel'><CarouselWords /></div>
                             <h2> know </h2>
                         </div>
                     </div>

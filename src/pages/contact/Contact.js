@@ -1,14 +1,14 @@
 import React from "react";
-
-import GetInContact from "../../components/getInContact/getInContact";
+import GetInContact from "../../components/getInContact";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import "./contact.css";
 
 function Contact() {
+  const contact = true;
   return (
-    <div>
-      {/* <Header /> */}
+    <div className="contact">
+      <Header contact={contact}  /> 
 
       <section className="mainContact">
         <div className="row">
@@ -33,8 +33,8 @@ function Contact() {
         </div>
       </section>
       
-      {/* <GetInContact />
-      <Footer /> */}
+      <GetInContact />
+      <Footer />
     </div>
   );
 }

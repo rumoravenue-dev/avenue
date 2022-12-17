@@ -1,0 +1,12 @@
+.carouselText span {
+    font-family: 'Antonio';
+    font-weight: 400;
+    font-size: 64px;
+    color: #F4BD03;
+}
+
+@media only screen and (max-width: 575px) {
+    .carouselText span {
+        font-size: 32px;
+    }
+}

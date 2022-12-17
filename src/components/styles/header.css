@@ -75,7 +75,7 @@ body {
 }
 .wrap .strip div {
     height: 3px;
-    background: #F4BD03;
+    background: #fff;
     margin: 10px;
     transition: all .55s cubic-bezier(0.075, 0.82, 0.165, 1);
     width: 40px;
@@ -102,19 +102,86 @@ body {
     transition: all .25s ease .05s;
 }
 
-.showSidebar {
-    display: block;
+.headerBlack {
+    width: 100%;
+    height: 96px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 1.1em;
+    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(0.0,0.0,0.0,0));
+    z-index: 99;
+}
+
+.headerBlack .headerImage {
+    display: flex;
+    align-items: center;
+    padding-left: 8em;
+}
+
+.headerBlack .headerLinks a {
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 2em;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.headerBlack .headerLinks a:hover {
+    color: #F4BD03;
+}
+
+.headerBlack .headerLinks button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4BD03;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 1px solid rgba(0.0,0.0,0.0, 0.1);
+}
+
+.headerBlack .headerLinks button a {
+    margin-right: 0!important;
+}
+
+.headerBlack .headerLinks button:hover a {
+    opacity: .9;
+    color: #fff;
+}
+
+.showSidebar,
+.hiddenSidebar {
+    display: none;
     background-color: #F4BD03;
     width: 100vw;
     height: 100vh;
     min-height: 10232.500px;
     position: absolute;
-    left: 0;
+    top: 0;
     margin-top: 0px;
-    z-index: 99999;
+    transition: 0.5 ease all;
+    z-index: 99;
 }
+
+.showSidebar {
+    animation: showsidebar 1s;
+    left: 0;
+}
+@keyframes showsidebar {
+    from {left: 100vw;}
+    to {left: 0;}
+}
+
 .hiddenSidebar{
-    display: none;
+    position: fixed;
+    animation: hiddensidebar 1s;
+    left: 100vw;
+}
+@keyframes hiddensidebar {
+    from {left: 0;}
+    to {left: 100vw;}
 }
 
 
@@ -126,10 +193,16 @@ body {
         top: 0;
         right: 0;
         position: absolute;
+        z-index: 9999;
     }
     .header {
         display: none;
     }
+    .showSidebar,
+    .hiddenSidebar {
+        display: block;
+    }
+    
 }
 @media (min-width:577px) and (max-width: 992px ) { 
     .header {
@@ -155,6 +228,31 @@ body {
     }
     
     .header .headerLinks button {
+        font-size: 14px;
+        padding: 12px 21px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    /* Header Black */
+
+    .headerBlack {
+        height: 96px;
+        padding-top: 1.1em;
+    }
+    
+    .headerBlack .headerImage {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .headerBlack .headerLinks a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .headerBlack .headerLinks button {
         font-size: 14px;
         padding: 12px 21px;
         border-radius: 8px;

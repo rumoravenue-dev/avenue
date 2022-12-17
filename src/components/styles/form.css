@@ -130,3 +130,146 @@ input[type=text]{outline:none}
   border-radius: 8px;
   border: none;
 }
+
+@media only screen and (max-width: 350px) {
+  .form-box {
+    height: auto;
+    max-width: 100%;
+    flex-direction: column;
+    margin-left: 210px;
+  }
+
+  .form-left-side {
+    margin-left: 20px;
+  }
+
+  .form-left-side h1 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .form-right-side {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .form-inputs {
+    width: 90%;
+  }
+
+  .name-role {
+    flex-direction: column;
+  }
+
+}
+
+
+@media (min-width: 351px) and (max-width: 576px) {
+  .form-box {
+    height: auto;
+    max-width: 100%;
+    flex-direction: column;
+    margin-left: 210px;
+  }
+
+  .form-left-side {
+    margin-left: 20px;
+  }
+
+  .form-left-side h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .form-right-side  {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .form-inputs {
+    max-width: 100%;
+  }
+
+  .form-inputs input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-inputs h4 {
+    font-size: 16px;
+    margin-top: 15px!important;
+  }
+
+  .name-role {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name-role :first-child {
+    margin: 0;
+  }
+
+  .email-message {
+    margin-top: 0px;
+  }
+
+  .form-right-side button {
+    margin-left: 45px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .form-box {
+    height: auto;
+    max-width: 95%;
+    margin-left: 90px;
+    padding: 10px;
+  }
+
+  .form-left-side {
+    margin-left: 20px;
+  }
+
+  .form-left-side h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .form-right-side  {
+    margin-left: 10px;
+    padding: 15px;
+  }
+
+  .form-inputs {
+    max-width: 100%;
+  }
+
+  .form-inputs input {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .form-inputs h4 {
+    font-size: 16px;
+    margin-top: 15px!important;
+  }
+
+  .name-role {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name-role :first-child {
+    margin: 0;
+  }
+
+  .email-message {
+    margin-top: 0px;
+  }
+
+  .form-right-side button {
+    margin-left: 45px;
+  }
+}

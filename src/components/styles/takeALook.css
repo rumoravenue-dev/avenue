@@ -6,12 +6,7 @@ body {
 
 .mainPortfolio {
   background-color: rgb(40, 44, 52);
-}
-
-.mainPortfolio a {
-  text-decoration: none;
-  color: #FFFFFF;
-  margin-left: 160px;
+  height: 1193px;
 }
 
 .mainPortfolio .titleContainer {
@@ -66,16 +61,104 @@ body {
   display: none;
 }
 
-  
-@media screen and (max-width: 576px ) {
+/* Home */
 
-  .mainPortfolio a {
-    margin-left: 20px;
+.homePortfolio {
+  background-color: #000000;
+  height: 1193px;
+}
+
+.homePortfolio a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 160px;
+  margin-top: 200px;
+}
+
+.homePortfolio .titleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+
+.homePortfolio .titleContainer h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 130%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.homePortfolio .titleContainer .takeALook {
+  height: 120px;
+  margin-bottom: 40px;
+}
+
+.homePortfolio .arrowContainer img {
+  height: 34px;
+  margin-bottom: 20px;
+}
+
+.homePortfolio .arrowContainer > img {
+  margin-right: 15px;
+}
+
+.homePortfolio .portfolioContainer {
+  margin-left: 150px;
+}
+
+.homePortfolio .portfolioContainer img {
+  width: 507.49px;
+  height: 326px;
+}
+
+.homePortfolio .portfolioContainer .carousel-control-next-icon,
+.homePortfolio .portfolioContainer .carousel-control-prev-icon {
+  display: none;
+}
+
+.homePortfolio .portfolioContainer .carousel-indicators {
+  display: none;
+}
+
+@media screen and (max-width: 350px) {
+  .mainPortfolio {
+    height: 100%;
+  }
+
+  .mainPortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  /* Home */
+
+  .homePortfolio {
+    height: 100%;
+  }
+
+  .homePortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+  
+@media screen and (max-width: 576px) {
+
+  .mainPortfolio {
+    height: 100%;
   }
 
   .mainPortfolio .titleContainer {
     max-width: 90%;
-    margin-top: -70px;
+    margin-top: -100px;
     margin-left: 15px;
   }
 
@@ -113,7 +196,90 @@ body {
     height: 180px;
     width: 100%;
   }
+
+  /* Home */
+
+  .homePortfolio {
+    height: 100%;
+  }
+
+  .homePortfolio a {
+    margin-left: 20px;
+  }
+
+  .homePortfolio .titleContainer {
+    max-width: 90%;
+    margin-top: -100px;
+    margin-left: 15px;
+  }
+
+  .homePortfolio .titleContainer h4 {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+  .homePortfolio .titleContainer .takeALook {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .homePortfolio .arrowContainer {
+    height: 14px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .homePortfolio .arrowContainer img {
+    height: 14px;
+    margin-bottom: 10px;
+  }
+
+  .homePortfolio .arrowContainer > img {
+    margin-right: 1px;
+  }
+
+  .homePortfolio .portfolioContainer {
+    margin-left: 20px;
+    width: 80%;
+  }
+
+  .homePortfolio .portfolioContainer img {
+    height: 180px;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 992px ) {
+@media screen and (max-width: 992px) {
+
+  .mainPortfolio {
+    height: 100%;
+  }
+
+  .mainPortfolio {
+    overflow-x: hidden;
+  }
+
+  .mainPortfolio .titleContainer .takeALook {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  /* Home */
+
+  .homePortfolio {
+    height: 100%;
+  }
+  
+  .homePortfolio a {
+    margin-left: 170px;
+  }
+
+  .homePortfolio {
+    overflow-x: hidden;
+  }
+
+  .homePortfolio .titleContainer .takeALook {
+    width: 70%;
+    margin-bottom: 10px;
+  }
 }

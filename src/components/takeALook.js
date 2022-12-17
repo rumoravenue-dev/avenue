@@ -3,9 +3,9 @@ import Carousel from "./carouselPortfolio";
 import "./styles/takeALook.css";
 
 function Portfolio(props) {
-  const home = true;
+
   return (
-    <div className="mainPortfolio">
+    <div className={props.home ? "homePortfolio": "mainPortfolio"}>
         <div className="row titleContainer">
           <div className="col-12 col-sm-12">
             <h4>portfolio</h4>
@@ -19,7 +19,7 @@ function Portfolio(props) {
         <div className="col-12 col-sm-12 portfolioContainer">
           <Carousel />
         </div>
-        {home && <a href="/">See all projects →</a>}
+        {props.home && <a href="/portfolio">See all projects →</a>}
     </div>
   );
 }
