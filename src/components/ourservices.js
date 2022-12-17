@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import style from './styles/ourservices.css'
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
@@ -5,6 +6,9 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
 const OurServices = () => {
+    $(document).on('click', 'a', function() {
+        $(this).addClass('actived')
+    })
     return (
         <>
             <section className='ourServices container-fluid'>
@@ -20,7 +24,7 @@ const OurServices = () => {
                         <Tab.Container defaultActiveKey="additional">
                         <Row>
                             <Col sm={3}>
-                            <Nav variant="pills" className="flex-column">
+                            <Nav variant="pills" className="flex-column tabsOurServices">
                                 <Nav.Item>
                                 <Nav.Link eventKey="funds"> RAISE FUNDS </Nav.Link>
                                 </Nav.Item>
@@ -29,6 +33,9 @@ const OurServices = () => {
                                 </Nav.Item>
                                 <Nav.Item>
                                 <Nav.Link eventKey="hire"> HIRE & MANAGE PEOPLE </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                <Nav.Link eventKey="personal"> PERSONAL </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                 <Nav.Link eventKey="additional"> ADDITIONAL </Nav.Link>
@@ -40,12 +47,10 @@ const OurServices = () => {
                                 <Tab.Pane eventKey="funds">
                                     <div className='row fundsServices'>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                        </div>
-                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
                                             <div className='card cardInvestorDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> INVESTOR DECK <span className='textHover'> → </span> </p>
+                                                        <p> INVESTOR DECK <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -54,7 +59,7 @@ const OurServices = () => {
                                         <div className='card cardStartupPitch'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> STARTUP PITCH <span className='textHover'> → </span> </p>
+                                                        <p> STARTUP PITCH <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -67,7 +72,7 @@ const OurServices = () => {
                                             <div className='card cardBusinessProposal'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> BUSINESS PROPOSAL <span className='textHover'> → </span> </p>
+                                                        <p> BUSINESS PROPOSAL <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -76,7 +81,7 @@ const OurServices = () => {
                                         <div className='card cardCompanyPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> COMPANY PRESENTATION <span className='textHover'> → </span> </p>
+                                                        <p> COMPANY PRESENTATION <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -85,7 +90,7 @@ const OurServices = () => {
                                         <div className='card cardProductPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> PRODUCT PRESENTATION <span className='textHover'> → </span> </p>
+                                                        <p> PRODUCT PRESENTATION <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -96,7 +101,7 @@ const OurServices = () => {
                                             <div className='card cardSalesDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> SALES DECK <span className='textHover'> → </span> </p>
+                                                        <p> SALES DECK <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -105,7 +110,7 @@ const OurServices = () => {
                                         <div className='card cardServiceDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> SERVICE DECK <span className='textHover'> → </span> </p>
+                                                        <p> SERVICE DECK <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,7 +123,7 @@ const OurServices = () => {
                                             <div className='card cardBigNewsDeck'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> BIG NEWS DECK <span className='textHover'> → </span> </p>
+                                                        <p> BIG NEWS DECK <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -127,7 +132,7 @@ const OurServices = () => {
                                         <div className='card cardBrandedTemplate'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> BRANDED TEMPLATE <span className='textHover'> → </span> </p>
+                                                        <p> BRANDED TEMPLATE <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -136,7 +141,7 @@ const OurServices = () => {
                                         <div className='card cardBoardingPresentation'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> ON-BOARDING PRESENTATION <span className='textHover'> → </span> </p>
+                                                        <p> ON-BOARDING PRESENTATION <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,7 +152,7 @@ const OurServices = () => {
                                             <div className='card cardPolicyPlaybook'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> POLICY DECK & PLAYBOOK <span className='textHover'> → </span> </p>
+                                                        <p> POLICY DECK & PLAYBOOK <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,7 +161,47 @@ const OurServices = () => {
                                         <div className='card cardProgressReport'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
+                                                        <p> PROGRESS REPORT <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                            <div className='card cardTraining'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> CORPORATE TRAINING <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="personal">
+                                    <div className='row fundsServices'>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                            <div className='card cardQuickPresentations'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> QUICK PRESENTATIONS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                            <div className='card cardWedding'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> WEDDING SLIDESHOWS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                        <div className='card cardBirthday'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> BIRTHDAY SLIDESHOWS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -169,7 +214,7 @@ const OurServices = () => {
                                             <div className='card cardIntro'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> 1 PAGER INTRO <span className='textHover'> → </span> </p>
+                                                        <p> 1 PAGER INTRO <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -178,7 +223,7 @@ const OurServices = () => {
                                             <div className='card cardAgency'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> AGENCY <span className='textHover'> → </span> </p>
+                                                        <p> AGENCY <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -187,36 +232,36 @@ const OurServices = () => {
                                         <div className='card cardBranding'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> BRANDING <span className='textHover'> → </span> </p>
+                                                        <p> BRANDING <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className='row fundsServices'>
-                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                            <div className='card cardTraining'>
-                                                <div className='card-body'>
-                                                    <div className='card-text'>
-                                                        <p> CORPORATE TRAINING <span className='textHover'> → </span> </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
                                             <div className='card cardRedesign'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> REDESIGN <span className='textHover'> → </span> </p>
+                                                        <p> REDESIGN <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                        <div className='card cardReview'>
+                                            <div className='card cardReview'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> REVIEW <span className='textHover'> → </span> </p>
+                                                        <p> REVIEW <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                            <div className='card cardMagazine'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> MAGAZINE <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -224,19 +269,10 @@ const OurServices = () => {
                                     </div>
                                     <div className='row fundsServices'>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                            <div className='card cardMagazine'>
-                                                <div className='card-body'>
-                                                    <div className='card-text'>
-                                                        <p> MAGAZINE <span className='textHover'> → </span> </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
                                             <div className='card cardProgressReport1'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> PROGRESS REPORT <span className='textHover'> → </span> </p>
+                                                        <p> PROGRESS REPORT <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,7 +281,16 @@ const OurServices = () => {
                                         <div className='card cardConference'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> CONFERENCE <span className='textHover'> → </span> </p>
+                                                        <p> CONFERENCE <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
+                                            <div className='card cardLegalPresentations'>
+                                                <div className='card-body'>
+                                                    <div className='card-text'>
+                                                        <p> LEGAL PRESENTATIONS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -253,28 +298,19 @@ const OurServices = () => {
                                     </div>
                                     <div className='row fundsServices'>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                            <div className='card cardLegalPresentations'>
+                                            <div className='card cardTrialExhibits'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> LEGAL PRESENTATIONS <span className='textHover'> → </span> </p>
+                                                        <p> TRIAL EXHIBITS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                            <div className='card cardQuickPresentations'>
+                                            <div className='card cardEventTalks'>
                                                 <div className='card-body'>
                                                     <div className='card-text'>
-                                                        <p> QUICK PRESENTATIONS <span className='textHover'> → </span> </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12'>
-                                        <div className='card cardTrialExhibits'>
-                                                <div className='card-body'>
-                                                    <div className='card-text'>
-                                                        <p> TRIAL EXHIBITS <span className='textHover'> → </span> </p>
+                                                        <p> EVENT TALKS <a href='contact' className='arrowOurServices'> <span className='textHover'> → </span> </a> </p>
                                                     </div>
                                                 </div>
                                             </div>

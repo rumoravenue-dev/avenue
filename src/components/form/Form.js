@@ -52,7 +52,7 @@ function Form() {
                   </label>
                 </div>
                 <div className="email-message">
-                <label htmlFor="email">
+                  <label htmlFor="email">
                     <h4>Email</h4>
                     <input
                       value={ email }
