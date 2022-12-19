@@ -14,7 +14,11 @@ function getInContact(props) {
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
             <h1>It's 5pm somewhere</h1>
           </div>
-          {<Form />}
+
+          <Form />
+          {/*<div data-paperform-id="fivepm"></div>*/}
+
+
         </div>
       </section>
 

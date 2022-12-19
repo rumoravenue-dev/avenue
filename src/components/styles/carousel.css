@@ -13,14 +13,11 @@
     left: 1050%;
 }
 
-.slider__handle svg {
-    display: none;
-}
-
 .carouselContent {
     width: 700px;
     height: 450px;
 }
+
 
 @media only screen and (max-width: 350px) {
     .carouselItem {

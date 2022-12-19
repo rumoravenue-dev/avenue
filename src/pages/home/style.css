@@ -76,52 +76,6 @@ body {
     display: none;
 }
 
-.homePartnerships {
-    height: 795.09px;
-    padding-bottom: 15em;
-}
-
-.homePartnerships .partnershipsTitle {
-    height: 386px;
-    background-image: url('../../../public/assets/img/home/Partnerships/Frame.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.homePartnerships .col-12 h2 {
-    position: absolute;
-    height: 114px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 44px;
-    line-height: 130%;
-    text-align: center;
-    color: #000000;
-    padding: 0 180px;
-}
-
-.homePartnerships .partnershipsImages {
-    padding-left: 5em;
-}
-
-.homePartnerships .partnershipsImages .partnershipsImage {
-    max-width: 100%;
-    padding-bottom: 4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.homePartnerships .row {
-    max-width: 100%;
-}
-
 .homeQuestions {
     padding: 15em 5em;
 }
@@ -235,28 +189,6 @@ body {
         width: 100%;
     }
 
-    .homePartnerships {
-        height: 240vh;
-    }
-
-    .homePartnershipsRow {
-        padding-left: 32px;
-    }
-
-    .homePartnerships .col-12 h2 {
-        font-size: 22px!important;
-        width: 90%;
-        padding: 0;
-    }
-
-    .homePartnerships .partnershipsImages {
-        padding: 0 0px!important;
-    }
-
-    .homePartnerships .partnershipsImages .partnershipsImage img {
-        width: 100px;
-    }
-
     .homeQuestions {
         padding: 200px 32px;
     }
@@ -328,29 +260,6 @@ body {
         height: 180px;
     }
 
-    .homePartnerships {
-        height: 1800px!important;
-        padding-bottom: 0px;
-        padding-left: 32px;
-    }
-    
-    .homePartnerships .partnershipsTitle {
-        height: 386px;
-        margin-top: 8px;
-    }
-    
-    .homePartnerships .partnershipsTitle h2 {
-        position: absolute;
-        height: 114px;
-        font-size: 28px!important;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    
-    .homePartnerships .partnershipsImages {
-        padding-left: 32px!important;
-    }
-
     .homeQuestions {
         padding: 80px 30px;
         text-align: left;
@@ -403,31 +312,6 @@ body {
     .homePresentations img {
         width: 100%;
         height: 350px;
-    }
-    
-    .homePartnerships {
-        height: 1000px;
-        padding: 80px 32px 80px 48px;
-    }
-    
-    .homePartnerships .partnershipsTitle {
-        margin-top: 20px;
-    }
-    
-    .homePartnerships .col-12 h2 {
-        font-size: 44px;
-        text-align: center;
-        padding: 0 32px;
-    }
-    
-    .homePartnerships .partnershipsImages {
-        padding-left: 32px;
-    }
-    
-    .homePartnerships .partnershipsImages .col-12 {
-        padding-bottom: 4em;
-        display: flex;
-        align-items: center;
     }
     
     .homeQuestions {
