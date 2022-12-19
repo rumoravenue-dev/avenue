@@ -12,7 +12,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselMain">
+    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselMain" nextIcon prevIcon>
       <Carousel.Item className='carouselItem'>
         <div className="carouselContent">
           <ImageSlider
@@ -24,6 +24,9 @@ function ControlledCarousel() {
             sliderColor="transparent"
           />
         </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        ...
       </Carousel.Item>
     </Carousel>
   );
