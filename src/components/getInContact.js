@@ -4,6 +4,7 @@ import "./styles/getInContact.css";
 
 function getInContact(props) {
   return (
+    <>
       <section className={props.portfolio ? "containerGetInTouchPort": "containerGetInTouch"}>
         <div className="row">
           <div className="col-12 col-sm-2 divIcon">
@@ -16,6 +17,10 @@ function getInContact(props) {
           {<Form />}
         </div>
       </section>
+
+      {/* <div data-paperform-id="fivepm"></div> */}
+
+    </>
   )
 }
 
