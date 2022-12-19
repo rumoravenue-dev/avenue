@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 import Header from '../../components/header';
 import EyeOpening from '../../components/eyeOpening';
 import Footer from '../../components/footer';
@@ -10,13 +10,9 @@ function About() {
 
   return (
     <div className='containerAbout'>  
-      <div className='wrapper'>
-        <HelmetProvider>
-          <title> About - 5pm </title>
-          <meta property="twitter:title" content="About - 5pm"/>
-          <meta property="og:title" content="About - 5pm"/>
-        </HelmetProvider>
-      </div>
+      <Helmet>
+        <title> About - 5pm </title>
+      </Helmet>
 
       {/* <Header contact={contact}/> */}
 
