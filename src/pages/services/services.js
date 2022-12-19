@@ -1,7 +1,7 @@
 import LazyLoad from 'react-lazy-load';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import style from './style.css'
-import Helmet, { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 import Header from '../../components/header'
 import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices'
@@ -26,13 +26,9 @@ const Services = () => {
 
     return (
         <>  
-            <div className='wrapper'>
-                <HelmetProvider>
-                    <title> Services - 5pm </title>
-                    <meta property="twitter:title" content="Services - 5pm"/>
-                    <meta property="og:title" content="Services - 5pm"/>
-                </HelmetProvider>
-            </div>
+            <Helmet>
+                <title> Services - 5pm </title>
+            </Helmet>
 
             <Header /> 
 

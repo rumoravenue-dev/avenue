@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import TakeALook from "../../components/takeALook";
 import Header from "../../components/header";
 import GetInContact from "../../components/getInContact";
@@ -9,6 +10,10 @@ function Portfolio() {
   const portfolio = true;
   return (
     <>
+      <Helmet>
+          <title> Portfolio - 5pm </title>
+      </Helmet>
+
       <Header />
       <TakeALook />
       <GetInContact portfolio={portfolio}/>
