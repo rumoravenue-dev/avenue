@@ -18,6 +18,23 @@
     height: 450px;
 }
 
+.teste {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselteste {
+    width: 50%;
+}
+
+.carouselConreols {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
 
 @media only screen and (max-width: 350px) {
     .carouselItem {

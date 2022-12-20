@@ -1,6 +1,8 @@
 import React from "react";
 import './style.css';
 
+
+
 import Header from "../../components/header";
 import OurServices from '../../components/ourservices'
 import TakeALook from '../../components/takeALook'
@@ -14,11 +16,13 @@ import Brands from "../../components/brands";
 function App() {
   const home = true;
 
+  
+
   return (
     <>
     
       <section className="homeMain" id="homeMain">
-      <Header/>
+      
         <div className="row">
           <div className="col-12 col-sm-12 homeText">
             <h1>We help people and companies achieve their goals by creating presentations that work</h1>

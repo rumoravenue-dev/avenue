@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselPort() {
   return (
-    <Carousel>
+    <Carousel nextIcon prevIcon>
       <Carousel.Item>
         <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
         <img src='/assets/img/portfolio/Rectangle2.webp' alt="portfolio-2"/>
