@@ -1,0 +1,20 @@
+.carouselProjects .projectsTitle {
+    width: 60%;
+    color: #fff;
+}
+
+.carouselProjects .carousel-control-next-icon,
+.carouselProjects .carousel-control-prev-icon {
+    display: block;
+    color: #fff;
+}
+
+.carouselProjects .carousel-control-next-icon {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.carouselProjects .carousel-control-prev-icon {
+    margin-right: 150px;
+    position: absolute;
+}

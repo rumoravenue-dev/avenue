@@ -27,6 +27,7 @@
     "react-hook-form": "^7.41.0",
     "react-image-comparison-slider": "^1.8.4",
     "react-lazy-load": "^4.0.1",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
     "react-swipe": "^6.0.4",
