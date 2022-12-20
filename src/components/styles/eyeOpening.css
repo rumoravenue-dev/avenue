@@ -75,6 +75,16 @@
   margin-left: 600px;
 }
 
+.eyeOpen .eye1 {
+  height: 420px;
+}
+
+.eyeOpen .eyeSunset {
+  height: 200px;
+  margin-top: -450px;
+  margin-left: 110px;
+}
+
 .eyeSection .eyeCatch {
   width: 40%;
   margin-top: -450px;

@@ -18,15 +18,8 @@ export default function EyeOpening() {
           <p>Whether the presentation needs to convince or educate it always has to change audience perception. We seek insights to make decks unexpectedly enlightening for our audience.</p>
         </div>
         <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 eyeOpen">
-          <Player
-            className="eye"
-            ref={lottieRef}
-            autoplay
-            loop
-            src="https://assets7.lottiefiles.com/packages/lf20_4m9FOC.json"
-            style={{ height: '437px', width: '613px' }}
-          />
-          {/* <img className="eyeSunset" src="/assets/img/contact/Sunset.svg" alt="sunset" /> */}
+          <img className="eye1" src="/assets/img/about/eye_blink.gif" alt="eye" />
+          <img className="eyeSunset" src="/assets/img/contact/Sunset.svg" alt="sunset" />
         </div>
         <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 eyeCatching">
           <h1>EYE CATCHING</h1>

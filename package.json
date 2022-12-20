@@ -27,9 +27,12 @@
     "react-hook-form": "^7.41.0",
     "react-image-comparison-slider": "^1.8.4",
     "react-lazy-load": "^4.0.1",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
+    "react-swipe": "^6.0.4",
     "sass": "^1.56.2",
+    "swipe-js-iso": "^2.1.5",
     "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
   },
@@ -56,5 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-icons": "^4.7.1"
   }
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Header from '../../components/header';
 import EyeOpening from '../../components/eyeOpening';
+import Brands from '../../components/brands';
+import GetInContact from '../../components/getInContact';
 import Footer from '../../components/footer';
 import './style.css'
 
@@ -51,7 +53,8 @@ function About() {
       </section>
 
       <EyeOpening />
-{/* 
+      {/* <Brands />
+      <GetInContact />
       <Footer /> */}
     </ div>
   )
