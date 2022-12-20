@@ -14,10 +14,7 @@ function getInContact(props) {
             <h1>It's 5pm somewhere</h1>
           </div>
 
-          <Form />
-          {/*<div data-paperform-id="fivepm"></div>*/}
-
-
+          {<Form />}
         </div>
       </section>
   )

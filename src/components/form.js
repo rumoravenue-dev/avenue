@@ -24,10 +24,6 @@ function Form() {
                 <h4>Ask us anything or just say hi 🖐 </h4>
               </div>
               <div className="contact-information">
-                <img src="/assets/img/form/VectorPhone.svg" alt="phone-icon"/>
-                <p>+0123 4567 8910</p>
-              </div>
-              <div className="contact-information">
                 <img src="/assets/img/form/VectorMail.svg" alt="mail-icon"/>
                 <p>hello@only5pm.com</p>
               </div>
