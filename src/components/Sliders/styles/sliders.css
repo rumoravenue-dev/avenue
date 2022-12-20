@@ -3,10 +3,10 @@
     color: #fff;
 }
 
-.carouselProjects img {
+/* .active carousel-item img {
     height: 100px;
     border: 5px;
-}
+} */
 
 .carouselProjects .carousel-control-next-icon,
 .carouselProjects .carousel-control-prev-icon {
