@@ -23,14 +23,15 @@
     "react-compare-image": "^3.3.0",
     "react-dom": "^18.2.0",
     "react-helmet": "6.1.0",
+    "react-helmet-async": "1.0.7",
     "react-image-comparison-slider": "^1.8.4",
     "react-lazy-load": "^4.0.1",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
     "sass": "^1.56.2",
     "swiper": "^8.4.5",
-    "web-vitals": "^2.1.4",
-    "react-helmet-async": "1.0.7"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
