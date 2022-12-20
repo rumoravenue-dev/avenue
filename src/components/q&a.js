@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
     <div className="accordionItem">
       <div className="accordionTitle" onClick={() => setIsActive(!isActive)}>
         <div className='title'>{title}</div>
-        <div className='icon'><strong>{isActive ? '+' : '-'}</strong></div>
+        <div className='icon'><strong>{isActive ? '-' : '+'}</strong></div>
       </div>
       {isActive && <div className="accordionContent">{content}</div>}
     </div>

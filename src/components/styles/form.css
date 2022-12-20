@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
 
 .form-container {
-  position: absolute;
-  margin-top: 250px;
-  margin-left: -200px;
+  position: relative;
+  margin-top: 200px;
+  margin-left: -160px;
+  z-index: 2;
 }
 
 .form-box {
@@ -11,7 +12,7 @@
   height: 480px;
   background: #000000;
   border-radius: 16px;
-  margin-left: -100px;
+  margin-left: 300px;
   display: flex;
   flex-direction: row;
   justify-content: baseline;
@@ -53,6 +54,10 @@
   color: #FFFFFF;
 }
 
+.contact-information p {
+  margin-bottom: 0;
+}
+
 .contact-information img {
   margin-right: 10px;
 }
@@ -90,8 +95,17 @@ input[type=text]{outline:none}
   color: #FFFFFF;
 }
 
+.name-role {
+  display: flex;
+}
+
 .name-role :first-child {
-  margin-right: 50px;
+  margin-right: 25px;
+}
+
+.nameField, .roleField {
+  display: flex;
+  flex-direction: column;
 }
 
 .email-message {
@@ -101,7 +115,6 @@ input[type=text]{outline:none}
 }
 
 .email-message input {
-  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -110,6 +123,20 @@ input[type=text]{outline:none}
   flex-direction: column;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.email-message label:nth-of-type(2) {
+  margin-top: 30px;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: #fff;
+}
+
+.name-role .errorMessage:nth-of-type(2) {
+  margin-left: 35%;
 }
 
 .form-right-side button {
@@ -119,7 +146,7 @@ input[type=text]{outline:none}
   align-items: center; */
   padding: 16px 48px;
   gap: 10px;
-
+  margin-top: 10px;
   /* position: absolute; */
   width: 208px;
   height: 56px;
@@ -132,20 +159,30 @@ input[type=text]{outline:none}
 }
 
 @media only screen and (max-width: 350px) {
+  .form-container {
+    margin-left: -200px;
+  }
   .form-box {
+    width: 100vw;
     height: auto;
     max-width: 100%;
     flex-direction: column;
-    margin-left: 210px;
+    margin-left: 200px;
   }
 
   .form-left-side {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .form-left-side h1 {
+    height: auto;
     width: 100%;
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .form-left-side h4 {
+    font-size: 16px;
   }
 
   .form-right-side {
@@ -154,11 +191,27 @@ input[type=text]{outline:none}
   }
 
   .form-inputs {
-    width: 90%;
+    width: 100%;
+  }
+
+  .form-inputs input {
+    width: 100%;
   }
 
   .name-role {
     flex-direction: column;
+  }
+
+  .name-role .nameField {
+    margin-right: 0;
+  }
+
+  .name-role :first-child {
+    margin-right: 0px;
+  }
+
+  .nameField {
+    margin-bottom: 10px;
   }
 
 }
@@ -166,10 +219,12 @@ input[type=text]{outline:none}
 
 @media (min-width: 351px) and (max-width: 576px) {
   .form-box {
+    width: 100%;
     height: auto;
     max-width: 100%;
     flex-direction: column;
-    margin-left: 210px;
+    margin-left: 160px;
+    margin-bottom: -650px;
   }
 
   .form-left-side {
@@ -220,10 +275,19 @@ input[type=text]{outline:none}
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
+  .form-container {
+    position: relative;
+    margin-top: 250px;
+    margin-left: -160px;
+    z-index: 2;
+  }
+
   .form-box {
+    width: 90%;
     height: auto;
     max-width: 95%;
-    margin-left: 90px;
+    margin-top: -80px;
+    margin-left: 210px;
     padding: 10px;
   }
 
@@ -237,6 +301,7 @@ input[type=text]{outline:none}
   }
 
   .form-right-side  {
+    width: 60%;
     margin-left: 10px;
     padding: 15px;
   }
