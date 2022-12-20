@@ -64,28 +64,28 @@ function CarouselPort() {
       {isModalRyna ?( <Modal onClose={() => setisModalRyna(false)} > <CarouselRyna/> </Modal>) : null}
 
       <Carousel nextIcon prevIcon>
-        <Carousel.Item>
-          <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1" onClick={() => setIsModalAtria(true)}/>
-          <img src='/assets/img/portfolio/Rectangle2.webp' alt="portfolio-2"  onClick={() => setisModalTMRW(true)}/>
-          <img src='/assets/img/portfolio/Rectangle3.webp' alt="portfolio-3"  onClick={() => setisModalTina(true)}/>
-          <img src='/assets/img/portfolio/Rectangle4.webp' alt="portfolio-4"  onClick={() => setisModalRiboli(true)}/>
+      <Carousel.Item>
+          <img src='/assets/img/portfolio/projects/atria/Atria2.webp' alt="slide-1" onClick={() => setIsModalAtria(true)}/>
+          <img src='/assets/img/sliders/TMRW1.webp' alt="slide-1"  onClick={() => setisModalTMRW(true)}/>
+          <img src='/assets/img/sliders/TINA1.webp' alt="slide-1"  onClick={() => setisModalTina(true)}/>
+          <img src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1"  onClick={() => setisModalRiboli(true)}/>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"  onClick={() => setisModalNewEngland(true)}/>
-          <img src='/assets/img/portfolio/Rectangle2.webp' alt="portfolio-2"  onClick={() => setisModalHennessy(true)}/>
-          <img src='/assets/img/portfolio/Rectangle3.webp' alt="portfolio-3"  onClick={() => setisModalInPremisse(true)}/>
-          <img src='/assets/img/portfolio/Rectangle4.webp' alt="portfolio-4"  onClick={() => setisModalGreenHouseWine(true)}/>
+          <img src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1"  onClick={() => setisModalNewEngland(true)}/>
+          <img src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"  onClick={() => setisModalHennessy(true)}/>
+          <img src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1"  onClick={() => setisModalInPremisse(true)}/>
+          <img src='/assets/img/sliders/GREENHOUSEWINE1.webp' alt="slide-1"  onClick={() => setisModalGreenHouseWine(true)}/>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"  onClick={() => setIsModalOmit(true)}/>
-          <img src='/assets/img/portfolio/Rectangle2.webp' alt="portfolio-2"  onClick={() => setisModalBookAble(true)}/>
-          <img src='/assets/img/portfolio/Rectangle3.webp' alt="portfolio-3"  onClick={() => setisModalPelicargo(true)}/>
-          <img src='/assets/img/portfolio/Rectangle4.webp' alt="portfolio-4"  onClick={() => setisModalGaylordHotels(true)}/>
+          <img src='/assets/img/portfolio/projects/omit/Artboard 1 (1).webp' alt="slide-1"  onClick={() => setIsModalOmit(true)}/>
+          <img src='/assets/img/portfolio/projects/bookable/Artboard 1.webp' alt="slide-1"  onClick={() => setisModalBookAble(true)}/>
+          <img src='/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp' alt="slide-1"  onClick={() => setisModalPelicargo(true)}/>
+          <img src='/assets/img/portfolio/projects/gaylord/Gaylord_01.webp' alt="slide-1"  onClick={() => setisModalGaylordHotels(true)}/>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"  onClick={() => setIsModalLilDan(true)}/>
-          <img src='/assets/img/portfolio/Rectangle2.webp' alt="portfolio-2"  onClick={() => setisModalWerx(true)}/>
-          <img src='/assets/img/portfolio/Rectangle3.webp' alt="portfolio-3"  onClick={() => setisModalRyna(true)}/>
+          <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1"  onClick={() => setIsModalLilDan(true)}/>
+          <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1"  onClick={() => setisModalWerx(true)}/>
+          <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1"  onClick={() => setisModalRyna(true)}/>
         </Carousel.Item>
       </Carousel>
     </>

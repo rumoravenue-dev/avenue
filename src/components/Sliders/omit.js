@@ -12,13 +12,19 @@ function CarouselOmit() {
         </div>
         <Carousel variant='dark'>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/omit/Artboard 1 (1).webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/omit/Artboard 2 (1).webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/omit/Artboard 3 (1).webp' alt="slide-3"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src='/assets/img/portfolio/projects/omit/Artboard 4 (1).webp' alt="slide-4"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src='/assets/img/portfolio/projects/omit/Artboard 5 (1).webp' alt="slide-5"/>
           </Carousel.Item>
         </Carousel>
       </div>

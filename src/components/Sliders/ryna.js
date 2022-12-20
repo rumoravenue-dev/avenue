@@ -12,13 +12,19 @@ function CarouselRyna() {
         </div>
         <Carousel variant='dark'>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna2.webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna3.webp' alt="slide-3"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna4.webp' alt="slide-4"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna5.webp' alt="slide-5"/>
           </Carousel.Item>
         </Carousel>
       </div>
