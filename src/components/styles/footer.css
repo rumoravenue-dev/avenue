@@ -117,6 +117,10 @@ body {
         margin-top: 30px;
     }
 
+    .footer .footerMedia .socialMedia img {
+        margin-right: 20px;
+    }
+
     .footer .footerMedia .backToTop {
         margin-left: 10px;
         margin-top: 30px;
@@ -168,7 +172,7 @@ body {
     }
 
     .footer .footerMedia .backToTop p {
-        margin-right: 2em;
+        margin-right: 4em;
         margin-left: 0;
     }
 
@@ -194,6 +198,7 @@ body {
 
     .footer .footerMedia .socialMedia {
         margin-left: 0;
+        width: 210px;
     }
    
     .footer .footerMedia .socialMedia img {

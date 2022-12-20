@@ -20,6 +20,7 @@ const Footer = () => {
                     <div className='col-12 col-sm-6 col-md-4 footerMedia'>
                         <div className='socialMedia'>
                             <img src="/assets/img/footer/facebook-logo.webp" alt="facebook"/>
+                            <img src="/assets/img/footer/linkedin.svg" alt="linkedin" />
                             <img src="/assets/img/footer/instagram-logo.webp" alt="instagram"/>
                             <img src="/assets/img/footer/Tiktok.webp" alt="tiktok"/>
                         </div>
