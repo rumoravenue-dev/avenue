@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles/modal.css"
+import CloseButton from 'react-bootstrap/CloseButton';
+import "./styles/modal.css";
 
 function Modal({ id = 'modal', onClose = (props) => {}, children }) {
 
@@ -10,7 +11,7 @@ function Modal({ id = 'modal', onClose = (props) => {}, children }) {
   return (
     <div id={id} className="modal" onClick={handleOutsideClick}>
       <div className="container">
-        <button className="close" onClick={onClose}>close</button>
+        <CloseButton className="close" variant="white" onClick={onClose} />
         <div className="content"> {children} </div>
       </div>
     </div>

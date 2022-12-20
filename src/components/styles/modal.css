@@ -22,12 +22,15 @@
 
 .container .close {
     background-color: transparent;
+    color: #fff;
     border: none;
     outline: none;
+    box-shadow: none;
     width: 32px;
     height: 32px;
     right: calc(-100% + 64px);
-    top: 16px;
+    top: 40px;
+    margin-left: -130px;
     cursor: pointer;
     display: flex;
     position: relative;

@@ -12,13 +12,16 @@ function CarouselInPremisse() {
         </div>
         <Carousel variant='dark'>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/sliders/INPREMISSE2.webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/Rectangle1.webp' alt="portfolio-1"/>
+            <img src='/assets/img/sliders/INPREMISSE3.webp' alt="slide-3"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src='/assets/img/sliders/INPREMISSE4.webp' alt="slide-4"/>
           </Carousel.Item>
         </Carousel>
       </div>
