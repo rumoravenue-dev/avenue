@@ -25,6 +25,7 @@
     "react-helmet": "6.1.0",
     "react-helmet-async": "1.0.7",
     "react-hook-form": "^7.41.0",
+    "react-icons": "^4.7.1",
     "react-image-comparison-slider": "^1.8.4",
     "react-lazy-load": "^4.0.1",
     "react-modal": "^3.16.1",
@@ -60,7 +61,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-icons": "^4.7.1"
-  }
+  "devDependencies": {}
 }
