@@ -62,21 +62,15 @@
   margin-top: 20px;
 }
 
-/* .eyeSection .eyeSunset {
-  position: absolute;
-  height: 225px;
-  margin-top: -330px;
-  margin-left: 195px;
-} */
-
 .eyeSection .eyeOpen {
   width: 40%;
   margin-top: -450px;
-  margin-left: 600px;
+  margin-left: 650px;
 }
 
 .eyeOpen .eye1 {
   height: 420px;
+  position: relative;
 }
 
 .eyeOpen .eyeSunset {
@@ -88,7 +82,18 @@
 .eyeSection .eyeCatch {
   width: 40%;
   margin-top: -450px;
-  margin-left: 600px;
+  margin-left: 650px;
+}
+
+.eyeCatch .eye2 {
+  height: 420px;
+  position: relative;
+}
+
+.eyeCatch .eyeSunset2 {
+  height: 200px;
+  margin-top: -450px;
+  margin-left: 110px;
 }
 
 @media screen and (max-width: 992px ) {
