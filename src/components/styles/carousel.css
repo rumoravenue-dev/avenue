@@ -1,6 +1,24 @@
-.container img {
-    height: 100px;
-    width: 100px;
+.carouselHome {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselHome .carouselControls {
+    width: 90%;
+    display: flex;
+}
+
+.carouselControls .buttonPrev,
+.carouselControls .buttonNext {
+    cursor: pointer;
+}
+
+.carouselControls .buttonPrev:hover,
+.carouselControls .buttonNext:hover {
+    opacity: .6;
 }
 
 .slider__handle {
@@ -33,6 +51,11 @@
         height: 150px;
     }
 
+    .carouselHome .carouselControls {
+        width: 130%;
+        display: flex;
+    }
+
     .slider__handle {
         height: 150px;
         width: 80px;
@@ -56,6 +79,11 @@
         height: 150px;
     }
 
+    .carouselHome .carouselControls {
+        width: 180%;
+        display: flex;
+    }
+
     .slider__handle {
         height: 150px;
         width: 80px;
@@ -73,11 +101,11 @@
          width: 100%;
     }
  
-    .carouselContent {
-         width: 550px;
-         height: 450px;
+    .carouselHome .carouselControls {
+        width: 150%;
+        display: flex;
     }
- 
+
      .slider__handle {
          height: 460px;
          width: 200px;
