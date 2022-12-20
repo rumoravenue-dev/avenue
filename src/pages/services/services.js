@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import Header from '../../components/header'
 import Presentation from '../../components/presentation'
 import OurServices from '../../components/ourservices'
+import GetInContat from '../../components/getInContact'
 import Footer from '../../components/footer'
 import { useEffect, useState } from 'react'
 import CarouselWords from '../../components/carouselWords';
@@ -141,6 +142,8 @@ const Services = () => {
                     </div>
                 </div>
             </section>
+
+            <GetInContat />
 
             <Footer />
         </>

@@ -5,7 +5,7 @@
 
 .carouselProjects .carousel-control-next-icon,
 .carouselProjects .carousel-control-prev-icon {
-    display: block;
+    display: block!important;
     color: #fff;
 }
 

@@ -106,11 +106,19 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+  .contact {
+    max-width: 100%;
+  }
+
   .mainContact {
     height: 400px;
     margin-top: 0;
     display: flex;
     justify-content: center;
+  }
+
+  .mainContact .row {
+    max-width: 100%;
   }
 
   .mainContact .mainContent {
@@ -124,13 +132,13 @@ body {
     font-size: 18px;
     line-height: 28px;
     color: #000000;
-    margin-left: -170px;
+    margin-left: -200px;
     margin-top: -110px;
   }
 
   .mainContact .mainContent img {
     height: 70px;
-    margin-left: -260px;
+    margin-left: -320px;
     margin-top: -110px;
   }
   
@@ -138,7 +146,7 @@ body {
     width: auto;
     height: 220px;
     top: 0px;
-    margin-left: 40px;
+    margin-left: 0px;
   }
 
   .containerMain {
@@ -156,16 +164,16 @@ body {
   
   .containerMain .contactusText h2 {
     max-width: 80%;
-    margin-top: -200px;
-    margin-left:35px;
+    margin-top: -230px;
+    margin-left: 10px;
     font-size: 20px;
     padding-left: 0em;
   }
   
   .containerMain .contactusText p {
     max-width: 60%;
-    margin-top: -110px;
-    margin-left: 70px;
+    margin-top: -120px;
+    margin-left: 40px;
     font-size: 8px;
   }
   
@@ -174,7 +182,7 @@ body {
     width: auto;
     height: 28px;
     margin-top: 180px;
-    margin-left: -470px;
+    margin-left: -510px;
     font-size: 12px;
     line-height: 24px;
     border-radius: 8px;

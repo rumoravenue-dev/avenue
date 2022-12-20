@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './Form';
+import Form from './form';
 import "./styles/getInContact.css";
 
 function getInContact(props) {
@@ -15,10 +15,7 @@ function getInContact(props) {
             <h1>It's 5pm somewhere</h1>
           </div>
 
-          <Form />
-          {/*<div data-paperform-id="fivepm"></div>*/}
-
-
+          {<Form />}
         </div>
       </section>
 

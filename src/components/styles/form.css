@@ -54,6 +54,10 @@
   color: #FFFFFF;
 }
 
+.contact-information p {
+  margin-bottom: 0;
+}
+
 .contact-information img {
   margin-right: 10px;
 }
@@ -163,11 +167,12 @@ input[type=text]{outline:none}
     height: auto;
     max-width: 100%;
     flex-direction: column;
-    margin-left: 210px;
+    margin-left: 200px;
   }
 
   .form-left-side {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .form-left-side h1 {
@@ -186,16 +191,22 @@ input[type=text]{outline:none}
   }
 
   .form-inputs {
-    width: 90%;
+    width: 100%;
+  }
+
+  .form-inputs input {
+    width: 100%;
   }
 
   .name-role {
     flex-direction: column;
   }
-  .name-role {
-   
+
+  .name-role .nameField {
+    margin-right: 0;
   }
-  .name-role:last-child {
+
+  .name-role :first-child {
     margin-right: 0px;
   }
 

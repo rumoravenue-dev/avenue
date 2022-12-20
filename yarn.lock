@@ -7941,14 +7941,11 @@ react-hook-form@^7.41.0:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.41.0.tgz#cc0871f4784e7233ac8466300da557d622154414"
   integrity sha512-u1cHOXujr+AsNBoeCtcCuRwPh87mXAgKtXqd3qTCBgNFYzVZLXjYgLcynORpAgqhe24r5scucR8+6gfWaXBtHQ==
 
-<<<<<<< HEAD
-=======
 react-icons@^4.7.1:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
   integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
 
->>>>>>> c9bd080aa56b03b019b28ae1956f3f2e41b16c4c
 react-image-comparison-slider@^1.8.4:
   version "1.8.4"
   resolved "https://registry.yarnpkg.com/react-image-comparison-slider/-/react-image-comparison-slider-1.8.4.tgz#c918db00253ac9dc607390f23ad98a8f7b4667f8"

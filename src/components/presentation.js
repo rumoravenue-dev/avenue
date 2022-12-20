@@ -28,9 +28,6 @@ const Presentation = () => {
                                     <Nav.Item>
                                     <Nav.Link eventKey="filetypes"> FILE TYPES </Nav.Link>
                                     </Nav.Item>
-                                    <Nav.Item>
-                                    <Nav.Link eventKey="etc"> ETC </Nav.Link>
-                                    </Nav.Item>
                                 </Nav>
                                 </Col>
                                 <Col sm={5}>
