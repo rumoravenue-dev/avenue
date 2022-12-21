@@ -1,0 +1,26 @@
+.controlsPortfolio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 10%;
+    height: 100px;
+}
+
+.controlsPortfolio .buttonNext {
+    margin-left: 5px;
+}
+
+.controlsPortfolio .buttonPrev {
+    margin-left: 0;
+}
+
+.controlsPortfolio .buttonPrev:active h1 svg,
+.controlsPortfolio .buttonNext:active h1 svg {
+    color: #F4BD03;
+}
+
+@media screen and (max-width: 576px ) {
+    .controlsPortfolio .buttonPrev {
+        margin-left: 30px;
+    }
+}
