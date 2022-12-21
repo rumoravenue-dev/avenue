@@ -302,6 +302,7 @@ body {
   .mainContact .mainContent img {
     height: 70px;
     margin-left: 10px;
+    /* top: 0; */
   }
   
   .sunsetImg {
