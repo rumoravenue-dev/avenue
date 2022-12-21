@@ -10,7 +10,7 @@ function CarouselTina() {
         <div className='projectsTitle'>
           <h3>Tina</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/TINA1.webp' alt="slide-1"/>
           </Carousel.Item>

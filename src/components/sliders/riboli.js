@@ -10,7 +10,7 @@ function CarouselRiboli() {
         <div className='projectsTitle'>
           <h3>Pelicargo</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1"/>
           </Carousel.Item>

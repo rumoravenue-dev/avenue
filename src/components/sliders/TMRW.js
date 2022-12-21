@@ -10,7 +10,7 @@ function CarouselTMRW() {
         <div className='projectsTitle'>
           <h3>TMRW</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/TMRW1.webp' alt="slide-1"/>
           </Carousel.Item>

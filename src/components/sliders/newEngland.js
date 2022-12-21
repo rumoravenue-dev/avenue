@@ -10,7 +10,7 @@ function CarouselNewEngland() {
         <div className='projectsTitle'>
           <h3>New England</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1"/>
           </Carousel.Item>
