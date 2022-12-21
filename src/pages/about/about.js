@@ -16,7 +16,7 @@ function About() {
         <title> About - 5pm </title>
       </Helmet>
 
-      {/* <Header contact={contact}/> */}
+      <Header contact={contact}/>
 
       <section className="mainAbout container-fluid">
         <div className="row">
@@ -53,9 +53,9 @@ function About() {
       </section>
 
       <EyeOpening />
-      {/* <Brands />
+      <Brands />
       <GetInContact />
-      <Footer /> */}
+      <Footer />
     </ div>
   )
 }
