@@ -82,7 +82,7 @@ body {
 
 .footer .footerMedia .backToTop p {
     margin-right: 2em;
-    margin-left: 3em;
+    margin-left: 8em;
 }
 
 @media screen and (max-width: 350px) {
