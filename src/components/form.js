@@ -59,7 +59,7 @@ function Form() {
                   {errors.message && <span className="errorMessage">This field is required</span>}
                 </div>
               </div>
-              <button type="submit">Send Message</button>
+              <button className="btnForm" type="submit">Send Message</button>
             </div>
           </form>
       </div>

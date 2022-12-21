@@ -76,6 +76,20 @@ body {
     display: none;
 }
 
+.seeAllProjects {
+    height: 160px;
+    background-color: rgb(40, 44, 52);
+    margin-top: -100px!important;
+}
+
+.seeAllProjects a {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 160px;
+}
+
 .homeQuestions {
     padding: 15em 5em;
 }
@@ -189,6 +203,14 @@ body {
         width: 100%;
     }
 
+    .seeAllProjects {
+        margin-top: 0px!important;
+    }
+    
+    .seeAllProjects a {
+        margin-left: 40px;
+    }
+
     .homeQuestions {
         padding: 200px 32px;
     }
@@ -260,6 +282,14 @@ body {
         height: 180px;
     }
 
+    .seeAllProjects {
+        margin-top: 0px!important;
+    }
+    
+    .seeAllProjects a {
+        margin-left: 40px;
+    }
+
     .homeQuestions {
         padding: 80px 30px;
         text-align: left;
@@ -312,6 +342,10 @@ body {
     .homePresentations img {
         width: 100%;
         height: 350px;
+    }
+
+    .seeAllProjects {
+        margin-top: 0px!important;
     }
     
     .homeQuestions {

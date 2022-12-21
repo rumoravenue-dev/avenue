@@ -49,7 +49,11 @@ function App() {
 
       <OurServices />
 
-      <TakeALook home={home}/>
+      <TakeALook/>
+
+      <div className="seeAllProjects">
+        <a href="/portfolio">See all projects →</a>
+      </div>
 
       <section className="homeQuestions">
         <div className="row">
