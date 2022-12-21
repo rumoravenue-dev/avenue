@@ -2,26 +2,26 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./styles/sliders.css"
 
-function CarouselHennessy() {
+function CarouselLilDan() {
 
   return (
     <>
       <div className='carouselProjects'>
         <div className='projectsTitle'>
-          <h3>Hennessy</h3>
+          <h3>Lil Dan</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
-            <img src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"/>
+            <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/HENNESSY2.webp' alt="slide-2"/>
+            <img src='/assets/img/portfolio/projects/lildan/LILDAN2.webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/HENNESSY3.webp' alt="slide-3"/>
+            <img src='/assets/img/portfolio/projects/lildan/LILDAN3.webp' alt="slide-3"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/HENNESSY4.webp' alt="slide-4"/>
+            <img src='/assets/img/portfolio/projects/lildan/LILDAN4.webp' alt="slide-4"/>
           </Carousel.Item>
         </Carousel>
       </div>
@@ -29,4 +29,4 @@ function CarouselHennessy() {
   );
 }
 
-export default CarouselHennessy;
+export default CarouselLilDan;

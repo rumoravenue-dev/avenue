@@ -2,26 +2,26 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./styles/sliders.css"
 
-function CarouselInPremisse() {
+function CarouselHennessy() {
 
   return (
     <>
       <div className='carouselProjects'>
         <div className='projectsTitle'>
-          <h3>In Premisse</h3>
+          <h3>Hennessy</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
-            <img src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1"/>
+            <img src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/INPREMISSE2.webp' alt="slide-2"/>
+            <img src='/assets/img/sliders/HENNESSY2.webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/INPREMISSE3.webp' alt="slide-3"/>
+            <img src='/assets/img/sliders/HENNESSY3.webp' alt="slide-3"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/INPREMISSE4.webp' alt="slide-4"/>
+            <img src='/assets/img/sliders/HENNESSY4.webp' alt="slide-4"/>
           </Carousel.Item>
         </Carousel>
       </div>
@@ -29,4 +29,4 @@ function CarouselInPremisse() {
   );
 }
 
-export default CarouselInPremisse;
+export default CarouselHennessy;

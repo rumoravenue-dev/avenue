@@ -1,25 +1,29 @@
 import React, {useState} from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import Modal from './modal';
+import ReactSwipe from 'react-swipe';
 
-import CarouselAtria from './Sliders/atria';
-import CarouselTMRW from './Sliders/TMRW';
-import CarouselTina from './Sliders/tina';
-import CarouselRiboli from './Sliders/riboli';
+import "./styles/carouselPortfolio.css"
 
-import CarouselNewEngland from './Sliders/newEngland';
-import CarouselHennessy from './Sliders/newEngland';
-import CarouselInPremisse from './Sliders/inPremisse';
-import CarouselGreenHouseWine from './Sliders/greenHouseWine';
+import CarouselAtria from './sliders/atria';
+import CarouselTMRW from './sliders/TMRW';
+import CarouselTina from './sliders/tina';
+import CarouselRiboli from './sliders/riboli';
 
-import CarouselOmit from './Sliders/omit';
-import CarouselBookAble from './Sliders/bookAble';
-import CarouselPelicargo from './Sliders/pelicargo';
-import CarouselGaylordHotels from './Sliders/gaylordHotels'
+import CarouselNewEngland from './sliders/newEngland';
+import CarouselHennessy from './sliders/newEngland';
+import CarouselInPremisse from './sliders/inPremisse';
+import CarouselGreenHouseWine from './sliders/greenHouseWine';
 
-import CarouselLilDan from './Sliders/lilDan';
-import CarouselWerx from './Sliders/werx';
-import CarouselRyna from './Sliders/ryna';
+import CarouselOmit from './sliders/omit';
+import CarouselBookAble from './sliders/bookAble';
+import CarouselPelicargo from './sliders/pelicargo';
+import CarouselGaylordHotels from './sliders/gaylordHotels'
+
+import CarouselLilDan from './sliders/lilDan';
+import CarouselWerx from './sliders/werx';
+import CarouselRyna from './sliders/ryna';
+
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 function CarouselPort() {
   
@@ -42,6 +46,8 @@ function CarouselPort() {
   const [isModalWerx, setisModalWerx] = useState(false)
   const [isModalRyna, setisModalRyna] = useState(false)
 
+  let reactSwipeEl;
+
   return (
     <>
       {isModalAtria ?( <Modal onClose={() => setIsModalAtria(false)} > <CarouselAtria/> </Modal>) : null}
@@ -63,31 +69,42 @@ function CarouselPort() {
       {isModalWerx ?( <Modal onClose={() => setisModalWerx(false)} > <CarouselWerx/> </Modal>) : null}
       {isModalRyna ?( <Modal onClose={() => setisModalRyna(false)} > <CarouselRyna/> </Modal>) : null}
 
-      <Carousel nextIcon prevIcon>
-      <Carousel.Item>
+      <div className='controlsPortfolio'>
+        <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft/></h1></a>
+        <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight/></h1></a>
+      </div>
+
+      <ReactSwipe
+        className="carouselPortfolio"
+        swipeOptions={{ continuous: true }}
+        ref={el => (reactSwipeEl = el)}
+        widthOfSiblingSlidePreview={950}
+      >
+
+        <div>
           <img src='/assets/img/portfolio/projects/atria/Atria2.webp' alt="slide-1" onClick={() => setIsModalAtria(true)}/>
           <img src='/assets/img/sliders/TMRW1.webp' alt="slide-1"  onClick={() => setisModalTMRW(true)}/>
           <img src='/assets/img/sliders/TINA1.webp' alt="slide-1"  onClick={() => setisModalTina(true)}/>
           <img src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1"  onClick={() => setisModalRiboli(true)}/>
-        </Carousel.Item>
-        <Carousel.Item>
+        </div>
+        <div>
           <img src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1"  onClick={() => setisModalNewEngland(true)}/>
           <img src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"  onClick={() => setisModalHennessy(true)}/>
           <img src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1"  onClick={() => setisModalInPremisse(true)}/>
           <img src='/assets/img/sliders/GREENHOUSEWINE1.webp' alt="slide-1"  onClick={() => setisModalGreenHouseWine(true)}/>
-        </Carousel.Item>
-        <Carousel.Item>
+        </div>
+        <div>
           <img src='/assets/img/portfolio/projects/omit/Artboard 1 (1).webp' alt="slide-1"  onClick={() => setIsModalOmit(true)}/>
           <img src='/assets/img/portfolio/projects/bookable/Artboard 1.webp' alt="slide-1"  onClick={() => setisModalBookAble(true)}/>
           <img src='/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp' alt="slide-1"  onClick={() => setisModalPelicargo(true)}/>
           <img src='/assets/img/portfolio/projects/gaylord/Gaylord_01.webp' alt="slide-1"  onClick={() => setisModalGaylordHotels(true)}/>
-        </Carousel.Item>
-        <Carousel.Item>
+        </div>
+        <div>
           <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1"  onClick={() => setIsModalLilDan(true)}/>
           <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1"  onClick={() => setisModalWerx(true)}/>
           <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1"  onClick={() => setisModalRyna(true)}/>
-        </Carousel.Item>
-      </Carousel>
+        </div>
+      </ReactSwipe>
     </>
   );
 }

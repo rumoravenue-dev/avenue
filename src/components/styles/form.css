@@ -2,7 +2,7 @@
 
 .form-container {
   position: relative;
-  margin-top: 200px;
+  margin-top: 140px;
   margin-left: -160px;
   z-index: 2;
 }
@@ -152,7 +152,7 @@ input[type=text]{outline:none}
   height: 56px;
   left: 513px;
   /* top: 357px; */
-
+  font-size: 16px;
   background: #FFFFFF;
   border-radius: 8px;
   border: none;

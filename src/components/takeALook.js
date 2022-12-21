@@ -11,10 +11,6 @@ function Portfolio(props) {
             <h4>portfolio</h4>
             <img className="takeALook" src='/assets/img/portfolio/takealook.svg' alt="takeALook" />
           </div>
-          <div className="col-12 col-sm-12 arrowContainer">
-            <img src='/assets/img/portfolio/Arrowleft.svg' alt="arrow-left" />
-            <img src='/assets/img/portfolio/Arrowright.svg' alt="arrow-right" />
-          </div>
         </div>
         <div className="col-12 col-sm-12 portfolioContainer">
           <Carousel />

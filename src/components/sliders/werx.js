@@ -10,7 +10,7 @@ function CarouselWerx() {
         <div className='projectsTitle'>
           <h3>Werx</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" />
           </Carousel.Item>

@@ -10,7 +10,7 @@ function CarouselPelicargo() {
         <div className='projectsTitle'>
           <h3>Pelicargo</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp' alt="slide-1"/>
           </Carousel.Item>

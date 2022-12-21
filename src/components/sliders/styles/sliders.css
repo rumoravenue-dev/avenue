@@ -3,10 +3,9 @@
     color: #fff;
 }
 
-/* .active carousel-item img {
-    height: 100px;
-    border: 5px;
-} */
+.carouselProjects .carousel-control-next-icon {
+    margin-right: -50px;
+}
 
 .carouselProjects .carousel-control-next-icon,
 .carouselProjects .carousel-control-prev-icon {
@@ -22,4 +21,8 @@
 .carouselProjects .carousel-control-prev-icon {
     margin-right: 150px;
     position: absolute;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: none;
 }

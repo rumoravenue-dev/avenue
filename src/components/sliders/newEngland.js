@@ -2,34 +2,34 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./styles/sliders.css"
 
-function CarouselTMRW() {
+function CarouselNewEngland() {
 
   return (
     <>
       <div className='carouselProjects'>
         <div className='projectsTitle'>
-          <h3>TMRW</h3>
+          <h3>New England</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
-            <img src='/assets/img/sliders/TMRW1.webp' alt="slide-1"/>
+            <img src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/TMRW2.webp' alt="slide-2"/>
+            <img src='/assets/img/sliders/NEWENGLAND2.webp' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/TMRW3.webp' alt="slide-3"/>
+            <img src='/assets/img/sliders/NEWENGLAND3.webp' alt="slide-3"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/TMRW4.webp' alt="slide-4"/>
+            <img src='/assets/img/sliders/NEWENGLAND4.webp' alt="slide-4"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/sliders/TMRW5.webp' alt="slide-5"/>
+            <img src='/assets/img/sliders/NEWENGLAND5.webp' alt="slide-5"/>
           </Carousel.Item>
         </Carousel>
       </div>
-    </>
+  </>
   );
 }
 
-export default CarouselTMRW;
+export default CarouselNewEngland;

@@ -10,7 +10,7 @@ function CarouselRyna() {
         <div className='projectsTitle'>
           <h3>Ryna</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1"/>
           </Carousel.Item>
