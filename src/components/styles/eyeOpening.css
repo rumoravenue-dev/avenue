@@ -64,9 +64,8 @@
 
 .eyeSection .eyeOpen {
   width: 40%;
-  height: 300px;
   margin-top: -450px;
-  margin-left: 650px;
+  margin-left: 750px;
 }
 
 .eyeOpen .eye1 {
@@ -83,7 +82,7 @@
 .eyeSection .eyeCatch {
   width: 40%;
   margin-top: -450px;
-  margin-left: 650px;
+  margin-left: 750px;
 }
 
 .eyeCatch .eye2 {
