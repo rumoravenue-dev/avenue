@@ -54,7 +54,11 @@ body {
 
 @media only screen and (max-width: 350px) {
     .brandsPartnerships {
-        height: 240vh;
+        height: 195vh;
+    }
+
+    .brandsPartnerships .partnershipsTitle {
+        margin-top: 1em;
     }
 
     .brandsPartnershipsRow {
@@ -78,14 +82,14 @@ body {
 
 @media (min-width: 351px) and (max-width: 576px ) {
     .brandsPartnerships {
-        height: 1800px!important;
+        height: 1545px!important;
         padding-bottom: 0px;
         padding-left: 32px;
     }
     
     .brandsPartnerships .partnershipsTitle {
         height: 386px;
-        margin-top: 8px;
+        margin-top: 80px;
     }
     
     .brandsPartnerships .partnershipsTitle h2 {

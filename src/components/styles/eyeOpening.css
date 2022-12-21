@@ -5,7 +5,7 @@
 
 .eyeSection .eyeOpening h1 {
   height: 310px;
-  width: 40%;
+  width: 30%;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
@@ -65,7 +65,7 @@
 .eyeSection .eyeOpen {
   width: 40%;
   margin-top: -450px;
-  margin-left: 650px;
+  margin-left: 750px;
 }
 
 .eyeOpen .eye1 {
@@ -82,7 +82,7 @@
 .eyeSection .eyeCatch {
   width: 40%;
   margin-top: -450px;
-  margin-left: 650px;
+  margin-left: 750px;
 }
 
 .eyeCatch .eye2 {
