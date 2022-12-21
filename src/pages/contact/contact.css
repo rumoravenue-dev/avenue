@@ -60,13 +60,12 @@ body {
 
 .containerMain .contactusText h2 {
   position: absolute;
-  width: 720px;
+  width: 800px;
   margin-top: -12em;
-  margin-left: 1em;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
-  font-size: 3.1em;
+  font-size: 3.3em;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;

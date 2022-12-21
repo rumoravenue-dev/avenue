@@ -4,24 +4,24 @@ import ReactSwipe from 'react-swipe';
 
 import "./styles/carouselPortfolio.css"
 
-import CarouselAtria from './Sliders/atria';
-import CarouselTMRW from './Sliders/TMRW';
-import CarouselTina from './Sliders/tina';
-import CarouselRiboli from './Sliders/riboli';
+import CarouselAtria from './sliders/atria';
+import CarouselTMRW from './sliders/TMRW';
+import CarouselTina from './sliders/tina';
+import CarouselRiboli from './sliders/riboli';
 
-import CarouselNewEngland from './Sliders/newEngland';
-import CarouselHennessy from './Sliders/newEngland';
-import CarouselInPremisse from './Sliders/inPremisse';
-import CarouselGreenHouseWine from './Sliders/greenHouseWine';
+import CarouselNewEngland from './sliders/newEngland';
+import CarouselHennessy from './sliders/newEngland';
+import CarouselInPremisse from './sliders/inPremisse';
+import CarouselGreenHouseWine from './sliders/greenHouseWine';
 
-import CarouselOmit from './Sliders/omit';
-import CarouselBookAble from './Sliders/bookAble';
-import CarouselPelicargo from './Sliders/pelicargo';
-import CarouselGaylordHotels from './Sliders/gaylordHotels'
+import CarouselOmit from './sliders/omit';
+import CarouselBookAble from './sliders/bookAble';
+import CarouselPelicargo from './sliders/pelicargo';
+import CarouselGaylordHotels from './sliders/gaylordHotels'
 
-import CarouselLilDan from './Sliders/lilDan';
-import CarouselWerx from './Sliders/werx';
-import CarouselRyna from './Sliders/ryna';
+import CarouselLilDan from './sliders/lilDan';
+import CarouselWerx from './sliders/werx';
+import CarouselRyna from './sliders/ryna';
 
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
