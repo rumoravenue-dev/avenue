@@ -46,7 +46,6 @@
 }
 
 @media screen and (max-width: 992px ) {
-
   .modal .container {
     height: auto;
     margin-left: -40px;
@@ -56,10 +55,14 @@
   .container .close {
     left: 420px;
   }
-
 }
 
 @media screen and (max-width: 576px ) {
+  .modal {
+    padding: 0;
+    padding-top: 10em;
+    padding-left: 0em;
+  }
    
   .modal .container {
     height: auto;

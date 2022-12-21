@@ -18,7 +18,7 @@ function Portfolio() {
       <Helmet>
           <title> Portfolio - 5pm </title>
       </Helmet>
-      {/* <Header /> */}
+      <Header />
       <TakeALook /> 
       <GetInContact portfolio={portfolio}/>
       <Footer /> 
