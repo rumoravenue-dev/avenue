@@ -137,6 +137,10 @@ body {
     margin-bottom: 10px;
   }
 
+  .mainPortfolio .portfolioContainer img {
+    height: 150px;
+  }
+
   /* Home */
 
   .homePortfolio {
@@ -158,8 +162,8 @@ body {
 
   .mainPortfolio .titleContainer {
     max-width: 90%;
-    margin-top: -100px;
-    margin-left: 15px;
+    margin-top: -82px;
+    margin-left: 25px;
   }
 
   .mainPortfolio .titleContainer h4 {
@@ -169,32 +173,17 @@ body {
 
   .mainPortfolio .titleContainer .takeALook {
     height: 40px;
-    margin-bottom: 10px;
-  }
-
-  .mainPortfolio .arrowContainer {
-    height: 14px;
-    margin-bottom: 10px;
-    width: 50%;
-  }
-
-  .mainPortfolio .arrowContainer img {
-    height: 14px;
-    margin-bottom: 10px;
-  }
-
-  .mainPortfolio .arrowContainer > img {
-    margin-right: 1px;
   }
 
   .mainPortfolio .portfolioContainer {
-    margin-left: 20px;
-    width: 80%;
+    margin-left: 30px;
+    width: 85%;
   }
 
   .mainPortfolio .portfolioContainer img {
     height: 180px;
     width: 100%;
+    justify-content: center;
   }
 
   /* Home */
@@ -221,21 +210,6 @@ body {
   .homePortfolio .titleContainer .takeALook {
     height: 40px;
     margin-bottom: 10px;
-  }
-
-  .homePortfolio .arrowContainer {
-    height: 14px;
-    margin-bottom: 10px;
-    width: 50%;
-  }
-
-  .homePortfolio .arrowContainer img {
-    height: 14px;
-    margin-bottom: 10px;
-  }
-
-  .homePortfolio .arrowContainer > img {
-    margin-right: 1px;
   }
 
   .homePortfolio .portfolioContainer {
