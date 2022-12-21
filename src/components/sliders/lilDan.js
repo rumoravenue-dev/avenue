@@ -10,7 +10,7 @@ function CarouselLilDan() {
         <div className='projectsTitle'>
           <h3>Lil Dan</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1"/>
           </Carousel.Item>

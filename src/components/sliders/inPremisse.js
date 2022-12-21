@@ -10,7 +10,7 @@ function CarouselInPremisse() {
         <div className='projectsTitle'>
           <h3>In Premisse</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1"/>
           </Carousel.Item>

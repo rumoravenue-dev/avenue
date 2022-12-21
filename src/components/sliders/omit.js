@@ -10,7 +10,7 @@ function CarouselOmit() {
         <div className='projectsTitle'>
           <h3>Omit</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/omit/Artboard 1 (1).webp' alt="slide-1"/>
           </Carousel.Item>

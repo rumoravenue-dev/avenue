@@ -10,7 +10,7 @@ function CarouselGreenHouseWine() {
         <div className='projectsTitle'>
           <h3>greenHouse Wine</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/GREENHOUSEWINE1.webp' alt="slide-1"/>
           </Carousel.Item>

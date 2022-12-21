@@ -10,7 +10,7 @@ function CarouselHennessy() {
         <div className='projectsTitle'>
           <h3>Hennessy</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"/>
           </Carousel.Item>

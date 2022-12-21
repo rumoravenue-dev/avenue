@@ -10,7 +10,7 @@ function CarouselGaylordHotels() {
         <div className='projectsTitle'>
           <h3>Gaylord Hotels</h3>
         </div>
-        <Carousel variant='dark'>
+        <Carousel>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/gaylord/Gaylord_01.webp' alt="slide-1" />
           </Carousel.Item>
