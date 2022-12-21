@@ -21,9 +21,10 @@ function ControlledCarousel() {
 
       <ReactSwipe
         className="carousel"
-        swipeOptions={{ continuous: true }}
+        swipeOptions={{ continuous: true, disableScroll: true }}
         ref={el => (reactSwipeEl = el)}
         widthOfSiblingSlidePreview={950}
+        
       >
 
         <div className="carouselContent">
