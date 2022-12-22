@@ -164,18 +164,19 @@ body {
   }
   
   .containerMain .contactusText h2 {
-    max-width: 80%;
-    margin-top: -230px;
-    margin-left: 10px;
+    max-width: 100%;
+    margin-top: -170px;
+    margin-left: -10px;
     font-size: 20px;
     padding-left: 0em;
   }
   
   .containerMain .contactusText p {
-    max-width: 60%;
-    margin-top: -120px;
-    margin-left: 40px;
+    max-width: 100%;
+    margin-top: -90px;
+    margin-left: -6px;
     font-size: 8px;
+    padding-right: 0;
   }
   
   .containerMain .btnStart {
@@ -223,6 +224,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     margin-top: -120px;
+    margin-left: 16px;
   }
 
   .mainContact .mainContent img {
@@ -264,6 +266,7 @@ body {
     margin-top: -115px;
     margin-left: 25px;
     font-size: 10px;
+    padding-right: 0;
 }
   
   .containerMain .btnStart {
