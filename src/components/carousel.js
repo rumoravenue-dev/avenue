@@ -29,8 +29,8 @@ function ControlledCarousel() {
 
         <div className="carouselContent">
           <ImageSlider
-            image1="assets/img/home/carousel/Atria-Ventures-LP-Presentation.webp"
-            image2="assets/img/home/carousel/Atria-Ventures-v6.webp"
+            image1="assets/img/portfolio/projects/atria/Atria2.webp"
+            image2="assets/img/portfolio/projects/atria/Atria1.webp"
             onSlide={() => {
               console.log("sliding");
             }}

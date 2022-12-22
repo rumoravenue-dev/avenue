@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className='col-12 col-sm-6 col-md-4 footerMedia'>
                         <div className='socialMedia'>
                             <a href='https://www.facebook.com/itsonly5pm'><img src="/assets/img/footer/facebook-logo.webp" alt="facebook"/></a>
-                            <a href=''><img src="/assets/img/footer/linkedin.svg" alt="linkedin" /></a>
+                            <a href='/'><img src="/assets/img/footer/linkedin.svg" alt="linkedin" /></a>
                             <a href='https://www.instagram.com/itsonlyfivepm/'><img src="/assets/img/footer/instagram-logo.webp" alt="instagram"/></a>
                             <a href='https://www.tiktok.com/@itsonly5pm'><img src="/assets/img/footer/Tiktok.webp" alt="tiktok"/></a>
                         </div>
