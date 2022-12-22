@@ -37,6 +37,21 @@
     width:100%;
 }
 
+.navSidebar button {
+  padding: 10px 22px;
+  gap: 10px;
+  margin-top: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+}
+
+.navSidebar button a {
+    color: #000000!important;
+    font-weight: 400!important;
+    font-size: 12px!important;
+}
+
 /* mostrar subItems   */
 .showList {
     display: block;

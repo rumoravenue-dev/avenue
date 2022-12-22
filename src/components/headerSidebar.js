@@ -18,6 +18,11 @@ const HeaderSidebar = () => {
                 <li>
                     <a href='/about'>About Us</a>
                 </li>
+                <li>
+                    <button>
+                        <a href='/contact'>Start a new Project</a>
+                    </button>
+                </li>
             </ul>
         </nav>
     );
