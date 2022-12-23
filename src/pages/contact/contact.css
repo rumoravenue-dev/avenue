@@ -42,7 +42,7 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #000000;
-  margin-left: 16px;
+  margin-left: 150px;
 }
 
 .containerMain {
@@ -61,7 +61,7 @@ body {
 .containerMain .contactusText h2 {
   position: absolute;
   width: 950px;
-  margin-top: -9em;
+  margin-top: -8.5em;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
@@ -74,16 +74,17 @@ body {
 
 .containerMain .contactusText p {
   position: absolute;
-  width: 700px;
-  margin-top: -21em;
-  margin-left: 3em;
+  width: 1250px;
+  margin-top: -13em;
+  margin-left: -3em;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.6em;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  padding-right: 270px;
 }
 
 .containerMain .btnStart {
@@ -91,7 +92,7 @@ body {
   width: 304px;
   height: 72px;
   left: 570px;
-  margin-top: -11em;
+  margin-top: -8em;
   margin-left: -15.5em;
   font-family: 'Poppins';
   font-style: normal;
@@ -163,18 +164,19 @@ body {
   }
   
   .containerMain .contactusText h2 {
-    max-width: 80%;
-    margin-top: -230px;
-    margin-left: 10px;
+    max-width: 100%;
+    margin-top: -170px;
+    margin-left: -10px;
     font-size: 20px;
     padding-left: 0em;
   }
   
   .containerMain .contactusText p {
-    max-width: 60%;
-    margin-top: -120px;
-    margin-left: 40px;
+    max-width: 100%;
+    margin-top: -90px;
+    margin-left: -6px;
     font-size: 8px;
+    padding-right: 0;
   }
   
   .containerMain .btnStart {
@@ -222,6 +224,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     margin-top: -120px;
+    margin-left: 16px;
   }
 
   .mainContact .mainContent img {
@@ -263,6 +266,7 @@ body {
     margin-top: -115px;
     margin-left: 25px;
     font-size: 10px;
+    padding-right: 0;
 }
   
   .containerMain .btnStart {

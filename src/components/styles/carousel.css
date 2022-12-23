@@ -21,6 +21,16 @@
     opacity: .6;
 }
 
+.carouselHome .carousel {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel .carouselContent {
+    width: 100%;
+    height: 450px;
+}
+
 .slider__handle {
     background-image: url("../../../public//assets/img/home/carousel/Vector.webp");
     background-color: transparent;
@@ -35,48 +45,46 @@
     display: none;
 }
 
-.carouselContent {
-    width: 700px;
-    height: 450px;
-}
-
 
 @media only screen and (max-width: 350px) {
-    .carouselItem {
-        width: 50%;
-   }
+    .carouselHome .carousel {
+        width: 230px;
+        height: 190px;
+    }
 
    .carouselContent {
-        width: 200px;
-        height: 150px;
+        width: 300px;
+        height: 100px;
     }
 
     .carouselHome .carouselControls {
-        width: 130%;
+        width: 150%;
         display: flex;
     }
 
     .slider__handle {
-        height: 150px;
+        height: 190px;
         width: 80px;
-        left: 50%;
+        left:360%;
+        margin-top: -150px;
     }
 
-    .slider__container .img-comp-overlay img{
-        width: 70%;
-        height: 45px;
+    .slider__container  img{
+        width: 100%;
+        height: 150px;
     }
 }
 
 
 @media (min-width: 351px) and (max-width: 576px) {
-   .carouselItem {
-        width: 70%;
-   }
+    .carouselHome .carousel {
+        width: 300px;
+        height: 210px;
+    }
 
    .carouselContent {
         width: 300px;
-        height: 150px;
+        height: 180px;
     }
 
     .carouselHome .carouselControls {
@@ -85,9 +93,10 @@
     }
 
     .slider__handle {
-        height: 150px;
-        width: 80px;
-        left: 50%;
+        height: 240px;
+        width: 100px;
+        left: 950%;
+        margin-top: -140px;
     }
 
     .slider__container .img-comp-overlay img{
@@ -97,19 +106,26 @@
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-    .carouselItem {
-         width: 100%;
+
+    .carouselHome .carousel {
+        width: 600px;
+        height: 450px;
     }
- 
+    
+    .carousel .carouselContent {
+        width: 100%;
+        height: 450px;
+    }
+
     .carouselHome .carouselControls {
-        width: 150%;
+        width: 135%;
         display: flex;
     }
 
      .slider__handle {
          height: 460px;
          width: 200px;
-         left: 105%;
+         left: 955%;
          top: 35%;
      }
  
