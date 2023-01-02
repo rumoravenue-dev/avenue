@@ -43,7 +43,8 @@ body {
 }
 
 .headerBlack .headerLinks a {
-    color: #000;
+    /*color: rgba(110, 96, 96, 0.733);*/
+    color: #373737;
 }
 
 .headerLinks a:hover {
