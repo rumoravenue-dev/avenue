@@ -9,7 +9,7 @@ const startANewProject = () => {
     return (
         <>
             <Helmet>
-                <title> Services - 5pm </title>
+                <title> New Project - 5pm </title>
             </Helmet>
             <Header />
             <div className="startANewProject">
