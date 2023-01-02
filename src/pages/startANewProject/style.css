@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.startANewProject {
+    background-color: #EFEFEF;
+}
+
+.startANewProject .form {
+    padding-top: 80px;
+}
+
+.startANewProject  .footer {
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 350px ) {
+    .startANewProject  .footer {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 576px ) {
+    .startANewProject  .footer {
+        padding-top: 100px;
+        height: 700px;
+    }
+}
+
