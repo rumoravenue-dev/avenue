@@ -6,7 +6,6 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 
 import './styles/carousel.css';
-import { Hidden } from '@mui/material';
 
 function ControlledCarousel() {
 
@@ -18,6 +17,10 @@ function ControlledCarousel() {
       <div className='carouselControls'>
         <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft color="white"/></h1></a>
         <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight color="white"/></h1></a>
+      </div>
+      <div className='carouselDescription'>
+        <h6>Before</h6>
+        <h6>After</h6>
       </div>
 
       <ReactSwipe

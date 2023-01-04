@@ -11,8 +11,9 @@ const startANewProject = () => {
             <Helmet>
                 <title> New Project - 5pm </title>
             </Helmet>
-            <Header />
+            
             <div className="startANewProject">
+                <Header />
                 <div className="form" data-paperform-id='fivepm'></div>
                 <Footer />
             </div>

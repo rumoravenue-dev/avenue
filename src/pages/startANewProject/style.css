@@ -8,6 +8,24 @@ body {
     background-color: #EFEFEF;
 }
 
+.startANewProject .onSidebar svg{
+    animation: onSidebar 1s;
+}
+
+@keyframes onSidebar {
+    from {color: #000;}
+    to {color: #fff;}
+}
+
+.startANewProject .outSidebar svg{
+    animation: outSidebar 1.5s;
+    color: #000;
+}
+@keyframes outSidebar {
+    from {color: #fff;}
+    to {color: #000;}
+}
+
 .startANewProject .form {
     padding-top: 80px;
 }
