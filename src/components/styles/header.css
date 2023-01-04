@@ -74,40 +74,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-.wrap .burger:hover {
-    background: transparent;
-}
-.wrap .burger-strip {
-    transition: all .5s ease;
-}
-.wrap .strip div {
-    height: 3px;
-    background: #fff;
-    margin: 10px;
-    transition: all .55s cubic-bezier(0.075, 0.82, 0.165, 1);
-    width: 40px;
-}
-.wrap .burger-strip-5 div {
-    transition: all .65s cubic-bezier(0.075, 0.82, 0.165, 1)
-}
-.wrap .burger .wrap .burger-strip-5 div:last-child {
-    width: 50%;
-}
-.wrap .burger:hover .wrap .burger-strip-5 div:first-child {
-    width: 50px;
-    transform: translateY(13px) rotate(0deg) ;
-}
-.wrap .burger:hover .wrap .burger-strip-5 div:nth-child(2) {
-    opacity: 0;
-}
-.wrap .burger:hover .wrap .burger-strip-5 div:last-child {
-    width: 50px;
-    transform: translateY(-13px) rotate(90deg) ;
-}
-.wrap .burger:hover .wrap .burger-strip-5 {
-    transform: scale(.7) rotate(45deg);
-    transition: all .25s ease .05s;
-}
 
 .showSidebar,
 .hiddenSidebar {
