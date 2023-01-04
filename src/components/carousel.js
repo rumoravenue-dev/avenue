@@ -9,18 +9,19 @@ import './styles/carousel.css';
 
 function ControlledCarousel() {
 
-
   let reactSwipeEl;
 
   return (
     <div className='carouselHome'>
-      <div className='carouselControls'>
-        <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft color="white"/></h1></a>
-        <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight color="white"/></h1></a>
-      </div>
-      <div className='carouselDescription'>
-        <h6>Before</h6>
-        <h6>After</h6>
+      <div className='controllerDescription'>
+        <div className='carouselControls'>
+          <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft color="white"/></h1></a>
+          <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight color="white"/></h1></a>
+        </div>
+        <div className='carouselDescription'>
+          <h6>Before</h6>
+          <h6>After</h6>
+        </div>
       </div>
 
       <ReactSwipe
@@ -73,8 +74,11 @@ function ControlledCarousel() {
             sliderColor="transparent"
           />
         </div>
-
       </ReactSwipe>
+
+      <div className='controllerDrag'>
+        <h6>← CLICK & DRAG →</h6>
+      </div>
     </div>
   );
 }
