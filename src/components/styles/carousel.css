@@ -46,12 +46,12 @@
 
 .carouselHome .carousel {
     width: 100%;
-    height: 500px;
+    height: 570px;
 }
 
 .carousel .carouselContent {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .slider__handle {
@@ -59,9 +59,15 @@
     background-color: transparent;
     background-position: right;
     background-size: cover;
-    height: 600px;
+    height: 630px;
     width: 270px;
     left: 1050%;
+    top: 40%;
+}
+
+.slider__container  img{
+    width: 100%;
+    height: 450px;
 }
 
 .slider__handle svg {
@@ -74,7 +80,7 @@
     font-size: 16px;
     line-height: 21px;
     line-height: 130%;
-    margin-top: 30px;
+    margin-top: -70px;
 }
 
 @media only screen and (max-width: 350px) {
@@ -97,7 +103,7 @@
     }
     .carouselHome .carouselDescription {
         margin-top: 5px;
-        padding: 0px;
+        padding: 0px 5px;
     }
 
     .carouselDescription h6 {
@@ -108,7 +114,7 @@
         height: 190px;
         width: 80px;
         left:360%;
-        top: 45%;
+        top: 37%;
         margin-top: -150px;
     }
 
@@ -162,7 +168,12 @@
         width: 100px;
         left: 950%;
         margin-top: -140px;
-        top: 45%;
+        top: 38%;
+    }
+
+    .slider__container  img{
+        width: 100%;
+        height: 180px;
     }
 
     .slider__container .img-comp-overlay img{
@@ -171,8 +182,8 @@
     }
 
     .controllerDrag h6 {
-        font-size: 12px;
-        margin-top: 10px;
+        font-size: 10px;
+        margin-top: 0px;
     }
 }
 
@@ -201,19 +212,24 @@
         margin-top: 5px;
     }
 
-     .slider__handle {
-         height: 460px;
-         width: 200px;
-         left: 955%;
-         top: 35%;
-     }
- 
-     .slider__container .img-comp-overlay img{
-         width: 50%;
-         height: 185px;
-     }
+    .slider__handle {
+        height: 480px;
+        width: 200px;
+        left: 955%;
+        top: 45%;
+    }
 
-     .controllerDrag h6 {
-        margin-top: -40px;
+    .slider__container  img{
+        width: 100%;
+        height: 400px;
+    }
+ 
+    .slider__container .img-comp-overlay img{
+        width: 50%;
+        height: 185px;
+    }
+
+    .controllerDrag h6 {
+        margin-top: 0px;
     }
  }
