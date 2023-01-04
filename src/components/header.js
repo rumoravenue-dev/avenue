@@ -28,7 +28,7 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="wrap" onClick={toShowSidebar}>
+            <div className={`wrap ${openSidebar ? 'onSidebar' : 'outSidebar'}`} onClick={toShowSidebar}>
                <MenuIcon fontSize="large" sx={{ color: props.contact ? "primary" : grey[50]}}/>
             </div>
 
