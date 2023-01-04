@@ -18,6 +18,14 @@
     margin-top: 30px;
 }
 
+.carouselDescription h6 {
+    font-family: 'Antonio';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 .carouselControls .buttonPrev,
 .carouselControls .buttonNext {
     cursor: pointer;

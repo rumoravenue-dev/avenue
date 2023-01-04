@@ -18,7 +18,7 @@ body {
     font-family: 'Antonio', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-right: 300px;
+    padding-right: 400px;
 }
 
 .mainServicesText {
@@ -94,6 +94,7 @@ body {
 
 .firstColProcess {
     margin-left: 150px;
+    margin-bottom: 50px;
 }
 
 .firstColProcess h2 {
@@ -128,7 +129,7 @@ body {
 
 .processServices .secondColProcess {
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .secondColProcess h3 {
@@ -150,7 +151,7 @@ body {
 
 .processServices .thirdColProcess {
     margin-left: -100px;
-    margin-top: 95px;
+    margin-top: 125px;
 }
 
 .thirdColProcess h3 {
@@ -241,6 +242,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #F4BD03;
+    padding-left: 7px;
 }
 
 .firstColIconsAddons h3 {
@@ -305,7 +307,7 @@ body {
     }
 
     .goodToKnowServices img {
-        margin-left: 180px!important;
+        margin-left: 100px!important;
     }
 
     .goodToKnowText {
