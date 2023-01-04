@@ -6,16 +6,24 @@
     align-items: center;
 }
 
-.carouselHome .carouselControls {
-    width: 103%;
+.carouselHome .controllerDescription {
+    width: 102%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.controllerDescription .carouselControls {
     display: flex;
 }
 
-.carouselHome .carouselDescription {
+.controllerDescription .carouselDescription {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    padding: 0 10px;
 }
 
 .carouselDescription h6 {
@@ -60,8 +68,19 @@
     display: none;
 }
 
+.controllerDrag h6 {
+    font-family: 'Antonio';
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 21px;
+    line-height: 130%;
+}
 
 @media only screen and (max-width: 350px) {
+    .carouselHome {
+        width: 100%;
+    }
+
     .carouselHome .carousel {
         width: 230px;
         height: 190px;
@@ -73,12 +92,11 @@
     }
 
     .carouselHome .carouselControls {
-        width: 175%;
         display: flex;
     }
     .carouselHome .carouselDescription {
-        width: 165%;
         margin-top: 5px;
+        padding: 0px;
     }
 
     .carouselDescription h6 {
@@ -96,10 +114,19 @@
         width: 100%;
         height: 150px;
     }
+
+    .controllerDrag h6 {
+        font-size: 10px;
+        margin-top: -20px;
+    }
 }
 
 
 @media (min-width: 351px) and (max-width: 576px) {
+    .carouselHome {
+        width: 100%;
+    }
+
     .carouselHome .carousel {
         width: 300px;
         height: 210px;
@@ -110,14 +137,18 @@
         height: 180px;
     }
 
-    .carouselHome .carouselControls {
-        width: 180%;
-        display: flex;
+    .carouselHome .controllerDescription {
+        width: 300px;
     }
 
-    .carouselHome .carouselDescription {
-        width: 175%;
+    .controllerDescription .carouselControls {
+        display: flex;
+        margin-left: -5px;
+    }
+
+    .controllerDescription .carouselDescription {
         margin-top: 10px;
+        padding: 0;
     }
     
     .carouselDescription h6 {
@@ -135,6 +166,10 @@
         width: 70%;
         height: 45px;
     }
+
+    .controllerDrag h6 {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -149,13 +184,16 @@
         height: 450px;
     }
 
-    .carouselHome .carouselControls {
-        width: 130%;
+    .carouselHome .controllerDescription {
+        min-width: 600px;
+        width: 100%;
+    }
+
+    .controllerDescription .carouselControls {
         display: flex;
     }
 
-    .carouselHome .carouselDescription {
-        width: 125%;
+    .controllerDescription .carouselDescription {
         margin-top: 5px;
     }
 

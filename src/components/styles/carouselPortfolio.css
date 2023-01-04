@@ -5,7 +5,7 @@
 
 .controlsPortfolio {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-end;
     width: 10%;
     height: 100px;
@@ -28,10 +28,4 @@
 .controlsPortfolio .buttonPrev:active h1 svg,
 .controlsPortfolio .buttonNext:active h1 svg {
     color: #F4BD03;
-}
-
-@media screen and (max-width: 576px ) {
-    .controlsPortfolio .buttonPrev {
-        margin-left: 30px;
-    }
 }
