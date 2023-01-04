@@ -7,12 +7,12 @@
 }
 
 .carouselHome .carouselControls {
-    width: 90%;
+    width: 103%;
     display: flex;
 }
 
 .carouselHome .carouselDescription {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -73,16 +73,16 @@
     }
 
     .carouselHome .carouselControls {
-        width: 150%;
+        width: 175%;
         display: flex;
     }
     .carouselHome .carouselDescription {
-        width: 150%;
+        width: 165%;
         margin-top: 5px;
     }
 
     .carouselDescription h6 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .slider__handle {
@@ -116,10 +116,13 @@
     }
 
     .carouselHome .carouselDescription {
-        width: 180%;
+        width: 175%;
         margin-top: 10px;
     }
     
+    .carouselDescription h6 {
+        font-size: 12px;
+    }
 
     .slider__handle {
         height: 240px;
@@ -147,12 +150,12 @@
     }
 
     .carouselHome .carouselControls {
-        width: 135%;
+        width: 130%;
         display: flex;
     }
 
     .carouselHome .carouselDescription {
-        width: 130%;
+        width: 125%;
         margin-top: 5px;
     }
 

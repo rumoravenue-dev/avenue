@@ -49,7 +49,8 @@ body {
 
 .homePresentations {
     background-color: rgb(244, 189, 3);
-    padding: 120px 50px;
+    padding: 120px 0px;
+    text-align: center;
 }
 
 .homePresentations h3 {
@@ -59,7 +60,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    padding: 32px 300px 96px 225px;
+    padding: 32px 340px 96px 320px; /* top right bottom left */
 }
 
 .homePresentations .homeCarousel {
@@ -234,7 +235,6 @@ body {
     
 }
 
-
 @media (min-width: 351px) and (max-width: 576px ) {
     .homeMain {
         height: 950px;
@@ -274,7 +274,7 @@ body {
     }
 
     .homePresentations .homeCarousel {
-        padding-left: 15px;
+        padding-left: 0px;
     }
 
     .homePresentations img {
@@ -336,7 +336,7 @@ body {
     }
 
     .homePresentations .homeCarousel {
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .homePresentations img {
