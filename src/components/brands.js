@@ -5,54 +5,54 @@ import "./styles/brands.css";
 const Brands = () => {
   return (
     <>
-      <section className="brandsPartnerships">
-        <div className="row brandsPartnershipsRow justify-content-center">
+      <section className="brandsPartnerships justify-content-center align-items-center">
+        <div className="row brandsPartnershipsRow justify-content-center align-items-center">
           <div className="col-12 col-sm-12 col-sm-12 partnershipsTitle">
             <h2>
               We've build long lasting partnerships with the most ambitious
               brands across the globe{" "}
             </h2>
           </div>
-          <div className="col-2">
+          <div className="col-2 cardAnheuserBusch">
             <img
               src="/assets/img/home/Partnerships/AnheuserBusch.webp"
               alt=""
             />
           </div>
-          <div className="col-2">
-            <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+          <div className="col-2 cardMarriott">
+          <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
           </div>
-          <div className="col-2">
-            <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+          <div className="col-2 cardCiroc">
+          <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
           </div>
-          <div className="col-2">
-            <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+          <div className="col-2 card">
+            <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
           </div>
-          <div className="col-2">
+          <div className="col-2 cardLogoGreen">
             <img
               src="/assets/img/home/Partnerships/GH-Logo-Green.webp"
               alt=""
             />
           </div>
-          <div className="row justify-content-center">
-              <div className="col-2">
+          <div className="row justify-content-center align-items-center ">
+              <div className="col-2 cardAppcore">
                 <img
-                  src="/assets/img/home/Partnerships/AnheuserBusch.webp"
+                  src="/assets/img/home/Partnerships/Appcore.webp"
                   alt=""
                 />
               </div>
-              <div className="col-2">
-                <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+              <div className="col-2 cardHennessyVSOP">
+                <img src="/assets/img/home/Partnerships/Hennessy-VSOP.webp" alt="" />
               </div>
-              <div className="col-2">
-                <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+              <div className="col-2 cardPelicargo">
+                <img src="/assets/img/home/Partnerships/Pelicargo.webp" alt="" />
               </div>
-              <div className="col-2">
-                <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+              <div className="col-2 cardMoet">
+                <img src="/assets/img/home/Partnerships/Moet-Hennessy-USA.webp" alt="" />
               </div>
-              <div className="col-2">
+              <div className="col-2 cardBalanceBunny">
                 <img
-                  src="/assets/img/home/Partnerships/GH-Logo-Green.webp"
+                  src="/assets/img/home/Partnerships/Balance-Bunny.webp"
                   alt=""
                 />
               </div>
