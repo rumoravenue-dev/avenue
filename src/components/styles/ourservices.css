@@ -720,3 +720,30 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1024px ) {
+    .ourServices {
+        margin-top: 300px;
+        margin-left: 120px;
+        padding-left: 27px!important;
+    }
+    
+    .ourServices hr {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1280px ) {
+    .ourServices {
+        margin-left: 0px;
+        padding-left: 150px!important;
+    }
+    
+    .ourServices hr {
+        width: 1060px;
+    }
+
+    .fundsServices {
+        gap: 50px;
+    }
+}
+

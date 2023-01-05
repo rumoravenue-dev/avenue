@@ -484,3 +484,55 @@ body {
         height: 200px;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1024px ) {
+    .aproachServices {
+        height: 850px;
+    }
+    
+    .firstColAproach {
+        margin-left: -200px;
+    }
+    
+    .imgModelAproach {
+        margin-left: 100px;
+        margin-top: 350px;
+        height: 600px;
+    }
+
+    .processServices {
+        margin-top: 50px;
+    }
+
+    .firstColProcess {
+        margin-left: 50px;
+    }
+
+    .thirdColProcess p {
+        margin-bottom: 30px;
+    }
+    
+    .goodToKnowServices img {
+        margin-left: 350px!important;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1280px ) {
+    .firstColAproach {
+        margin-left: -100px;
+    }
+    
+    .imgModelAproach {
+        margin-left: 50px;
+        margin-top: 270px;
+        height: 650px;
+    }
+
+    .processServices {
+        margin-top: 50px;
+    }
+    
+    .goodToKnowServices img {
+        margin-left: 610px!important;
+    }
+}
