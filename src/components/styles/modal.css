@@ -16,10 +16,11 @@
   position: fixed;
   background-color: transparent;
   color: #000;
-  width: 60%;
-  height: 57%;
+  width: 70%;
+  height: 75%;
   display: flex;
   justify-content: center;
+  margin-top: -50px;
 }
   
 .container .close {
@@ -30,7 +31,7 @@
   box-shadow: none;
   width: 32px;
   height: 32px;
-  right: -500px;
+  right: -930px;
   cursor: pointer;
   display: flex;
   position: relative;
@@ -39,7 +40,7 @@
   
 .container .content {
   display: flex;
-  width: 65%;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -64,7 +65,7 @@
     padding-left: 0em;
     height: 2000vh;
   }
-   
+
   .modal .container {
     height: auto;
     margin-left: -40px;
@@ -73,7 +74,7 @@
   }
 
   .container .close {
-    left: 300px;
+    left: 255px;
   }
 
   .container .content {
