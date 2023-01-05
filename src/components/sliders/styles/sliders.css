@@ -1,10 +1,23 @@
+.carouselProjects {
+    width: 100%;
+}
+
+.carouselProjects .carousel-item img {
+    min-width: 100%;
+    min-height: 480px; 
+}
+
 .carouselProjects .projectsTitle {
     width: 60%;
     color: #fff;
 }
 
+.carouselProjects .carousel-control-prev-icon {
+    margin-left: -50px;
+}
+
 .carouselProjects .carousel-control-next-icon {
-    margin-right: -50px;
+    margin-right: -100px;
 }
 
 .carouselProjects .carousel-control-next-icon,
@@ -25,4 +38,12 @@
 
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
     filter: none;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .carouselProjects .carousel-item img {
+        min-width: 100%;
+        min-height: 160px; 
+    }
 }

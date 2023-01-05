@@ -60,7 +60,7 @@ function App() {
           <div className="col-12 col-sm-12">
             <hr />
             <h1>DO YOU HAVE ANY QUESTION?</h1>
-            <p>Fell free to reach us out or take a look to our FAQ</p>
+            <p>Feel free to reach us out or take a look to our FAQ</p>
             <hr />
             <hr />
             <div className="accordion">

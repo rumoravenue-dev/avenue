@@ -3,6 +3,14 @@
     border-radius: 15px;
 }
 
+.carouselPortfolio .carouselSlide {
+    
+}
+
+.carouselSlide .slides {
+    
+}
+
 .controlsPortfolio {
     display: flex;
     justify-content: start;
