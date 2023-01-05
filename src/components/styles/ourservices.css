@@ -680,6 +680,7 @@
     }
 
     .ourServices h2 {
+        margin-top: 100px!important;
         font-size: 56px;
     }
 
@@ -717,33 +718,6 @@
 
     .ourServices a:hover:after {
         width: 80%!important;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1024px ) {
-    .ourServices {
-        margin-top: 300px;
-        margin-left: 120px;
-        padding-left: 27px!important;
-    }
-    
-    .ourServices hr {
-        width: 720px;
-    }
-}
-
-@media (min-width: 1280px) and (max-width: 1280px ) {
-    .ourServices {
-        margin-left: 0px;
-        padding-left: 150px!important;
-    }
-    
-    .ourServices hr {
-        width: 1060px;
-    }
-
-    .fundsServices {
-        gap: 50px;
     }
 }
 

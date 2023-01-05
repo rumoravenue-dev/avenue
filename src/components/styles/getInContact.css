@@ -140,9 +140,3 @@
     margin-left: 150px;
   }
 }
-
-@media (min-width: 1280px) and (max-width: 1280px ) {
-  .containerGetInTouch {
-    margin-left: -70px;
-  }
-}
