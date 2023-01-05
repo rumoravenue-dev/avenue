@@ -34,7 +34,7 @@ function App() {
         </div>
       </section>
 
-      <section className="homePresentations" id="homePresentations">
+      {/* <section className="homePresentations" id="homePresentations">
         <div className="row">
           <div className="col-12 col-sm-12">
             <h3>We strategically partner with <strong>agencies, corporations, and startups</strong> that need <strong>pixel perfect presentation design</strong> to visually communicate with their teams, clients, shareholders, and/or consumers.</h3>
@@ -43,8 +43,8 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}
+{/* 
       <Brands />
 
       <OurServices />
@@ -73,7 +73,7 @@ function App() {
       </section>
 
       <GetInContact />
-      <Footer />
+      <Footer /> */}
 
     </>
   );

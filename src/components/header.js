@@ -14,10 +14,9 @@ const Header = (props) => {
         <>
             <div className={props.contact ? "headerBlack": "header"}>
                 <div className="row">
-                    <div className="col-12 col-sm-2 col-md-3 col-lg-2 col-xl-4 headerImage">
+                    <div className="col-6 col-md-6 col-sm-6 headerImage">
                         <img src="/assets/img/header/Vector(1).svg" alt="logo header" />
-                    </div>
-                    <div className="col-12 col-sm-10 col-md-9 col-lg-10 col-xl-8 headerLinks" style={{color: props.contact ? "#000" : "#fff"}}>
+                        <div className="col-12 col-md-12 col-sm-12 headerLinks" style={{color: props.contact ? "#000" : "#fff"}}>
                         <a href="/">Home</a>
                         <a href='/services'>Services</a>
                         <a href='/portfolio'>Portfolio</a>
@@ -26,6 +25,8 @@ const Header = (props) => {
                             <a href="/contact">START YOUR PROJECT</a>
                         </button>
                     </div>
+                    </div>
+                
                 </div>
             </div>
             <div className={`wrap ${openSidebar ? 'onSidebar' : 'outSidebar'}`} onClick={toShowSidebar}>
