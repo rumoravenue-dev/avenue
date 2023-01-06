@@ -13,8 +13,8 @@ const OurServices = () => {
   return (
     <>
       <section className="ourServices container-fluid">
-        <div className="row colum-services justify-content-center">
-          <div className="col-12 justify-content-center">
+        <div className="row colum-services">
+          <div className="col-12">
             <div className="row">
               <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                 <h2> OUR SERVICES </h2>
@@ -23,12 +23,12 @@ const OurServices = () => {
                   One-stop-shop to solve all your presentation problems and
                   headaches.{" "}
                 </p>
-                <hr></hr>
+                <div className="borderOurServices"></div>
               </div>
             </div>
             <div className="row">
               <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
-                <Tab.Container defaultActiveKey="additional">
+                <Tab.Container defaultActiveKey="funds">
                   <Row>
                     <Col sm={3}>
                       <Nav
@@ -60,9 +60,11 @@ const OurServices = () => {
                     </Col>
                     <Col sm={9}>
                       <Tab.Content>
+                      <Tab.Pane eventKey="funds">
+                        </Tab.Pane>
                         <Tab.Pane eventKey="funds">
                           <div className="row fundsServices">
-                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                            <div className="col-12 col-md-6">
                               <div className="card cardInvestorDeck">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -84,7 +86,7 @@ const OurServices = () => {
                                 </div>
                               </div>
                             </div>
-                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                            <div className="col-12 col-md-4">
                               <div className="card cardStartupPitch">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -108,6 +110,8 @@ const OurServices = () => {
                             </div>
                           </div>
                         </Tab.Pane>
+
+                        
                         <Tab.Pane eventKey="sell">
                           <div className="row fundsServices">
                             <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
