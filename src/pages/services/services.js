@@ -29,9 +29,9 @@ const Services = () => {
           </Helmet>
           <Header />
           <section className="mainServices container-fluid">
-              <div className="row">
-                  <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
-                      <div className="mainServicesText">
+              <div className="row d-flex justify-content-center">
+                <div className="mainServicesText">
+                    <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                           <h1> We create eye-catching & eye-opening presentations that <span> educate </span>, <span> inspire </span> and <span> influence action </span> </h1>
                       </div>
                   </div>
@@ -64,7 +64,7 @@ const Services = () => {
                           <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                       </div>
                   </div>
-                  <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                  <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 p-0'>
                       <LazyLoad>
                           <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
                       </LazyLoad>
@@ -85,9 +85,9 @@ const Services = () => {
                   </div>
               </div>
           </section>
-          <section className='goodToKnowServices container-fluid'>
+          <section className='goodToKnowServices container-fluid p-0'>
               <div className='row'>
-                  <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
+                  <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 p-0'>
                       <LazyLoad>
                           <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                       </LazyLoad>
