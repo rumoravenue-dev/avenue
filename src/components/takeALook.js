@@ -7,7 +7,7 @@ function Portfolio(props) {
   return (
     <div className={props.home ? "homePortfolio": "mainPortfolio"}>
         <div className="row titleContainer">
-          <div className="col-12 col-sm-12">
+          <div className="col-12 col-sm-12 portifolioContent">
             <h4>portfolio</h4>
             <img className="takeALook" src='/assets/img/portfolio/takealook.svg' alt="takeALook" />
           </div>
@@ -15,7 +15,9 @@ function Portfolio(props) {
         <div className="col-12 col-sm-12 portfolioContainer">
           <Carousel />
         </div>
-        {props.home && <a href="/portfolio">See all projects →</a>}
+        <div className="AllProjects">
+          {props.home && <a href="/portfolio">See all projects →</a>}
+        </div>
     </div>
   );
 }
