@@ -1,14 +1,23 @@
+.carouselPortfolio {
+    padding-left:auto;
+}
+
+.carouselPortfolio .carouselSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .carouselPortfolio img {
     padding: 10px;
     border-radius: 15px;
 }
 
-.carouselPortfolio .carouselSlide {
-    
-}
-
-.carouselSlide .slides {
-    
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .controlsPortfolio {
@@ -36,4 +45,14 @@
 .controlsPortfolio .buttonPrev:active h1 svg,
 .controlsPortfolio .buttonNext:active h1 svg {
     color: #F4BD03;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .controls {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }

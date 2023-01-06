@@ -1,36 +1,47 @@
-import React from 'react';
-import ImageSlider from 'react-image-comparison-slider';
-import ReactSwipe from 'react-swipe';
+import React from "react";
+import ImageSlider from "react-image-comparison-slider";
+import ReactSwipe from "react-swipe";
 
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
-
-import './styles/carousel.css';
+import "./styles/carousel.css";
 
 function ControlledCarousel() {
-
   let reactSwipeEl;
 
   return (
-    <div className='carouselHome'>
-      <div className='controllerDescription'>
-        <div className='carouselControls'>
-          <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft color="white"/></h1></a>
-          <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight color="white"/></h1></a>
+    <div className="carouselHome">
+      <div className="controllerDescription">
+        <div className="carouselControls">
+          <a className="buttonPrev" onClick={() => reactSwipeEl.prev()}>
+            <h1>
+              <AiOutlineLeft color="white" />
+            </h1>
+          </a>
+          <a className="buttonNext" onClick={() => reactSwipeEl.next()}>
+            <h1>
+              <AiOutlineRight color="white" />
+            </h1>
+          </a>
         </div>
-        <div className='carouselDescription'>
-          <h6>Before</h6>
-          <h6>After</h6>
+        <div className="carouselDescription">
+          <div className="row justify-content-between">
+            <div  className="col-12 col-md-4 column-before">
+              <h6>Before</h6>
+            </div>
+            <div  className="col-12 col-md-4 column-after">
+              <h6>After</h6>
+            </div>
+          </div>
         </div>
       </div>
 
       <ReactSwipe
         className="carousel"
-        swipeOptions={{ continuous: true, disableScroll: true}}
-        ref={el => (reactSwipeEl = el)}
+        swipeOptions={{ continuous: true, disableScroll: true }}
+        ref={(el) => (reactSwipeEl = el)}
         widthOfSiblingSlidePreview={1500}
       >
-
         <div className="carouselContent">
           <ImageSlider
             image1="assets/img/portfolio/projects/atria/Atria2.webp"
@@ -76,7 +87,7 @@ function ControlledCarousel() {
         </div>
       </ReactSwipe>
 
-      <div className='controllerDrag'>
+      <div className="controllerDrag">
         <h6>← CLICK & DRAG →</h6>
       </div>
     </div>

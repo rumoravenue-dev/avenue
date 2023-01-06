@@ -10,7 +10,7 @@ import CarouselTina from './sliders/tina';
 import CarouselRiboli from './sliders/riboli';
 
 import CarouselNewEngland from './sliders/newEngland';
-import CarouselHennessy from './sliders/newEngland';
+import CarouselHennessy from './sliders/hennessy';
 import CarouselInPremisse from './sliders/inPremisse';
 import CarouselGreenHouseWine from './sliders/greenHouseWine';
 
@@ -69,9 +69,11 @@ function CarouselPort() {
       {isModalWerx ?( <Modal onClose={() => setisModalWerx(false)} > <CarouselWerx/> </Modal>) : null}
       {isModalRyna ?( <Modal onClose={() => setisModalRyna(false)} > <CarouselRyna/> </Modal>) : null}
 
-      <div className='controlsPortfolio'>
-        <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft/></h1></a>
-        <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight/></h1></a>
+      <div className='controls'>
+        <div className='controlsPortfolio'>
+          <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft/></h1></a>
+          <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight/></h1></a>
+        </div>
       </div>
 
       <ReactSwipe
@@ -113,11 +115,11 @@ function CarouselPort() {
         </div>
         <div className='carouselSlide'>
           <div className='slides'>
-            <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1"  onClick={() => setIsModalLilDan(true)}/>
-            <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1"  onClick={() => setisModalWerx(true)}/>
+            <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" onClick={() => setIsModalLilDan(true)}/>
+            <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" onClick={() => setisModalWerx(true)}/>
           </div>
-          <div className='slides'>
-            <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1"  onClick={() => setisModalRyna(true)}/>
+          <div className='slides slideRyna'>
+            <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)}/>
           </div>
         </div>
       </ReactSwipe>

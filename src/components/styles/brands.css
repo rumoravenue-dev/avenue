@@ -1,50 +1,99 @@
 body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .brandsPartnerships {
-    height: 795.09px;
-    padding-bottom: 15em;
-    margin-bottom: 8em;
+    height: 100vh;
 }
 
 .brandsPartnerships .partnershipsTitle {
-    height: 386px;
-    background-image: url('../../../public/assets/img/home/Partnerships/Frame.webp');
+  height: 300px;
+  background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.brandsPartnerships h2 {
+  position: absolute;
+  height: 114px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  padding: 0 180px;
+}
+
+.brandsPartnerships .partnershipsImages {
+  padding-left: 5em;
+}
+
+.brandsPartnerships .partnershipsImages .partnershipsImage {
+  max-width: 100%;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .partnershipsTitleOne {
+    height: 550px;
+    margin-bottom: 150px;
+    background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.brandsPartnerships .col-12 h2 {
+  }
+  .brandsPartnerships .partnershipsTitle {
+    height: 150px;
+    background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .brandsPartnerships h2 {
     position: absolute;
     height: 114px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
     font-size: 44px;
     line-height: 130%;
     text-align: center;
     color: #000000;
-    padding: 0 180px;
+    padding: 0 0px;
+  }
 }
 
-.brandsPartnerships .partnershipsImages {
-    padding-left: 5em;
-}
-
-.brandsPartnerships .partnershipsImages .partnershipsImage {
-    max-width: 100%;
-    padding-bottom: 4em;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .brandsPartnerships .partnershipsTitle {
+    height: 386px;
+    background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
 }
 
 .brandsPartnerships .row {
@@ -78,6 +127,17 @@ body {
     .brandsPartnerships .partnershipsImages .partnershipsImage img {
         width: 100px;
     }
+
+    .cardAnheuserBusch, .cardMarriott, .cardCiroc, .cardRumor, .cardLogoGreen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .cardAppcore, .cardHennessyVSOP, .cardPelicargo, .cardMoet, .cardBalanceBunny {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
@@ -103,20 +163,31 @@ body {
     .brandsPartnerships .partnershipsImages {
         padding-left: 32px!important;
     }
+
+    .cardAnheuserBusch, .cardMarriott, .cardCiroc, .cardRumor, .cardLogoGreen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .cardAppcore, .cardHennessyVSOP, .cardPelicargo, .cardMoet, .cardBalanceBunny {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 992px ) {
     .brandsPartnerships {
         height: 1000px;
-        padding: 80px 32px 80px 48px;
+        padding: 80px 32px 80px 0px;
     }
-    
+
     .brandsPartnerships .partnershipsTitle {
         margin-top: 20px;
     }
     
     .brandsPartnerships .col-12 h2 {
-        font-size: 44px;
+        font-size: 26px;
         text-align: center;
         padding: 0 32px;
     }
@@ -129,5 +200,54 @@ body {
         padding-bottom: 4em;
         display: flex;
         align-items: center;
+    }
+
+    .cardHennessyVSOP img {
+        margin-left: 25px;
+    }
+
+    .cardAnheuserBusch img {
+        margin-left: 20px;
+    }
+
+    .cardMarriott img {
+        margin-left: 50px;
+    }
+    .cardCiroc img{
+        margin-left: 80px;
+    }
+    .cardRumor img{
+        margin-left: 230px;
+    }
+    .cardLogoGreen img {
+        margin-left: 85px;
+    }
+    .cardMoet img{
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 993px)  {
+    .cardAnheuserBusch img {
+        margin-left: 20px;
+    }
+
+    .cardMarriott img {
+        margin-left: 50px;
+    }
+    .cardCiroc img{
+        margin-left: 80px;
+    }
+    .cardRumor img{
+        margin-left: 45px;
+    }
+    .cardAppcore img {
+        margin-left: -50px;
+    }
+    .cardBalanceBunny img {
+        margin-left: 55px;
+    }
+    .cardMoet {
+        margin-left: 70px;
     }
 }

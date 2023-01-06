@@ -47,6 +47,8 @@
 .carouselHome .carousel {
     width: 100%;
     height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel .carouselContent {
@@ -82,7 +84,8 @@
     margin-top: -70px;
 }
 
-@media only screen and (max-width: 350px) {
+
+@media only screen and (max-width: 767px) {
     .carouselHome {
         width: 100%;
     }
@@ -129,7 +132,7 @@
 }
 
 
-@media (min-width: 351px) and (max-width: 576px) {
+@media (min-width: 678px) and (max-width: 1024px) {
     .carouselHome {
         width: 100%;
     }
