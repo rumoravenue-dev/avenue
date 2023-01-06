@@ -136,7 +136,7 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-  .containerMain {
+  .containerMain, .mainContact {
     height: 90vh;
   }
   .mainContact .mainContent {
@@ -146,8 +146,10 @@ body {
     align-items: center;
   }
   .mainContact .mainContent h1 {
-    font-size: 48px;
+    font-size: 45px;
     line-height: 52px;
+    width: 480px;
+    margin-right: -70px;
   }
   .mainContent img {
     margin-right: 80px;
@@ -186,14 +188,14 @@ body {
     height: 70vh;
   }
   .mainContact .mainContent h1 {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   .mainContact .mainContent img {
     margin-left: 0px;
-    margin-right: 45px;
-    height: 80px;
+    margin-right: 40px;
+    height: 51px;
   }
 
   .containerMain {
@@ -201,51 +203,32 @@ body {
   }
 
   .containerMain .contactusText h2 {
-    width: 119px;
-    font-family: 'Antonio';
-    font-style: normal;
-    font-weight: 700;
+    width: 249px;
     font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-left: 125px;
+    margin-left: 60px;
     margin-bottom: 9px;
+    margin-top: 90px;
   }
 
   .containerMain .contactusText p {
     width: 364px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 10px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
     padding-right: 0px;
   }
 
   .containerMain .btnStart {
     width: 129px;
     height: 37px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 36px;
-    text-align: center;
-    color: #000000;
-    background: #F4BD03;
-    border-radius: 8px;
-    border: none;
     margin-left: 122px;
     margin-bottom: 40px;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  .mainContact {
-    height: 70vh;
+  .mainContact, .containerMain {
+    height: 50vh;
   }
   .mainContact .mainContent h1 {
     font-size: 24px;
@@ -255,6 +238,28 @@ body {
     margin-left: 0px;
     margin-right: 19px;
     height: 60px;
+  }
+  .containerMain .contactusText h2 {
+    width: 129px;
+    font-size: 10px;
+    margin-left: 60px;
+    margin-bottom: 9px;
+    margin-top: 90px;
+  }
+
+  .containerMain .contactusText p {
+    width: 242px;
+    font-size: 8px;
+    padding-right: 0px;
+  }
+
+  .containerMain .btnStart {
+    width: 108px;
+    height: 30px;
+    font-size: 9px;
+    line-height: 16px;
+    margin-left: 66px;
+    margin-bottom: 57px;
   }
   
 }
