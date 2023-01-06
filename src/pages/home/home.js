@@ -47,7 +47,7 @@ function App() {
  
       <Brands />
 
-     {/* <OurServices /> */}
+     <OurServices />
 
       <TakeALook/>
 

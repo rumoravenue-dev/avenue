@@ -61,15 +61,10 @@ const OurServices = () => {
                     <Col sm={9}>
                       <Tab.Content>
                       <Tab.Pane eventKey="funds">
-                        <p> teste </p>
                         </Tab.Pane>
-
-
-
-
-                        {/* <Tab.Pane eventKey="funds">
+                        <Tab.Pane eventKey="funds">
                           <div className="row fundsServices">
-                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                            <div className="col-12 col-md-6">
                               <div className="card cardInvestorDeck">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -91,7 +86,7 @@ const OurServices = () => {
                                 </div>
                               </div>
                             </div>
-                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                            <div className="col-12 col-md-4">
                               <div className="card cardStartupPitch">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -114,7 +109,7 @@ const OurServices = () => {
                               </div>
                             </div>
                           </div>
-                        </Tab.Pane> */}
+                        </Tab.Pane>
 
                         
                         <Tab.Pane eventKey="sell">
