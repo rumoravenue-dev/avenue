@@ -47,9 +47,9 @@ function App() {
  
       <Brands />
 
-      {/* <OurServices />
+    <OurServices />
 
-      <TakeALook/>
+      {/* <TakeALook/>
 
       <div className="seeAllProjects">
         <a href="/portfolio">See all projects →</a>

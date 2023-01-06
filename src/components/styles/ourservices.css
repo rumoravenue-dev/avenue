@@ -1,7 +1,4 @@
-.colum-services{
-    margin-left: 144px;
 
-}
 .ourServices h2 {
     font-family: 'Antonio';
     font-weight: 700;
@@ -658,12 +655,7 @@
 }
 
 
-@media screen and (max-width: 992px ) { 
-    .ourServices {
-        margin-left: 0px;
-        padding-left: 90px;
-    }
-
+@media screen and (max-width: 767px ) { 
     .ourServices hr {
         width: 600px;
     }
@@ -673,51 +665,4 @@
     }
 }
 
-@media screen and (max-width: 576px ) {
-    .ourServices {
-        margin-left: 0px;
-        padding-left: 26px!important;
-    }
-
-    .ourServices h2 {
-        margin-top: 100px!important;
-        font-size: 56px;
-    }
-
-    .ourServices p {
-        font-size: 15px;
-    }
-
-    .ourServices hr {
-        width: 310px;
-    }
-
-    .ourServices a {
-        font-size: 20px;
-    }
-    
-    .card-text p {
-        margin-top: 150px;
-        padding-right: 0px;
-    }
-
-    .ourServices a:hover:after {
-        width: 56%!important;
-    }
-}
-
-@media screen and (max-width: 350px ) {
-    .ourServices {
-        margin-left: 0px;
-        padding-left: 20px!important;
-    }
-    
-    .ourServices hr {
-        width: 240px;
-    }
-
-    .ourServices a:hover:after {
-        width: 80%!important;
-    }
-}
 

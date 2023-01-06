@@ -118,12 +118,7 @@ body {
   }
 
 .processServices img {
-    margin-left: -18px;
-}
-
-.processServices .secondColProcess {
-    margin-left: 100px;
-    margin-right: -100px;
+    float: left;
 }
 
 .topProcess {
@@ -144,7 +139,7 @@ body {
     font-size: 20px;
     color: #000000;
     margin-bottom: 85px;
-    padding-right: 180px;
+    padding-right: 60px;
 }
 
 .thirdColProcess h3 {
@@ -250,67 +245,128 @@ body {
     padding-left: 100px;
 }
 
-@media screen and (max-width: 992px ) {
+@media screen and (max-width: 350px ) {
     .mainServicesText {
-        margin: 200px 0px;
+        margin: 300px 0px;
     }
 
     .mainServices h1 {
-        padding-right: 50px;
-        padding-left: 100px;
+        font-size: 32px;
+        padding-right: 20px;
+        padding-left: 32px;
     }
 
     .rowAproach {
-        margin-left: 8px!important;
-    }
-
-    .aproachServices {
-        height: 1300px;
-        padding-left: 80px;
-    }
-
-    .imgModelAproach {
-        margin-top: 0px;
-        height: 550px;
         margin-left: 0px;
     }
 
     .aproachServices h2 {
-        margin-right: 0px;
-        padding-right: 10px;
+        font-size: 32px;
+        margin-right: 0px!important;
+        margin-top: 110px;
+        margin-bottom: 30px;
+    }
+
+    .aproachServices {
+        height: 800px;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .aproachServices a {
+        font-size: 20px;
+    }
+
+    .imgModelAproach {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .processServices .firstColProcess {
         margin-left: 0px;
-        padding-left: 100px;
+        padding-left: 30px!important;
+    }
+
+    .firstColProcess h2 {
+        font-size: 46px;
+    }
+
+    .firstColProcess p {
+        font-size: 15px;
+    }
+
+    .processServices img {
+        height: 300px;
     }
 
     .processServices .secondColProcess {
         margin-left: 0px;
-        padding-left: 100px;
+        padding-left: 30px!important;
+    }
+
+    .secondColProcess h3 {
+        font-size: 25px;
+    }
+
+    .secondColProcess p {
+        font-size: 15px;
+        padding-right: 0px;
     }
 
     .processServices .thirdColProcess {
         margin-left: 0px;
-        padding-left: 100px;
+        padding-left: 30px!important;
+        margin-top: 0px;
+    }
+
+    .thirdColProcess h3 {
+        font-size: 25px;
         margin-top: 0px;
     }
 
     .thirdColProcess p {
-        margin-bottom: 100px;
+        padding-right: 0px;
+        font-size: 15px;
+        margin-bottom: 90px;
+    }
+
+    .goodToKnowServices img {
+        height: 200px;
     }
 
     .goodToKnowText {
-        padding-left: 90px;
-        margin-top: 50px;
+        padding-left: 16px;
+        margin-top: 100px;
+    }
+
+    .goodToKnowText h2 {
+        font-size: 32px;
+    }
+
+    .goodToKnowText h2 span {
+        font-size: 32px;
+    }
+
+    .goodknowcarousel {
+        width: 150px;
+    }    
+
+    .addonsServices {
+        height: 2000px;
+    }
+
+    .addonsServices h2 {
+        font-size: 46px;
+    }
+
+    .addonsServices img {
+        height: 30px;
     }
 
     .addonsServices h3 {
-        padding-bottom: 150px;
-    }
-
-    .addonsServices {
-        height: 2700px;
+        font-size: 25px;
+        padding-bottom: 100px;
     }
 
     .secondRowAddons {
@@ -318,7 +374,7 @@ body {
     }
 }
 
-@media screen and (max-width: 576px ) {
+@media (min-width: 351px) and (max-width: 576px ) {
     .mainServicesText {
         margin: 300px 0px;
     }
@@ -353,6 +409,7 @@ body {
     .imgModelAproach {
         height: 350px;
         margin-top: 0px;
+        margin-left: 0px;
     }
 
     .processServices .firstColProcess {
@@ -389,6 +446,7 @@ body {
     .processServices .thirdColProcess {
         margin-left: 0px;
         padding-left: 30px!important;
+        margin-top: 0px;
     }
 
     .thirdColProcess h3 {
@@ -445,30 +503,274 @@ body {
     }
 }
 
-@media screen and (max-width: 350px ) {
+@media (width: 576px) {
+    .mainServices {
+        height: 801px;
+    }
+    
+    .mainServices h1 {
+        font-size: 36px;
+    }
+    
+    .mainServicesText {
+        margin: 300px 100px;
+    }
+    
+    .aproachServices {
+        height: 800px;
+    }
+    
+    .aproachServices h2 {
+        font-size: 36px;
+        margin-top: 178px;
+        margin-bottom: 70px;
+    }
+    
+    .aproachServices a {
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    
     .imgModelAproach {
-        height: 250px;
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 220px;
+        height: 335px;
+    }
+    
+    .firstColProcess {
+        margin-left: 80px;
+    }
+    
+    .firstColProcess h2 {
+        font-size: 41px;
+    }
+    
+    .firstColProcess p {
+        font-size: 16px;
+    }
+    
+    .processServices img {
+        height: 300px;
+    }
+
+    .topProcess {
+        margin-top: 90px!important;
+    }
+
+    .secondColProcess {
         margin-top: 0px;
     }
-
-    .processServices .firstColProcess {
-        padding-left: 25px!important;
+    
+    .secondColProcess h3 {
+        font-size: 21px;
+    }
+    
+    .secondColProcess p {
+        font-size: 16px;
+        padding-right: 0px;
     }
 
-    .processServices .secondColProcess {
-        padding-left: 25px!important;
+    .thirdColProcess {
+        margin-top: 0px;
     }
-
-    .processServices .thirdColProcess {
-        padding-left: 25px!important;
+    
+    .thirdColProcess h3 {
+        font-size: 21px;
     }
-
-    .goodToKnowText {
-        padding-left: 12px;
-        margin-top: 100px;
+    
+    .thirdColProcess p {
+        padding-right: 0px;
+        font-size: 16px;
     }
-
+    
     .goodToKnowServices img {
-        height: 200px;
+        height: 300px;
+    }
+    
+        .goodToKnowServices .LazyLoad {
+            opacity: 0;
+            transition: all 2s ease-in;
+            margin-left: 100%;
+        }
+    
+    .goodToKnowServices .is-visible {
+        opacity: 1;
+        margin-left: 0%;
+      }
+    
+    .goodToKnowText {
+        padding-left: 80px;
+        margin-top: -20px;
+    }
+    
+    .goodToKnowText span {
+        font-size: 32px;
+    }
+    
+    .goodToKnowText h2 {
+        font-size: 32px;
+    }
+    
+    .goodknowcarousel {
+        width: 350px;
+    }
+    
+    .addonsServices {
+        height: 800px;
+    }
+    
+    .addonsServices h2 {
+        font-size: 41px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .addonsServices img {
+        margin-bottom: 40px;
+        height: 30px;
+    }
+    
+    .addonsServices h3 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    
+    .firstColIconsAddons h3 {
+        padding-bottom: 150px;
+    }
+    
+    .addonsServices span {
+        font-size: 16px;
+    }
+    
+    .secondRowAddons {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px ) {
+    .mainServices h1 {
+        font-size: 36px;
+    }
+    
+    .mainServicesText {
+        margin: 300px 100px;
+    }
+    
+    .aproachServices {
+        height: 800px;
+    }
+    
+    .aproachServices h2 {
+        font-size: 36px;
+    }
+    
+    .aproachServices a {
+        font-size: 20px;
+    }
+    
+    .imgModelAproach {
+        margin-left: -45px;
+        height: 325px;
+    }
+    
+    .firstColProcess {
+        margin-left: 75px;
+    }
+    
+    .firstColProcess h2 {
+        font-size: 41px;
+    }
+    
+    .firstColProcess p {
+        font-size: 15px;
+    }
+    
+    .processServices img {
+        height: 400px;
+    }
+    
+    .topProcess {
+        margin-top: 90px;
+    }
+    
+    .secondColProcess h3 {
+        font-size: 21px;
+    }
+    
+    .secondColProcess p {
+        font-size: 15px;
+        margin-bottom: 85px;
+        padding-right: 90px;
+    }
+    
+    .thirdColProcess h3 {
+        font-size: 21px;
+    }
+    
+    .thirdColProcess p {
+        padding-right: 90px;
+        font-size: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .goodToKnowServices img {
+        height: 400px;
+    }
+    
+        .goodToKnowServices .LazyLoad {
+            opacity: 0;
+            transition: all 2s ease-in;
+            margin-left: 100%;
+        }
+    
+    .goodToKnowServices .is-visible {
+        opacity: 1;
+        margin-left: 0%;
+      }
+    
+    .goodToKnowText {
+        padding-left: 70px;
+        margin-top: -20px;
+    }
+    
+    .goodToKnowText h2 {
+        font-size: 32px;
+    }
+    
+    .goodknowcarousel {
+        width: 350px;
+    }
+    
+    .addonsServices {
+        height: 700px;
+    }
+    
+    .addonsServices h2 {
+        font-size: 41px;
+    }
+    
+    .addonsServices img {
+        margin-bottom: 40px;
+        height: 30px;
+    }
+    
+    .addonsServices h3 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    
+    .firstColIconsAddons h3 {
+        padding-bottom: 150px;
+    }
+    
+    .addonsServices span {
+        font-size: 16px;
+    }
+    
+    .secondRowAddons {
+        padding-left: 50px;
     }
 }
