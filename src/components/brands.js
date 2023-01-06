@@ -25,7 +25,7 @@ const Brands = () => {
           <div className="col-12 col-lg-2 col-sm-4 col-lg-2 cardCiroc">
           <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
           </div>
-          <div className="col-12 col-lg-2 col-sm-6 cardRumor">
+          <div className="col-12 col-lg-2 col-sm-6  cardRumor">
             <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
           </div>
           <div className="col-12 col-lg-2 col-sm-6  cardLogoGreen">
@@ -34,7 +34,7 @@ const Brands = () => {
               alt=""
             />
           </div>
-          <div className="row justify-content-center align-items-center mt-5">
+          <div className="row justify-content-center align-items-center ">
               <div className="col-12 col-lg-2 col-sm-4 col-lg-2 cardAppcore">
                 <img
                   src="/assets/img/home/Partnerships/Appcore.webp"

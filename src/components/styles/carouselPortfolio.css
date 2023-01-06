@@ -47,11 +47,6 @@
     color: #F4BD03;
 }
 
-.slideRyn {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 @media only screen and (max-width: 992px) {
     .controls {

@@ -18,7 +18,6 @@ body {
     font-family: 'Antonio', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-right: 400px;
 }
 
 .mainServicesText {
@@ -31,11 +30,7 @@ body {
 
 .aproachServices {
     background-color: #000000;
-    height: 750px;
-}
-
-.rowAproach {
-    margin-left: 242px;
+    height: 800px;
 }
 
 .aproachServices h2 {
@@ -44,7 +39,6 @@ body {
     font-family: 'Antonio', sans-serif;
     text-transform: uppercase;
     color: #7D7D7D;
-    margin-right: -130px;
     margin-top: 178px;
     margin-bottom: 70px;
 }
@@ -76,7 +70,7 @@ body {
 
 .imgModelAproach {
     position: absolute;
-    margin-left: 20px;
+    margin-left: -90px;
     margin-top: 220px;
     height: 650px;
 }
@@ -129,6 +123,10 @@ body {
 
 .processServices .secondColProcess {
     margin-left: 100px;
+    margin-right: -100px;
+}
+
+.topProcess {
     margin-top: 130px;
 }
 
@@ -147,11 +145,6 @@ body {
     color: #000000;
     margin-bottom: 85px;
     padding-right: 180px;
-}
-
-.processServices .thirdColProcess {
-    margin-left: -100px;
-    margin-top: 125px;
 }
 
 .thirdColProcess h3 {
@@ -176,7 +169,7 @@ body {
 }
 
 .goodToKnowServices img {
-    margin-left: 800px!important;
+    float: right;
 }
 
     .goodToKnowServices .LazyLoad {
@@ -279,6 +272,7 @@ body {
     .imgModelAproach {
         margin-top: 0px;
         height: 550px;
+        margin-left: 0px;
     }
 
     .aproachServices h2 {
@@ -304,10 +298,6 @@ body {
 
     .thirdColProcess p {
         margin-bottom: 100px;
-    }
-
-    .goodToKnowServices img {
-        margin-left: 100px!important;
     }
 
     .goodToKnowText {
@@ -413,7 +403,6 @@ body {
     }
 
     .goodToKnowServices img {
-        margin-left: 15px!important;
         height: 300px;
     }
 
@@ -480,7 +469,6 @@ body {
     }
 
     .goodToKnowServices img {
-        margin-left: 44px!important;
         height: 200px;
     }
 }
