@@ -78,6 +78,17 @@ body {
     .brandsPartnerships .partnershipsImages .partnershipsImage img {
         width: 100px;
     }
+
+    .cardAnheuserBusch, .cardMarriott, .cardCiroc, .cardRumor, .cardLogoGreen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .cardAppcore, .cardHennessyVSOP, .cardPelicargo, .cardMoet, .cardBalanceBunny {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
@@ -102,6 +113,17 @@ body {
     
     .brandsPartnerships .partnershipsImages {
         padding-left: 32px!important;
+    }
+
+    .cardAnheuserBusch, .cardMarriott, .cardCiroc, .cardRumor, .cardLogoGreen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .cardAppcore, .cardHennessyVSOP, .cardPelicargo, .cardMoet, .cardBalanceBunny {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 }
 
@@ -129,5 +151,50 @@ body {
         padding-bottom: 4em;
         display: flex;
         align-items: center;
+    }
+
+    .cardAnheuserBusch img {
+        margin-left: 20px;
+    }
+
+    .cardMarriott img {
+        margin-left: 50px;
+    }
+    .cardCiroc img{
+        margin-left: 80px;
+    }
+    .cardRumor img{
+        margin-left: 230px;
+    }
+    .cardLogoGreen img {
+        margin-left: 85px;
+    }
+    .cardMoet img{
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 993px)  {
+    .cardAnheuserBusch img {
+        margin-left: 20px;
+    }
+
+    .cardMarriott img {
+        margin-left: 50px;
+    }
+    .cardCiroc img{
+        margin-left: 80px;
+    }
+    .cardRumor img{
+        margin-left: 45px;
+    }
+    .cardAppcore img {
+        margin-left: -50px;
+    }
+    .cardBalanceBunny img {
+        margin-left: 55px;
+    }
+    .cardMoet {
+        margin-left: 70px;
     }
 }

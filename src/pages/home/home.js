@@ -44,11 +44,11 @@ function App() {
           </div>
         </div>
       </section>
-{/*  
+
       <Brands />
-
-      <OurServices />
-
+{/*}
+      <OurServices />*/}
+  
       <TakeALook/>
 
       <div className="seeAllProjects">
@@ -71,9 +71,9 @@ function App() {
           </div>
         </div>
       </section>
-
+{/**/}
       <GetInContact />
-      <Footer /> */}
+      <Footer /> 
 
     </>
   );
