@@ -31,7 +31,7 @@ const Services = () => {
                 <title> Services - 5pm </title>
             </Helmet>
 
-            <Header /> 
+            {/* <Header />  */}
 
             <section className="mainServices container-fluid">
                 <div className="row">
@@ -109,7 +109,7 @@ const Services = () => {
 
             <Presentation /> 
 
-            {/* <OurServices /> */}
+            <OurServices />
 
             <section className='addonsServices container-fluid'>
                 <div className='row'>

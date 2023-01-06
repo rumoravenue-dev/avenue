@@ -64,7 +64,7 @@ const OurServices = () => {
                         </Tab.Pane>
                         <Tab.Pane eventKey="funds">
                           <div className="row fundsServices">
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
                               <div className="card cardInvestorDeck">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -86,7 +86,7 @@ const OurServices = () => {
                                 </div>
                               </div>
                             </div>
-                            <div className="col-12 col-md-4">
+                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
                               <div className="card cardStartupPitch">
                                 <div className="card-body">
                                   <div className="card-text">
@@ -108,10 +108,18 @@ const OurServices = () => {
                                 </div>
                               </div>
                             </div>
+                            <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                              <div className="card cardNone">
+                                <div className="card-body">
+                                  <div className="card-text">
+                                    <p>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </Tab.Pane>
-
-                        
                         <Tab.Pane eventKey="sell">
                           <div className="row fundsServices">
                             <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
