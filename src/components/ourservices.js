@@ -9,6 +9,7 @@ const OurServices = () => {
 $(document).on("click", "a", function () {
  $(this).addClass("actived");
 });
+
 return (
  <>
    <section className="ourServices container-fluid">

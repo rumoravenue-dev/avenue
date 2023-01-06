@@ -1,6 +1,6 @@
 .ourServices {
   display: flex;
-  margin-left: 144px;
+  justify-content: center;
   margin-bottom: 100px;
 }
 
@@ -697,10 +697,6 @@
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
- .ourServices {
-   margin-left: 0px;
- }
-
  .ourServices h2 {
    font-size: 41px;
  }
@@ -724,10 +720,6 @@
 }
  
 @media (min-width: 577px) and (max-width: 992px ) {
- .ourServices {
-   margin-left: 0px;
- }
-
  .ourServices h2 {
    font-size: 41px;
  }

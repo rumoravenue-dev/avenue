@@ -29,9 +29,9 @@ const Services = () => {
           </Helmet>
           {/* <Header />  */}
           <section className="mainServices container-fluid">
-              <div className="row">
-                  <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
-                      <div className="mainServicesText">
+              <div className="row d-flex justify-content-center">
+                <div className="mainServicesText">
+                    <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                           <h1> We create eye-catching & eye-opening presentations that <span> educate </span>, <span> inspire </span> and <span> influence action </span> </h1>
                       </div>
                   </div>
@@ -56,7 +56,7 @@ const Services = () => {
                   </div>
               </div>
           </section>
-          <section className='processServices container-fluid'>
+          <section className='processServices container-fluid p-0'>
               <div className='row'>
                   <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                       <div className='firstColProcess'>
@@ -85,7 +85,7 @@ const Services = () => {
                   </div>
               </div>
           </section>
-          <section className='goodToKnowServices container-fluid'>
+          <section className='goodToKnowServices container-fluid p-0'>
               <div className='row'>
                   <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                       <LazyLoad>

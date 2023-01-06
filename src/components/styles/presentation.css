@@ -1,5 +1,4 @@
 .presentationServices {
-    margin-left: 144px;
     margin-bottom: 144px;
 }
 
@@ -77,10 +76,6 @@
 }
 
 @media screen and (max-width: 992px ) {
-    .presentationServices {
-        margin-left: 0px;
-    }
-
     .presentationMainRow {
         max-width: 100%;
     }
@@ -103,10 +98,6 @@
 }
 
 @media screen and (max-width: 576px ) {
-    .presentationServices {
-        margin-left: 0px!important;
-    }
-
     .presentationMainRow {
         max-width: 100%;
     }
@@ -140,11 +131,5 @@
 
     .presentationServices a:hover:after {
         width: 76%!important;
-    }
-}
-
-@media screen and (max-width: 350px ) {
-    .presentationServices {
-        margin-left: 0px!important;
     }
 }

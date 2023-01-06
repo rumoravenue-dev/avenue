@@ -16,8 +16,8 @@ const Presentation = () => {
                 <div className="row presentationMainRow">
                     <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                         <Tab.Container defaultActiveKey="timezones">
-                            <Row>
-                                <Col sm={6}>
+                            <Row className="d-flex justify-content-around">
+                                <Col sm={3}>
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
                                     <Nav.Link eventKey="presentationtypes"> PRESENTATION TYPES </Nav.Link>
