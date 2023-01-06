@@ -56,7 +56,7 @@ const Services = () => {
                   </div>
               </div>
           </section>
-          <section className='processServices container-fluid p-0'>
+          <section className='processServices container-fluid'>
               <div className='row'>
                   <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
                       <div className='firstColProcess'>
@@ -64,7 +64,7 @@ const Services = () => {
                           <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                       </div>
                   </div>
-                  <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                  <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 p-0'>
                       <LazyLoad>
                           <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
                       </LazyLoad>
