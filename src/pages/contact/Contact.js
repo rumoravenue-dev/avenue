@@ -14,7 +14,7 @@ function Contact() {
       </Helmet>
 
       <div className="contact">
-        <Header contact={contact}  />
+        {/*<Header contact={contact}  />*/}
 
         <section className="mainContact">
           <div className="row">
@@ -23,7 +23,8 @@ function Contact() {
             </div>
             <div className="col-12 col-sm-10 col-xl-12 col-lg-12 col-md-12 mainContent">
               <img src="/assets/img/contact/Vector.svg" alt="logo"/>
-              <h1>It's 5pm somewhere</h1> 
+              <h1>It’s only fivepm…<br/>
+              let’s get to work</h1> 
             </div>
           </div>
         </section>
@@ -37,7 +38,7 @@ function Contact() {
               <button className="btnStart">Start a new project</button>
             </div>
           </div>
-        </section>
+        </section> 
         
         <GetInContact />
         <Footer />

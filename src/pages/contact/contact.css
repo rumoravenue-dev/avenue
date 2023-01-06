@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Poppins:ital,wght@0,700;1,400&display=swap');
 
 body {
+  margin: 0;
+  border: 0;
   overflow-x: hidden;
 }
 
@@ -11,7 +13,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .mainContact .mainContent {
@@ -29,7 +30,7 @@ body {
 }
 
 .mainContact .mainContent img {
-  margin-left: -240px;
+  margin-left: 80px;
 }
 
 .mainContact .mainContent h1 {
@@ -42,7 +43,7 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #000000;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .containerMain {
@@ -131,7 +132,7 @@ body {
   .mainContact .mainContent h1 {
     width: 100%;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 20px;
     color: #000000;
     margin-left: -200px;
     margin-top: -110px;
@@ -196,7 +197,7 @@ body {
 @media (min-width: 351px) and (max-width: 576px) {
   .mainContact {
     height: 350px;
-    max-width: 335px;
+    max-width: 488px;
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -289,6 +290,7 @@ body {
     margin-top: 0;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
   }
 
   .mainContact .mainContent {
@@ -298,9 +300,10 @@ body {
   }
   
   .mainContact .mainContent h1 {
-      width: 90%;
-      font-size: 60px;
-      line-height: 134px;
+    width: 100%;
+    font-size: 29px;
+    line-height: 35px;
+    margin-left: 50px;
   }
 
   .mainContact .mainContent img {
@@ -336,8 +339,8 @@ body {
   
   .containerMain .contactusText p {
     max-width: 550px;
-    margin-top: -200px;
-    margin-left: -60px;
+    margin-top: -225px;
+    margin-left: 70px;
     font-size: 16px;
   }
   
@@ -345,12 +348,34 @@ body {
     position: absolute;
     width: 230px;
     height: 48px;
-    margin-top: -100px;
+    margin-top: -90px;
     margin-left: -465px;
     font-size: 20px;
     line-height: 24px;
     border-radius: 8px;
     border: none;
   }
+}
 
+@media (min-width: 715px) and (max-width: 992px) {
+  .mainContact .mainContent {
+    padding-left: 160px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1208px) {
+  .mainContact .mainContent img {
+    margin-left: -325px;
+  }
+
+  .mainContact .mainContent h1 {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1209px) and (max-width: 1483px) {
+  .mainContent img {
+    margin-left: -210px!important;
+  }
 }

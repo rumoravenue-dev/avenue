@@ -10,7 +10,7 @@ import CarouselTina from './sliders/tina';
 import CarouselRiboli from './sliders/riboli';
 
 import CarouselNewEngland from './sliders/newEngland';
-import CarouselHennessy from './sliders/newEngland';
+import CarouselHennessy from './sliders/hennessy';
 import CarouselInPremisse from './sliders/inPremisse';
 import CarouselGreenHouseWine from './sliders/greenHouseWine';
 
