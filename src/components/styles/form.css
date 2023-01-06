@@ -10,7 +10,7 @@
 }
 
 .form-box {
-  width: 1031px;
+  width: 95%;
   height: 480px;
   background: #000000;
   border-radius: 16px;
@@ -218,7 +218,6 @@ input[type=text]{outline:none}
   .nameField {
     margin-bottom: 10px;
   }
-
 }
 
 
