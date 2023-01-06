@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title> Services - 5pm </title>
+        <title> Contact - 5pm </title>
       </Helmet>
 
       <div className="contact">
