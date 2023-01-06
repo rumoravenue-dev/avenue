@@ -22,7 +22,7 @@ function About() {
         <div className="row">
           <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-            <h1>It's 5pm somewhere</h1> 
+            <h1>IT’S ONLY FIVEPM… LET’S GET TO WORK</h1>
           </div>
         </div>
       </section>
@@ -42,7 +42,7 @@ function About() {
           </div>
           <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 focusText'>
             <h1>We focus <span className="yellow">on presentations</span> exclusively,</h1>
-            <h4>that’s the reason we are so good at all their aspects – <span className='black'> storytelling, design, delivery and tools </span>. No matter the challenge – from quarterly result presentations to a game-changing IPO, <span className='black'> we can help you achieve your goal </span> .</h4>
+            <h4>that’s the reason we are so good at all their aspects – <span className='black'> storytelling, design, delivery and tools </span>. No matter the challenge – from quarterly result presentations to a game-changing IPO, <span className='black'> we can help you achieve your goal</span>.</h4>
             <h2>WE <span className="yellow">COME THROUGH</span> FOR YOU</h2>
             <p>RELIABLE, QUALITY, AND (REASONABLY) AFFORDABLE.</p>
           </div>

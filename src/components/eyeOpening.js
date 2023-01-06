@@ -17,10 +17,6 @@ export default function EyeOpening() {
           <h1>EYE CATCHING</h1>
           <p>The presentation helps to see what's hidden, unseen, or simply never known before. We use design to drive their attention, focus them to clearly see, and help them feel the message.</p>
         </div>
-        <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 eyeCatch">
-          <img className="eye2" src="/assets/img/about/eye.gif" alt="eye" />
-          <img className="eyeSunset2" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-        </div>
       </div>
     </section>
   )
