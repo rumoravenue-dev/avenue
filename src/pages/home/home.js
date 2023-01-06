@@ -44,10 +44,10 @@ function App() {
           </div>
         </div>
       </section>
-{/*  
+ 
       <Brands />
 
-      <OurServices />
+      {/* <OurServices />
 
       <TakeALook/>
 
