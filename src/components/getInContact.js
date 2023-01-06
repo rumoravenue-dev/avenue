@@ -12,7 +12,8 @@ function getInContact(props) {
           </div>
           <div className="col-12 col-sm-10 col-xl-10 col-lg-10 col-md-10 getInContactSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-            <h1>It's 5pm somewhere</h1>
+            <h1 className="only">It’s only fivepm…</h1>
+            <h1 className="getToWork">let’s get to work</h1>
           </div>
 
           {<Form />}
