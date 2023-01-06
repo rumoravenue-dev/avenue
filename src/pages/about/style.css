@@ -25,6 +25,7 @@ body {
 
 .mainSomewhereText h1 {
   position: absolute;
+  width: 1000px;
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 700;
@@ -153,6 +154,39 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 92px;
+    width: 700px;
+    line-height: 127px;
+  }
+  
+  .weFocus .focusText h1 {
+    margin-left: 100px;
+  }
+
+  .weFocus .focusText h4 {
+    font-size: 24px;
+    width: 70%;
+    height: auto;
+    margin-top: 500px;
+    line-height: 28px;
+    margin-top: 650px;
+    margin-left: 100px;
+  }
+
+  .weFocus .focusText h2 {
+    font-size: 64px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+    height: auto;
+  }
+
+  .weFocus .focusText p {
+    font-size: 23px;
+    margin: 0;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
   }
 }
 
@@ -168,6 +202,7 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 82px;
+    width: 75%;
   }
 
   .weAreTextContainer {
@@ -260,6 +295,8 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 42px;
+    width: 300px;
+    line-height: 77px;
   }
 
   .weAreTextContainer {
@@ -335,6 +372,8 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 32px;
+    width: 80%;
+    line-height: 57px;
   }
 
   .weAreTextContainer .weAreText h1 {
