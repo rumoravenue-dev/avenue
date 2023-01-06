@@ -53,9 +53,9 @@ function About() {
       </section>
 
       <EyeOpening />
-      {/* <Brands />
+      <Brands />
       <GetInContact />
-      <Footer /> */}
+      <Footer />
     </ div>
   )
 }
