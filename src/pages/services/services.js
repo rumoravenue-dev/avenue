@@ -27,7 +27,7 @@ const Services = () => {
           <Helmet>
               <title> Services - 5pm </title>
           </Helmet>
-          {/* <Header />  */}
+          <Header />
           <section className="mainServices container-fluid">
               <div className="row">
                   <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">

@@ -44,8 +44,8 @@ function ControlledCarousel() {
       >
         <div className="carouselContent">
           <ImageSlider
-            image1="assets/img/portfolio/projects/atria/Atria2.webp"
-            image2="assets/img/portfolio/projects/atria/Atria1.webp"
+            image1="/assets/img/portfolio/projects/atria/Atria2.webp"
+            image2="/assets/img/portfolio/projects/atria/Atria1.webp"
             onSlide={() => {
               console.log("sliding");
             }}
@@ -55,8 +55,8 @@ function ControlledCarousel() {
 
         <div className="carouselContent">
           <ImageSlider
-            image1="assets/img/home/carousel/AB-Sampling-Deck-_after_.webp"
-            image2="assets/img/home/carousel/AB-Sampling-Deck-_before_-1.webp"
+            image1="/assets/img/home/carousel/AB-Sampling-Deck-_after_.webp"
+            image2="/assets/img/home/carousel/AB-Sampling-Deck-_before_-1.webp"
             onSlide={() => {
               console.log("sliding");
             }}
@@ -66,8 +66,8 @@ function ControlledCarousel() {
 
         <div className="carouselContent">
           <ImageSlider
-            image1="assets/img/home/carousel/Gaylord_after.webp"
-            image2="assets/img/home/carousel/Gaylord-_before__Page_2.webp"
+            image1="/assets/img/home/carousel/Gaylord_after.webp"
+            image2="/assets/img/home/carousel/Gaylord-_before__Page_2.webp"
             onSlide={() => {
               console.log("sliding");
             }}
@@ -77,8 +77,8 @@ function ControlledCarousel() {
 
         <div className="carouselContent">
           <ImageSlider
-            image1="assets/img/home/carousel/Canteen_after-01.webp"
-            image2="assets/img/home/carousel/Canteen_before-01.webp"
+            image1="/assets/img/home/carousel/Canteen_after-01.webp"
+            image2="/assets/img/home/carousel/Canteen_before-01.webp"
             onSlide={() => {
               console.log("sliding");
             }}

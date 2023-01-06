@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      {/*<Header/>*/}
       <section className="homeMain" id="homeMain">
       
         <div className="row">

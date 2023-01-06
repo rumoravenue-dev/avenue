@@ -202,7 +202,7 @@
 
     .carouselHome .controllerDescription {
         min-width: 600px;
-        width: 100%;
+        width: 70%;
     }
 
     .controllerDescription .carouselControls {
@@ -217,7 +217,7 @@
         height: 480px;
         width: 200px;
         left: 955%;
-        top: 45%;
+        top: 77%;
     }
 
     .slider__container  img{
