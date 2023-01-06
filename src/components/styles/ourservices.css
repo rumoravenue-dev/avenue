@@ -2,33 +2,33 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-}
-
-.ourServices h2 {
+ }
+  
+ .ourServices h2 {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 92px;
     line-height: 130%;
     color: #000000;
-}
-
-.ourServices p {
+ }
+  
+ .ourServices p {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
     color: #989898;
-}
-
-.borderOurServices {
+ }
+  
+ .borderOurServices {
     max-width: 1153px;
     width: 100%;
     background-color: #000000;
     border: 1px solid #000000;
     margin-top: 48px;
     margin-bottom: 48px;
-}
-
-.ourServices .tabsOurServices a {
+ }
+  
+ .ourServices .tabsOurServices a {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -38,9 +38,9 @@
     margin-top: 35px;
     margin-bottom: -20px;
     position: relative;
-}
-
-.tabsOurServices a::after {
+ }
+  
+ .tabsOurServices a::after {
     content : " ";
     width: 0%;
     height: 5px;
@@ -49,9 +49,9 @@
     bottom: 0;
     left: 15px;
     transition: 0.5s ease-in-out;
-}
-
-.tabsOurServices a.actived::after {
+ }
+  
+ .tabsOurServices a.actived::after {
     content : " ";
     width: 60%;
     height: 5px;
@@ -60,59 +60,59 @@
     bottom: 0;
     left: 15px;
     transition: 0.5s ease-in-out;
-}
-
-.tabsOurServices a:hover:after {
+ }
+  
+ .tabsOurServices a:hover:after {
     width: 60%!important;
-}
-
-.ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+ }
+  
+ .ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: transparent;
-}
-
-.arrowOurServices {
+ }
+  
+ .arrowOurServices {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF!important;
     text-decoration: none;
-}
-
-.arrowOurServices active {
+ }
+  
+ .arrowOurServices active {
     color: #FFFFFF!important;
     text-decoration: none;
-}
-
-.fundsServices {
+ }
+  
+ .fundsServices {
     display: flex;
     gap: 80px;
-}
-
-.card-body:hover {
+ }
+  
+ .card-body:hover {
     background: linear-gradient(0deg, rgba(244, 189, 3, 0.8), rgba(244, 189, 3, 0.8)), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     width: 248px;
     height: 224px;
     margin-left: -1px;
     margin-top: -1px;
     border-radius: 12px;
-}
-
-.card-body .textHover {
+ }
+  
+ .card-body .textHover {
     opacity: 0;
-}
-
-.card-body:hover .textHover {
+ }
+  
+ .card-body:hover .textHover {
     opacity: 1;
-}
-
-.cardNone {
+ }
+  
+ .cardNone {
     margin-top: 35px;
     width: 248px;
     height: 224px;
     opacity: 0;
-}
-
-.cardIntro {
+ }
+  
+ .cardIntro {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -121,9 +121,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardIntro p {
+ }
+  
+ .cardIntro p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -131,9 +131,9 @@
     margin-top: 130px;
     margin-left: 20px;
     padding-right: 70px;
-}
-
-.cardAgency {
+ }
+  
+ .cardAgency {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -142,18 +142,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardAgency p {
+ }
+  
+ .cardAgency p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardBranding {
+ }
+  
+ .cardBranding {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -162,18 +162,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBranding p {
+ }
+  
+ .cardBranding p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardRedesign {
+ }
+  
+ .cardRedesign {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -182,18 +182,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardRedesign p {
+ }
+  
+ .cardRedesign p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardReview {
+ }
+  
+ .cardReview {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -202,18 +202,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardReview p {
+ }
+  
+ .cardReview p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardMagazine {
+ }
+  
+ .cardMagazine {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -222,18 +222,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardMagazine p {
+ }
+  
+ .cardMagazine p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardProgressReport1 {
+ }
+  
+ .cardProgressReport1 {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -242,9 +242,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardProgressReport1 p {
+ }
+  
+ .cardProgressReport1 p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -252,9 +252,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-.cardConference {
+ }
+  
+ .cardConference {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -263,18 +263,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardConference p {
+ }
+  
+ .cardConference p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardLegalPresentations {
+ }
+  
+ .cardLegalPresentations {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -283,18 +283,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardLegalPresentations p {
+ }
+  
+ .cardLegalPresentations p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 90px;
     margin-left: 30px;
-}
-
-.cardTrialExhibits {
+ }
+  
+ .cardTrialExhibits {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -303,9 +303,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardTrialExhibits p {
+ }
+  
+ .cardTrialExhibits p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -313,9 +313,9 @@
     margin-top: 100px;
     margin-left: 30px;
     padding-right: 60px;
-}
-
-.cardEventTalks {
+ }
+  
+ .cardEventTalks {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -324,9 +324,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardEventTalks p {
+ }
+  
+ .cardEventTalks p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -334,9 +334,9 @@
     margin-top: 100px;
     margin-left: 30px;
     padding-right: 80px;
-}
-
-.cardInvestorDeck {
+ }
+  
+ .cardInvestorDeck {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -345,9 +345,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardInvestorDeck p {
+ }
+  
+ .cardInvestorDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -355,9 +355,9 @@
     margin-top: 100px;
     margin-left: 10px;
     padding-right: 70px;
-}
-
-.cardStartupPitch {
+ }
+  
+ .cardStartupPitch {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -366,9 +366,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardStartupPitch p {
+ }
+  
+ .cardStartupPitch p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -376,9 +376,9 @@
     margin-top: 90px;
     margin-left: 20px;
     padding-right: 70px;
-}
-
-.cardBusinessProposal {
+ }
+  
+ .cardBusinessProposal {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -387,9 +387,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBusinessProposal p {
+ }
+  
+ .cardBusinessProposal p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -397,9 +397,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 60px;
-}
-
-.cardCompanyPresentation {
+ }
+  
+ .cardCompanyPresentation {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -408,9 +408,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardCompanyPresentation p {
+ }
+  
+ .cardCompanyPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -418,9 +418,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 20px;
-}
-
-.cardProductPresentation {
+ }
+  
+ .cardProductPresentation {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -429,9 +429,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardProductPresentation p {
+ }
+  
+ .cardProductPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -439,9 +439,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 20px;
-}
-
-.cardSalesDeck {
+ }
+  
+ .cardSalesDeck {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -450,18 +450,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardSalesDeck p {
+ }
+  
+ .cardSalesDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardServiceDeck {
+ }
+  
+ .cardServiceDeck {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -470,18 +470,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardServiceDeck p {
+ }
+  
+ .cardServiceDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 130px;
     margin-left: 20px;
-}
-
-.cardBigNewsDeck {
+ }
+  
+ .cardBigNewsDeck {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -490,9 +490,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBigNewsDeck p {
+ }
+  
+ .cardBigNewsDeck p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -500,9 +500,9 @@
     margin-top: 95px;
     margin-left: 20px;
     padding-right: 60px;
-}
-
-.cardBrandedTemplate {
+ }
+  
+ .cardBrandedTemplate {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -511,9 +511,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBrandedTemplate p {
+ }
+  
+ .cardBrandedTemplate p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -521,9 +521,9 @@
     margin-top: 95px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-.cardBoardingPresentation {
+ }
+  
+ .cardBoardingPresentation {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -532,9 +532,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBoardingPresentation p {
+ }
+  
+ .cardBoardingPresentation p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -542,9 +542,9 @@
     margin-top: 95px;
     margin-left: 20px;
     padding-right: 20px;
-}
-
-.cardPolicyPlaybook {
+ }
+  
+ .cardPolicyPlaybook {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -553,9 +553,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardPolicyPlaybook p {
+ }
+  
+ .cardPolicyPlaybook p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -563,9 +563,9 @@
     margin-top: 95px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-.cardProgressReport {
+ }
+  
+ .cardProgressReport {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -574,9 +574,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardProgressReport p {
+ }
+  
+ .cardProgressReport p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -584,9 +584,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-.cardTraining {
+ }
+  
+ .cardTraining {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -595,9 +595,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardTraining p {
+ }
+  
+ .cardTraining p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -605,9 +605,9 @@
     margin-top: 90px;
     margin-left: 10px;
     padding-right: 20px;
-}
-
-.cardQuickPresentations {
+ }
+  
+ .cardQuickPresentations {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -616,18 +616,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardQuickPresentations p {
+ }
+  
+ .cardQuickPresentations p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 100px;
     margin-left: 30px;
-}
-
-.cardWedding {
+ }
+  
+ .cardWedding {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -636,9 +636,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardWedding p {
+ }
+  
+ .cardWedding p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -646,9 +646,9 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-.cardBirthday {
+ }
+  
+ .cardBirthday {
     margin-top: 35px;
     width: 248px;
     height: 224px;
@@ -657,9 +657,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-}
-
-.cardBirthday p {
+ }
+  
+ .cardBirthday p {
     font-family: 'Antonio';
     font-weight: 700;
     font-size: 24px;
@@ -667,96 +667,77 @@
     margin-top: 100px;
     margin-left: 20px;
     padding-right: 50px;
-}
-
-@media screen and (max-width: 350px ) {
+ }
+  
+ @media screen and (max-width: 350px ) {
     .ourServices h2 {
         font-size: 41px;
     }
-    
+   
     .ourServices p {
         font-size: 16px;
     }
-    
+   
     .ourServices .tabsOurServices a {
         font-size: 20px;
     }
-    
+   
     .fundsServices {
         gap: 0px;
     }
-}
-
-@media (min-width: 351px) and (max-width: 576px ) {
+ }
+  
+ @media (min-width: 351px) and (max-width: 576px ) {
     .ourServices h2 {
         font-size: 41px;
     }
-    
+   
     .ourServices p {
         font-size: 16px;
     }
-    
+   
     .ourServices .tabsOurServices a {
         font-size: 20px;
     }
-    
+   
     .fundsServices {
         gap: 0px;
     }
-}
-
-@media (min-width: 577px) and (max-width: 992px ) {
+ }
+  
+ @media (width: 576px) {
     .ourServices h2 {
         font-size: 41px;
     }
-    
+   
     .ourServices p {
         font-size: 16px;
     }
-    
+   
     .ourServices .tabsOurServices a {
         font-size: 20px;
     }
-    
+   
     .fundsServices {
         gap: 0px;
     }
-}
-
-@media (width: 576px) {
+ }
+  
+ @media (min-width: 577px) and (max-width: 992px ) {
     .ourServices h2 {
         font-size: 41px;
     }
-    
+   
     .ourServices p {
         font-size: 16px;
     }
-    
+   
     .ourServices .tabsOurServices a {
         font-size: 20px;
     }
-    
+   
     .fundsServices {
         gap: 0px;
     }
-}
-
-@media (min-width: 577px) and (max-width: 992px ) { 
-    .ourServices h2 {
-        font-size: 41px;
-    }
-    
-    .ourServices p {
-        font-size: 16px;
-    }
-    
-    .ourServices .tabsOurServices a {
-        font-size: 20px;
-    }
-    
-    .fundsServices {
-        gap: 0px;
-    }
-}
-
-
+ }
+ 
