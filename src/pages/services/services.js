@@ -139,8 +139,8 @@ const Services = () => {
                   </div>
               </div>
           </section>
-          <GetInContat />
-          <Footer />
+          {/* <GetInContat />
+          <Footer /> */}
       </>
   )
 }

@@ -6,17 +6,17 @@ body {
     overflow-x: hidden;
 }
 
-.headerLogo {
-    margin-left: 100px;
+.headerBlack {
+    margin-top: -30px;
 }
 
- .header,
+.header,
 .headerBlack {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     padding-top: 1.1em;
     padding-bottom: 1.1rem;
-    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(0.0,0.0,0.0,0));
+    background: linear-gradient(rgba(16, 16, 16, 0.7), rgba(0.0, 0.0, 0.0, 0));
     z-index: 99;
 }
 
@@ -29,33 +29,34 @@ body {
 
 
 .headerLinks {
-    justify-content: right;
     text-align: right;
-    display: flex;
-    flex-direction: row;
-    padding-right: 92px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerLinks {
     align-items: center;
 }
- 
 
 .headerLinks a {
-    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
     font-style: Bold;
     font-size: 18px;
-    line-height: 27px;
-    margin-right: 2em;
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
+    transition: 150ms;
 }
 
 .headerBlack .headerLinks a {
-    /*color: rgba(110, 96, 96, 0.733);*/
     color: #373737;
 }
 
 .headerLinks a:hover {
     color: #F4BD03;
+    transition: 150ms;
+}
+
+.headerButton {
+    text-align: left;
 }
 
 .headerLinks button {
@@ -63,8 +64,9 @@ body {
     background-color: #F4BD03;
     padding: 16px 32px;
     border-radius: 8px;
-    border: 1px solid rgba(0.0,0.0,0.0, 0.1);
+    border: 1px solid rgba(0.0, 0.0, 0.0, 0.1);
 }
+
 .headerLinks button:hover a {
     opacity: .9;
     color: #fff;
@@ -95,23 +97,35 @@ body {
     animation: showsidebar 1s;
     left: 0;
 }
+
 @keyframes showsidebar {
-    from {left: 100vw;}
-    to {left: 0;}
+    from {
+        left: 100vw;
+    }
+
+    to {
+        left: 0;
+    }
 }
 
-.hiddenSidebar{
+.hiddenSidebar {
     position: fixed;
     animation: hiddensidebar 1s;
     left: 100vw;
 }
+
 @keyframes hiddensidebar {
-    from {left: 0;}
-    to {left: 100vw;}
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100vw;
+    }
 }
 
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
     .wrap {
         padding-top: 32px;
         width: 20%;
@@ -121,9 +135,12 @@ body {
         position: absolute;
         z-index: 9999;
     }
-    .header, .headerBlack {
+
+    .header,
+    .headerBlack {
         display: none;
     }
+
     .showSidebar,
     .hiddenSidebar {
         display: block;
@@ -131,38 +148,44 @@ body {
     }
 
     @keyframes hiddensidebar {
-        from {opacity: 0;}
-        to {opacity: 1;}
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
 }
-@media (min-width:769px ) and (max-width: 1024px ) { 
-    .header, .headerBlack {
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .headerBlack {
+        margin-top: 0px;
+    }
+
+    .header,
+    .headerBlack {
         height: 96px;
         padding-top: 1.1em;
     }
-    
+
     .headerImage {
         display: flex;
         justify-content: center;
         padding-left: 0;
     }
 
-    .headerImage img {
-        margin-left: 200px;
-    }
-
     .headerLinks {
         display: flex;
         flex-direction: row;
-        padding-right: 92px;
         align-items: center;
     }
-    
+
     .headerLinks a {
         font-size: 14px;
         line-height: 24px;
     }
-    
+
     .headerLinks button {
         font-size: 14px;
         padding: 12px 21px;
@@ -170,18 +193,24 @@ body {
         border: none;
     }
 }
-@media (min-width: 993px) and (max-width: 1200px ) { 
 
-    .header, .headerBlack {
+@media (min-width: 993px) and (max-width: 1200px) {
+    .headerBlack {
+        margin-top: -30px;
+    }
+
+    .header,
+    .headerBlack {
         display: block;
         width: 100%;
     }
 
-    .header, .headerBlack {
+    .header,
+    .headerBlack {
         height: 96px;
         padding-top: 1.1em;
     }
-    
+
     .headerImage {
         display: flex;
         justify-content: center;
@@ -194,23 +223,25 @@ body {
         display: flex;
         align-items: center;
     }
-    
+
     .headerLinks a {
         font-size: 14px;
         line-height: 24px;
     }
-    
+
     .headerLinks button {
         font-size: 14px;
         padding: 12px 21px;
         border-radius: 8px;
         border: none;
     }
-    .header .headerImage, .headerBlack .headerImage {
+
+    .header .headerImage,
+    .headerBlack .headerImage {
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-    
+
 }

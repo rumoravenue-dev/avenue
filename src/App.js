@@ -9,18 +9,18 @@ import About from "./pages/about/about";
 import StartANewProject from "./pages/startANewProject/startANewProject";
 
 const App = () => {
-   return(
-       <BrowserRouter>
+    return (
+        <BrowserRouter>
             <Routes>
-                <Route element = { <Home /> }  path="/" />
-                <Route element = { <Services /> }  path="/services" />
-                <Route element = { <Contact /> }  path="/contact" />
-                <Route element = { <Portfolio /> }  path="/portfolio" />
-                <Route element = { <About /> }  path="/about" />
-                <Route element = { <StartANewProject /> } path="/newproject" />
-           </Routes>
-       </BrowserRouter>
-   )
+                <Route element={<Home />} path="/" />
+                <Route element={<Services />} path="/services" />
+                <Route element={<Contact />} path="/contact" />
+                {/*<Route element = { <Portfolio /> }  path="/portfolio" /> */}
+                <Route element={<About />} path="/about" />
+                <Route element={<StartANewProject />} path="/newproject" />
+            </Routes>
+        </BrowserRouter>
+    )
 }
 
 export default App;
