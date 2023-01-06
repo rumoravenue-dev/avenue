@@ -6,10 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-.headerBlack {
-    margin-top: -30px;
-}
-
 .header,
 .headerBlack {
     position: fixed;
@@ -159,9 +155,6 @@ body {
 }
 
 @media (min-width:769px) and (max-width: 1024px) {
-    .headerBlack {
-        margin-top: 0px;
-    }
 
     .header,
     .headerBlack {
@@ -195,9 +188,6 @@ body {
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-    .headerBlack {
-        margin-top: -30px;
-    }
 
     .header,
     .headerBlack {
