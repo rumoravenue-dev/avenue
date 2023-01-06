@@ -22,7 +22,7 @@ function About() {
         <div className="row">
           <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-            <h1>It's 5pm somewhere</h1> 
+            <h1>IT’S ONLY FIVEPM… LET’S GET TO WORK</h1>
           </div>
         </div>
       </section>
