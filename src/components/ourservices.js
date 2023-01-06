@@ -62,7 +62,7 @@ return (
                       </Tab.Pane>
                       <Tab.Pane eventKey="funds">
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardInvestorDeck">
                               <div className="card-body">
                                 <div className="card-text">
@@ -84,7 +84,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardStartupPitch">
                               <div className="card-body">
                                 <div className="card-text">
@@ -106,7 +106,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardNone">
                               <div className="card-body">
                                 <div className="card-text">
@@ -120,7 +120,7 @@ return (
                       </Tab.Pane>
                       <Tab.Pane eventKey="sell">
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBusinessProposal">
                               <div className="card-body">
                                 <div className="card-text">
@@ -142,7 +142,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardCompanyPresentation">
                               <div className="card-body">
                                 <div className="card-text">
@@ -164,7 +164,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardProductPresentation">
                               <div className="card-body">
                                 <div className="card-text">
@@ -188,7 +188,7 @@ return (
                           </div>
                         </div>
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardSalesDeck">
                               <div className="card-body">
                                 <div className="card-text">
@@ -210,7 +210,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardServiceDeck">
                               <div className="card-body">
                                 <div className="card-text">
@@ -236,7 +236,7 @@ return (
                       </Tab.Pane>
                       <Tab.Pane eventKey="hire">
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBigNewsDeck">
                               <div className="card-body">
                                 <div className="card-text">
@@ -258,7 +258,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBrandedTemplate">
                               <div className="card-body">
                                 <div className="card-text">
@@ -280,7 +280,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBoardingPresentation">
                               <div className="card-body">
                                 <div className="card-text">
@@ -304,7 +304,7 @@ return (
                           </div>
                         </div>
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardPolicyPlaybook">
                               <div className="card-body">
                                 <div className="card-text">
@@ -326,7 +326,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardProgressReport">
                               <div className="card-body">
                                 <div className="card-text">
@@ -348,7 +348,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardTraining">
                               <div className="card-body">
                                 <div className="card-text">
@@ -374,7 +374,7 @@ return (
                       </Tab.Pane>
                       <Tab.Pane eventKey="personal">
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardQuickPresentations">
                               <div className="card-body">
                                 <div className="card-text">
@@ -396,7 +396,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardWedding">
                               <div className="card-body">
                                 <div className="card-text">
@@ -418,7 +418,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBirthday">
                               <div className="card-body">
                                 <div className="card-text">
@@ -444,7 +444,7 @@ return (
                       </Tab.Pane>
                       <Tab.Pane eventKey="additional">
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardIntro">
                               <div className="card-body">
                                 <div className="card-text">
@@ -466,7 +466,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardAgency">
                               <div className="card-body">
                                 <div className="card-text">
@@ -488,7 +488,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardBranding">
                               <div className="card-body">
                                 <div className="card-text">
@@ -512,7 +512,7 @@ return (
                           </div>
                         </div>
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardRedesign">
                               <div className="card-body">
                                 <div className="card-text">
@@ -534,7 +534,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardReview">
                               <div className="card-body">
                                 <div className="card-text">
@@ -556,7 +556,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardMagazine">
                               <div className="card-body">
                                 <div className="card-text">
@@ -580,7 +580,7 @@ return (
                           </div>
                         </div>
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardProgressReport1">
                               <div className="card-body">
                                 <div className="card-text">
@@ -602,7 +602,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardConference">
                               <div className="card-body">
                                 <div className="card-text">
@@ -624,7 +624,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardLegalPresentations">
                               <div className="card-body">
                                 <div className="card-text">
@@ -648,7 +648,7 @@ return (
                           </div>
                         </div>
                         <div className="row fundsServices">
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardTrialExhibits">
                               <div className="card-body">
                                 <div className="card-text">
@@ -670,7 +670,7 @@ return (
                               </div>
                             </div>
                           </div>
-                          <div className="col-12 col-sm-3 col-xl-3 col-lg-12 col-md-12">
+                          <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="card cardEventTalks">
                               <div className="card-body">
                                 <div className="card-text">
