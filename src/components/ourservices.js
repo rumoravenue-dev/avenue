@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
+
 const OurServices = () => {
 $(document).on("click", "a", function () {
  $(this).addClass("actived");
