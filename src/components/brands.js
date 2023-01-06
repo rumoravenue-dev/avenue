@@ -13,27 +13,27 @@ const Brands = () => {
               brands across the globe{" "}
             </h2>
           </div>
-          <div className="col-12 col-md-2 img-fluid partnershipsTitle">
-            <img
-              src="/assets/img/home/Partnerships/AnheuserBusch.webp"
-              alt=""
-            />
-          </div>
-          <div className="col-12 col-md-2 img-fluid partnershipsTitle">
-          <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
-          </div>
-          <div className="col-12 col-md-2 img-fluid partnershipsTitle">
-          <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
-          </div>
-          <div className="col-12 col-md-2 img-fluid partnershipsTitle">
-            <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
-          </div>
-          <div className="col-12 col-md-2 img-fluid partnershipsTitle">
-            <img
-              src="/assets/img/home/Partnerships/GH-Logo-Green.webp"
-              alt=""
-            />
-          </div>
+        <div className="col-12 col-md-2 img-fluid partnershipsTitle">
+          <img
+            src="/assets/img/home/Partnerships/AnheuserBusch.webp"
+            alt=""
+          />
+        </div>
+        <div className="col-12 col-md-2 img-fluid partnershipsTitle">
+        <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+        </div>
+        <div className="col-12 col-md-2 img-fluid partnershipsTitle">
+        <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+        </div>
+        <div className="col-12 col-md-2 img-fluid partnershipsTitle">
+          <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
+        </div>
+        <div className="col-12 col-md-2 img-fluid partnershipsTitle">
+          <img
+            src="/assets/img/home/Partnerships/GH-Logo-Green.webp"
+            alt=""
+          />
+        </div>
           <div className="row justify-content-center align-items-center ">
               <div className="col-12 col-md-2 img-fluid partnershipsTitle">
                 <img

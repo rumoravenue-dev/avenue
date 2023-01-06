@@ -13,8 +13,8 @@ const App = () => {
        <BrowserRouter>
             <Routes>
                 <Route element = { <Home /> }  path="/" />
-                {/* <Route element = { <Services /> }  path="/services" />
-                <Route element = { <Contact /> }  path="/contact" />
+                <Route element = { <Services /> }  path="/services" />
+                {/* <Route element = { <Contact /> }  path="/contact" />
                 <Route element = { <Portfolio /> }  path="/portfolio" />
                 <Route element = { <About /> }  path="/about" />
                 <Route element = { <StartANewProject /> } path="/newproject" /> */}

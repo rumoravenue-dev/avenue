@@ -35,40 +35,48 @@ const Services = () => {
 
             <section className="mainServices container-fluid">
                 <div className="row">
-                    <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainServicesText">
-                        <h1> We create eye-catching & eye-opening presentations that <span> educate </span>, <span> inspire </span> and <span> influence action </span> </h1>
+                    <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
+                        <div className="mainServicesText">
+                            <h1> We create eye-catching & eye-opening presentations that <span> educate </span>, <span> inspire </span> and <span> influence action </span> </h1>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section className='aproachServices container-fluid'>
-                <div className='row rowAproach'>
-                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 firstColAproach'>
-                        <h2> We do this by following a simple approach: </h2>
-                        <h3> <a> SETTING A GOAL </a> </h3>
-                        <h3> <a> IDENTIFYING AUDIENCE </a> </h3>
-                        <h3> <a> CONTEXT IS KEY </a> </h3>
+                <div className='row rowAproach justify-content-center'>
+                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 '>
+                        <div className='firstColAproach'>
+                            <h2> We do this by following a simple approach: </h2>
+                            <h3> <a> SETTING A GOAL </a> </h3>
+                            <h3> <a> IDENTIFYING AUDIENCE </a> </h3>
+                            <h3> <a> CONTEXT IS KEY </a> </h3>
+                        </div>
                     </div>
-                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12 secondColAproach'>
-                        <LazyLoad threshold={1}>
-                            <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image"/>
-                        </LazyLoad>
+                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
+                        <div className='secondColAproach'>
+                            <LazyLoad threshold={1}>
+                                <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image"/>
+                            </LazyLoad>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section className='processServices container-fluid'>
                 <div className='row'>
-                    <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 firstColProcess'>
-                        <h2> OUR PROCESS </h2>
-                        <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
+                    <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
+                        <div className='firstColProcess'>
+                            <h2> OUR PROCESS </h2>
+                            <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
+                        </div>
                     </div>
                     <div className='col-12 col-sm-2 col-xl-2 col-lg-2 col-md-12'>
                         <LazyLoad>
                             <img src="/assets/img/services/Rectangle5981.webp" alt="bottle of wine"/>
                         </LazyLoad>
                     </div>
-                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 secondColProcess'>
+                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 secondColProcess topProcess'>
                         <h3> 1. Discovery </h3>
                         <p> We work with you to understand your goals, ask better questions, identify your audience, and build context. </p>
                         <h3> 3. DESIGN </h3>
@@ -76,7 +84,7 @@ const Services = () => {
                         <h3> 5. DELIVERY </h3>
                         <p> Finally, we will carefully collect and prepare all project files to ensure smooth and easy use in the future. </p>
                     </div>
-                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 thirdColProcess'>
+                    <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-12 thirdColProcess topProcess'>
                         <h3> 2. Storytelling </h3>
                         <p> We will develop a foundation of the deck. We’re going to tell a story — build tone, voice, and a foundational structure that will get people thinking. </p>
                         <h3> 4. FEEDBACK </h3>
@@ -91,17 +99,17 @@ const Services = () => {
                         <LazyLoad>
                             <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                         </LazyLoad>
-                        <div className='goodToKnowText'>
-                            <div className='goodknowcarousel'><CarouselWords /></div>
-                            <h2> know </h2>
-                        </div>
                     </div>
+                </div>
+                <div className='goodToKnowText'>
+                    <div className='goodknowcarousel'><CarouselWords /></div>
+                    <h2> know </h2>
                 </div>
             </section>
 
             <Presentation /> 
 
-            <OurServices />
+            {/* <OurServices /> */}
 
             <section className='addonsServices container-fluid'>
                 <div className='row'>
@@ -143,9 +151,9 @@ const Services = () => {
                 </div>
             </section>
 
-            <GetInContat />
+            {/* <GetInContat />
 
-            <Footer />
+            <Footer /> */}
         </>
     )
 }

@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+.headerLogo {
+    margin-left: 100px;
+}
+
  .header,
 .headerBlack {
     position: fixed;
