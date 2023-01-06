@@ -96,6 +96,14 @@
   margin-left: 110px;
 } */
 
+@media screen and (max-width: 1024px ) {
+  .eyeSection .eyeOpen {
+    width: 40%;
+    margin-top: -600px;
+    margin-left: 450px;
+  }
+}
+
 @media screen and (max-width: 992px ) {
 
   .eyeSection {
