@@ -47,8 +47,6 @@
 .carouselHome .carousel {
     width: 100%;
     height: 600px;
-    display: flex;
-    justify-content: center;
 }
 
 .carousel .carouselContent {
@@ -84,6 +82,17 @@
     margin-top: -70px;
 }
 
+.carouselDescription .row {
+    width: 997px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.2px;
+}
+
+.column-before, .column-after {
+    width: auto;
+}
 
 @media only screen and (max-width: 767px) {
     .carouselHome {
@@ -232,5 +241,24 @@
 
     .controllerDrag h6 {
         margin-top: 0px;
+    }
+ }
+
+ @media only screen and (max-width: 575px) {
+    .carouselDescription .row {
+        width: 230px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0.2px;
+    }
+
+    .carouselHome .controllerDescription {
+        width: 230px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
     }
  }
