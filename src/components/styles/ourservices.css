@@ -625,7 +625,7 @@
        font-size: 20px;
    }
    .fundsServices {
-      gap: 125px;
+      gap: 0px;
    }
  }
   
@@ -640,7 +640,7 @@
        font-size: 20px;
    }
    .fundsServices {
-      grid-gap: 0px 150px;
+      gap: 150px;
    }
  }
  
