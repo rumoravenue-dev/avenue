@@ -127,8 +127,13 @@ body {
     .showSidebar,
     .hiddenSidebar {
         display: block;
+        animation: opacitySidebar 2s;
     }
-    
+
+    @keyframes hiddensidebar {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
 }
 @media (min-width:769px ) and (max-width: 1024px ) { 
     .header, .headerBlack {
