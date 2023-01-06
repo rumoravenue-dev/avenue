@@ -87,7 +87,7 @@ const Services = () => {
           </section>
           <section className='goodToKnowServices container-fluid p-0'>
               <div className='row'>
-                  <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
+                  <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 p-0'>
                       <LazyLoad>
                           <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m"/>
                       </LazyLoad>
