@@ -33,10 +33,24 @@
   align-items: center;
 }
 
-.getInContactSomewhereText h1 {
+.only {
   position: absolute;
-  margin-top: 230px;
-  margin-left: 230px;
+  margin-top: 200px;
+  margin-left: 190px;
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 134px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.getToWork {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 188px;
   font-family: 'Antonio', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -84,9 +98,16 @@
     margin-top: 162px;
   }
 
-  .getInContactSomewhereText h1 {
-    margin-top: 354px;
-    margin-left: 40px;
+  .only {
+    margin-top: 334px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  .getToWork {
+    margin-top: 384px;
+    margin-left: 30px;
     font-size: 16px;
     line-height: 10px;
   }
@@ -125,12 +146,19 @@
     margin-top: 160px;
   }
 
-  .getInContactSomewhereText h1 {
-    margin-top: 349px;
+  .only {
+    margin-top: 329px;
     margin-left: 40px;
     font-size: 12px;
     line-height: 24px;
-}
+  }
+
+  .getToWork {
+    margin-top: 369px;
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 24px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -158,8 +186,13 @@
     margin-top: 80px;
   }
 
-  .getInContactSomewhereText h1 {
-    margin-top: 200px;
+  .only {
+    margin-top: 180px;
+    margin-left: 130px;
+  }
+
+  .getToWork {
+    margin-top: 250px;
     margin-left: 130px;
   }
 }
