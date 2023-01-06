@@ -86,10 +86,13 @@
     }
     
     .presentationServices p {
+        font-family: 'Poppins';
+        font-weight: 400;
         font-size: 16px;
-        margin-top: 0px;
+        color: #000000;
+        opacity: 0.4;
+        margin-top: 20px;
         margin-left: 20px;
-        padding-right: 100px;
     }
     
     .timezones {
@@ -99,19 +102,16 @@
     .presentationFileTypes {
         margin-top: 0px!important;
     }
-    
-    .presentationServices ul li {
-        list-style-type: none;
-        padding-right: 10px;
+
+    .presentationFileTypes ul li {
+        margin-left: 20px;
     }
     
     .presentationServices h5 {
-        margin-top: 0px;
         font-size: 16px!important;
     }
     
     .presentationServices img {
-        margin-left: 20px;
         margin-right: 10px;
         height: 20px;
     }
@@ -127,10 +127,13 @@
     }
     
     .presentationServices p {
+        font-family: 'Poppins';
+        font-weight: 400;
         font-size: 16px;
-        margin-top: 0px;
+        color: #000000;
+        opacity: 0.4;
+        margin-top: 20px;
         margin-left: 20px;
-        padding-right: 100px;
     }
     
     .timezones {
@@ -140,19 +143,16 @@
     .presentationFileTypes {
         margin-top: 0px!important;
     }
-    
-    .presentationServices ul li {
-        list-style-type: none;
-        padding-right: 10px;
+
+    .presentationFileTypes ul li {
+        margin-left: 20px;
     }
     
     .presentationServices h5 {
-        margin-top: 0px;
         font-size: 16px!important;
     }
     
     .presentationServices img {
-        margin-left: 20px;
         margin-right: 10px;
         height: 20px;
     }
@@ -161,7 +161,7 @@
 
 @media (width: 576px) {
     .presentationServices {
-        margin-left: 60px;
+        margin-left: 0px;
     }
     
     .presentationServices a {
@@ -169,7 +169,11 @@
     }
     
     .presentationServices p {
+        font-family: 'Poppins';
+        font-weight: 400;
         font-size: 16px;
+        color: #000000;
+        opacity: 0.4;
         margin-top: 0px;
     }
     
@@ -181,12 +185,7 @@
         margin-top: 0px!important;
     }
     
-    .presentationServices ul li {
-        list-style-type: none;
-    }
-    
     .presentationServices h5 {
-        margin-top: 0px;
         font-size: 16px!important;
     }
     
@@ -198,7 +197,7 @@
 
 @media (min-width: 577px) and (max-width: 992px ) {
     .presentationServices {
-        margin-left: 60px;
+        margin-left: 0px;
     }
     
     .presentationServices a {
@@ -206,7 +205,11 @@
     }
     
     .presentationServices p {
+        font-family: 'Poppins';
+        font-weight: 400;
         font-size: 16px;
+        color: #000000;
+        opacity: 0.4;
         margin-top: 0px;
     }
     
@@ -218,12 +221,7 @@
         margin-top: 0px!important;
     }
     
-    .presentationServices ul li {
-        list-style-type: none;
-    }
-    
     .presentationServices h5 {
-        margin-top: 0px;
         font-size: 16px!important;
     }
     

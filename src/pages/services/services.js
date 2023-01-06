@@ -109,7 +109,7 @@ const Services = () => {
 
             <Presentation /> 
 
-            <OurServices />
+            {/* <OurServices /> */}
 
             <section className='addonsServices container-fluid'>
                 <div className='row'>
