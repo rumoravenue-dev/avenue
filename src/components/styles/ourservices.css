@@ -641,7 +641,346 @@
    }
    .fundsServices {
       row-gap: 0px;
-      column-gap: 150px;
+      column-gap: 30px;
    }
+
+   .card-body:hover {
+    width: 130px;
+    height: 130px;
+  }
+ 
+  .cardNone {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardIntro {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardAgency {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBranding {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBranding p {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardRedesign {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardReview {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardMagazine {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardProgressReport1 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardConference {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardLegalPresentations {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardTrialExhibits {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardEventTalks {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardInvestorDeck {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardStartupPitch {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBusinessProposal {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardCompanyPresentation {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardProductPresentation {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .cardSalesDeck {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardServiceDeck {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBigNewsDeck {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBrandedTemplate {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardBoardingPresentation {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardPolicyPlaybook {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardProgressReport {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardTraining {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardQuickPresentations {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardWedding {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .cardBirthday {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cardIntro p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardAgency p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardBranding p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardRedesign p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardReview p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardMagazine p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardProgressReport1 p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardConference p {
+    margin-top: 60px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardLegalPresentations p {
+    margin-top: 30px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardTrialExhibits p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardEventTalks p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardInvestorDeck p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardStartupPitch p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardBusinessProposal p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardCompanyPresentation p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardProductPresentation p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  
+  .cardSalesDeck p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardServiceDeck p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardBigNewsDeck p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardBrandedTemplate p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardBoardingPresentation p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardPolicyPlaybook p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardProgressReport p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardTraining p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardQuickPresentations p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .cardWedding p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  
+  .cardBirthday p {
+    margin-top: 50px;
+    padding-right: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
  }
  
