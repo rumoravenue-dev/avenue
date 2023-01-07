@@ -73,11 +73,7 @@ body {
 }
 
 .footer .footerMedia .socialMedia {
-    margin-left: 80px;
-}
-
-.footer .footerMedia .socialMedia img {
-    margin-right: 30px;
+    margin-left: 0px;
 }
 
 .footer .footerMedia .backToTop {

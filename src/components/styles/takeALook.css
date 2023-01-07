@@ -131,6 +131,15 @@ body {
     height: 100%;
   }
 
+  .mainPortfolio .titleContainer {
+    margin-top: -54px!important;
+    margin-left: -31px!important;
+  }
+
+  .mainPortfolio .portfolioContainer {
+    margin-left: 0px!important;
+  }
+
   .mainPortfolio .titleContainer .takeALook {
     height: 40px!important;
     margin-bottom: 10px;
@@ -152,8 +161,8 @@ body {
 
   .mainPortfolio .titleContainer {
     max-width: 90%;
-    margin-top: -82px;
-    margin-left: 25px;
+    margin-top: -52px;
+    margin-left: -30px;
   }
 
   .mainPortfolio .titleContainer h4 {
@@ -166,7 +175,7 @@ body {
   }
 
   .mainPortfolio .portfolioContainer {
-    margin-left: 30px;
+    margin-left: 0px;
     width: 85%;
   }
 
@@ -180,7 +189,6 @@ body {
     width: 85vw;
     padding-left: 2%;
   }
-
 
   .homePortfolio {
     height: 100%;
@@ -213,7 +221,7 @@ body {
 
   .mainPortfolio .titleContainer {
     padding-left: 0px;
-}
+  }
 
   .mainPortfolio .portfolioContainer {
     padding-left: 0px;
@@ -233,6 +241,11 @@ body {
 
   .mainPortfolio {
     overflow-x: hidden;
+  }
+
+  .mainPortfolio .titleContainer {
+    margin-top: 50px;
+    margin-left: -40px;
   }
 
   .mainPortfolio .titleContainer .takeALook {
