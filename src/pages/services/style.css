@@ -15,7 +15,7 @@ body {
 .mainServices h1 {
     font-weight: 700;
     font-size: 68px;
-    line-height: 88px;
+    line-height: 93px;
     font-family: 'Antonio', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -259,6 +259,7 @@ body {
 
     .mainServices h1 {
         font-size: 34px;
+        line-height: 50px;
     }
 
     .mainServicesText {
@@ -384,7 +385,7 @@ body {
 }
 
 @media (min-width: 351px) and (max-width: 576px) {
-    .teste {
+    .goodToKnowIMG {
         width: 300px;
     }
 
@@ -394,10 +395,11 @@ body {
 
     .mainServices h1 {
         font-size: 34px;
+        line-height: 50px;
     }
 
     .mainServicesText {
-        margin: 273px 0px;
+        margin: 200px 0px;
     }
 
     .aproachServices {
@@ -525,6 +527,7 @@ body {
 
     .mainServices h1 {
         font-size: 34px;
+        line-height: 50px;
     }
 
     .aproachServices {
@@ -652,6 +655,7 @@ body {
 
     .mainServices h1 {
         font-size: 34px;
+        line-height: 50px;
     }
 
     .mainServicesText {

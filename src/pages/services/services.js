@@ -88,7 +88,7 @@ const Services = () => {
             <div className='container-carousel'>
                 <div className='container-img'>
                     <LazyLoad>
-                        <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m" className='teste' />
+                        <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m" className='goodToKnowIMG' />
                     </LazyLoad>
                 </div>
                 <div className='goodToKnowText'>
@@ -137,8 +137,8 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            {/* <GetInContat /> */}
-            {/* <Footer /> */}
+            <GetInContat />
+            <Footer />
         </>
     )
 }
