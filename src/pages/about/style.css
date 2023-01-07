@@ -146,6 +146,10 @@ body {
   margin-bottom: 200px;
 }
 
+.containerAbout .brandsPartnerships {
+  height: 80vh;
+}
+
 @media screen and (max-width: 1024px ) {
 
     .mainAbout .mainSomewhereText img {
@@ -267,6 +271,10 @@ body {
     margin-top: -30px;
     margin-left: 100px;
     margin-bottom: 100px;
+  }
+
+  .containerAbout .brandsPartnerships {
+    height: 145vh;
   }
 }
 
