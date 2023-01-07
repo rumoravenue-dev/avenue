@@ -2,6 +2,8 @@
 
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .mainPortfolio {
@@ -59,8 +61,6 @@ body {
 .mainPortfolio .portfolioContainer .carousel-indicators {
   display: none;
 }
-
-/* Home */
 
 .homePortfolio {
   background-color: #000000;
@@ -137,17 +137,9 @@ body {
   }
 
   .mainPortfolio .portfolioContainer img {
-    width: 306.49px!important;
-    height: 215px!important;
-}
-
-  .homePortfolio {
-    height: 100%;
-  }
-
-  .homePortfolio .titleContainer .takeALook {
-    height: 40px;
-    margin-bottom: 10px;
+    width: 70%!important;
+    min-width: 252.49px!important;
+    height: 180px!important;
   }
 }
 
@@ -179,9 +171,14 @@ body {
   }
 
   .mainPortfolio .portfolioContainer img {
-    height: 180px;
-    width: 100%;
-    justify-content: center;
+    width: 75%;
+    min-width: 315.49px;
+    height: 209px;
+  }
+
+  .portifolioContent {
+    width: 85vw;
+    padding-left: 2%;
   }
 
 
@@ -226,11 +223,6 @@ body {
     height: 180px;
     width: 100%;
   }
-
-  .mainPortfolio .portfolioContainer img {
-    width: 330.49px;
-    height: 295px;
-  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -265,8 +257,13 @@ body {
     margin-bottom: 10px;
   }
 
+  .portifolioContent {
+    width: 85vw;
+      padding-left: 2%;
+  }
+
   .mainPortfolio .titleContainer {
-    padding-left: 40px;
+    padding-left: 0px;
   }
 
   .mainPortfolio .portfolioContainer {

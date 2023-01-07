@@ -5,7 +5,7 @@ body {
 }
 
 .brandsPartnerships {
-    height: 60vh;
+    height: 80vh;
 }
 
 .brandsPartnerships .partnershipsTitle {
@@ -80,9 +80,21 @@ body {
     color: #000000;
     padding: 0 0px;
   }
+
+    .cardAppcore img, .cardHennessyVSOP img, .cardPelicargo img {
+        width: 147px;
+    }
+
+    .cardAppcore img, .cardPelicargo img {
+        margin-left: 20px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .brandsPartnerships {
+        height: 85vh;
+    }
   .brandsPartnerships .partnershipsTitle {
     height: 386px;
     background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
@@ -178,7 +190,7 @@ body {
 
 @media (min-width: 577px) and (max-width: 992px ) {
     .brandsPartnerships {
-        height: 1000px;
+        height: 100vh;
         padding: 80px 32px 80px 0px;
     }
 
@@ -223,7 +235,13 @@ body {
         margin-left: 85px;
     }
     .cardMoet img{
-        margin-left: 90px;
+        width: 195px;
+        margin-left: 80px;
+    }
+
+    .cardBalanceBunny img {
+        width: 185px;
+        margin-left: 20px;
     }
 }
 
