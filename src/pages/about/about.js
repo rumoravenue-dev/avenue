@@ -50,12 +50,12 @@ function About() {
             <img className='ParallaxImage' src="/assets/img/about/ParallaxSlide.webp" alt="wine" />
           </div>
         </div>
-      </section>
+  </section>
 
-      <EyeOpening />
+      <EyeOpening /> 
       <Brands />
       <GetInContact />
-      <Footer />
+<Footer />
     </ div>
   )
 }
