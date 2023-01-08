@@ -165,7 +165,7 @@ body {
     margin-bottom: 179px;
 }
 
-.goodToKnowServices img {
+.goodToKnowIMG {
     float: right;
     padding: 0;
 }
@@ -202,7 +202,8 @@ body {
 }
 
 .goodknowcarousel {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
 }
 
 .addonsServices {
@@ -328,8 +329,8 @@ body {
         font-size: 16px;
     }
 
-    .goodToKnowServices img {
-        height: 200px;
+    .goodToKnowIMG {
+        height: 200px!important;
     }
 
     .goodToKnowServices .LazyLoad {
@@ -386,7 +387,7 @@ body {
 
 @media (min-width: 351px) and (max-width: 576px) {
     .goodToKnowIMG {
-        width: 300px;
+        width: 300px!important;
     }
 
     .mainServices {
@@ -464,7 +465,7 @@ body {
         font-size: 16px;
     }
 
-    .goodToKnowServices img {
+    .goodToKnowIMG {
         height: 200px;
     }
 
@@ -592,7 +593,7 @@ body {
         font-size: 16px;
     }
 
-    .goodToKnowServices img {
+    .goodToKnowIMG {
         height: 200px;
     }
 
@@ -728,8 +729,8 @@ body {
         font-size: 16px;
     }
 
-    .goodToKnowServices img {
-        height: 200px;
+    .goodToKnowIMG {
+        height: 300px;
     }
 
     .goodToKnowServices .LazyLoad {

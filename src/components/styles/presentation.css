@@ -114,6 +114,11 @@
     .timezones {
         margin-top: 80px!important;
     }
+
+    .presentationContent {
+        display: flex;
+        flex-direction: column;
+    }
     
     .presentationFileTypes {
         margin-top: 80px!important;

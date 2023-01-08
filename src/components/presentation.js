@@ -16,7 +16,7 @@ const Presentation = () => {
                 <div className="presentationMainRow">
                     <div>
                         <Tab.Container defaultActiveKey="timezones">
-                            <div className="d-flex justify-content-around">
+                            <div className="d-flex justify-content-around presentationContent">
                                 <Col sm={3}>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>

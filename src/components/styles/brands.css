@@ -212,7 +212,7 @@ body {
 
 @media (min-width: 577px) and (max-width: 992px) {
     .brandsPartnerships {
-        height: 100vh;
+        height: 110vh;
         padding: 80px 32px 80px 0px;
         margin-bottom: 0px;
     }

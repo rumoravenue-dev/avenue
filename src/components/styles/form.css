@@ -276,9 +276,10 @@ input[type=text]{outline:none}
   }
 
   .form-right-side button {
-    margin-left: 0px;
     width: 100%;
     max-width: 490px;
+    margin-top: 150px;
+    margin-left: 0px;
   }
 }
 
