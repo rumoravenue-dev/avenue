@@ -9,18 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 10em;
+  padding: 160px;
 }
 
 .modal .container {
   position: fixed;
   background-color: transparent;
   color: #000;
-  width: 70%;
-  height: 75%;
+  width: 100%;
+  height: 57%;
   display: flex;
   justify-content: center;
-  margin-top: -50px;
+  
 }
   
 .container .close {
@@ -31,63 +31,28 @@
   box-shadow: none;
   width: 32px;
   height: 32px;
-  right: -930px;
+  right: 21%;
+  top: 15%;
   cursor: pointer;
   display: flex;
-  position: relative;
+  position: fixed;
   align-items: center;
 }
   
 .container .content {
   display: flex;
-  width: 100%;
+  width: 65%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 992px ) {
-  .modal .container {
-    height: auto;
-    margin-left: -40px;
-    margin-top: 200px;
-  }
-
-  .container .close {
-    left: 420px;
-  }
-}
-
-@media screen and (max-width: 576px ) {
-  .modal {
-    padding: 0;
-    padding-top: 10em;
-    padding-left: 0em;
-    height: 2000vh;
-  }
-
-  .modal .container {
-    height: auto;
-    margin-left: -40px;
-    margin-top: 0px;
-    width: 82%;
-  }
-
-  .container .close {
-    left: 255px;
-  }
-
-  .container .content {
-    width: 90%;
-  }
 }
 
 @media screen and (max-width: 350px ) {
 
   .modal {
     padding: 0;
-    padding-top: 10em;
-    padding-left: 2.5em;
+    padding-top: 160px;
+    padding-left: 40px;
   }
 
   .modal .container {
@@ -108,5 +73,54 @@
 
   .container .content img {
     height: 150px!important;
+  }
+}
+
+@media screen and (max-width: 576px ) {
+  .modal {
+    padding: 0;
+    padding-top: 160px;
+    padding-left: 0px;
+    height: 2000vh;
+  }
+
+  .modal .container {
+    height: auto;
+    margin-left: -40px;
+    margin-top: 0px;
+    width: 82%;
+  }
+
+  .container .close {
+    left: 72%;
+  }
+
+  .container .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px ) {
+  .modal .container {
+    height: auto;
+    margin-left: -40px;
+    margin-top: 200px;
+  }
+
+  .modal .container {
+    width: 100%;
+    max-width: 790px;
+    height: 50%;
+}
+
+  .container .close {
+    left: 67%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .container .close {
+    right: 31%;
+    top: 16%;
   }
 }

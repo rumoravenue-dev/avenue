@@ -11,12 +11,12 @@ function About() {
   const contact = true;
 
   return (
-    <div className='containerAbout'>  
+    <div className='containerAbout'>
       <Helmet>
         <title> About - 5pm </title>
       </Helmet>
 
-      <Header contact={contact}/>
+      <Header contact={contact} /> 
 
       <section className="mainAbout container-fluid">
         <div className="row">
@@ -38,7 +38,7 @@ function About() {
       <section className='weFocus container-fluid'>
         <div className='row'>
           <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
-            <img className='wineImage' src="/assets/img/about/Slide01.webp" alt="wine"/>
+            <img className='wineImage' src="/assets/img/about/Slide01.webp" alt="wine" />
           </div>
           <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 focusText'>
             <h1>We focus <span className="yellow">on presentations</span> exclusively,</h1>
@@ -47,16 +47,16 @@ function About() {
             <p>RELIABLE, QUALITY, AND (REASONABLY) AFFORDABLE.</p>
           </div>
           <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-12'>
-            <img className='ParallaxImage' src="/assets/img/about/ParallaxSlide.webp" alt="wine"/>
+            <img className='ParallaxImage' src="/assets/img/about/ParallaxSlide.webp" alt="wine" />
           </div>
         </div>
       </section>
 
-      <EyeOpening />
+      <EyeOpening /> 
       <Brands />
       <GetInContact />
       <Footer />
-    </ div>
+    </div>
   )
 }
 

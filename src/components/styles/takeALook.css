@@ -2,6 +2,8 @@
 
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .mainPortfolio {
@@ -22,9 +24,9 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 130%;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 120px;
@@ -40,9 +42,6 @@ body {
 .mainPortfolio .arrowContainer img {
   height: 34px;
   margin-bottom: 20px;
-}
-
-.mainPortfolio .arrowContainer > img {
   margin-right: 15px;
 }
 
@@ -59,8 +58,6 @@ body {
 .mainPortfolio .portfolioContainer .carousel-indicators {
   display: none;
 }
-
-/* Home */
 
 .homePortfolio {
   background-color: #000000;
@@ -84,9 +81,9 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 130%;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 120px;
@@ -102,9 +99,6 @@ body {
 .homePortfolio .arrowContainer img {
   height: 34px;
   margin-bottom: 20px;
-}
-
-.homePortfolio .arrowContainer > img {
   margin-right: 15px;
 }
 
@@ -131,41 +125,41 @@ body {
     height: 100%;
   }
 
+  .mainPortfolio .titleContainer {
+    margin-top: -54px!important;
+    margin-left: -31px!important;
+  }
+
+  .mainPortfolio .portfolioContainer {
+    margin-left: 0px!important;
+  }
+
   .mainPortfolio .titleContainer .takeALook {
     height: 40px!important;
     margin-bottom: 10px;
   }
 
   .mainPortfolio .portfolioContainer img {
-    width: 306.49px!important;
-    height: 215px!important;
-}
-
-  .homePortfolio {
-    height: 100%;
-  }
-
-  .homePortfolio .titleContainer .takeALook {
-    height: 40px;
-    margin-bottom: 10px;
+    width: 70%!important;
+    min-width: 252.49px!important;
+    height: 180px!important;
   }
 }
 
   
 @media screen and (max-width: 576px) {
-
   .mainPortfolio {
     height: 100%;
   }
 
   .mainPortfolio .titleContainer {
     max-width: 90%;
-    margin-top: -82px;
-    margin-left: 25px;
+    margin-top: -52px;
+    margin-left: -30px;
   }
 
   .mainPortfolio .titleContainer h4 {
-    font-size: 0.8em;
+    font-size: 12.8px;
     margin-bottom: 10px;
   }
 
@@ -174,16 +168,20 @@ body {
   }
 
   .mainPortfolio .portfolioContainer {
-    margin-left: 30px;
+    margin-left: 0px;
     width: 85%;
   }
 
   .mainPortfolio .portfolioContainer img {
-    height: 180px;
-    width: 100%;
-    justify-content: center;
+    width: 75%;
+    min-width: 315.49px;
+    height: 209px;
   }
 
+  .portifolioContent {
+    width: 85vw;
+    padding-left: 2%;
+  }
 
   .homePortfolio {
     height: 100%;
@@ -200,7 +198,7 @@ body {
   }
 
   .homePortfolio .titleContainer h4 {
-    font-size: 0.8em;
+    font-size: 12.8px;
     margin-bottom: 10px;
   }
 
@@ -216,7 +214,7 @@ body {
 
   .mainPortfolio .titleContainer {
     padding-left: 0px;
-}
+  }
 
   .mainPortfolio .portfolioContainer {
     padding-left: 0px;
@@ -226,21 +224,17 @@ body {
     height: 180px;
     width: 100%;
   }
-
-  .mainPortfolio .portfolioContainer img {
-    width: 330.49px;
-    height: 295px;
-  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
-
   .mainPortfolio {
     height: 100%;
+    overflow-x: hidden;
   }
 
-  .mainPortfolio {
-    overflow-x: hidden;
+  .mainPortfolio .titleContainer {
+    margin-top: 50px;
+    margin-left: -40px;
   }
 
   .mainPortfolio .titleContainer .takeALook {
@@ -250,14 +244,11 @@ body {
 
   .homePortfolio {
     height: 100%;
+    overflow-x: hidden;
   }
   
   .homePortfolio a {
     margin-left: 170px;
-  }
-
-  .homePortfolio {
-    overflow-x: hidden;
   }
 
   .homePortfolio .titleContainer .takeALook {
@@ -265,8 +256,13 @@ body {
     margin-bottom: 10px;
   }
 
+  .portifolioContent {
+    width: 85vw;
+      padding-left: 2%;
+  }
+
   .mainPortfolio .titleContainer {
-    padding-left: 40px;
+    padding-left: 0px;
   }
 
   .mainPortfolio .portfolioContainer {
@@ -297,7 +293,6 @@ body {
 }
 
 @media screen and (min-width: 1201px) {
-  
   .portifolioContent {
     width: 1014px;
     max-width: 100%;

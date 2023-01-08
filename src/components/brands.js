@@ -20,10 +20,10 @@ const Brands = () => {
             />
           </div>
           <div className="col-12 col-lg-2 col-sm-4 col-lg-2 cardMarriott">
-          <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+            <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
           </div>
           <div className="col-12 col-lg-2 col-sm-4 col-lg-2 cardCiroc">
-          <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+            <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
           </div>
           <div className="col-12 col-lg-2 col-sm-6  cardRumor">
             <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
@@ -58,42 +58,6 @@ const Brands = () => {
               </div>
           </div>
         </div>
-        {/* <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 partnershipsImages">
-            <div className="row">
-              <div className="col-12 col-sm-4 col-md-4  col-xl-3 partnershipsImage"></div>
-              <div className="col-12 col-sm-4 col-md-4  col-xl-3 partnershipsImage"></div>
-              <div className="col-12 col-sm-4 col-md-4  col-xl-2 partnershipsImage"></div>
-              <div className="col-12 col-sm-6 col-md-6  col-xl-2 partnershipsImage"></div>
-              <div className="col-12 col-sm-6 col-md-6  col-xl-2 partnershipsImage"></div>
-              <div className="col-12 col-sm-4 col-md-4  col-xl-2 partnershipsImage">
-                <img src="/assets/img/home/Partnerships/Appcore.webp" alt="" />
-              </div>
-              <div className="col-12 col-sm-4 col-md-4  col-xl-3 partnershipsImage">
-                <img
-                  src="/assets/img/home/Partnerships/Hennessy-VSOP.webp"
-                  alt=""
-                />
-              </div>
-              <div className="col-12 col-sm-4 col-md-4  col-xl-2 partnershipsImage">
-                <img
-                  src="/assets/img/home/Partnerships/Pelicargo.webp"
-                  alt=""
-                />
-              </div>
-              <div className="col-12 col-sm-6 col-md-6  col-xl-3 partnershipsImage">
-                <img
-                  src="/assets/img/home/Partnerships/Moet-Hennessy-USA.webp"
-                  alt=""
-                />
-              </div>
-              <div className="ccol-12 col-sm-6 col-md-6  col-xl-2 partnershipsImage">
-                <img
-                  src="/assets/img/home/Partnerships/Balance-Bunny.webp"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div> */}
       </section>
     </>
   );

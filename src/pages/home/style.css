@@ -95,7 +95,7 @@ body {
 }
 
 .homeQuestions {
-    padding: 15em 5em;
+    padding: 240px 80px;
 }
 
 .homeQuestions h1 {
@@ -104,7 +104,7 @@ body {
     font-weight: 700;
     font-size: 92px;
     line-height: 130%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16px;
 }
 
 .homeQuestions p {
@@ -113,7 +113,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16px;
 }
 
 .homeQuestions hr {
@@ -126,8 +126,8 @@ body {
 .homeQuestions hr:first-of-type,
 .homeQuestions hr:last-of-type {
     border: 1px solid #000000!important;
-    margin-top: -0.8em;
-    margin-bottom: 1em;
+    margin-top: -12.8px;
+    margin-bottom: 16px;
 }
 
 .homeQuestions .faqQuestion {
@@ -136,7 +136,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 130%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16px;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none!important;
@@ -161,7 +161,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16px;
     text-transform: uppercase;
     color: #888888;
 }
@@ -379,7 +379,7 @@ body {
         font-weight: 400;
         font-size: 20px;
         line-height: 130%;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.16px;
         text-transform: uppercase;
         color: #888888;
     }

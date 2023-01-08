@@ -1,8 +1,5 @@
 import React from "react";
 import './style.css';
-
-
-
 import Header from "../../components/header";
 import OurServices from '../../components/ourservices'
 import TakeALook from '../../components/takeALook'
@@ -16,11 +13,9 @@ import Brands from "../../components/brands";
 function App() {
   const home = true;
 
-  
-
   return (
     <>
-      <Header/>
+      <Header/> 
       <section className="homeMain" id="homeMain">
       
         <div className="row">
@@ -44,13 +39,12 @@ function App() {
           </div>
         </div>
       </section>
- 
+
       <Brands />
 
      <OurServices />
-
+ 
       <TakeALook/>
-
 
       <div className="seeAllProjects">
         <a href="/portfolio">See all projects →</a>
@@ -72,10 +66,9 @@ function App() {
           </div>
         </div>
       </section>
-{/**/}
+      
       <GetInContact />
       <Footer /> 
-
     </>
   );
 }

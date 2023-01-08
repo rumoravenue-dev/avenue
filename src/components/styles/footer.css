@@ -46,14 +46,14 @@ body {
     font-weight: 500;
     font-size: 12px;
     line-height: 24px;
-    margin-top: 6em;
+    margin-top: 96px;
 }
 
 .footer .footerLinks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10em;
+    padding-left: 160px;
 }
 
 .footer .footerLinks a {
@@ -63,7 +63,7 @@ body {
     color: #000;
     text-transform: uppercase;
     text-decoration: none!important;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .footer .footerMedia {
@@ -73,11 +73,7 @@ body {
 }
 
 .footer .footerMedia .socialMedia {
-    margin-left: 80px;
-}
-
-.footer .footerMedia .socialMedia img {
-    margin-right: 30px;
+    margin-left: 0px;
 }
 
 .footer .footerMedia .backToTop {
@@ -86,8 +82,8 @@ body {
 }
 
 .footer .footerMedia .backToTop p {
-    margin-right: 2em;
-    margin-left: 8em;
+    margin-right: 32px;
+    margin-left: 128px;
 }
 
 @media screen and (max-width: 350px) {
@@ -106,7 +102,7 @@ body {
         align-items: flex-start;
     }
     .footer .footerCopy p {
-        margin-top: 2em;
+        margin-top: 32px;
         padding-left: 8px;
     }
     .footer .footerCopy button {
@@ -132,7 +128,7 @@ body {
     }
 
     .footer .footerMedia .backToTop p {
-        margin-right: 2em;
+        margin-right: 32px;
         margin-left: 0;
     }
 
@@ -156,7 +152,7 @@ body {
         align-items: flex-start;
     }
     .footer .footerCopy p {
-        margin-top: 2em;
+        margin-top: 32px;
     }
     .footer .footerCopy button {
         margin-left: 0px;
@@ -177,7 +173,7 @@ body {
     }
 
     .footer .footerMedia .backToTop p {
-        margin-right: 4em;
+        margin-right: 64px;
         margin-left: 0;
     }
 
@@ -189,7 +185,7 @@ body {
 @media (min-width: 577px) and (max-width: 992px ) { 
     .footer {
         height: 900px;
-        padding-top: 30em;
+        padding-top: 480px;
     }
 
     .footer .footerLinks {
