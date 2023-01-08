@@ -118,8 +118,9 @@ function CarouselPort() {
             <img src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" onClick={() => setIsModalLilDan(true)}/>
             <img src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" onClick={() => setisModalWerx(true)}/>
           </div>
-          <div className='slides slideRyna'>
+          <div className='slides'>
             <img src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)}/>
+            <img className='slideNone' />
           </div>
         </div>
       </ReactSwipe>
