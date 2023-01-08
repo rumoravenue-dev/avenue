@@ -17,7 +17,6 @@ function App() {
     <>
       <Header/> 
       <section className="homeMain" id="homeMain">
-      
         <div className="row">
           <div className="col-12 col-sm-12 homeText">
             <h1>We help people and companies achieve their goals by creating presentations that work</h1>
@@ -42,9 +41,9 @@ function App() {
 
       <Brands />
 
-     <OurServices />
+      <OurServices />
  
-      <TakeALook/>
+      <TakeALook/> 
 
       <div className="seeAllProjects">
         <a href="/portfolio">See all projects →</a>
