@@ -23,7 +23,7 @@
 
 .presentationServices a.actived::after {
     content : " ";
-    width: 42%;
+    width: 75%;
     height: 5px;
     background-color: #F4BD03;
     position: absolute;
@@ -33,7 +33,7 @@
 }
 
 .presentationServices a:hover:after {
-    width: 42%!important;
+    width: 75%!important;
 }
 
 .presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
