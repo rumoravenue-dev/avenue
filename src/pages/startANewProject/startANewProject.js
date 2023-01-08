@@ -22,3 +22,4 @@ const startANewProject = () => {
 };
 
 export default startANewProject;
+

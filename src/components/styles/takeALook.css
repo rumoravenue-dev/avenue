@@ -237,6 +237,11 @@ body {
     margin-left: -40px;
   }
 
+  .mainPortfolio .titleContainer {
+    margin-top: 50px;
+    margin-left: -40px;
+  }
+
   .mainPortfolio .titleContainer .takeALook {
     width: 70%;
     margin-bottom: 10px;

@@ -63,6 +63,12 @@
     overflow-x: hidden;
   }
 
+  .modal .container {
+    width: 100%;
+    max-width: 790px;
+    height: 50%;
+}
+
   .container .close {
     left: 230px;
   }
