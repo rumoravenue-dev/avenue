@@ -53,7 +53,7 @@
 
 .tabsOurServices a.actived::after {
   content : " ";
-  width: 60%;
+  width: 72%;
   height: 5px;
   background-color: #F4BD03;
   position: absolute;
@@ -63,7 +63,7 @@
 }
 
 .tabsOurServices a:hover:after {
-  width: 60%!important;
+  width: 72%!important;
 }
 
 .ourServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -713,6 +713,14 @@
  .ourServices .tabsOurServices a {
    font-size: 20px;
  }
+
+ .tabsOurServices a.actived::after {
+    width: 50%;
+  }
+
+  .tabsOurServices a:hover:after {
+    width: 50%!important;
+  }
 
  .fundsServices {
    gap: 0px;
