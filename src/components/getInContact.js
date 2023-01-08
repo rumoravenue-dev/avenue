@@ -27,3 +27,4 @@ function getInContact(props) {
 }
 
 export default getInContact;
+

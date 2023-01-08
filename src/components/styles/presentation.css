@@ -75,28 +75,6 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 992px ) {
-    .presentationMainRow {
-        max-width: 100%;
-    }
-
-    .presentationServices p {
-        margin-top: 10px;
-    }
-    
-    .timezones {
-        margin-top: 10px!important;
-    }
-    
-    .presentationFileTypes {
-        margin-top: -30px!important;
-    }
-
-    .presentationServices a:hover:after {
-        width: 70%!important;
-    }
-}
-
 @media screen and (max-width: 576px ) {
     .presentationMainRow {
         max-width: 100%;
@@ -136,5 +114,27 @@
 
     .presentationServices a:hover:after {
         width: 76%!important;
+    }
+}
+
+@media screen and (max-width: 992px ) {
+    .presentationMainRow {
+        max-width: 100%;
+    }
+
+    .presentationServices p {
+        margin-top: 10px;
+    }
+    
+    .timezones {
+        margin-top: 10px!important;
+    }
+    
+    .presentationFileTypes {
+        margin-top: -30px!important;
+    }
+
+    .presentationServices a:hover:after {
+        width: 70%!important;
     }
 }

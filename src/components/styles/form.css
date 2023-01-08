@@ -32,7 +32,7 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 56px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.96px;
   color: #FFFFFF;
   margin-bottom: 20px;
 }
@@ -43,7 +43,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.32px;
   color: #9B9B9B;
   margin-bottom: 60px;
 }
@@ -74,7 +74,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.16px;
   color: #FFFFFF;
 }
 

@@ -34,7 +34,8 @@ function Contact() {
               <button className="btnStart">Start a new project</button>
             </div>
           </div>
-      </section> 
+        </section> 
+
         <GetInContact />
         <Footer />
       </div>
@@ -43,3 +44,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

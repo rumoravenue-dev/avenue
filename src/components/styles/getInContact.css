@@ -41,9 +41,9 @@
   font-family: 'Antonio', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 134px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -55,9 +55,9 @@
   font-family: 'Antonio', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 134px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -175,9 +175,9 @@
   }
 
   .getInContactSomewhereText .sunsetImg {
-    margin-top: 0em;
+    margin-top: 0px;
     margin-left: -7px;
-    margin-bottom: -25em;
+    margin-bottom: -400px;
   }
 
   .divIcon img {

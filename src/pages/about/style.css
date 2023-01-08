@@ -89,7 +89,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #000000;
   margin-left: 150px;
@@ -116,7 +116,7 @@ body {
   font-weight: 700;
   font-size: 75px;
   line-height: 101px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #000000;
   margin-top: 50px;
@@ -140,7 +140,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: 0.19em;
+  letter-spacing: 3.04px;
   color: #7D7D7D;
   margin-left: 150px;
   margin-bottom: 200px;
@@ -194,83 +194,75 @@ body {
   }
 }
 
-@media screen and (max-width: 992px ) {
-
-  .mainAbout {
-    height: 925px;
-  }
+@media screen and (max-width: 350px ) {
 
   .mainAbout .mainSomewhereText img {
-    height: 525px;
+    height: 200px;
   }
 
   .mainAbout .mainSomewhereText h1 {
-    font-size: 82px;
-    width: 75%;
-  }
-
-  .weAreTextContainer {
-    height: 700px;
+    font-size: 32px;
+    width: 80%;
+    line-height: 57px;
   }
 
   .weAreTextContainer .weAreText h1 {
-    font-size: 27px;
-    width: 80%;
+    font-size: 12px;
   }
 
   .weFocus {
     height: auto;
     width: 100%;
-    overflow-x: hidden;
   }
 
   .weFocus .wineImage {
-    height: 250px;
-    margin-left: -145px;
-    margin-top: -100px;
+    height: 150px;
+    margin-left: -573px;
+    margin-top: -950px;
   }
 
   .weFocus .ParallaxImage {
-    height: 250px;
+    height: 150px;
     margin-left: 0;
-    margin-top: -640px;
+    margin-top: -1640px;
   }
 
   .weFocus .focusText h1 {
-    font-size: 60px;
+    font-size: 30px;
     width: 40%;
     height: auto;
     margin: 0;
-    width: 70%;
-    margin-top: 100px;
-    margin-left: 100px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 20px;
   }
 
   .weFocus .focusText h4 {
-    font-size: 21px;
-    width: 70%;
+    font-size: 13.5px;
+    width: 80%;
     height: auto;
     margin-top: 500px;
     line-height: 28px;
-    margin-top: 350px;
-    margin-left: 100px;
+    margin-top: 180px;
+    margin-left: 20px;
   }
 
   .weFocus .focusText h2 {
-    font-size: 44px;
-    margin-top: 30px;
-    margin-left: 100px;
-    width: 80%;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 90%;
     height: auto;
   }
 
   .weFocus .focusText p {
-    font-size: 13px;
+    font-size: 8px;
     margin: 0;
-    width: 80%;
-    margin-top: -30px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    width: 90%;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 0.8px;
   }
 
   .containerAbout .brandsPartnerships {
@@ -368,78 +360,93 @@ body {
     margin-top: -50px;
     margin-left: 20px;
     margin-bottom: 80px;
-    letter-spacing: 0.09em;
+    letter-spacing: 1.44px;
   }
 }
 
-@media screen and (max-width: 350px ) {
+@media screen and (max-width: 992px ) {
+
+  .mainAbout {
+    height: 925px;
+  }
 
   .mainAbout .mainSomewhereText img {
-    height: 200px;
+    height: 525px;
   }
 
   .mainAbout .mainSomewhereText h1 {
-    font-size: 32px;
-    width: 80%;
-    line-height: 57px;
+    font-size: 82px;
+    width: 75%;
+  }
+
+  .weAreTextContainer {
+    height: 700px;
   }
 
   .weAreTextContainer .weAreText h1 {
-    font-size: 12px;
+    font-size: 27px;
+    width: 80%;
   }
 
   .weFocus {
     height: auto;
     width: 100%;
+    overflow-x: hidden;
   }
 
   .weFocus .wineImage {
-    height: 150px;
-    margin-left: -573px;
-    margin-top: -950px;
+    height: 250px;
+    margin-left: -145px;
+    margin-top: -100px;
   }
 
   .weFocus .ParallaxImage {
-    height: 150px;
+    height: 250px;
     margin-left: 0;
-    margin-top: -1640px;
+    margin-top: -640px;
   }
 
   .weFocus .focusText h1 {
-    font-size: 30px;
+    font-size: 60px;
     width: 40%;
     height: auto;
     margin: 0;
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 20px;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 100px;
   }
 
   .weFocus .focusText h4 {
-    font-size: 13.5px;
-    width: 80%;
+    font-size: 21px;
+    width: 70%;
     height: auto;
     margin-top: 500px;
     line-height: 28px;
-    margin-top: 180px;
-    margin-left: 20px;
+    margin-top: 350px;
+    margin-left: 100px;
   }
 
   .weFocus .focusText h2 {
-    font-size: 18px;
-    margin-top: -20px;
-    margin-left: 20px;
-    width: 90%;
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
     height: auto;
   }
 
   .weFocus .focusText p {
-    font-size: 8px;
+    font-size: 13px;
     margin: 0;
-    width: 90%;
-    margin-top: -70px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    letter-spacing: 0.05em;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
+  .containerAbout .brandsPartnerships {
+    height: 145vh;
   }
 }
+
+
+

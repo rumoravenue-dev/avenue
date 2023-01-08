@@ -21,6 +21,7 @@ body {
     animation: outSidebar 1.5s;
     color: #000;
 }
+
 @keyframes outSidebar {
     from {color: #fff;}
     to {color: #000;}
@@ -48,4 +49,3 @@ body {
         height: 700px;
     }
 }
-

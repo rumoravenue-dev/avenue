@@ -19,3 +19,4 @@ function Modal({ id = 'modal', onClose = (props) => {}, children }) {
 }
 
 export default Modal;
+

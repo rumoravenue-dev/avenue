@@ -56,8 +56,10 @@ function About() {
       <Brands />
       <GetInContact />
       <Footer />
-    </ div>
+    </div>
   )
 }
 
 export default About;
+
+

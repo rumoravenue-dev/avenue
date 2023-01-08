@@ -1,8 +1,5 @@
 import React from "react";
 import './style.css';
-
-
-
 import Header from "../../components/header";
 import OurServices from '../../components/ourservices'
 import TakeALook from '../../components/takeALook'
@@ -72,9 +69,9 @@ function App() {
       
       <GetInContact />
       <Footer /> 
-
     </>
   );
 }
 
 export default App;
+

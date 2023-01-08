@@ -9,6 +9,7 @@ import GetInContat from '../../components/getInContact'
 import Footer from '../../components/footer'
 import { useEffect, useState } from 'react'
 import CarouselWords from '../../components/carouselWords';
+
 const Services = () => {
     const [changeText, setChangeText] = useState("GOOD TO")
     useEffect(() => {
@@ -143,3 +144,4 @@ const Services = () => {
     )
 }
 export default Services;
+
