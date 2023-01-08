@@ -16,11 +16,9 @@ import Brands from "../../components/brands";
 function App() {
   const home = true;
 
-  
-
   return (
     <>
-     <Header/>  
+      <Header/> 
       <section className="homeMain" id="homeMain">
       
         <div className="row">
@@ -44,13 +42,12 @@ function App() {
           </div>
         </div>
       </section>
- 
+
       <Brands />
 
      <OurServices />
-
+ 
       <TakeALook/>
-
 
       <div className="seeAllProjects">
         <a href="/portfolio">See all projects →</a>
@@ -72,7 +69,7 @@ function App() {
           </div>
         </div>
       </section>
-{/**/}
+      
       <GetInContact />
       <Footer /> 
 

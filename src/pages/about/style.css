@@ -97,16 +97,16 @@ body {
 }
 
 .weFocus .focusText h4 {
-  width: 925px;
+  width: 880px;
   height: 192px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 31px;
   line-height: 48px;
   color: #767676;
   margin-top: 660px;
-  margin-left: 150px;
+  margin-left: 134px;
 }
 
 .weFocus .focusText h2 {
@@ -133,7 +133,7 @@ body {
 }
 
 .weFocus .focusText p {
-  width: 980px;
+  width: 860px;
   height: 30px;
   font-family: 'Poppins';
   font-style: normal;

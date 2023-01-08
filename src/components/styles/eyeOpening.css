@@ -69,15 +69,15 @@
 }
 
 .eyeOpen .eye1 {
-  height: 420px;
+  height: 385px;
   position: relative;
   margin-left: 48px;
 }
 
 .eyeOpen .eyeSunset {
-  height: 200px;
-  margin-top: -450px;
-  margin-left: 160px;
+  height: 178px;
+  margin-top: -413px;
+  margin-left: 153px;
 }
 
 .eyeSection .eyeCatch {
@@ -325,4 +325,18 @@
     margin-top: 260px;
     margin-left: -90px;
   } */
+}
+
+
+@media (min-width: 548px) and (max-width: 576px) {
+  .eyeOpen .eyeSunset {
+    height: 83px;
+    margin-top: -204px;
+    margin-left: 87px;
+  }
+  .eyeOpen .eye1 {
+    height: 180px;
+    margin-top: 200px;
+    margin-left: 35px;
+  }
 }

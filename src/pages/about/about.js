@@ -16,7 +16,7 @@ function About() {
         <title> About - 5pm </title>
       </Helmet>
 
-      <Header contact={contact} />
+      <Header contact={contact} /> 
 
       <section className="mainAbout container-fluid">
         <div className="row">
@@ -50,12 +50,12 @@ function About() {
             <img className='ParallaxImage' src="/assets/img/about/ParallaxSlide.webp" alt="wine" />
           </div>
         </div>
-  </section>
+      </section>
 
       <EyeOpening /> 
       <Brands />
       <GetInContact />
-<Footer />
+      <Footer />
     </ div>
   )
 }

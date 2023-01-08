@@ -40,10 +40,46 @@
     filter: none;
 }
 
+@media only screen and (max-width: 350px) {
+    .carouselProjects .projectsTitle h3 {
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .carouselProjects .carousel-item img {
+        width: 100%!important;
+        min-height: 160px; 
+        margin-left: 40px;
+    }
+
+    .carouselProjects .carousel-control-prev-icon {
+        margin-right: -38px!important;
+    }
+
+    .carouselProjects .carousel-control-next-icon {
+        margin-left: -15px!important;
+    }
+}
+
 
 @media only screen and (max-width: 576px) {
     .carouselProjects .carousel-item img {
-        min-width: 100%;
+        width: 100%!important;
         min-height: 160px; 
+    }
+
+    .carouselProjects .carousel-control-next-icon {
+        margin-left: 0px;
+    }
+
+    .carouselProjects .carousel-control-prev-icon {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .carouselProjects .carousel-item img {
+        min-width: 100%;
+        min-height: 340px; 
     }
 }

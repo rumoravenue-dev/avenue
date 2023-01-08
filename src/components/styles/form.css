@@ -79,8 +79,9 @@
 }
 
 .form-inputs {
-  width: 566px;
-  height: 250;
+  max-width: 566px;
+  width: 100%;
+  height: 250px;
 }
 
 input[type=text]{outline:none}
@@ -343,5 +344,6 @@ input[type=text]{outline:none}
 
   .form-right-side button {
     margin-left: 0px;
+    margin-top: 130px;
   }
 }

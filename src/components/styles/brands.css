@@ -5,7 +5,7 @@ body {
 }
 
 .brandsPartnerships {
-    height: 80vh;
+    height: 100vh;
 }
 
 .brandsPartnerships .partnershipsTitle {
@@ -254,15 +254,23 @@ body {
     }
 
     .cardRumor img {
-        margin-left: 230px;
+        margin-left: 190px;
+        margin-top: 68px;
+        margin-bottom: 70px;
     }
 
     .cardLogoGreen img {
         margin-left: 85px;
+        margin-top: 41px;
+        margin-bottom: 35px;
+        height: 98px;
     }
-    .cardMoet img{
+
+    .cardMoet img {
         width: 195px;
-        margin-left: 80px;
+        margin-left: 120px;
+        margin-top: 35px;
+        margin-bottom: 34px;
     }
 
     .cardBalanceBunny img {
@@ -292,8 +300,12 @@ body {
         margin-left: -50px;
     }
 
+    .cardMoet img {
+        margin-left: -25px;
+    }
+
     .cardBalanceBunny img {
-        margin-left: 55px;
+        margin-left: 40px;
     }
 
     .cardMoet {
@@ -304,6 +316,6 @@ body {
 
 @media (min-width: 576px) and (max-width: 767px) {
     .brandsPartnerships {
-        height: 700px;
+        height: 800px;
     }
 }
