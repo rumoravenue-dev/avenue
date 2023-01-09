@@ -98,7 +98,8 @@
   }
 
   .container .close {
-    left: 82%;
+    left: 82%!important;
+    top: 28%!important;
   }
 
   .container .content {
@@ -107,12 +108,6 @@
 }
 
 @media screen and (max-width: 992px ) {
-  .modal .container {
-    height: auto;
-    margin-left: -40px;
-    margin-top: 0px;
-  }
-
   .modal .container {
     width: 100%;
     max-width: 790px;
