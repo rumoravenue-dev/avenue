@@ -57,7 +57,7 @@
     }
 
     .carouselProjects .carousel-control-next-icon {
-        margin-left: -15px!important;
+        margin-left: -31px!important;
     }
 }
 
@@ -68,8 +68,9 @@
     }
 
     .carouselProjects .carousel-item img {
-        width: 100%!important;
-        height: 235px; 
+        width: 88%!important;
+        height: 235px;
+        min-width: 206px!important;
     }
 
     .carouselProjects .carousel-control-next-icon {

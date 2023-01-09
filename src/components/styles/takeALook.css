@@ -139,10 +139,11 @@ body {
     margin-bottom: 10px;
   }
 
-  .mainPortfolio .portfolioContainer img {
+  .mainPortfolio .portfolioContainer .slidesIMG {
     width: 70%!important;
-    min-width: 252.49px!important;
+    min-width: 232.49px!important;
     height: 180px!important;
+    margin-left: -5px;
   }
 }
 
