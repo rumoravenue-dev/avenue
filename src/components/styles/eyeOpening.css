@@ -1,283 +1,106 @@
 .eyeSection {
-  height: 1904.43px;
+  padding-top: 500px;
   background: #000000;
-}
-
-.eyeSection .eyeOpening h1 {
-  height: 310px;
-  width: 30%;
-  font-family: 'Antonio';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 155px;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 400px;
-  margin-left: 180px;
-}
-
-.eyeSection .eyeOpening p {
-  height: 120px;
-  width: 36%;
-  padding-right: 50px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ACACAC;
-  margin-left: 180px;
-  margin-top: 20px;
-}
-
-.eyeSection .eyeCatching h1 {
-  height: 310px;
-  width: 40%;
-  font-family: 'Antonio';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 155px;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 400px;
-  margin-left: 180px;
-  margin-right: 50px;
-}
-
-.eyeSection .eyeCatching p {
-  height: 120px;
-  width: 36%;
-  padding-right: 50px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ACACAC;
-  margin-left: 180px;
-  margin-top: 20px;
-}
-
-.eyeSection .eyeOpen {
-  width: 35%;
-  margin-top: -577px;
-  margin-left: 950px;
-}
-
-.eyeOpen .eye1 {
-  height: 385px;
+  padding-bottom: 450px;
   position: relative;
-  margin-left: 48px;
+  height: auto;
+  z-index: 0;
 }
 
-.eyeOpen .eyeSunset {
-  height: 178px;
-  margin-top: -413px;
-  margin-left: 153px;
+.title-eye {
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 5;
 }
 
-.eyeSection .eyeCatch {
-  width: 40%;
-  margin-top: -450px;
-  margin-left: 750px;
+.box-text {
+  margin-bottom: 600px;
 }
 
-@media screen and (max-width: 350px ) {
+.description-text-eye {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ACACAC;
+}
 
+.container-text::-webkit-scrollbar {
+  width: 1px;
+}
+
+.container-eye {
+  position: sticky;
+  top: 0;
+  min-width: 50%;
+  height: 40vh;
+  max-width: 500px;
+}
+
+.img-eye {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 0;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 350px) {
   .eyeSection {
-    height: auto;
+    padding-top: 130px;
+    padding-bottom: 50px;
   }
 
-  .eyeSection .eyeOpening h1 {
+  .title-eye {
     font-size: 40px;
-    margin-top: 150px;
-    margin-left: 20px;
     line-height: 50px;
   }
 
-  .eyeSection .eyeOpening p {
+  .description-text-eye {
     font-size: 12px;
-    margin-left: 20px;
-    margin-top: -200px;
     width: 90%;
-    line-height: 20px;
-    margin-bottom: 100px;
-    padding-right: 10px;
-  }
-
-  .eyeSection .eyeCatching h1 {
-    font-size: 40px;
-    margin-top: 0px;
-    margin-left: 20px;
-    line-height: 50px;
-  }
-
-  .eyeSection .eyeCatching p {
-    font-size: 12px;
-    margin-left: 20px;
-    margin-top: -180px;
-    width: 90%;
-    line-height: 20px;
-    margin-bottom: 100px;
-    padding-right: 10px;
-  }
-
-  .eyeSection .eyeOpen {
-    width: 10%!important;
-    margin-top: -650px!important;
-    margin-left: 220px!important;
-  }
-
-  .eyeOpen .eye1 {
-    height: 120px;
-    margin-top: 260px;
-    margin-left: -100px;
-  }
-
-  .eyeOpen .eyeSunset {
-    height: 60px;
-    margin-top: 260px;
-    margin-left: -90px;
+    line-height: 15px;
   }
 }
 
-@media (min-width: 351px) and (max-width: 576px ) {
-
+@media (min-width: 351px) and (max-width: 576px) {
   .eyeSection {
-    height: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
   }
 
-  .eyeSection .eyeOpening h1 {
-    font-size: 50px!important;
-    margin-top: 150px!important;
-    margin-left: 20px!important;
-    line-height: 65px!important;
+  .title-eye {
+    font-size: 50px !important;
+    line-height: 50px !important;
   }
 
-  .eyeSection .eyeOpening p {
+  .description-text-eye {
     font-size: 14px;
-    margin-left: 20px;
-    margin-top: -160px;
     width: 90%;
     line-height: 20px;
-    margin-bottom: 100px;
-    padding-right: 10px;
-  }
-
-  .eyeSection .eyeCatching h1 {
-    font-size: 50px!important;
-    margin-top: -50px!important;
-    margin-left: 20px!important;
-    line-height: 65px!important;
-  }
-
-  .eyeSection .eyeCatching p {
-    font-size: 14px;
-    margin-left: 20px;
-    margin-top: -160px;
-    width: 90%;
-    line-height: 20px;
-    margin-bottom: 100px;
-    padding-right: 10px;
-  }
-
-  .eyeSection .eyeOpen {
-    width: 40%!important;
-    margin-top: -528px!important;
-    margin-left: 215px!important;
-  }
-
-  .eyeSection .eyeCatch {
-    width: 40%;
-    margin-top: -660px;
-    margin-left: 220px;
-  }
-
-  .eyeOpen .eye1 {
-    height: 180px!important;
-    margin-top: 75px!important;
-    margin-left: -60px!important;
-  }
-
-  .eyeOpen .eyeSunset {
-    height: 90px!important;
-    margin-top: 73px!important;
-    margin-left: -134px!important;
   }
 }
 
-@media (min-width: 577px) and (max-width: 992px ) {
-
+@media (min-width: 577px) and (max-width: 992px) {
   .eyeSection {
-    height: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
   }
 
-  .eyeSection .eyeOpening h1 {
+  .title-eye {
     font-size: 75px;
     line-height: 100px;
-    margin-top: 200px;
-    margin-left: 100px;
   }
 
-  .eyeSection .eyeOpening p {
-    margin-left: 100px;
+  .description-text-eye {
     width: 70%;
-  }
-
-  .eyeSection .eyeCatching h1 {
-    font-size: 100px;
-    margin-top: 200px;
-    margin-left: 100px;
-  }
-
-  .eyeSection .eyeCatching p {
-    margin-left: 100px;
-    width: 70%;
-    margin-bottom: 100px;
-  }
-
-  .eyeSection .eyeOpen {
-    width: 40%!important;
-    margin-top: -500px!important;
-    margin-left: 365px!important;
-  }
-
-  .eyeOpen .eye1 {
-    height: 228px;
-    position: relative;
-    margin-top: -86px;
-    margin-left: -40px;
-}
-
-  .eyeOpen .eyeSunset {
-    height: 109px;
-    margin-top: -87px;
-    margin-left: -167px;
-  }
-}
-
-@media screen and (max-width: 1450px ) {
-  .eyeSection .eyeOpen {
-    width: 30%;
-    margin-top: -450px;
-    margin-left: 545px;
-  }
-}
-
-@media (min-width: 2252px ) {
-  .eyeSection .eyeOpen {
-    width: 35%;
-    margin-top: -577px;
-    margin-left: 1075px;
-  }
-
-  .eyeOpen .eyeSunset {
-    height: 178px!important;
-    margin-top: -5px!important;
-    margin-left: -282px!important;
   }
 }
