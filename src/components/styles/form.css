@@ -10,7 +10,7 @@
 }
 
 .form-box {
-  width: 95%;
+  width: 85%;
   height: 480px;
   background: #000000;
   border-radius: 16px;
@@ -34,7 +34,7 @@
   line-height: 56px;
   letter-spacing: -0.96px;
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .form-left-side h4 {
@@ -346,5 +346,12 @@ input[type=text]{outline:none}
   .form-right-side button {
     margin-left: 0px;
     margin-top: 130px;
+  }
+}
+
+
+@media only screen and (min-width: 1300px) {
+  .form-box {
+    width: 65%;
   }
 }
