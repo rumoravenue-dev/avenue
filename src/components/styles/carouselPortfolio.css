@@ -31,6 +31,7 @@
     width: 10%;
     height: 100px;
     margin-top: -30px;
+    cursor: pointer;
 }
 
 .controlsPortfolio .buttonNext {
@@ -48,6 +49,11 @@
 
 .controlsPortfolio .buttonPrev:active h1 svg,
 .controlsPortfolio .buttonNext:active h1 svg {
+    color: #F4BD03;
+}
+
+.controlsPortfolio .buttonPrev:hover h1 svg,
+.controlsPortfolio .buttonNext:hover h1 svg {
     color: #F4BD03;
 }
 
