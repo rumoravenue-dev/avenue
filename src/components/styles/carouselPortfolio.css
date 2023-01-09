@@ -14,6 +14,10 @@
     border-radius: 15px;
 }
 
+.slideNone {
+    opacity: 0;
+}
+
 .controls {
     display: flex;
     align-items: center;
@@ -27,6 +31,7 @@
     width: 10%;
     height: 100px;
     margin-top: -30px;
+    cursor: pointer;
 }
 
 .controlsPortfolio .buttonNext {
@@ -47,6 +52,10 @@
     color: #F4BD03;
 }
 
+.controlsPortfolio .buttonPrev:hover h1 svg,
+.controlsPortfolio .buttonNext:hover h1 svg {
+    color: #F4BD03;
+}
 
 @media only screen and (max-width: 992px) {
     .controls {
@@ -56,3 +65,5 @@
         justify-content: flex-start;
     }
 }
+
+

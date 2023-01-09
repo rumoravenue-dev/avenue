@@ -17,10 +17,9 @@ const startANewProject = () => {
                 <div className="form" data-paperform-id='fivepm'></div>
                 <Footer />
             </div>
-            
-            
         </>
     )
 };
 
 export default startANewProject;
+

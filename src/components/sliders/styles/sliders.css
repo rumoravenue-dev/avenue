@@ -4,7 +4,7 @@
 
 .carouselProjects .carousel-item img {
     min-width: 100%;
-    min-height: 480px; 
+    height: 480px; 
 }
 
 .carouselProjects .projectsTitle {
@@ -40,10 +40,52 @@
     filter: none;
 }
 
+@media only screen and (max-width: 350px) {
+    .carouselProjects .projectsTitle h3 {
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .carouselProjects .carousel-item img {
+        width: 100%!important;
+        height: 160px; 
+        margin-left: 40px;
+    }
+
+    .carouselProjects .carousel-control-prev-icon {
+        margin-right: -38px!important;
+    }
+
+    .carouselProjects .carousel-control-next-icon {
+        margin-left: -31px!important;
+    }
+}
+
 
 @media only screen and (max-width: 576px) {
+    .carouselProjects .projectsTitle {
+        margin-left: 25px;
+    }
+
+    .carouselProjects .carousel-item img {
+        width: 88%!important;
+        height: 235px;
+        min-width: 206px!important;
+    }
+
+    .carouselProjects .carousel-control-next-icon {
+        margin-left: 0px;
+    }
+
+    .carouselProjects .carousel-control-prev-icon {
+        margin-right: -10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
     .carouselProjects .carousel-item img {
         min-width: 100%;
-        min-height: 160px; 
+        width: 375px!important;
+        height: 240px!important;
     }
 }

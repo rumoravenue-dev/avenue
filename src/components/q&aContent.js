@@ -16,3 +16,4 @@ export const accordionData = [
       content: `PowerPoint Presentation, Keynote, PDF, Canva`
     }
   ];
+  

@@ -1,15 +1,16 @@
 .presentationServices {
-    margin-left: 144px;
     margin-bottom: 144px;
- }
-  .presentationServices a {
+}
+
+.presentationServices a {
     font-family: 'Poppins';
     font-size: 26px;
     text-transform: uppercase;
     color: #000000!important;
     position: relative;
- }
-  .presentationServices a::after {
+}
+
+.presentationServices a::after {
     content : " ";
     width: 0%;
     height: 5px;
@@ -18,41 +19,49 @@
     bottom: 0;
     left: 15px;
     transition: 0.5s ease-in-out;
- }
-  .presentationServices a.actived::after {
+}
+
+.presentationServices a.actived::after {
     content : " ";
-    width: 42%;
+    width: 75%;
     height: 5px;
     background-color: #F4BD03;
     position: absolute;
     bottom: 0;
     left: 15px;
     transition: 0.5s ease-in-out;
- }
-  .presentationServices a:hover:after {
-    width: 42%!important;
- }
-  .presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+}
+
+.presentationServices a:hover:after {
+    width: 75%!important;
+}
+
+.presentationServices .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: transparent;
- }
-  .presentationServices p {
+}
+
+.presentationServices p {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
     color: #000000;
     opacity: 0.4;
     margin-top: 50px;
- }
-  .timezones {
+}
+
+.timezones {
     margin-top: 80px!important;
- }
-  .presentationFileTypes {
+}
+
+.presentationFileTypes {
     margin-top: -80px!important;
- }
-  .presentationServices ul li {
+}
+
+.presentationServices ul li {
     list-style-type: none;
- }
-  .presentationServices h5 {
+}
+
+.presentationServices h5 {
     margin-left: -39px;
     margin-top: 30px;
     font-family: 'Poppins';
@@ -60,157 +69,72 @@
     font-size: 20px!important;
     color: #000000;
     opacity: 0.8;
- }
-  .presentationServices img {
+}
+
+.presentationServices img {
     margin-right: 10px;
- }
-  @media screen and (max-width: 350px ) {
+}
+
+@media screen and (max-width: 576px ) {
+    .presentationMainRow {
+        max-width: 100%;
+    }
+
     .presentationServices {
-        margin-left: 0px;
+        margin-left: -5px;
     }
-  
-    .presentationServices a {
-        font-size: 16px;
-    }
-  
+
     .presentationServices p {
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000;
-        opacity: 0.4;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 50px;
+        margin-left: 21px;
     }
-  
+    
     .timezones {
-        margin-top: 0px!important;
+        margin-top: 80px!important;
     }
-  
+
+    .presentationContent {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .presentationFileTypes {
-        margin-top: 0px!important;
+        margin-top: 80px!important;
     }
-     .presentationFileTypes ul li {
-        margin-left: 20px;
-    }
-  
+    
     .presentationServices h5 {
-        font-size: 16px!important;
+        margin-top: 80px;
+        font-size: 15px!important;
+        margin-left: -19px;
     }
-  
-    .presentationServices img {
-        margin-right: 10px;
-        height: 20px;
+
+    .presentationServices h3 {
+        font-size: 20px;
     }
- }
-  @media (min-width: 351px) and (max-width: 576px ) {
-    .presentationServices {
-        margin-left: 0px;
+
+    .presentationServices a:hover:after {
+        width: 76%!important;
     }
-  
-    .presentationServices a {
-        font-size: 16px;
+}
+
+@media screen and (max-width: 992px ) {
+    .presentationMainRow {
+        max-width: 100%;
     }
-  
+
     .presentationServices p {
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000;
-        opacity: 0.4;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 10px;
     }
-  
+    
     .timezones {
-        margin-top: 0px!important;
+        margin-top: 10px!important;
     }
-  
+    
     .presentationFileTypes {
-        margin-top: 0px!important;
+        margin-top: -30px!important;
     }
-     .presentationFileTypes ul li {
-        margin-left: 20px;
+
+    .presentationServices a:hover:after {
+        width: 70%!important;
     }
-  
-    .presentationServices h5 {
-        font-size: 16px!important;
-    }
-  
-    .presentationServices img {
-        margin-right: 10px;
-        height: 20px;
-    }
- }
-  
- @media (width: 576px) {
-    .presentationServices {
-        margin-left: 0px;
-    }
-  
-    .presentationServices a {
-        font-size: 16px;
-    }
-  
-    .presentationServices p {
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000;
-        opacity: 0.4;
-        margin-top: 0px;
-    }
-  
-    .timezones {
-        margin-top: 0px!important;
-    }
-  
-    .presentationFileTypes {
-        margin-top: 0px!important;
-    }
-  
-    .presentationServices h5 {
-        font-size: 16px!important;
-    }
-  
-    .presentationServices img {
-        margin-right: 10px;
-        height: 20px;
-    }
- }
-  @media (min-width: 577px) and (max-width: 992px ) {
-    .presentationServices {
-        margin-left: 0px;
-    }
-  
-    .presentationServices a {
-        font-size: 16px;
-    }
-  
-    .presentationServices p {
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000;
-        opacity: 0.4;
-        margin-top: 0px;
-    }
-  
-    .timezones {
-        margin-top: 0px!important;
-    }
-  
-    .presentationFileTypes {
-        margin-top: 0px!important;
-    }
-  
-    .presentationServices h5 {
-        font-size: 16px!important;
-    }
-  
-    .presentationServices img {
-        margin-right: 10px;
-        height: 20px;
-    }
- }
- 
+}

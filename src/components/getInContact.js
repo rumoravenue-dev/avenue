@@ -1,5 +1,5 @@
-import React from 'react';
-import Form from './form';
+import React from "react"
+import Form from "./form";
 import "./styles/getInContact.css";
 
 function getInContact(props) {
@@ -27,3 +27,4 @@ function getInContact(props) {
 }
 
 export default getInContact;
+

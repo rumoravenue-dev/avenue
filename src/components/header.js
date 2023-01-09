@@ -12,25 +12,36 @@ const Header = (props) => {
   return (
     <>
       <div className={props.contact ? "headerBlack" : "header"}>
-        <div className="row">
-          <div className="col-6 col-md-12 col-sm-6 headerImage">
+        <div className="row justify-content-around headerImage">
+          <div className='col col-auto'>
             <img
               src="/assets/img/header/Vector(1).svg"
               alt="logo header"
-              className="headerLogo"
             />
-                         <div
-                className="col-12 col-md-11 col-sm-12 headerLinks"
-                style={{ color: props.contact ? "#000" : "#fff" }}
-              >
+          </div>
+          <div
+            className="col col-md-auto"
+            style={{ color: props.contact ? "#000" : "#fff" }}
+          >
+            <div className='row containerLinks'>
+              <div className='col col-md-auto headerLinks'>
                 <a href="/">Home</a>
+              </div>
+              <div className='col col-md-auto headerLinks'>
                 <a href="/services">Services</a>
+              </div>
+              <div className='col col-md-auto headerLinks'>
                 <a href="/portfolio">Portfolio</a>
+              </div>
+              <div className='col col-md-auto headerLinks'>
                 <a href="/about">About Us</a>
+              </div>
+              <div className='col col-md-auto headerLinks'>
                 <button>
                   <a href="/contact">START YOUR PROJECT</a>
                 </button>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -52,3 +63,4 @@ const Header = (props) => {
 };
 
 export default Header;
+
