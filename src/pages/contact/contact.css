@@ -113,7 +113,7 @@ body {
 
 @media only screen and (max-width: 350px) {
   .mainContact, .containerMain {
-    height: 100vh;
+    height: 65vh;
   }
 
   .mainContact .mainContent h1 {
@@ -152,8 +152,12 @@ body {
 }
 
 @media (min-width: 350px) and (max-width: 575px) {
-  .mainContact, .containerMain {
-    height: 100vh;
+  .mainContact {
+    height: 32vh;
+  }
+
+  .containerMain {
+    height: 30vh;
   }
 
   .mainContact .mainContent h1 {
@@ -165,6 +169,10 @@ body {
     margin-left: 0px;
     margin-right: 40px;
     height: 51px;
+  }
+
+  .containerMain {
+    height: 50vh;
   }
 
   .containerMain .contactusText h2 {
@@ -194,10 +202,11 @@ body {
 
 @media (min-width: 576px) and (max-width: 992px) {
   .containerMain, .mainContact {
-    height: 200vh;
+    height: 45vh;
   }
 
   .mainContact .mainContent {
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -242,10 +251,6 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1263px) {
-  .containerMain, .mainContact {
-    height: 200vh;
-  }
-
   .mainContact .mainContent h1 {
     font-size: 69.75px;
     line-height: 90px;
@@ -267,12 +272,6 @@ body {
     margin-left: 22px;
     margin-top: 50px;
     margin-bottom: 17px;
-  }
-}
-
-@media (min-width: 1263px) {
-  .containerMain, .mainContact {
-    height: 300vh;
   }
 }
 
