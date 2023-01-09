@@ -4,7 +4,7 @@
 
 .carouselProjects .carousel-item img {
     min-width: 100%;
-    min-height: 480px; 
+    height: 480px; 
 }
 
 .carouselProjects .projectsTitle {
@@ -48,7 +48,7 @@
 
     .carouselProjects .carousel-item img {
         width: 100%!important;
-        min-height: 160px; 
+        height: 160px; 
         margin-left: 40px;
     }
 
@@ -69,7 +69,7 @@
 
     .carouselProjects .carousel-item img {
         width: 100%!important;
-        min-height: 160px; 
+        height: 235px; 
     }
 
     .carouselProjects .carousel-control-next-icon {
@@ -84,6 +84,7 @@
 @media (min-width: 576px) and (max-width: 992px) {
     .carouselProjects .carousel-item img {
         min-width: 100%;
-        min-height: 340px; 
+        width: 375px!important;
+        height: 240px!important;
     }
 }
