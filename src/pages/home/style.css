@@ -53,6 +53,7 @@ body {
     text-align: center;
 }
 
+
 .homePresentations h3 {
     font-size: 27px;
     line-height: 43.5px;
@@ -325,10 +326,14 @@ body {
     }
     
     .homeMain h1 {
-        font-size: 56px;
+        font-size: 52px;
         line-height: 130%;
         padding-right: 180px;
         padding-top: 160px;
+    }
+
+    .homeMain p {
+        font-size: 18px;
     }
 
     .homePresentations {
@@ -391,3 +396,8 @@ body {
     }
 }
 
+@media only screen and (min-width: 993px) {
+    .homePresentations .row {
+        width: 100vw;
+    }
+}

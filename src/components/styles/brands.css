@@ -182,7 +182,7 @@ body {
     }
 
     .cardCiroc img {
-        margin-left: 80px;
+        margin-left: 74px;
     }
 
     .cardRumor img {
@@ -212,6 +212,10 @@ body {
 }
 
 @media (min-width: 993px) {
+    .brandsPartnershipsRow {
+        width: 100vw;
+    }
+
     .cardAnheuserBusch img {
         margin-left: 20px;
     }
@@ -244,71 +248,4 @@ body {
         margin-left: 70px;
     }
 }
-
-/*
-@media (min-width: 576px) and (max-width: 767px) {
-    .partnershipsTitleOne {
-        height: 550px;
-        margin-bottom: 150px;
-        background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .brandsPartnerships .partnershipsTitle {
-        height: 150px;
-        background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .brandsPartnerships h2 {
-        position: absolute;
-        height: 114px;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 44px;
-        line-height: 130%;
-        text-align: center;
-        color: #000000;
-        padding: 0 0px;
-    }
-
-    .brandsPartnerships {
-        height: 800px;
-    }
-}*/
-
-/*
-@media (min-width: 768px) and (max-width: 1024px) {
-    .brandsPartnerships {
-        height: 85vh;
-    }
-
-    .brandsPartnerships .partnershipsTitle {
-        height: 386px;
-        background-image: url("../../../public/assets/img/home/Partnerships/Frame.webp");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    .brandsPartnerships .row {
-        max-width: 100%;
-    }
-}
-*/
 
