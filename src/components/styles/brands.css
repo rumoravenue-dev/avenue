@@ -45,7 +45,7 @@ body {
 
 @media only screen and (max-width: 350px) {
     .brandsPartnerships {
-        height: 1245px !important;
+        height: 1300px !important;
     }
 
     .brandsPartnerships .partnershipsTitle {
@@ -311,3 +311,4 @@ body {
     }
 }
 */
+
