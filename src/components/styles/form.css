@@ -10,7 +10,7 @@
 }
 
 .form-box {
-  width: 85%;
+  width: 70.5%;
   height: 480px;
   background: #000000;
   border-radius: 16px;
@@ -25,7 +25,7 @@
 }
 
 .form-left-side h1 {
-  width: 226px;
+  width: 232px;
   height: 112px;
   font-family: 'Inter';
   font-style: normal;
@@ -34,7 +34,6 @@
   line-height: 56px;
   letter-spacing: -0.96px;
   color: #FFFFFF;
-  margin-bottom: 60px;
 }
 
 .form-left-side h4 {
@@ -43,9 +42,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: -0.32px;
   color: #9B9B9B;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .contact-information {
@@ -64,7 +62,7 @@
 }
 
 .form-right-side {
-  margin-left: 190px;
+  margin-left: 90px;
   margin-top: 80px;
 }
 
@@ -307,7 +305,7 @@ input[type=text]{outline:none}
   }
 
   .form-box {
-    width: 90%;
+    width: 75%;
     height: auto;
     max-width: 95%;
     margin-top: -80px;
@@ -361,12 +359,5 @@ input[type=text]{outline:none}
   .form-right-side button {
     margin-left: 0px;
     margin-top: 130px;
-  }
-}
-
-
-@media only screen and (min-width: 1300px) {
-  .form-box {
-    width: 70.5%;
   }
 }

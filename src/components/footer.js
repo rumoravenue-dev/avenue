@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className='row footerRow'>
                     <div className='col-12 col-sm-6 col-md-4 footerCopy'>
                         <button><a href='/contact'>Start a new Project</a></button>
-                        <p>5pm CopyrIGHT All rights reserved.</p>
+                        <p>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
                     </div>
                     <div className='col-12 col-sm-6 col-md-4 footerLinks'>
                         <a href="/">Home</a>
