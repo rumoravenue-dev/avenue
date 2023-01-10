@@ -42,9 +42,11 @@
     margin-left: 0;
 }
 
-.controlsPortfolio .buttonPrev,
-.controlsPortfolio .buttonNext {
+.controlsPortfolio .buttonPrev img,
+.controlsPortfolio .buttonNext img {
     margin-bottom: 20px;
+    height: 30px!important;
+    width: auto!important;
 }
 
 .controlsPortfolio .buttonPrev:active h1 svg,
@@ -62,6 +64,17 @@
         height: 30px!important;
         width: 75%!important;
         min-width: 0!important;
+    }
+
+    .controlsPortfolio .buttonPrev img,
+    .controlsPortfolio .buttonNext img {
+        margin-bottom: 15px;
+        height: 20px!important;
+        width: auto!important;
+    }
+
+    .controlsPortfolio .buttonNext {
+        margin-left: 5px;
     }
 }
 
