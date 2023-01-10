@@ -6,9 +6,11 @@ import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 
   const OurServices = () => {
-  $(document).on("click", "a", function () {
-  $(this).addClass("actived");
-  });
+    $(document).on("click", function () {
+      $('a').removeClass("actived");
+      $(this).addClass("active");
+      $(this).removeClass("active");
+    });
 
   return (
     <>
@@ -36,22 +38,22 @@ import Tab from "react-bootstrap/Tab";
                         className="flex-column tabsOurServices"
                       >
                         <Nav.Item>
-                          <Nav.Link eventKey="funds"> RAISE FUNDS </Nav.Link>
+                          <Nav.Link className="actived" eventKey="funds"> RAISE FUNDS </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="sell"> SELL PRODUCTS </Nav.Link>
+                          <Nav.Link className="" eventKey="sell"> SELL PRODUCTS </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="hire">
+                          <Nav.Link className="" eventKey="hire">
                             {" "}
                             HIRE & MANAGE PEOPLE{" "}
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="personal"> PERSONAL </Nav.Link>
+                          <Nav.Link className="" eventKey="personal"> PERSONAL </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="additional">
+                          <Nav.Link className="" eventKey="additional">
                             {" "}
                             ADDITIONAL{" "}
                           </Nav.Link>

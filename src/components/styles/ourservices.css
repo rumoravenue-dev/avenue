@@ -62,6 +62,17 @@
   transition: 0.5s ease-in-out;
 }
 
+.tabsOurServices a.active::after {
+  content : " ";
+  width: 72%;
+  height: 5px;
+  background-color: #F4BD03;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  transition: 0.5s ease-in-out;
+}
+
 .tabsOurServices a:hover:after {
   width: 72%!important;
 }

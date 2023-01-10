@@ -97,7 +97,7 @@
     position: absolute;
     margin-left: 68px;
     margin-top: 150px;
-}
+  }
 
   .only {
     margin-top: 312px;
@@ -142,23 +142,23 @@
 
   .divIcon img {
     height: 30px;
-    margin-left: 103px;
+    margin-left: 130px;
     margin-top: 132px;
 }
 
   .only {
     margin-top: 274px;
-    margin-left: 40px;
+    margin-left: 70px;
     font-size: 16px;
     line-height: 24px;
   }
 
   .getToWork {
     margin-top: 318px;
-    margin-left: 38px;
+    margin-left: 68px;
     font-size: 16px;
     line-height: 24px;
-}
+  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -183,7 +183,7 @@
   .divIcon img {
     margin-left: -58px;
     margin-top: 80px;
-}
+  }
 
   .only {
     margin-top: 180px;
