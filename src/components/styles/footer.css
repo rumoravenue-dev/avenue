@@ -11,13 +11,13 @@ body {
     height: 600px;
     background-color: #fff7db;
     padding-top: 350px;
-    padding-left: 150px;
+    padding-left: 170px;
     position: absolute;
     z-index: 1;
 }
 
 .footer .footerRow {
-    max-width: 90%;
+    max-width: 88%;
 }
 
 .footer .footerCopy {

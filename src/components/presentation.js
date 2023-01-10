@@ -6,21 +6,23 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
 const Presentation = () => {
-    $(document).on('click', 'a', function () {
-        $(this).addClass('actived')
-    })
+    $(document).on("click", function () {
+        $('a').removeClass("actived");
+        $(this).addClass("active");
+        $(this).removeClass("active");
+    });
 
     return (
         <>
             <section className="presentationServices containter-fluid">
                 <div className="presentationMainRow">
                     <div>
-                        <Tab.Container defaultActiveKey="timezones">
+                        <Tab.Container defaultActiveKey="presentationtypes">
                             <div className="d-flex justify-content-around presentationContent">
                                 <Col sm={3}>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
-                                            <Nav.Link eventKey="presentationtypes"> PRESENTATION TYPES </Nav.Link>
+                                            <Nav.Link className="actived" eventKey="presentationtypes"> PRESENTATION TYPES </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
                                             <Nav.Link eventKey="timezones"> TIMEZONES </Nav.Link>

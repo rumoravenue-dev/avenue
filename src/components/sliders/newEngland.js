@@ -1,14 +1,16 @@
 import React from 'react';
+import { CloseButton } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import "./styles/sliders.css"
 
-function CarouselNewEngland() {
+function CarouselNewEngland({ onClose = (props) => { } }) {
 
   return (
     <>
       <div className='carouselProjects'>
-        <div className='projectsTitle'>
-          <h3>New England</h3>
+        <div className='row d-flex justify-content-between projectsTitle'>
+          <h3 className='p-0 m-0 col col-md-4'>New England</h3>
+          <CloseButton variant="white" onClick={onClose} />
         </div>
         <Carousel>
           <Carousel.Item>

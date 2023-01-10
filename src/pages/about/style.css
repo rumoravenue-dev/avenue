@@ -80,6 +80,7 @@ body {
   top: 2920px;
   filter: drop-shadow(15px 13px 34px rgba(0, 0, 0, 0.25));
   border-radius: 3.75525px;
+  z-index: 99;
 }
 
 .weFocus .focusText h1 {
@@ -146,13 +147,9 @@ body {
   margin-bottom: 200px;
 }
 
-.containerAbout .brandsPartnerships {
-  height: 100vh;
-}
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 1024px ) {
-
-    .mainAbout .mainSomewhereText img {
+  .mainAbout .mainSomewhereText img {
     height: 525px;
   }
 
@@ -161,7 +158,7 @@ body {
     width: 700px;
     line-height: 127px;
   }
-  
+
   .weFocus .focusText h1 {
     margin-left: 100px;
   }
@@ -194,7 +191,14 @@ body {
   }
 }
 
-@media screen and (max-width: 350px ) {
+@media screen and (max-width: 350px) {
+  .mainAbout {
+    height: 384px;
+  }
+
+  .weAreTextContainer {
+    height: 358px;
+  }
 
   .mainAbout .mainSomewhereText img {
     height: 200px;
@@ -202,8 +206,9 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 32px;
-    width: 80%;
+    width: 79%;
     line-height: 57px;
+
   }
 
   .weAreTextContainer .weAreText h1 {
@@ -211,20 +216,20 @@ body {
   }
 
   .weFocus {
-    height: auto;
+    height: 495px;
     width: 100%;
   }
 
   .weFocus .wineImage {
     height: 150px;
-    margin-left: -573px;
-    margin-top: 150px;
+    margin-right: 0px;
+    margin-top: -950px;
   }
 
   .weFocus .ParallaxImage {
     height: 150px;
     margin-left: 0;
-    margin-top: -625px;
+    margin-top: -1710px;
   }
 
   .weFocus .focusText h1 {
@@ -252,25 +257,19 @@ body {
     margin-top: -20px;
     margin-left: 20px;
     width: 90%;
-    height: auto;
   }
 
   .weFocus .focusText p {
     font-size: 8px;
     margin: 0;
-    width: 90%;
     margin-top: -70px;
     margin-left: 20px;
     margin-bottom: 50px;
-    letter-spacing: 0.8px;
-  }
-
-  .containerAbout .brandsPartnerships {
-    height: 145vh;
+    letter-spacing: 0.1px;
   }
 }
 
-@media (min-width: 351px) and (max-width: 576px ) {
+@media (min-width: 351px) and (max-width: 576px) {
 
   .mainAbout {
     height: 400px;
@@ -326,7 +325,7 @@ body {
   }
 
   .weFocus .focusText h1 {
-    font-size: 40px!important;
+    font-size: 40px !important;
     width: 40%;
     height: auto;
     margin: 0;
@@ -364,7 +363,7 @@ body {
   }
 }
 
-@media (min-width: 577px) and (max-width: 992px ) {
+@media (min-width: 577px) and (max-width: 992px) {
 
   .mainAbout {
     height: 925px;
@@ -447,6 +446,3 @@ body {
     height: 145vh;
   }
 }
-
-
-

@@ -37,6 +37,7 @@
 .carouselControls .buttonPrev,
 .carouselControls .buttonNext {
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .carouselControls .buttonPrev:hover,
@@ -114,6 +115,11 @@
         display: flex;
         justify-content: space-between;
         margin-left: 0.2px;
+    }
+
+    .buttonNext img, .buttonPrev img {
+        height: 35px;
+        margin-top: 0px;
     }
 
     .carouselHome .controllerDescription {

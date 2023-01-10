@@ -35,16 +35,18 @@
 }
 
 .controlsPortfolio .buttonNext {
-    margin-left: 5px;
+    margin-left: 30px;
 }
 
 .controlsPortfolio .buttonPrev {
     margin-left: 0;
 }
 
-.controlsPortfolio .buttonPrev h1 svg,
-.controlsPortfolio .buttonNext h1 svg {
-    color: #fff;
+.controlsPortfolio .buttonPrev img,
+.controlsPortfolio .buttonNext img {
+    margin-bottom: 20px;
+    height: 30px!important;
+    width: auto!important;
 }
 
 .controlsPortfolio .buttonPrev:active h1 svg,
@@ -56,6 +58,26 @@
 .controlsPortfolio .buttonNext:hover h1 svg {
     color: #F4BD03;
 }
+
+@media only screen and (max-width: 576px) {
+    .buttonNext img, .buttonPrev img {
+        height: 30px!important;
+        width: 75%!important;
+        min-width: 0!important;
+    }
+
+    .controlsPortfolio .buttonPrev img,
+    .controlsPortfolio .buttonNext img {
+        margin-bottom: 15px;
+        height: 20px!important;
+        width: auto!important;
+    }
+
+    .controlsPortfolio .buttonNext {
+        margin-left: 5px;
+    }
+}
+
 
 @media only screen and (max-width: 992px) {
     .controls {
