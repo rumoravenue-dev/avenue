@@ -37,7 +37,7 @@
 .only {
   position: absolute;
   margin-top: 77px;
-  margin-left: 130px;
+  margin-left: 74px;
   font-family: 'Antonio', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -51,7 +51,7 @@
 .getToWork {
   position: absolute;
   margin-top: 153px;
-  margin-left: 125px;
+  margin-left: 70px;
   font-family: 'Antonio', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -64,7 +64,7 @@
 
 .divIcon img {
   position: absolute;
-  margin-left: -130px;
+  margin-left: -50px;
   margin-top: 110px;
 }
 
