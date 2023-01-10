@@ -52,8 +52,11 @@ function About() {
         </div>
       </section>
       <EyeOpening />
+
       <Brands />
+
       <GetInContact />
+      
       <Footer />
     </div>
   )
