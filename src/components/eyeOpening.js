@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles/eyeOpening.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function EyeOpening() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, []);
+
   return (
     <section className="eyeSection container-fluid">
       <div className='row justify-content-center'>
         <div className='col col-md-4'>
-          <div className="col box-text">
+          <div className="col box-text" data-aos="fade-up">
             <h1 className='title-eye'>
               EYE
             </h1>
@@ -17,7 +23,7 @@ export default function EyeOpening() {
               Whether the presentation needs to convince or educate it always has to change audience perception. We seek insights to make decks unexpectedly enlightening for our audience.
             </p>
           </div>
-          <div className="col eyeCatching">
+          <div className="col eyeCatching" data-aos="fade-up">
             <h1 className='title-eye'>
               EYE
             </h1>

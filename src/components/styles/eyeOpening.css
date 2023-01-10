@@ -20,7 +20,7 @@
 }
 
 .box-text {
-  margin-bottom: 600px;
+  margin-bottom: 200px;
 }
 
 .description-text-eye {
@@ -54,9 +54,21 @@
 }
 
 @media screen and (max-width: 350px) {
+  .img-eye {
+    display: none;
+  }
+
+  .box-text {
+    margin-bottom: 100px;
+  }
+
+  .container-eye {
+    display: none;
+  }
+
   .eyeSection {
     padding-top: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
   }
 
   .title-eye {
@@ -72,9 +84,21 @@
 }
 
 @media (min-width: 351px) and (max-width: 576px) {
+  .img-eye {
+    display: none;
+  }
+
+  .box-text {
+    margin-bottom: 100px;
+  }
+
+  .container-eye {
+    display: none;
+  }
+
   .eyeSection {
     padding-top: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 
   .title-eye {
@@ -90,6 +114,20 @@
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
+  .box-text {
+    margin-bottom: 100px;
+  }
+
+  .img-eye {
+    width: 250px;
+    left: 65%;
+  }
+
+  .box-text,
+  .eyeCatching {
+    width: 450px;
+  }
+
   .eyeSection {
     padding-top: 200px;
     padding-bottom: 50px;
