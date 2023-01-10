@@ -2,7 +2,6 @@ import React from "react";
 import ImageSlider from "react-image-comparison-slider";
 import ReactSwipe from "react-swipe";
 
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 import "./styles/carousel.css";
 
@@ -14,14 +13,10 @@ function ControlledCarousel() {
       <div className="controllerDescription">
         <div className="carouselControls">
           <a className="buttonPrev" onClick={() => reactSwipeEl.prev()}>
-            <h1>
-              <AiOutlineLeft color="white" />
-            </h1>
+            <img src="/assets/img/home/carousel/Arrowleft.webp" alt="left" />
           </a>
           <a className="buttonNext" onClick={() => reactSwipeEl.next()}>
-            <h1>
-              <AiOutlineRight color="white" />
-            </h1>
+            <img src="/assets/img/home/carousel/Arrowright.webp" alt="right" />
           </a>
         </div>
         <div className="carouselDescription">

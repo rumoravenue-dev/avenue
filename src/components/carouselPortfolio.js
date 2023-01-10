@@ -51,28 +51,32 @@ function CarouselPort() {
   return (
     <>
       {isModalAtria ? (<Modal onClose={() => setIsModalAtria(false)}> <CarouselAtria onClose={() => setIsModalAtria(false)} /> </Modal>) : null}
-      {isModalTMRW ? (<Modal onClose={() => setisModalTMRW(false)} > <CarouselTMRW /> </Modal>) : null}
-      {isModalTina ? (<Modal onClose={() => setisModalTina(false)} > <CarouselTina /> </Modal>) : null}
-      {isModalRiboli ? (<Modal onClose={() => setisModalRiboli(false)} > <CarouselRiboli /> </Modal>) : null}
+      {isModalTMRW ? (<Modal onClose={() => setisModalTMRW(false)} > <CarouselTMRW onClose={() => setisModalTMRW(false)} /> </Modal>) : null}
+      {isModalTina ? (<Modal onClose={() => setisModalTina(false)} > <CarouselTina onClose={() => setisModalTina(false)} /> </Modal>) : null}
+      {isModalRiboli ? (<Modal onClose={() => setisModalRiboli(false)} > <CarouselRiboli onClose={() => setisModalRiboli(false)} /> </Modal>) : null}
 
-      {isModalNewEngland ? (<Modal onClose={() => setisModalNewEngland(false)} > <CarouselNewEngland /> </Modal>) : null}
-      {isModalHennessy ? (<Modal onClose={() => setisModalHennessy(false)} > <CarouselHennessy /> </Modal>) : null}
-      {isModalInPremisse ? (<Modal onClose={() => setisModalInPremisse(false)} > <CarouselInPremisse /> </Modal>) : null}
-      {isModalGreenHouseWine ? (<Modal onClose={() => setisModalGreenHouseWine(false)} > <CarouselGreenHouseWine /> </Modal>) : null}
+      {isModalNewEngland ? (<Modal onClose={() => setisModalNewEngland(false)} > <CarouselNewEngland onClose={() => setisModalNewEngland(false)}/> </Modal>) : null}
+      {isModalHennessy ? (<Modal onClose={() => setisModalHennessy(false)} > <CarouselHennessy onClose={() => setisModalHennessy(false)}/> </Modal>) : null}
+      {isModalInPremisse ? (<Modal onClose={() => setisModalInPremisse(false)} > <CarouselInPremisse onClose={() => setisModalInPremisse(false)}/> </Modal>) : null}
+      {isModalGreenHouseWine ? (<Modal onClose={() => setisModalGreenHouseWine(false)} > <CarouselGreenHouseWine onClose={() => setisModalGreenHouseWine(false)}/> </Modal>) : null}
 
-      {isModalOmit ? (<Modal onClose={() => setIsModalOmit(false)} > <CarouselOmit /> </Modal>) : null}
-      {isModalBookAble ? (<Modal onClose={() => setisModalBookAble(false)} > <CarouselBookAble /> </Modal>) : null}
-      {isModalPelicargo ? (<Modal onClose={() => setisModalPelicargo(false)} > <CarouselPelicargo /> </Modal>) : null}
-      {isModalGaylordHotels ? (<Modal onClose={() => setisModalGaylordHotels(false)} > <CarouselGaylordHotels /> </Modal>) : null}
+      {isModalOmit ? (<Modal onClose={() => setIsModalOmit(false)} > <CarouselOmit onClose={() => setIsModalOmit(false)}/> </Modal>) : null}
+      {isModalBookAble ? (<Modal onClose={() => setisModalBookAble(false)} > <CarouselBookAble onClose={() => setisModalBookAble(false)}/> </Modal>) : null}
+      {isModalPelicargo ? (<Modal onClose={() => setisModalPelicargo(false)} > <CarouselPelicargo onClose={() => setisModalPelicargo(false)}/> </Modal>) : null}
+      {isModalGaylordHotels ? (<Modal onClose={() => setisModalGaylordHotels(false)} > <CarouselGaylordHotels onClose={() => setisModalGaylordHotels(false)}/> </Modal>) : null}
 
-      {isModalLilDan ? (<Modal onClose={() => setIsModalLilDan(false)} > <CarouselLilDan /> </Modal>) : null}
-      {isModalWerx ? (<Modal onClose={() => setisModalWerx(false)} > <CarouselWerx /> </Modal>) : null}
-      {isModalRyna ? (<Modal onClose={() => setisModalRyna(false)} > <CarouselRyna /> </Modal>) : null}
+      {isModalLilDan ? (<Modal onClose={() => setIsModalLilDan(false)} > <CarouselLilDan onClose={() => setIsModalLilDan(false)}/> </Modal>) : null}
+      {isModalWerx ? (<Modal onClose={() => setisModalWerx(false)} > <CarouselWerx onClose={() => setisModalWerx(false)}/> </Modal>) : null}
+      {isModalRyna ? (<Modal onClose={() => setisModalRyna(false)} > <CarouselRyna onClose={() => setisModalRyna(false)}/> </Modal>) : null}
 
       <div className='controls'>
         <div className='controlsPortfolio'>
-          <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}><h1><AiOutlineLeft /></h1></a>
-          <a className='buttonNext' onClick={() => reactSwipeEl.next()}><h1><AiOutlineRight /></h1></a>
+          <a className='buttonPrev' onClick={() => reactSwipeEl.prev()}>
+            <img src="/assets/img/home/carousel/Arrowleft.webp" alt="left" />
+          </a>
+          <a className='buttonNext' onClick={() => reactSwipeEl.next()}>
+            <img src="/assets/img/home/carousel/Arrowright.webp" alt="right" />
+          </a>
         </div>
       </div>
 

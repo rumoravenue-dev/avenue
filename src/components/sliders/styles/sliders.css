@@ -13,6 +13,14 @@
     color: #fff;
 }
 
+.projectsTitle h3 {
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+}
+
 .carouselProjects .carousel-control-prev-icon {
     margin-left: -50px;
 }
@@ -46,6 +54,7 @@
     .carouselProjects .projectsTitle h3 {
         width: 100%;
         margin-left: 25%;
+        font-size: 16px;
     }
 
     .carouselProjects .carousel-item img {
@@ -69,6 +78,10 @@
         margin-left: 25px;
     }
 
+    .projectsTitle h3 {
+        font-size: 24px;
+    }
+
     .carouselProjects .carousel-item img {
         width: 88% !important;
         height: 235px;
@@ -89,5 +102,9 @@
         min-width: 100%;
         width: 375px !important;
         height: 240px !important;
+    }
+
+    .projectsTitle  h3 {
+        font-size: 24px;
     }
 }

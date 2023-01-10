@@ -18,12 +18,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .brandsPartnerships h2 {
-    position: absolute;
-    height: 114px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
@@ -31,221 +29,392 @@ body {
     line-height: 130%;
     text-align: center;
     color: #000000;
-    padding: 0 0px;
+    padding: 0 440px;
 }
 
-   
-.cardAppcore img, .cardHennessyVSOP img, .cardPelicargo img {
-    width: 147px;
+.partnershipsCards {
+    margin-bottom: 30px;
 }
 
-.cardAppcore img, .cardPelicargo img {
-    margin-left: 20px;
+.cardAnheuserBusch img {
+    margin-left: 335px;
+}
+
+.cardMarriott img {
+    margin-left: 262px;
+}
+
+.cardCiroc img {
+    margin-left: 160px;
+}
+
+.cardLogoGreen img {
+    margin-left: -155px;
+}
+
+.cardAppcore img {
+    margin-left: 200px;
+}
+
+.cardHennessyVSOP img {
+    margin-left: 150px;
+}
+
+.cardPelicargo img {
+    margin-left: 25px;
+}
+
+.cardMoet img {
+    margin-left: -8px;
+}
+
+.cardBalanceBunny img {
+    margin-left: -55px;
 }
 
 @media only screen and (max-width: 350px) {
     .brandsPartnerships {
-        height: 1300px !important;
+        height: 130vh;
     }
 
-    .brandsPartnerships .partnershipsTitle {
-        margin-top: 16px;
+    .brandsPartnerships .row {
+        width: 100vw;
     }
 
-    .brandsPartnershipsRow {
-        padding-left: 32px;
-        max-width: 260px;
-        width: 100%;
-    }
-
-    .brandsPartnerships .col-12 h2 {
-        font-size: 22px !important;
-        width: 90%;
-        padding: 0;
-    }
-
-    .brandsPartnerships .partnershipsImages {
-        padding: 0 0px !important;
-    }
-
-    .brandsPartnerships .partnershipsImages .partnershipsImage img {
-        width: 100px;
-    }
-
-    .cardAnheuserBusch,
-    .cardMarriott,
-    .cardCiroc,
-    .cardRumor,
-    .cardLogoGreen {
+    .partnershipsCards .col-12 {
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
+        align-items: center;
     }
 
-    .cardAppcore,
-    .cardHennessyVSOP,
-    .cardPelicargo,
-    .cardMoet,
-    .cardBalanceBunny {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
+    .brandsPartnerships h2 {
+        font-size: 18px;
+        line-height: 130%;
+        padding: 0px 10px;
+    }
+
+    .cardAnheuserBusch img {
+        margin-left: 0px;
+        height: 72px;
+        margin-bottom: 45px;
+    }
+    
+    .cardMarriott img {
+        height: 72px;
+        margin-bottom: 45px;
+        margin-left: 0;
+    }
+    
+    .cardCiroc img {
+        margin-left: 0px;
+        height: 68px;
+        margin-bottom: 45px;
+    }
+
+    .cardRumor img {
+        margin-left: 0px;
+        height: 34px;
+        margin-bottom: 45px;
+    }
+    
+    .cardLogoGreen img {
+        margin-left: 0px;
+        height: 117px;
+    }
+    
+    .cardAppcore img {
+        margin-left: 0px;
+        height: 35px;
+        margin-bottom: 45px;
+    }
+    
+    .cardHennessyVSOP img {
+        margin-left: 0px;
+        height: 53px;
+        margin-bottom: 45px;
+    }
+    
+    .cardPelicargo img {
+        margin-left: 0px;
+        height: 19px;
+        margin-bottom: 45px;
+    }
+    
+    .cardMoet img {
+        height: 65px;
+        margin-bottom: 45px;
+        margin-left: 0px;
+    }
+    
+    .cardBalanceBunny img {
+        margin-left: 0px;
+        height: 31px;
+        margin-bottom: 45px;
     }
 }
 
 @media (min-width: 351px) and (max-width: 576px) {
     .brandsPartnerships {
-        height: 1445px !important;
-        padding-bottom: 0px;
-        padding-left: 32px;
+        height: 130vh;
     }
 
-    .brandsPartnershipsRow {
-        max-width: 520px;
-        width: 100%;
+    .brandsPartnerships .row {
+        width: 100vw;
     }
 
-    .brandsPartnerships .partnershipsTitle {
-        height: 386px;
-        margin-top: 80px;
-    }
-
-    .brandsPartnerships .partnershipsTitle h2 {
-        position: absolute;
-        height: 114px;
-        font-size: 28px !important;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    .brandsPartnerships .partnershipsImages {
-        padding-left: 32px !important;
-    }
-
-    .cardAnheuserBusch,
-    .cardMarriott,
-    .cardCiroc,
-    .cardRumor,
-    .cardLogoGreen {
+    .partnershipsCards .col-12 {
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
+        align-items: center;
     }
 
-    .cardAppcore,
-    .cardHennessyVSOP,
-    .cardPelicargo,
-    .cardMoet,
-    .cardBalanceBunny {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
+    .brandsPartnerships h2 {
+        font-size: 18px;
+        line-height: 130%;
+        padding: 0px 10px;
+    }
+
+    .cardAnheuserBusch img {
+        margin-left: 0px;
+        height: 100px;
+        margin-bottom: 45px;
+    }
+    
+    .cardMarriott img {
+        height: 100px;
+        margin-bottom: 45px;
+        margin-left: 0;
+    }
+    
+    .cardCiroc img {
+        margin-left: 0px;
+        height: 100px;
+        margin-bottom: 45px;
+    }
+
+    .cardRumor img {
+        margin-left: 0px;
+        height: 55px;
+        margin-bottom: 45px;
+    }
+    
+    .cardLogoGreen img {
+        margin-left: 0px;
+        height: 130px;
+    }
+    
+    .cardAppcore img {
+        margin-left: 0px;
+        height: 50px;
+        margin-bottom: 45px;
+    }
+    
+    .cardHennessyVSOP img {
+        margin-left: 0px;
+        height: 70px;
+        margin-bottom: 45px;
+    }
+    
+    .cardPelicargo img {
+        margin-left: 0px;
+        height: 25px;
+        margin-bottom: 45px;
+    }
+    
+    .cardMoet img {
+        height: 90px;
+        margin-bottom: 45px;
+        margin-left: 0px;
+    }
+    
+    .cardBalanceBunny img {
+        margin-left: 0px;
+        height: 45px;
+        margin-bottom: 45px;
     }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
     .brandsPartnerships {
-        height: 950px !important;
-        padding: 80px 32px 80px 0px;
+        height: 120vh;
     }
 
-    .brandsPartnerships .partnershipsTitle {
-        margin-top: 20px;
-    }
-
-    .brandsPartnerships .col-12 h2 {
-        font-size: 26px;
-        text-align: center;
-        padding: 0 32px;
-    }
-
-    .brandsPartnerships .partnershipsImages {
-        padding-left: 32px;
-    }
-
-    .brandsPartnerships .partnershipsImages .col-12 {
-        padding-bottom: 64px;
-        display: flex;
-        align-items: center;
-    }
-
-    .cardHennessyVSOP img {
-        margin-left: 25px;
-    }
-
-    .cardAnheuserBusch img {
-        margin-left: 20px;
-    }
-
-    .cardMarriott img {
-        margin-left: 50px;
-    }
-
-    .cardCiroc img {
-        margin-left: 74px;
-    }
-
-    .cardRumor img {
-        margin-left: 190px;
-        margin-top: 68px;
-        margin-bottom: 70px;
-    }
-
-    .cardLogoGreen img {
-        margin-left: 85px;
-        margin-top: 41px;
-        margin-bottom: 35px;
-        height: 98px;
-    }
-
-    .cardMoet img {
-        width: 195px;
-        margin-left: 75px;
-        margin-top: 35px;
-        margin-bottom: 34px;
-    }
-
-    .cardBalanceBunny img {
-        width: 185px;
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 993px) {
-    .brandsPartnershipsRow {
+    .brandsPartnerships .row {
         width: 100vw;
     }
 
+    .partnershipsCards .col-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brandsPartnerships h2 {
+        font-size: 26px;
+        line-height: 130%;
+        padding: 0px 101px;
+    }
+
     .cardAnheuserBusch img {
-        margin-left: 20px;
+        margin-left: 0px;
+        height: 100px;
+        margin-bottom: 45px;
     }
-
+    
     .cardMarriott img {
-        margin-left: 50px;
+        height: 100px;
+        margin-bottom: 45px;
+        margin-left: 0;
     }
-
+    
     .cardCiroc img {
-        margin-left: 80px;
+        margin-left: 0px;
+        height: 100px;
+        margin-bottom: 45px;
     }
 
     .cardRumor img {
-        margin-left: 45px;
+        margin-left: 0px;
+        height: 55px;
+        margin-bottom: 45px;
     }
-
+    
+    .cardLogoGreen img {
+        margin-left: 0px;
+        height: 130px;
+    }
+    
     .cardAppcore img {
-        margin-left: -50px;
+        margin-left: 0px;
+        height: 50px;
+        margin-bottom: 45px;
     }
-
+    
+    .cardHennessyVSOP img {
+        margin-left: 0px;
+        height: 70px;
+        margin-bottom: 45px;
+    }
+    
+    .cardPelicargo img {
+        margin-left: 0px;
+        height: 25px;
+        margin-bottom: 45px;
+    }
+    
     .cardMoet img {
-        margin-left: -25px;
+        height: 90px;
+        margin-bottom: 45px;
+        margin-left: 0px;
     }
-
+    
     .cardBalanceBunny img {
-        margin-left: 40px;
-    }
-
-    .cardMoet {
-        margin-left: 70px;
+        margin-left: 0px;
+        height: 45px;
+        margin-bottom: 45px;
     }
 }
 
+@media (min-width: 993px) and (max-width: 1350px) {
+    .brandsPartnerships h2 {
+        font-size: 32px;
+        line-height: 130%;
+        padding: 0 138px;
+    }
+    .cardAnheuserBusch img {
+        margin-left: 25px;
+        height: 60px;
+    }
+    
+    .cardMarriott img {
+        margin-left: 55px;
+        height: 60px;
+    }
+    
+    .cardCiroc img {
+        margin-left: 75px;
+        height: 60px;
+    }
+
+    .cardRumor img {
+        margin-left: 40px;
+    }
+    
+    .cardLogoGreen img {
+        margin-left: 20px;
+        height: 100px;
+    }
+    
+    .cardAppcore img {
+        margin-left: -63px;
+        height: 30px;
+    }
+    
+    .cardHennessyVSOP img {
+        margin-left: -40px;
+        height: 48px;
+    }
+    
+    .cardPelicargo img {
+        margin-left: -19px;
+        height: 20px;
+    }
+    
+    .cardMoet img {
+        margin-left: 41px;
+        height: 50px;
+    }
+    
+    .cardBalanceBunny img {
+        margin-left: 90px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 1351px) and (max-width: 1850px) {
+    .brandsPartnerships h2 {
+        font-size: 44px;
+        line-height: 130%;
+        padding: 0 174px;
+    }
+
+    .cardAnheuserBusch img {
+        margin-left: 160px;
+    }
+    
+    .cardMarriott img {
+        margin-left: 143px;
+    }
+    
+    .cardCiroc img {
+        margin-left: 110px;
+    }
+
+    .cardRumor img {
+        margin-left: 40px;
+    }
+    
+    .cardLogoGreen img {
+        margin-left: -20px;
+    }
+    
+    .cardAppcore img {
+        margin-left: 40px;
+    }
+    
+    .cardHennessyVSOP img {
+        margin-left: 52px;
+    }
+    
+    .cardPelicargo img {
+        margin-left: 30px;
+    }
+    
+    .cardMoet img {
+        margin-left: 40px;
+    }
+    
+    .cardBalanceBunny img {
+        margin-left: 75px;
+    }
+}
