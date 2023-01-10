@@ -192,6 +192,13 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+  .mainAbout {
+    height: 384px;
+  }
+
+  .weAreTextContainer {
+    height: 358px;
+  }
 
   .mainAbout .mainSomewhereText img {
     height: 200px;
@@ -199,8 +206,9 @@ body {
 
   .mainAbout .mainSomewhereText h1 {
     font-size: 32px;
-    width: 80%;
+    width: 79%;
     line-height: 57px;
+
   }
 
   .weAreTextContainer .weAreText h1 {
@@ -208,20 +216,20 @@ body {
   }
 
   .weFocus {
-    height: auto;
+    height: 495px;
     width: 100%;
   }
 
   .weFocus .wineImage {
     height: 150px;
-    margin-left: -573px;
-    margin-top: 150px;
+    margin-right: 0px;
+    margin-top: -950px;
   }
 
   .weFocus .ParallaxImage {
     height: 150px;
     margin-left: 0;
-    margin-top: -625px;
+    margin-top: -1710px;
   }
 
   .weFocus .focusText h1 {
@@ -249,17 +257,15 @@ body {
     margin-top: -20px;
     margin-left: 20px;
     width: 90%;
-    height: auto;
   }
 
   .weFocus .focusText p {
     font-size: 8px;
     margin: 0;
-    width: 90%;
     margin-top: -70px;
     margin-left: 20px;
     margin-bottom: 50px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.1px;
   }
 }
 
