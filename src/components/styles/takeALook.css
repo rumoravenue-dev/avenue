@@ -174,10 +174,9 @@ body {
   }
 
   .mainPortfolio .portfolioContainer img {
-    width: 75%;
+    width: 100%;
     min-width: 315.49px;
-    height: 209px;
-    margin-left: 26px;
+    height: auto;
   }
 
   .portifolioContent {

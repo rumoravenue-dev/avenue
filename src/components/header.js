@@ -38,7 +38,7 @@ const Header = (props) => {
               </div>
               <div className='col col-md-auto headerLinks'>
                 <button>
-                  <a href="/contact">START YOUR PROJECT</a>
+                  <a href="/newproject">START YOUR PROJECT</a>
                 </button>
               </div>
             </div>

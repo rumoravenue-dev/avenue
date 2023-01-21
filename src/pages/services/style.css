@@ -45,6 +45,12 @@ body {
     margin-bottom: 70px;
 }
 
+@media screen and (max-width: 480px) {
+    .aproachServices h2 {
+        margin-top: 100px;
+    }
+}
+
 .aproachServices a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -68,6 +74,12 @@ body {
 
 .aproachServices a:hover:after {
     width: 100% !important;
+}
+
+@media screen and (max-width: 480px) {
+    .aproachServices a:hover:after {
+        width: 0% !important;
+    }
 }
 
 .imgModelAproach {
@@ -185,6 +197,7 @@ body {
     margin-left: 150px;
     margin-top: -40px;
 }
+
 
 .goodToKnowText span {
     font-family: 'Antonio';
@@ -483,7 +496,7 @@ body {
 
     .goodToKnowText {
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: 40px;
     }
 
     .goodToKnowText span {
@@ -793,5 +806,11 @@ body {
 
 .container-carousel {
     margin-bottom: 179px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container-carousel {
+        margin-bottom: 50px;
+    }
 }
 

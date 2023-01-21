@@ -13,40 +13,78 @@ const Brands = () => {
               brands across the globe{" "}
             </h2>
           </div>
-          <div className="row justify-content-center align-items-center partnershipsCards">
-            <div className="col-12 col-sm-12 col-lg-2 cardAnheuserBusch">
-              <img src="/assets/img/home/Partnerships/AnheuserBusch.webp" alt="" />
+          <div className="d-lg-block d-none">
+            <div className="row justify-content-center align-items-center partnershipsCards">
+              <div className="col-6 col-sm-6 col-lg-2 cardAnheuserBusch">
+                <img src="/assets/img/home/Partnerships/AnheuserBusch.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardMarriott">
+                <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardCiroc">
+                <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardRumor">
+                <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2  cardLogoGreen">
+                <img src="/assets/img/home/Partnerships/GH-Logo-Green.webp" alt="" />
+              </div>
             </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardMarriott">
-              <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardCiroc">
-              <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardRumor">
-              <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2  cardLogoGreen">
-              <img src="/assets/img/home/Partnerships/GH-Logo-Green.webp" alt="" />
+            <div className="row justify-content-center align-items-center partnershipsCards">
+              <div className="col-6 col-sm-6 col-lg-2 cardAppcore">
+                <img src="/assets/img/home/Partnerships/Appcore.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardHennessyVSOP">
+                <img src="/assets/img/home/Partnerships/Hennessy-VSOP.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardPelicargo">
+                <img src="/assets/img/home/Partnerships/Pelicargo.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardMoet">
+                <img src="/assets/img/home/Partnerships/Moet-Hennessy-USA.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardBalanceBunny">
+                <img src="/assets/img/home/Partnerships/Balance-Bunny.webp" alt="" />
+              </div>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center partnershipsCards">
-            <div className="col-12 col-sm-12 col-lg-2 cardAppcore">
-              <img src="/assets/img/home/Partnerships/Appcore.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardHennessyVSOP">
-              <img src="/assets/img/home/Partnerships/Hennessy-VSOP.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardPelicargo">
-              <img src="/assets/img/home/Partnerships/Pelicargo.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardMoet">
-              <img src="/assets/img/home/Partnerships/Moet-Hennessy-USA.webp" alt="" />
-            </div>
-            <div className="col-12 col-sm-12 col-lg-2 cardBalanceBunny">
-              <img src="/assets/img/home/Partnerships/Balance-Bunny.webp" alt="" />
+
+          <div class="d-lg-none d-block">
+            <div className="row justify-content-center align-items-center partnershipsCards">
+              <div className="col-6 col-sm-6 col-lg-2 cardAnheuserBusch">
+                <img src="/assets/img/home/Partnerships/AnheuserBusch.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardMarriott">
+                <img src="/assets/img/home/Partnerships/Marriott.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardCiroc">
+                <img src="/assets/img/home/Partnerships/Ciroc.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardRumor">
+                <img src="/assets/img/home/Partnerships/Rumor.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2  cardLogoGreen">
+                <img src="/assets/img/home/Partnerships/GH-Logo-Green.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardAppcore">
+                <img src="/assets/img/home/Partnerships/Appcore.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardHennessyVSOP">
+                <img src="/assets/img/home/Partnerships/Hennessy-VSOP.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardPelicargo">
+                <img src="/assets/img/home/Partnerships/Pelicargo.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardMoet">
+                <img src="/assets/img/home/Partnerships/Moet-Hennessy-USA.webp" alt="" />
+              </div>
+              <div className="col-6 col-sm-6 col-lg-2 cardBalanceBunny">
+                <img src="/assets/img/home/Partnerships/Balance-Bunny.webp" alt="" />
+              </div>
             </div>
           </div>
+
         </div>
       </section>
     </>

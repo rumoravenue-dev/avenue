@@ -408,3 +408,12 @@ body {
         margin-left: 75px;
     }
 }
+
+.brandsPartnerships img{
+    max-width: 100%;
+    height: auto;
+}
+
+.brandsPartnerships .partnershipsCards > div {
+    text-align: center;
+}
