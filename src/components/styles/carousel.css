@@ -16,6 +16,7 @@
 
 .controllerDescription .carouselControls {
     display: flex;
+    display: none !important;
 }
 
 .controllerDescription .carouselDescription {
@@ -67,6 +68,7 @@
 .slider__container img {
     height: 530px;
     width: auto !important;
+    object-fit: cover;
 }
 
 .slider__handle svg {
