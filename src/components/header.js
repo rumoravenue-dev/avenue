@@ -14,10 +14,12 @@ const Header = (props) => {
       <div className={props.contact ? "headerBlack" : "header"}>
         <div className="row justify-content-around headerImage">
           <div className='col col-auto'>
-            <img
-              src="/assets/img/header/Vector(1).svg"
-              alt="logo header"
-            />
+            <a href="/">
+              <img
+                src="/assets/img/header/Vector(1).svg"
+                alt="logo header"
+              />
+            </a>
           </div>
           <div
             className="col col-md-auto"
@@ -25,16 +27,16 @@ const Header = (props) => {
           >
             <div className='row containerLinks'>
               <div className='col col-md-auto headerLinks'>
-                <a href="/">Home</a>
+                <a href="/">HOME</a>
               </div>
               <div className='col col-md-auto headerLinks'>
-                <a href="/services">Services</a>
+                <a href="/services">SERVICES</a>
               </div>
               <div className='col col-md-auto headerLinks'>
-                <a href="/portfolio">Portfolio</a>
+                <a href="/portfolio">PORTFOLIO</a>
               </div>
               <div className='col col-md-auto headerLinks'>
-                <a href="/about">About Us</a>
+                <a href="/about">ABOUT</a>
               </div>
               <div className='col col-md-auto headerLinks'>
                 <button>

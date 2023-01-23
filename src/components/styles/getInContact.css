@@ -220,3 +220,70 @@
 .containerGetInTouch{
   
 }
+
+.sunset-banner{
+  position: relative;
+  height: 0;
+  padding-top: 20%;
+}
+
+.sunset-banner--bg{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sunset-banner--bg img{
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .sunset-banner{
+    padding-top: 45%;
+  }
+  .sunset-banner--bg img{
+    width: 90%;
+  }
+}
+
+.sunset-banner--content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -20px;
+}
+
+.sunset-banner--content img{
+  height: 90px;
+}
+
+.alt-text h1{
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .sunset-banner--content img{
+    height: 60px;
+  }
+  .alt-text h1{
+    font-size: 28px;
+  }
+  .sunset-banner--content{
+    gap: 10px;
+  }
+}

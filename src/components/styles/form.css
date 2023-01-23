@@ -2,7 +2,6 @@
 
 .form-container {
   position: relative;
-  margin-top: 140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,7 +10,7 @@
 
 .form-box {
   width: 70.5%;
-  height: 480px;
+  height: auto;
   background: #000000;
   border-radius: 16px;
   display: flex;
@@ -175,7 +174,6 @@ input[type=text]{outline:none}
 @media only screen and (max-width: 350px) {
   .form-container {
     margin-left: -200px;
-    margin-top: 200px;
   }
 
   .form-box {
@@ -233,9 +231,6 @@ input[type=text]{outline:none}
 
 
 @media (min-width: 351px) and (max-width: 576px) {
-  .form-container {
-    margin-top: 200px;
-  }
 
   .form-box {
     width: 100%;
@@ -299,7 +294,6 @@ input[type=text]{outline:none}
 @media (min-width: 577px) and (max-width: 992px) {
   .form-container {
     position: relative;
-    margin-top: 250px;
     margin-left: -160px;
     z-index: 2;
   }
@@ -308,7 +302,6 @@ input[type=text]{outline:none}
     width: 90%;
     height: auto;
     max-width: 95%;
-    margin-top: -80px;
     margin-left: 165px;
     padding: 10px;
   }

@@ -19,6 +19,27 @@ body {
 .footer .footerRow {
     max-width: 88%;
 }
+@media screen and (max-width: 480px) {
+    .footer .footerRow{
+        max-width: 100%;
+    }
+    .footer .footerCopy{
+        align-items: center !important;
+    }
+    .footer .footerLinks{
+        align-items: center !important;
+    }
+    .socialMedia {
+        text-align: center;
+    }
+    .backToTop{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footerMedia .backToTop p{
+        margin-right: 20px !important;
+    }
+}
 
 .footer .footerCopy {
     display: flex;
@@ -33,7 +54,8 @@ body {
     width: 230px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    border: 0;
+    border: none;
+    border-radius: 8px;
 }
 
 .footer .footerCopy button a {
