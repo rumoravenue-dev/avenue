@@ -9,6 +9,7 @@ import Accordion from "../../components/q&a";
 import { accordionData } from '../../components/q&aContent';
 import GetInContact from "../../components/getInContact";
 import Brands from "../../components/brands";
+import Spacer from '../../components/spacer';
 
 function App() {
   const home = true;
@@ -17,9 +18,9 @@ function App() {
     <>
       <Header/> 
       <section className="homeMain" id="homeMain">
-        <div className="row">
-          <div className="col-12 col-sm-12 homeText">
-            <h1>We help people and companies achieve their goals by creating presentations that work</h1>
+        <div className="container-wide">
+          <div className="max-content">
+            <h1 className="the-title">We help people and companies achieve their goals by creating presentations that work</h1>
             <p>5pm is your outsourced in-house presentation team</p>
             <a href="#homePresentations">
             <img src="assets/img/home/main/Vector 11.svg" alt="arrow down"/>
@@ -29,17 +30,18 @@ function App() {
       </section>
 
       <section className="homePresentations" id="homePresentations">
-        <div className="row">
-          <div className="col-12 col-sm-12">
+        <div className="container-wide">
+          <div className="max-content center">
             <h3>We strategically partner with <strong>agencies, corporations, and startups</strong> that need <strong>pixel perfect presentation design</strong> to visually communicate with their teams, clients, shareholders, and/or consumers.</h3>
-            <div className="col-12 col-sm-12 homeCarousel">
-              <ControlledCarousel />
-            </div>
+          </div>
+          <div className="chomeCarousel">
+            <ControlledCarousel />
           </div>
         </div>
       </section>
 
       <Brands />
+      <Spacer height={120} />
 
       <OurServices />
  
@@ -49,22 +51,26 @@ function App() {
         <a href="/portfolio">See all projects →</a>
       </div>
 
-      <section className="homeQuestions">
-        <div className="row">
-          <div className="col-12 col-sm-12">
-            <hr />
-            <h1>DO YOU HAVE ANY QUESTION?</h1>
-            <p>Feel free to reach us out or take a look to our FAQ</p>
-            <hr />
-            <hr />
-            <div className="accordion">
-              {accordionData.map(({ title, content }) => (
-                <Accordion title={title} content={content} />
-              ))}
+      <Spacer height={180} />
+
+      <div className="container-wide">
+        <section className="homeQuestions">
+          <div className="row">
+            <div className="col-12 col-sm-12">
+              <hr />
+              <h1>DO YOU HAVE ANY QUESTION?</h1>
+              <p>Feel free to reach us out or take a look to our FAQ</p>
+              <hr />
+              <hr />
+              <div className="accordion">
+                {accordionData.map(({ title, content }) => (
+                  <Accordion title={title} content={content} />
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       
       <GetInContact />
       <Footer /> 

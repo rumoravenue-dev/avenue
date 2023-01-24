@@ -1,1 +1,81 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container-wide{
+  display: block;
+  width: 80%;
+  padding: 0 16px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-wide{
+    width: 100%;
+  }
+}
+
+
+.max-content{
+  width: 60%;
+}
+
+.max-content.center{
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1366px) {
+  .max-content{
+    width: 80%;
+  } 
+}
+
+
+@media screen and (max-width: 1100px) {
+  .max-content{
+    width: 90%;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .max-content{
+    width: 100%;
+  } 
+}
+
+.the-title{
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 93px;
+  font-family: 'Antonio', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 350px) {
+  .the-title {
+      font-size: 34px;
+      line-height: 50px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 576px) {
+  .the-title {
+      font-size: 34px;
+      line-height: 50px;
+  }
+}
+
+@media (width: 576px) {
+  .the-title {
+      font-size: 34px;
+      line-height: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .the-title {
+      font-size: 34px;
+      line-height: 50px;
+  }
+}

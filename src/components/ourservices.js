@@ -8,7 +8,7 @@ import Tab from "react-bootstrap/Tab";
 
 const TabContentFunds = () => (
   <div className="row fundsServices">
-    <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardInvestorDeck">
         <div className="card-body">
           <div className="card-text">
@@ -30,7 +30,7 @@ const TabContentFunds = () => (
         </div>
       </div>
     </div>
-    <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardStartupPitch">
         <div className="card-body">
           <div className="card-text">
@@ -52,7 +52,7 @@ const TabContentFunds = () => (
         </div>
       </div>
     </div>
-    <div className="d-none d-md-block col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="d-none d-md-block col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardNone">
         <div className="card-body">
           <div className="card-text">
@@ -68,7 +68,7 @@ const TabContentFunds = () => (
 const TabContentSell = () => (
   <>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardBusinessProposal">
           <div className="card-body">
             <div className="card-text">
@@ -90,7 +90,7 @@ const TabContentSell = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardCompanyPresentation">
           <div className="card-body">
             <div className="card-text">
@@ -112,7 +112,7 @@ const TabContentSell = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardProductPresentation">
           <div className="card-body">
             <div className="card-text">
@@ -136,7 +136,7 @@ const TabContentSell = () => (
       </div>
     </div>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardSalesDeck">
           <div className="card-body">
             <div className="card-text">
@@ -158,7 +158,7 @@ const TabContentSell = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardServiceDeck">
           <div className="card-body">
             <div className="card-text">
@@ -187,7 +187,7 @@ const TabContentSell = () => (
 const TabContentHire = () => (
   <>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardBigNewsDeck">
           <div className="card-body">
             <div className="card-text">
@@ -209,7 +209,7 @@ const TabContentHire = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardBrandedTemplate">
           <div className="card-body">
             <div className="card-text">
@@ -231,7 +231,7 @@ const TabContentHire = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardBoardingPresentation">
           <div className="card-body">
             <div className="card-text">
@@ -255,7 +255,7 @@ const TabContentHire = () => (
       </div>
     </div>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardPolicyPlaybook">
           <div className="card-body">
             <div className="card-text">
@@ -277,7 +277,7 @@ const TabContentHire = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardProgressReport">
           <div className="card-body">
             <div className="card-text">
@@ -299,7 +299,7 @@ const TabContentHire = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardTraining">
           <div className="card-body">
             <div className="card-text">
@@ -327,7 +327,7 @@ const TabContentHire = () => (
 
 const TabContentPersonal = () => (
   <div className="row fundsServices">
-    <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardQuickPresentations">
         <div className="card-body">
           <div className="card-text">
@@ -349,7 +349,7 @@ const TabContentPersonal = () => (
         </div>
       </div>
     </div>
-    <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardWedding">
         <div className="card-body">
           <div className="card-text">
@@ -371,7 +371,7 @@ const TabContentPersonal = () => (
         </div>
       </div>
     </div>
-    <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+    <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
       <div className="card cardBirthday">
         <div className="card-body">
           <div className="card-text">
@@ -399,7 +399,7 @@ const TabContentPersonal = () => (
 const TabContentAdditional = () => (
   <>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardIntro">
           <div className="card-body">
             <div className="card-text">
@@ -421,7 +421,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardAgency">
           <div className="card-body">
             <div className="card-text">
@@ -443,7 +443,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardBranding">
           <div className="card-body">
             <div className="card-text">
@@ -467,7 +467,7 @@ const TabContentAdditional = () => (
       </div>
     </div>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardRedesign">
           <div className="card-body">
             <div className="card-text">
@@ -489,7 +489,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardReview">
           <div className="card-body">
             <div className="card-text">
@@ -511,7 +511,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardMagazine">
           <div className="card-body">
             <div className="card-text">
@@ -535,7 +535,7 @@ const TabContentAdditional = () => (
       </div>
     </div>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardProgressReport1">
           <div className="card-body">
             <div className="card-text">
@@ -557,7 +557,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardConference">
           <div className="card-body">
             <div className="card-text">
@@ -579,7 +579,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardLegalPresentations">
           <div className="card-body">
             <div className="card-text">
@@ -603,7 +603,7 @@ const TabContentAdditional = () => (
       </div>
     </div>
     <div className="row fundsServices">
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardTrialExhibits">
           <div className="card-body">
             <div className="card-text">
@@ -625,7 +625,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </div>
-      <div className="col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3">
+      <div className="col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4">
         <div className="card cardEventTalks">
           <div className="card-body">
             <div className="card-text">
@@ -659,7 +659,7 @@ const TabContentAdditional = () => (
     });
 
   return (
-    <>
+    <div className="container-wide">
       <section className="ourServices container-fluid">
         <div className="row colum-services">
           <div className="col-12">
@@ -749,7 +749,7 @@ const TabContentAdditional = () => (
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 export default OurServices;

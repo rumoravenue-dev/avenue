@@ -12,36 +12,38 @@ const Header = (props) => {
   return (
     <>
       <div className={props.contact ? "headerBlack" : "header"}>
-        <div className="row justify-content-around headerImage">
-          <div className='col col-auto'>
-            <a href="/">
-              <img
-                src="/assets/img/header/Vector(1).svg"
-                alt="logo header"
-              />
-            </a>
-          </div>
-          <div
-            className="col col-md-auto"
-            style={{ color: props.contact ? "#000" : "#fff" }}
-          >
-            <div className='row containerLinks'>
-              <div className='col col-md-auto headerLinks'>
-                <a href="/">HOME</a>
-              </div>
-              <div className='col col-md-auto headerLinks'>
-                <a href="/services">SERVICES</a>
-              </div>
-              <div className='col col-md-auto headerLinks'>
-                <a href="/portfolio">PORTFOLIO</a>
-              </div>
-              <div className='col col-md-auto headerLinks'>
-                <a href="/about">ABOUT</a>
-              </div>
-              <div className='col col-md-auto headerLinks'>
-                <button>
-                  <a href="/newproject">START YOUR PROJECT</a>
-                </button>
+        <div className="container-wide">
+          <div className="row justify-content-between headerImage">
+            <div className='col col-auto'>
+              <a href="/">
+                <img
+                  src="/assets/img/header/Vector(1).svg"
+                  alt="logo header"
+                />
+              </a>
+            </div>
+            <div
+              className="col col-md-auto"
+              style={{ color: props.contact ? "#000" : "#fff" }}
+            >
+              <div className='row containerLinks'>
+                <div className='col col-md-auto headerLinks'>
+                  <a href="/">HOME</a>
+                </div>
+                <div className='col col-md-auto headerLinks'>
+                  <a href="/services">SERVICES</a>
+                </div>
+                <div className='col col-md-auto headerLinks'>
+                  <a href="/portfolio">PORTFOLIO</a>
+                </div>
+                <div className='col col-md-auto headerLinks'>
+                  <a href="/about">ABOUT</a>
+                </div>
+                <div className='col col-md-auto headerLinks'>
+                  <button>
+                    <a href="/newproject">START YOUR PROJECT</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
