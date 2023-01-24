@@ -3,11 +3,6 @@
 .containerGetInTouch,
 .containerGetInTouchPort {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -300px;
 }
 
 @media screen and (max-width: 480px){

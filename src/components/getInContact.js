@@ -6,7 +6,7 @@ function getInContact(props) {
   return (
     <>
       <section className={props.portfolio ? "containerGetInTouchPort": "containerGetInTouch"}>
-        <div className="row">
+        <div>
         <div className="sunset-banner">
           <div className="sunset-banner--bg">
             <img src="/assets/img/contact/Sunset.svg" alt="sunset" />

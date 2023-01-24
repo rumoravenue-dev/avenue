@@ -16,8 +16,9 @@ function PaperForm() {
   console.log(watch("exemplo: "))
 
     return (
+      <div className="container-wide">
       <div className="form-container" >
-          <form className="form-box" onSubmit={handleSubmit(onSubmit)}>
+          <form className="form-box2" onSubmit={handleSubmit(onSubmit)}>
             <div className="form-left-side">
               <div>
                 <h1>Ready to get started?</h1>
@@ -32,6 +33,7 @@ function PaperForm() {
               <div data-paperform-id="dfqwlgfp"></div><script dangerouslySetInnerHTML={{ __html: `(function() {var script = document.createElement(‘script’); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()` }} />
             </div>
           </form>
+      </div>
       </div>
     );
 }
