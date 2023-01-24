@@ -288,3 +288,7 @@
     gap: 10px;
   }
 }
+
+.paper-form-wrapper{
+  background-color: #000;
+}

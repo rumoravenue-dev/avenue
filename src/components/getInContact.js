@@ -19,7 +19,7 @@ function getInContact(props) {
             </div>
           </div>
         </div>
-        <div className="form-section">
+        <div className="paper-form-wrapper">
           {<PaperForm />}
         </div>
         </div>
