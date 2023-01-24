@@ -21,6 +21,16 @@ body {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 480px) {
+    .brandsPartnerships {
+        margin-bottom: 0;
+    }
+    .brandsPartnerships .partnershipsTitle{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
+
 .brandsPartnerships h2 {
     font-family: "Poppins";
     font-style: normal;
@@ -410,4 +420,41 @@ body {
 
 .brandsPartnerships .partnershipsCards > div {
     text-align: center;
+}
+
+
+.brand-logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logos > div{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .brand-logos > div{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .brand-logos > div{
+        width: 50%;
+    }
+}
+
+.brand-logos img{
+    height: 60px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
 }

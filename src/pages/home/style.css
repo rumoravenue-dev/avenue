@@ -361,3 +361,11 @@ body {
         margin-top: 50px;
     }
 }
+
+.chomeCarousel{ padding: 100px; }
+@media screen and (max-width: 1366px){
+    .chomeCarousel{ padding: 50px; }
+}
+@media screen and (max-width: 1024px){
+    .chomeCarousel{ padding: 0px; }
+}
