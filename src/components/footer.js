@@ -8,7 +8,7 @@ const Footer = () => {
             <section className='footer'>
                 <div className='row footerRow'>
                     <div className='col-12 col-sm-6 col-md-4 footerCopy'>
-                        <button><a href='/contact'>Start a new Project</a></button>
+                        <button><a href='/newproject'>Start a new Project</a></button>
                         <p>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
                     </div>
                     <div className='col-12 col-sm-6 col-md-4 footerLinks'>

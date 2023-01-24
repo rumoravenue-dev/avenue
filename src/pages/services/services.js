@@ -92,49 +92,53 @@ const Services = () => {
                         <img src="/assets/img/services/Rectangle5982.webp" alt="over 100m" className='goodToKnowIMG' />
                     </LazyLoad>
                 </div>
-                <div className='goodToKnowText'>
-                    <div className='goodknowcarousel'><CarouselWords /></div>
-                    <h2> know </h2>
+                <div className="container-wide">
+                    <div className='goodToKnowText'>
+                        <div className='goodknowcarousel'><CarouselWords /></div>
+                        <h2> know </h2>
+                    </div>
                 </div>
             </div>
             <Presentation />
             <OurServices />
             <section className='addonsServices container-fluid'>
-                <div className='row'>
-                    <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
-                        <h2> ADD-ONS </h2>
+                <div className='container-wide'>
+                    <div className='row'>
+                        <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
+                            <h2> ADD-ONS </h2>
+                        </div>
                     </div>
-                </div>
-                <div className='row'>
-                    <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 firstColIconsAddons'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/animations.svg' alt="icon animations" />
-                        <h3> Animations </h3>
+                    <div className='row'>
+                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 firstColIconsAddons'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/animations.svg' alt="icon animations" />
+                            <h3> Animations </h3>
+                        </div>
+                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/infographics.svg' alt="icon complex infographics" />
+                            <h3 className='complexInfoAddon'> Complex Infographics </h3>
+                        </div>
+                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/asset.svg' alt="icon asset sourcing" />
+                            <h3> Asset Sourcing <br /> <span> Based on asset </span> </h3>
+                        </div>
+                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/editing.svg' alt="icon photo editing" />
+                            <h3> Photo Editing </h3>
+                        </div>
                     </div>
-                    <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/infographics.svg' alt="icon complex infographics" />
-                        <h3 className='complexInfoAddon'> Complex Infographics </h3>
-                    </div>
-                    <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/asset.svg' alt="icon asset sourcing" />
-                        <h3> Asset Sourcing <br /> <span> Based on asset </span> </h3>
-                    </div>
-                    <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/editing.svg' alt="icon photo editing" />
-                        <h3> Photo Editing </h3>
-                    </div>
-                </div>
-                <div className='row secondRowAddons'>
-                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/custom.svg' alt="icon custom" />
-                        <h3> Custom <br /> <span> White Glove Service </span> </h3>
-                    </div>
-                    <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/timeblock.svg' alt="icon time block off" />
-                        <h3> Time Block off <br /> <span> hourly </span> </h3>
-                    </div>
-                    <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
-                        <img className='addonsServicesIMG' src='/assets/img/services/rush.svg' alt="icon rush" />
-                        <h3> Rush <br /> <span> +fee </span> </h3>
+                    <div className='row secondRowAddons'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/custom.svg' alt="icon custom" />
+                            <h3> Custom <br /> <span> White Glove Service </span> </h3>
+                        </div>
+                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/timeblock.svg' alt="icon time block off" />
+                            <h3> Time Block off <br /> <span> hourly </span> </h3>
+                        </div>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
+                            <img className='addonsServicesIMG' src='/assets/img/services/rush.svg' alt="icon rush" />
+                            <h3> Rush <br /> <span> +fee </span> </h3>
+                        </div>
                     </div>
                 </div>
             </section>

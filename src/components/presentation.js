@@ -16,10 +16,10 @@ const Presentation = () => {
         <>
             <section className="presentationServices containter-fluid">
                 <div className="presentationMainRow">
-                    <div>
+                    <div className='container-wide'>
                         <Tab.Container defaultActiveKey="presentationtypes">
-                            <div className="d-flex justify-content-around presentationContent">
-                                <Col sm={3}>
+                            <div className="d-flex justify-content-between presentationContent">
+                                <Col md={3} lg={4}>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
                                             <Nav.Link className="actived" eventKey="presentationtypes"> PRESENTATION TYPES </Nav.Link>
@@ -32,7 +32,7 @@ const Presentation = () => {
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
-                                <Col sm={5}>
+                                <Col md={9} lg={8}>
                                     <Tab.Content>
                                         <Tab.Pane eventKey="presentationtypes">
                                             <p> Need to present your work? We excel in various presentation visuals, from investor decks to reports to business proposals. We got you covered. Take a look below for a full list of our services. </p>
