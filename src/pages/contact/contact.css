@@ -117,8 +117,8 @@ body {
   }
 
   .mainContact .mainContent h1 {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 25px;
+    line-height: 25px;
   }
 
   .mainContact .mainContent img {
@@ -129,7 +129,7 @@ body {
   
   .containerMain .contactusText h2 {
     width: 129px;
-    font-size: 10px;
+    font-size: 13px;
     margin-left: 60px;
     margin-bottom: 9px;
     margin-top: 81px;
@@ -137,14 +137,14 @@ body {
 
   .containerMain .contactusText p {
     width: 242px;
-    font-size: 8px;
+    font-size: 13px;
     padding-right: 0px;
   }
 
   .containerMain .btnStart {
     width: 113px;
     height: 22px;
-    font-size: 9px;
+    font-size: 13px;
     line-height: 16px;
     margin-left: 66px;
     margin-bottom: 72px;
@@ -161,13 +161,13 @@ body {
   }
 
   .mainContact .mainContent h1 {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
   }
 
   .mainContact .mainContent img {
     margin-left: 0px;
-    margin-right: 40px;
+    margin-right: 20px;
     height: 51px;
   }
 
@@ -176,25 +176,26 @@ body {
   }
 
   .containerMain .contactusText h2 {
-    width: 249px;
-    font-size: 16px;
-    margin-left: 60px;
+    width: 100%;
+    font-size: 30px;
+    margin-left: 0;
     margin-bottom: 9px;
     margin-top: 90px;
   }
 
   .containerMain .contactusText p {
     width: 364px;
-    font-size: 10px;
+    font-size: 14px;
     padding-right: 0px;
+    padding-left: 16px;
   }
 
   .containerMain .btnStart {
-    width: 108px;
+    width: 158px;
     height: 35px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 36px;
-    margin-left: 129px;
+    margin-left: 118px;
     margin-bottom: 60px;
     border-radius: 3px;
   }

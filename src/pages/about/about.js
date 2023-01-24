@@ -13,7 +13,7 @@ function About() {
   return (
     <div className='containerAbout'>
       <Helmet>
-        <title> About - 5pm </title>
+        <title> About - OnlyFivePM </title>
       </Helmet>
 
       <Header contact={contact} />

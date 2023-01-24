@@ -131,6 +131,7 @@ body {
 
 .weFocus .focusText .black {
   color: #000000;
+  font-weight: 500;
 }
 
 .weFocus .focusText p {

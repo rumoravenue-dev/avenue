@@ -16,7 +16,7 @@ function Portfolio() {
   return (
     <>
       <Helmet>
-          <title> Portfolio - 5pm </title>
+          <title> Portfolio - OnlyFivePM </title>
       </Helmet>
       <Header />
       <TakeALook /> 

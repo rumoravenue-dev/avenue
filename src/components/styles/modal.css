@@ -56,7 +56,6 @@
 
   .modal .container {
     height: auto;
-    margin-left: -75px;
     margin-top: -30px;
     width: 100%;
     max-width: 500px!important;
@@ -92,7 +91,6 @@
 
   .modal .container {
     height: auto;
-    margin-left: -40px;
     margin-top: 0px;
     width: 82%;
   }

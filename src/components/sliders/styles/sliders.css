@@ -22,7 +22,7 @@
 }
 
 .carouselProjects .carousel-control-prev-icon {
-    margin-left: -50px;
+    margin-left: -100px;
 }
 
 .carouselProjects .carousel-control-next-icon {
@@ -83,7 +83,7 @@
     }
 
     .carouselProjects .carousel-item img {
-        width: 88% !important;
+        /* width: 88% !important; */
         height: 235px;
         min-width: 206px !important;
     }

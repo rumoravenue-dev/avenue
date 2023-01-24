@@ -14,10 +14,10 @@ function CarouselAtria({ onClose = (props) => { } }) {
         </div>
         <Carousel>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/atria/Atria1.webp' alt="slide-1" />
+            <img src='/assets/img/portfolio/projects/atria/Atria2.webp' alt="slide-1" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/atria/Atria2.webp' alt="slide-2" />
+            <img src='/assets/img/portfolio/projects/atria/Atria1.webp' alt="slide-2" />
           </Carousel.Item>
           <Carousel.Item>
             <img src='/assets/img/portfolio/projects/atria/Atria3.webp' alt="slide-3" />

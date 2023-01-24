@@ -26,7 +26,7 @@ const Services = () => {
     return (
         <>
             <Helmet>
-                <title> Services - 5pm </title>
+                <title> Services - OnlyFivePM </title>
             </Helmet>
             <Header />
             <section className="mainServices container-fluid">

@@ -20,8 +20,8 @@ function App() {
       <section className="homeMain" id="homeMain">
         <div className="container-wide">
           <div className="max-content">
-            <h1 className="the-title">We help people and companies achieve their goals by creating presentations that work</h1>
-            <p>5pm is your outsourced in-house presentation team</p>
+            <h1 className="the-title">Presentation design by your favorite workaholics</h1>
+            {/* <p>5pm is your outsourced in-house presentation team</p> */}
             <a href="#homePresentations">
             <img src="assets/img/home/main/Vector 11.svg" alt="arrow down"/>
             </a>
