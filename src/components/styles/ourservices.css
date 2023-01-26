@@ -764,7 +764,6 @@
 
  .fundsServices {
    row-gap: 0px;
-   column-gap: 30px;
  }
 
  .card-body:hover {
@@ -1155,4 +1154,17 @@
 
 .ourServices .fundsServices .card{
   width: 100%;
+}
+
+.services-section-title{
+  font-size: 13px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  line-height: 1;
+}
+
+
+.secondColAproach{
+  position: relative;
+  height: 100%;
 }

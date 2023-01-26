@@ -18,6 +18,16 @@ body {
     padding: 2% 0;
 }
 
+.homeMain.mini{
+    min-height: 75vh;
+}
+
+@media screen and (max-width: 992px) {
+    .homeMain.mini{
+        min-height: 60vh;
+    }
+}
+
 .homeMain .row {
     max-width: 100%;
 }
@@ -70,13 +80,8 @@ body {
     display: none;
 }
 
-.seeAllProjects {
-    height: 160px;
-    background-color: #222;
-    margin-top: -100px!important;
-    display: flex;
-    justify-content: space-around;
-    margin-left: -800px;
+.seeAllProjects{
+    margin-top: 20px;
 }
 
 .seeAllProjects a {
@@ -84,7 +89,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
-    margin-left: -40px;
+    margin-left: 10px;
 }
 
 .homeQuestions h1 {
@@ -157,10 +162,6 @@ body {
 
 
 @media screen and (max-width: 350px ) {
-    .homeMain {
-        height: 850px;
-    }
-
     .homeMain p {
         font-size: 18px;
     }
@@ -187,14 +188,6 @@ body {
         width: 100%;
     }
 
-    .seeAllProjects {
-        margin-top: 0px!important;
-    }
-    
-    .seeAllProjects a {
-        margin-left: 40px;
-    }
-
     .homeQuestions h1 {
         font-size: 28px;
     }
@@ -215,10 +208,6 @@ body {
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
-    .homeMain {
-        height: 950px;
-    }
-
     .homeMain .row {
         margin: 0;
     }
@@ -252,14 +241,6 @@ body {
         height: 180px;
     }
 
-    .seeAllProjects {
-        margin-top: 0px!important;
-        margin-left: -200px;
-    }
-    
-    .seeAllProjects a {
-        margin-left: 40px;
-    }
 
     .homeQuestions {
         text-align: left;
@@ -284,11 +265,6 @@ body {
 }
 
 @media (min-width: 577px) and (max-width: 992px ) { 
-    .homeMain {
-        height: 850px;
-    }
-    
-
     .homeMain p {
         font-size: 18px;
     }
@@ -309,10 +285,6 @@ body {
         width: 100%;
         height: 35px;
         margin-bottom: 20px;
-    }
-
-    .seeAllProjects {
-        margin-top: 0px!important;
     }
 
     .homeQuestions .faqQuestion {
@@ -341,12 +313,6 @@ body {
         letter-spacing: 0.16px;
         text-transform: uppercase;
         color: #888888;
-    }
-
-    .seeAllProjects {
-        display: flex;
-        justify-content: space-around;
-        margin-left: -560px;
     }
 }
 

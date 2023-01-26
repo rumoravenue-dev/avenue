@@ -47,10 +47,6 @@ function App() {
  
       <TakeALook/> 
 
-      <div className="seeAllProjects">
-        <a href="/portfolio">See all projects →</a>
-      </div>
-
       <Spacer height={180} />
 
       <div className="container-wide">

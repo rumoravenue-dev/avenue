@@ -676,7 +676,7 @@ const TabContentAdditional = () => (
             </div>
             <div className="row">
               <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
-                <Tab.Container defaultActiveKey="funds">
+                <Tab.Container defaultActiveKey="all">
                   <Row>
                     <Col sm={3}>
                       <Nav
@@ -684,7 +684,11 @@ const TabContentAdditional = () => (
                         className="flex-column tabsOurServices"
                       >
                         <Nav.Item>
-                          <Nav.Link className="actived" eventKey="funds"> RAISE FUNDS </Nav.Link>
+                          <Nav.Link className="actived d-none d-md-block" eventKey="all"> ALL </Nav.Link>
+                          <div className="d-block d-md-none mobileOnlyServices"></div>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="funds"> RAISE FUNDS </Nav.Link>
                           <div className="d-block d-md-none mobileOnlyServices">
                             <TabContentFunds />
                           </div>
@@ -723,7 +727,17 @@ const TabContentAdditional = () => (
                     </Col>
                     <Col className="d-none d-md-block" sm={9}>
                       <Tab.Content>
-                      <Tab.Pane eventKey="funds">
+                        <Tab.Pane eventKey="all">
+                          <p className="services-section-title">RAISE FUNDS</p>
+                          <TabContentFunds />
+                          <p className="services-section-title">SELL PRODUCTS</p>
+                          <TabContentSell />
+                          <p className="services-section-title">HIRE & MANAGE PEOPLE</p>
+                          <TabContentHire />
+                          <p className="services-section-title">PERSONAL</p>
+                          <TabContentPersonal />
+                          <p className="services-section-title">ADDITIONAL</p>
+                          <TabContentAdditional />
                         </Tab.Pane>
                         <Tab.Pane eventKey="funds">
                           <TabContentFunds />

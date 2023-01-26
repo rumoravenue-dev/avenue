@@ -22,15 +22,8 @@ body {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-top: 120px;
   margin-bottom: 40px;
   width: 50%;
-}
-
-@media screen and (min-width: 1280px) {
-  .mainPortfolio .titleContainer h4{
-    margin-top: 220px;
-  }
 }
 
 .mainPortfolio .titleContainer .takeALook {
