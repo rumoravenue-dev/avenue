@@ -1,7 +1,5 @@
 .eyeSection {
-  padding-top: 500px;
   background: #000000;
-  padding-bottom: 450px;
   position: relative;
   height: auto;
   z-index: 0;
@@ -66,11 +64,6 @@
     display: none;
   }
 
-  .eyeSection {
-    padding-top: 130px;
-    padding-bottom: 90px;
-  }
-
   .title-eye {
     font-size: 40px;
     line-height: 50px;
@@ -94,11 +87,6 @@
 
   .container-eye {
     display: none;
-  }
-
-  .eyeSection {
-    padding-top: 200px;
-    padding-bottom: 80px;
   }
 
   .title-eye {
@@ -127,12 +115,7 @@
   .eyeCatching {
     width: 450px;
   }
-
-  .eyeSection {
-    padding-top: 200px;
-    padding-bottom: 50px;
-  }
-
+  
   .title-eye {
     font-size: 75px;
     line-height: 100px;
