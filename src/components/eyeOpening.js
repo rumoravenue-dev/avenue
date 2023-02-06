@@ -34,7 +34,7 @@ export default function EyeOpening() {
                 CATCHING
               </h1>
               <p className='description-text-eye'>
-                The presentation helps to see what's hidden, unseen, or simply never known before. We use design to drive their attention, focus them to clearly see, and help them feel the message.
+              The presentation uncovers hidden, unknown, or unseen aspects. We leverage design to capture attention, promote clarity, and enhance the impact of the message.
               </p>
             </div>
           </div>

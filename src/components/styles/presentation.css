@@ -8,6 +8,7 @@
     text-transform: uppercase;
     color: #000000!important;
     position: relative;
+    padding-left:0;
 }
 
 .presentationServices a::after {
@@ -39,7 +40,7 @@
     background-color: #F4BD03;
     position: absolute;
     bottom: 0;
-    left: 15px;
+    left: 0px;
     transition: 0.5s ease-in-out;
 }
 

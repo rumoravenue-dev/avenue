@@ -9,9 +9,9 @@ const Footer = () => {
                 <div className='container-wide'>
                     <div className='row footerRow justify-content-between'>
                         <div className='col-12 col-md-12 col-xl-4 col-xxl-4 footerCopy'>
-                            <p className='mt-4 lead mb-4'>Presentation design by your favorite workaholics</p>
-                            <button className='newProject'><a href='/newproject'>Start a new Project</a></button>
-                            <p className='mt-5 d-none d-xl-block'>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
+                            <p className='mt-4 lead mb-4'>We partner with agencies, corporations and startups to provide high-quality presentation design to communicate with teams, clients, shareholders, and consumers.</p>
+                            <button className='newProject'><a href='/newproject'>Start your project</a></button>
+                            <p className='mt-5 d-none d-xl-block'>FIVE PM COPYRIGHT ALL RIGHTS RESERVED.</p>
                         </div>
                         <div className='col-12 col-md-12 col-xl-6 col-xxl-4'>
                             <div className='row'>
@@ -24,8 +24,8 @@ const Footer = () => {
                                 <div className='col-6 col-md-6 footerLinks'>
                                     <a href='https://www.linkedin.com/company/onlyfivepm/about/?viewAsMember=true'  target="_blank">Linkedin</a>
                                     <a href='https://www.instagram.com/onlyfivepm/' target="_blank">Instagram</a>
-                                    <a href='https://www.tiktok.com/@itsonly5pm' target="_blank">Tiktok</a>
-                                    <a href='https://www.facebook.com/itsonly5pm' target="_blank">Facebook</a>
+                                    <a href='https://www.tiktok.com/@onlyfivepm' target="_blank">Tiktok</a>
+                                    <a href='https://www.facebook.com/onlyfivepm' target="_blank">Facebook</a>
                                 </div>
                                 {/*
                                 <div className='col-12 col-md-4'>
@@ -40,7 +40,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='footerCopy text-center mt-5 d-block d-xl-none'>
-                            <p>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
+                            <p>FIVE PM COPYRIGHT ALL RIGHTS RESERVED.</p>
                         </div>
                     </div>
                 </div>

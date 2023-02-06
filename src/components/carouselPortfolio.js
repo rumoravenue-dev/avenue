@@ -93,7 +93,7 @@ function CarouselPort() {
             <img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1" onClick={() => setisModalTMRW(true)} />
           </div>
           <div className='slides'>
-            <img className='slidesIMG' src='/assets/img/sliders/TINA1.webp' alt="slide-1" onClick={() => setisModalTina(true)} />
+            
             <img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" onClick={() => setisModalRiboli(true)} />
           </div>
         </div>

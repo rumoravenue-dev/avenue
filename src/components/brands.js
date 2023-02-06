@@ -10,8 +10,7 @@ const Brands = () => {
           <div className="row brandsPartnershipsRow justify-content-center align-items-center">
             <div className="col-12 col-sm-12 partnershipsTitle">
               <h2>
-                We've build long lasting partnerships with the most ambitious
-                brands across the globe{" "}
+                We've built long lasting partnerships with the most ambitious brands across the globe.{" "}
               </h2>
             </div>
           </div>

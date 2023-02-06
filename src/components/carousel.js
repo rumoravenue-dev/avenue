@@ -6,8 +6,7 @@ import ReactSwipe from "react-swipe";
 import "./styles/carousel.css";
 
 const CustomHandle = () => (
-  <svg viewBox="0 0 28 67" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMax slice">
-    <path className="custom-handle--outer" d="M3.5 0V42.8809L24.9355 64" stroke="rgb(244, 189, 3)" stroke-width="3.1" />
+  <svg viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMax slice">
     <path className="custom-handle--inner" d="M3.5 0V42.8809L24.9355 64" stroke="#000" stroke-width="3" />
   </svg>
 )

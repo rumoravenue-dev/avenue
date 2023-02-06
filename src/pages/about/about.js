@@ -23,7 +23,7 @@ function About() {
         <div className="row">
           <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-            <h1>IT’S ONLY FIVEPM… LET’S GET TO WORK</h1>
+            <h1>IT'S ONLY FIVE PM… LET'S GET TO WORK</h1>
           </div>
         </div>
       </section>
@@ -33,7 +33,7 @@ function About() {
           <Spacer height={150} />
           <div className="row">
             <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 weAreText">
-              <h1> We are a boutique presentation agency that was born out of protest against bad presentations. We believe that presentations are either effective or they better not exist. Bad presentations are a waste of time. They can ruin days, months or even years of good work. Effective presentations can win market share, promotions and people’s hearts and minds. </h1>
+              <h1> Our presentation agency was created to fight against ineffective presentations. Good presentations can bring success, while bad ones can waste time and effort. We believe in the power of effective presentations to impact market share, promotions and people's opinions. </h1>
             </div>
           </div>
           <Spacer height={150} />
@@ -46,9 +46,8 @@ function About() {
           <div className='row'>
             <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 focusText'>
               <h1>We focus <span className="yellow">on <br /> presentations</span><br /> exclusively,</h1>
-              <h4>that’s the reason we are so good at all their aspects – <span className='black'> storytelling, design, delivery and tools </span>. No matter the challenge – from quarterly result presentations to a game-changing IPO, <span className='black'> we can help you achieve your goal</span>.</h4>
+              <h4>that's the reason we're so good at all aspects – <span className='black'> storytelling, design, delivery and tools </span>. No matter the challenge – from quarterly result presentations to a game-changing IPO, <span className='black'> we can help you achieve your goal</span>.</h4>
               <h2>WE <span className="yellow">COME THROUGH</span> FOR YOU</h2>
-              <p>RELIABLE, QUALITY, AND (REASONABLY) AFFORDABLE.</p>
             </div>
           </div>
           <Spacer height={150} />

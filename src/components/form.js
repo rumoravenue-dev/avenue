@@ -25,7 +25,7 @@ function Form() {
               </div>
               <div className="contact-information">
                 <img src="/assets/img/form/VectorMail.svg" alt="mail-icon"/>
-                <p>hello@only5pm.com</p>
+                <p>happyhour@onlyfivepm.com</p>
               </div>
             </div>
             <div className="form-right-side">

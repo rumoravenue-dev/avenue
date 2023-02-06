@@ -17,7 +17,7 @@ const Header = (props) => {
             <div className='col col-auto'>
               <a href="/">
                 <img
-                  src="/assets/img/header/Vector(1).svg"
+                  src="/assets/img/header/fivepm-logo.svg"
                   alt="logo header"
                 />
               </a>

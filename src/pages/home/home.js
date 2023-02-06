@@ -54,8 +54,8 @@ function App() {
           <div className="row">
             <div className="col-12 col-sm-12">
               <hr />
-              <h1>DO YOU HAVE ANY QUESTION?</h1>
-              <p>Feel free to reach us out or take a look to our FAQ</p>
+              <h1>DO YOU HAVE ANY QUESTIONS?</h1>
+              <p>Feel free to reach out to us or take a look at our FAQs.</p>
               <hr />
               <hr />
               <div className="accordion">

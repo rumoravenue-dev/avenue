@@ -31,7 +31,7 @@ function Contact() {
             <div className="col-12  contactusText">
               <h2>We're here ready 24/7 feel free to Contact us at anytime.</h2>
               <p><strong>It's always 5pm somewhere.</strong> Get in touch with us and Find The best way below to reach us out, or fill up the form.</p>
-              <button className="btnStart">Start a new project</button>
+              <button className="btnStart">Start your Project</button>
             </div>
           </div>
         </section> 
