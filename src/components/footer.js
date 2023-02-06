@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className='container-wide'>
                     <div className='row footerRow justify-content-between'>
                         <div className='col-12 col-md-12 col-xl-4 col-xxl-4 footerCopy'>
-                            <p className='mt-4 lead mb-4'>We strategically partner with agencies, corporations, and startups that need pixel perfect presentation design to visually communicate with their teams, clients, shareholders, and/or consumers.</p>
+                            <p className='mt-4 lead mb-4'>Presentation design by your favorite workaholics</p>
                             <button className='newProject'><a href='/newproject'>Start a new Project</a></button>
                             <p className='mt-5 d-none d-xl-block'>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
                         </div>
