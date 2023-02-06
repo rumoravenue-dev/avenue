@@ -93,7 +93,7 @@ function CarouselPort() {
             <img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1" onClick={() => setisModalTMRW(true)} />
           </div>
           <div className='slides'>
-            
+          <img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)} />
             <img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" onClick={() => setisModalRiboli(true)} />
           </div>
         </div>
@@ -123,7 +123,7 @@ function CarouselPort() {
             <img className='slidesIMG' src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" onClick={() => setisModalWerx(true)} />
           </div>
           <div className='slides'>
-            <img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)} />
+            
           </div>
         </div>
       </ReactSwipe>
