@@ -28,7 +28,7 @@ body {
 
 .mainPortfolio .titleContainer .takeALook {
   height: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 .mainPortfolio .arrowContainer img {
@@ -39,9 +39,69 @@ body {
 
 .portfolioContainer .slidesIMG {
   width: 50%;
-  height: 400px;
+  height: 420px;
   object-fit: cover;
   object-position: center center;
+}
+
+@media screen and (max-width: 1700px) {
+  .portfolioContainer .slidesIMG {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .portfolioContainer .slidesIMG {
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .portfolioContainer .slidesIMG {
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .portfolioContainer .slidesIMG {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolioContainer .slidesIMG {
+    height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .portfolioContainer .slidesIMG {
+    height: 210px !important;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .portfolioContainer .slidesIMG {
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .portfolioContainer .slidesIMG {
+    height: 180px !important;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .portfolioContainer .slidesIMG {
+    height: 170px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolioContainer .slidesIMG {
+    height: 210px !important;
+  }
 }
 
 .mainPortfolio .portfolioContainer .carousel-control-next-icon,
@@ -201,6 +261,7 @@ body {
   }
 
   .mainPortfolio .titleContainer {
+    margin-top: -0.5rem;
     padding-left: 0px;
   }
 

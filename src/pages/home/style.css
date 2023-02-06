@@ -335,3 +335,13 @@ body {
 @media screen and (max-width: 1024px){
     .chomeCarousel{ padding: 0px; }
 }
+
+@media screen and (max-width: 480px) {
+    .homeQuestions{
+        padding-bottom: 8rem;
+    }
+
+    .accordionContent{
+        padding-top: 0 !important;
+    }
+}

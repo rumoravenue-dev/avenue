@@ -50,24 +50,24 @@ function CarouselPort() {
 
   return (
     <>
-      {isModalAtria ? (<Modal onClose={() => setIsModalAtria(false)}> <CarouselAtria onClose={() => setIsModalAtria(false)} /> </Modal>) : null}
-      {isModalTMRW ? (<Modal onClose={() => setisModalTMRW(false)} > <CarouselTMRW onClose={() => setisModalTMRW(false)} /> </Modal>) : null}
-      {isModalTina ? (<Modal onClose={() => setisModalTina(false)} > <CarouselTina onClose={() => setisModalTina(false)} /> </Modal>) : null}
-      {isModalRiboli ? (<Modal onClose={() => setisModalRiboli(false)} > <CarouselRiboli onClose={() => setisModalRiboli(false)} /> </Modal>) : null}
+      {isModalAtria ? (<Modal> <CarouselAtria onClose={() => setIsModalAtria(false)} /> </Modal>) : null}
+      {isModalTMRW ? (<Modal> <CarouselTMRW onClose={() => setisModalTMRW(false)} /> </Modal>) : null}
+      {isModalTina ? (<Modal> <CarouselTina onClose={() => setisModalTina(false)} /> </Modal>) : null}
+      {isModalRiboli ? (<Modal> <CarouselRiboli onClose={() => setisModalRiboli(false)} /> </Modal>) : null}
 
-      {isModalNewEngland ? (<Modal onClose={() => setisModalNewEngland(false)} > <CarouselNewEngland onClose={() => setisModalNewEngland(false)}/> </Modal>) : null}
-      {isModalHennessy ? (<Modal onClose={() => setisModalHennessy(false)} > <CarouselHennessy onClose={() => setisModalHennessy(false)}/> </Modal>) : null}
-      {isModalInPremisse ? (<Modal onClose={() => setisModalInPremisse(false)} > <CarouselInPremisse onClose={() => setisModalInPremisse(false)}/> </Modal>) : null}
-      {isModalGreenHouseWine ? (<Modal onClose={() => setisModalGreenHouseWine(false)} > <CarouselGreenHouseWine onClose={() => setisModalGreenHouseWine(false)}/> </Modal>) : null}
+      {isModalNewEngland ? (<Modal> <CarouselNewEngland onClose={() => setisModalNewEngland(false)}/> </Modal>) : null}
+      {isModalHennessy ? (<Modal> <CarouselHennessy onClose={() => setisModalHennessy(false)}/> </Modal>) : null}
+      {isModalInPremisse ? (<Modal> <CarouselInPremisse onClose={() => setisModalInPremisse(false)}/> </Modal>) : null}
+      {isModalGreenHouseWine ? (<Modal> <CarouselGreenHouseWine onClose={() => setisModalGreenHouseWine(false)}/> </Modal>) : null}
 
-      {isModalOmit ? (<Modal onClose={() => setIsModalOmit(false)} > <CarouselOmit onClose={() => setIsModalOmit(false)}/> </Modal>) : null}
-      {isModalBookAble ? (<Modal onClose={() => setisModalBookAble(false)} > <CarouselBookAble onClose={() => setisModalBookAble(false)}/> </Modal>) : null}
-      {isModalPelicargo ? (<Modal onClose={() => setisModalPelicargo(false)} > <CarouselPelicargo onClose={() => setisModalPelicargo(false)}/> </Modal>) : null}
-      {isModalGaylordHotels ? (<Modal onClose={() => setisModalGaylordHotels(false)} > <CarouselGaylordHotels onClose={() => setisModalGaylordHotels(false)}/> </Modal>) : null}
+      {isModalOmit ? (<Modal> <CarouselOmit onClose={() => setIsModalOmit(false)}/> </Modal>) : null}
+      {isModalBookAble ? (<Modal> <CarouselBookAble onClose={() => setisModalBookAble(false)}/> </Modal>) : null}
+      {isModalPelicargo ? (<Modal> <CarouselPelicargo onClose={() => setisModalPelicargo(false)}/> </Modal>) : null}
+      {isModalGaylordHotels ? (<Modal> <CarouselGaylordHotels onClose={() => setisModalGaylordHotels(false)}/> </Modal>) : null}
 
-      {isModalLilDan ? (<Modal onClose={() => setIsModalLilDan(false)} > <CarouselLilDan onClose={() => setIsModalLilDan(false)}/> </Modal>) : null}
-      {isModalWerx ? (<Modal onClose={() => setisModalWerx(false)} > <CarouselWerx onClose={() => setisModalWerx(false)}/> </Modal>) : null}
-      {isModalRyna ? (<Modal onClose={() => setisModalRyna(false)} > <CarouselRyna onClose={() => setisModalRyna(false)}/> </Modal>) : null}
+      {isModalLilDan ? (<Modal> <CarouselLilDan onClose={() => setIsModalLilDan(false)}/> </Modal>) : null}
+      {isModalWerx ? (<Modal> <CarouselWerx onClose={() => setisModalWerx(false)}/> </Modal>) : null}
+      {isModalRyna ? (<Modal> <CarouselRyna onClose={() => setisModalRyna(false)}/> </Modal>) : null}
 
       <div className='controls'>
         <div className='controlsPortfolio'>

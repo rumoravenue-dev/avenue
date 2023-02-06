@@ -84,6 +84,12 @@
     transform: translateX(50%);
 }
 
+@media screen and (max-width: 1366px) {
+    .slider__handle svg{
+        left: -50%;
+    }
+}
+
 @media screen and (max-width: 2100px) {
     .slider__handle svg {
         transform: translateX(70%);

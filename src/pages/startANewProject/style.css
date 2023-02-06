@@ -32,9 +32,6 @@ body {
 }
 
 .startANewProject  .footer {
-    height: 500px;
-    padding-top: 200px;
-    padding-left: 100px;
 }
 
 @media screen and (max-width: 350px ) {
@@ -47,5 +44,25 @@ body {
     .startANewProject  .footer {
         padding-top: 100px;
         height: 700px;
+    }
+}
+
+.pre-paper-form{
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.body1{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 480px ) {
+    .pre-paper-form{
+        padding-top: 5rem;
+    }
+    .pre-paper-form h1{
+        margin-bottom: 1.5rem;
     }
 }

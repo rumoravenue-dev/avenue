@@ -138,6 +138,13 @@ body {
     padding-right: 70px;
 }
 
+@media screen and (max-width: 480px) {
+    .topProcess p {
+        min-height: 220px;
+        margin-bottom: 20px !important;
+    }
+}
+
 .thirdColProcess h3 {
     font-family: 'Antonio';
     text-transform: uppercase;
@@ -202,8 +209,8 @@ body {
 
 .addonsServices {
     background-color: #000000;
-    height: 1000px;
     text-align: center;
+    padding-bottom: 10rem;
 }
 
 .addonsServices h2 {
@@ -215,6 +222,13 @@ body {
     color: #FFFFFF;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .addonsServices h2 {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
 }
 
 .addonsServicesIMG {
@@ -337,10 +351,6 @@ body {
         font-size: 32px;
     }
 
-    .addonsServices {
-        height: 1400px;
-    }
-
     .addonsServices h2 {
         font-size: 21px;
     }
@@ -454,23 +464,19 @@ body {
         font-size: 32px;
     }
 
-    .addonsServices {
-        height: 1400px;
-    }
-
     .addonsServices h2 {
         font-size: 21px;
     }
 
     .addonsServicesIMG {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         height: 30px;
     }
 
     .addonsServices h3 {
         font-size: 20px;
         padding-left: 7px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .addonsServices span {
@@ -569,10 +575,6 @@ body {
 
     .goodToKnowText h2 {
         font-size: 32px;
-    }
-
-    .addonsServices {
-        height: 700px;
     }
 
     .addonsServices h2 {
@@ -687,10 +689,6 @@ body {
 
     .goodToKnowText h2 {
         font-size: 32px;
-    }
-
-    .addonsServices {
-        height: 700px;
     }
 
     .addonsServices h2 {

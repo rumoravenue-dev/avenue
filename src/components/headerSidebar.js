@@ -20,7 +20,7 @@ const HeaderSidebar = () => {
                 </li>
                 <li>
                     <button>
-                        <a href='/contact'>Start a new Project</a>
+                        <a href='/newproject'>Start a new Project</a>
                     </button>
                 </li>
             </ul>
