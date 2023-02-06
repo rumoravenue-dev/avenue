@@ -50,8 +50,8 @@ function ControlledCarousel() {
               customHandle={
                 <CustomHandle />
               }
-              image1="/assets/img/home/carousel/AB-Sampling-Deck-_after_.webp"
-              image2="/assets/img/home/carousel/AB-Sampling-Deck-_before_-1.webp"
+              image1="/assets/img/home/carousel/Gaylord_after.jpg"
+              image2="/assets/img/home/carousel/Gaylord-before.jpg"
               onSlide={() => {
                 console.log("sliding");
               }}

@@ -79,11 +79,13 @@ const TabContentSell = () => (
                   href="contact"
                   className="arrowOurServices"
                 >
-                  {" "}
-                  <span className="textHover">
+                  <span class="arrow-wrapper"></span>
                     {" "}
-                    →{" "}
-                  </span>{" "}
+                    <span className="textHover">
+                      {" "}
+                      →{" "}
+                    </span>{" "}
+                    
                 </a>{" "}
               </p>
             </div>
