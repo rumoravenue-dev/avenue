@@ -150,7 +150,7 @@ body {
     }
     .headerImage{
         position: relative;
-        top: 4px;
+        top: 10px;
     }
 
     .showSidebar,
@@ -250,4 +250,15 @@ body {
         align-items: center;
     }
 
+}
+
+.headerImage img{
+    height: 55px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .headerImage img{
+        height: 50px;
+    }
 }
