@@ -1175,3 +1175,9 @@
   position: relative;
   height: 100%;
 }
+
+@media screen and (max-width: 480px) {
+  .cardPolicyPlaybook .card-body{
+    padding: 10px;
+  }
+}

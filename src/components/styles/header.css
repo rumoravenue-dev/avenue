@@ -142,7 +142,15 @@ body {
 
     .header,
     .headerBlack {
+        /* display: none; */
+    }
+
+    .containerLinks{
         display: none;
+    }
+    .headerImage{
+        position: relative;
+        top: 4px;
     }
 
     .showSidebar,
