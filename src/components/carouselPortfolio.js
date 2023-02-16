@@ -4,7 +4,6 @@ import ReactSwipe from 'react-swipe';
 
 import "./styles/carouselPortfolio.css"
 
-import CarouselAtria from './sliders/atria';
 import CarouselTMRW from './sliders/TMRW';
 import CarouselTina from './sliders/tina';
 import CarouselRiboli from './sliders/riboli';
@@ -27,7 +26,6 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 function CarouselPort() {
 
-  const [isModalAtria, setIsModalAtria] = useState(false)
   const [isModalTMRW, setisModalTMRW] = useState(false)
   const [isModalTina, setisModalTina] = useState(false)
   const [isModalRiboli, setisModalRiboli] = useState(false)
@@ -50,7 +48,6 @@ function CarouselPort() {
 
   return (
     <>
-      {isModalAtria ? (<Modal> <CarouselAtria onClose={() => setIsModalAtria(false)} /> </Modal>) : null}
       {isModalTMRW ? (<Modal> <CarouselTMRW onClose={() => setisModalTMRW(false)} /> </Modal>) : null}
       {isModalTina ? (<Modal> <CarouselTina onClose={() => setisModalTina(false)} /> </Modal>) : null}
       {isModalRiboli ? (<Modal> <CarouselRiboli onClose={() => setisModalRiboli(false)} /> </Modal>) : null}
@@ -89,11 +86,11 @@ function CarouselPort() {
 
         <div className='carouselSlide'>
           <div className='slides'>
-            <img className='slidesIMG' src='/assets/img/portfolio/projects/atria/Atria2.webp' alt="slide-1" onClick={() => setIsModalAtria(true)} />
             <img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1" onClick={() => setisModalTMRW(true)} />
+            <img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" onClick={() => setIsModalLilDan(true)} />
           </div>
           <div className='slides'>
-          <img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)} />
+            <img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)} />
             <img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" onClick={() => setisModalRiboli(true)} />
           </div>
         </div>
@@ -119,7 +116,6 @@ function CarouselPort() {
         </div>
         <div className='carouselSlide'>
           <div className='slides'>
-            <img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" onClick={() => setIsModalLilDan(true)} />
             <img className='slidesIMG' src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" onClick={() => setisModalWerx(true)} />
           </div>
           <div className='slides'>
