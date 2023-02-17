@@ -1,29 +1,31 @@
 import React from "react";
-import './style.css';
+import "./style.css";
 import Header from "../../components/header";
-import OurServices from '../../components/ourservices'
-import TakeALook from '../../components/takeALook'
+import OurServices from "../../components/ourservices";
+import TakeALook from "../../components/takeALook";
 import ControlledCarousel from "../../components/carousel";
 import Footer from "../../components/footer";
 import Accordion from "../../components/q&a";
-import { accordionData } from '../../components/q&aContent';
+import { accordionData } from "../../components/q&aContent";
 import GetInContact from "../../components/getInContact";
 import Brands from "../../components/brands";
-import Spacer from '../../components/spacer';
+import Spacer from "../../components/spacer";
 
 function App() {
   const home = true;
 
   return (
     <>
-      <Header/> 
+      <Header />
       <section className="homeMain" id="homeMain">
         <div className="container-wide">
           <div className="max-content">
-            <h1 className="the-title">Presentation design by your favorite workaholics</h1>
+            <h1 className="the-title">
+              Presentation design by your favorite workaholics
+            </h1>
             {/* <p>5pm is your outsourced in-house presentation team</p> */}
             <a href="#homePresentations">
-            <img src="assets/img/home/main/Vector 11.svg" alt="arrow down"/>
+              <img src="assets/img/home/main/Vector 11.svg" alt="arrow down" />
             </a>
           </div>
         </div>
@@ -32,7 +34,13 @@ function App() {
       <section className="homePresentations" id="homePresentations">
         <div className="container-wide">
           <div className="max-content center">
-            <h3>We strategically partner with <strong>agencies, corporations, and startups</strong> that need <strong>pixel perfect presentation design</strong> to visually communicate with their teams, clients, shareholders, and/or consumers.</h3>
+            <h3>
+              We strategically partner with{" "}
+              <strong>agencies, corporations, and startups</strong> that need{" "}
+              <strong>pixel perfect presentation design</strong> to visually
+              communicate with their teams, clients, shareholders, and/or
+              consumers.
+            </h3>
           </div>
           <div className="chomeCarousel">
             <ControlledCarousel />
@@ -44,8 +52,8 @@ function App() {
       <Spacer height={120} />
 
       <OurServices />
- 
-      <TakeALook/> 
+
+      <TakeALook enableLazyBehaviour={false} />
 
       <Spacer height={180} />
 
@@ -67,12 +75,11 @@ function App() {
           </div>
         </section>
       </div>
-      
+
       <GetInContact />
-      <Footer /> 
+      <Footer />
     </>
   );
 }
 
 export default App;
-

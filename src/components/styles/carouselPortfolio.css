@@ -58,6 +58,13 @@
     color: #F4BD03;
 }
 
+.lazyPortfolio img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 576px) {
     .buttonNext img, .buttonPrev img {
         height: 30px!important;

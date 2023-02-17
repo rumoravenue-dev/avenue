@@ -16,16 +16,14 @@ function Portfolio() {
   return (
     <>
       <Helmet>
-          <title> Portfolio - OnlyFivePM </title>
+        <title> Portfolio - OnlyFivePM </title>
       </Helmet>
       <Header />
-      <TakeALook /> 
-      <GetInContact portfolio={portfolio}/>
-      <Footer /> 
+      <TakeALook enableLazyBehaviour={true} />
+      <GetInContact portfolio={portfolio} />
+      <Footer />
     </>
   );
 }
 
 export default Portfolio;
-
-
