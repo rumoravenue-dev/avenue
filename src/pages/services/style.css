@@ -5,7 +5,7 @@ body {
 }
 
 .homeMain {
-    background: linear-gradient(56.55deg, rgba(0, 0, 0, 0.3) 7.84%, rgba(0, 0, 0, 0) 62.32%), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../public/assets/img/bg/bg.webp');
+    background: linear-gradient(56.55deg, rgba(0, 0, 0, 0.3) 7.84%, rgba(0, 0, 0, 0) 62.32%), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/public/assets/img/home/main/hero-2.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
