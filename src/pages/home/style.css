@@ -8,7 +8,7 @@ body {
 
 .homeMain {
     min-height: 100vh;
-    background: url('/public/assets/img/home/main/hero.webp');
+    background: url('/public/assets/img/home/main/hero-2.webp');
     background-position: bottom left;
     background-size: cover;
     display: flex;
