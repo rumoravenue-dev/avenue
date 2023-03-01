@@ -11,12 +11,7 @@ function Portfolio({ home, enableLazyBehaviour = true }) {
         <Spacer height={120} />
         <div className="row titleContainer">
           <div className="col-12 col-sm-12 portifolioContent">
-            <h4>portfolio</h4>
-            <img
-              className="takeALook"
-              src="/assets/img/portfolio/takealook.svg"
-              alt="takeALook"
-            />
+            <h2 className="heading-2 text-white">OUR WORK</h2>
           </div>
         </div>
         <div className="col-12 col-sm-12 portfolioContainer">

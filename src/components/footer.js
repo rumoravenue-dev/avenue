@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className='row footerRow justify-content-between'>
                         <div className='col-12 col-md-12 col-xl-4 col-xxl-4 footerCopy'>
                             <p className='mt-4 lead mb-4'>We partner with agencies, corporations and startups to provide high-quality presentation design to communicate with teams, clients, shareholders, and consumers.</p>
-                            <button className='newProject'><a href='/newproject'>Start your project</a></button>
+                            {/* <button className='newProject'><a href='/newproject'>Start your project</a></button> */ }
                             <p className='mt-5 d-none d-xl-block'>FIVE PM COPYRIGHT ALL RIGHTS RESERVED.</p>
                         </div>
                         <div className='col-12 col-md-12 col-xl-6 col-xxl-4'>
@@ -40,7 +40,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='footerCopy text-center mt-5 d-block d-xl-none'>
-                            <p>FIVE PM COPYRIGHT ALL RIGHTS RESERVED.</p>
+                            <p>FIVEPM COPYRIGHT 2023. ALL RIGHTS RESERVED.</p>
                         </div>
                     </div>
                 </div>

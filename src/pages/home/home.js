@@ -20,8 +20,8 @@ function App() {
       <section className="homeMain" id="homeMain">
         <div className="container-wide">
           <div className="max-content">
-            <h1 className="the-title">
-              Presentation design by your favorite workaholics
+            <h1 className="the-title alt">
+              Around the clock presentation design at your service.
             </h1>
             {/* <p>5pm is your outsourced in-house presentation team</p> */}
             <a href="#homePresentations">
@@ -35,12 +35,11 @@ function App() {
         <div className="container-wide">
           <div className="max-content center">
             <h3>
-              We strategically partner with{" "}
-              <strong>agencies, corporations, and startups</strong> that need{" "}
-              <strong>pixel perfect presentation design</strong> to visually
-              communicate with their teams, clients, shareholders, and/or
-              consumers.
+            We're dedicated to helping <strong>agencies, corporations, and startups</strong> create <strong>visually stunning presentations</strong> that captivate audiences and drive results.
             </h3>
+            <h5>
+            Our team provides pixel-perfect designs that reflect your message while keeping your viewers engaged.
+            </h5>
           </div>
           <div className="chomeCarousel">
             <ControlledCarousel />
@@ -62,8 +61,8 @@ function App() {
           <div className="row">
             <div className="col-12 col-sm-12">
               <hr />
-              <h1>DO YOU HAVE ANY QUESTIONS?</h1>
-              <p>Feel free to reach out to us or take a look at our FAQs.</p>
+              <h1>QUESTIONS?</h1>
+              <p>Feel free to reach out or take a look at our FAQs.</p>
               <hr />
               <hr />
               <div className="accordion">

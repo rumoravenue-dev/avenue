@@ -6,9 +6,38 @@ import ReactSwipe from "react-swipe";
 import "./styles/carousel.css";
 
 const CustomHandle = () => (
-  <svg viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMax slice">
-    <path className="custom-handle--inner" d="M3.5 0V42.8809L24.9355 64" stroke="#000" stroke-width="3" />
-  </svg>
+  <>
+  <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="60"
+      fill="none"
+      viewBox="0 0 20 60"
+      preserveAspectRatio="xMinYMax slice"
+    >
+      <g clipPath="url(#clip0_602_3393)">
+        <path className="custom-handle--inner" stroke="#000" strokeWidth="3" d="M3.5 0v42.88L24.936 64"></path>
+        <text
+          fill="#fff"
+          fontFamily="Inter"
+          fontSize="0.8"
+          letterSpacing=".3em"
+          opacity="0.7"
+          transform="rotate(-90 17.152 14.34)"
+          style={{ whiteSpace: "pre" }}
+        >
+          <tspan x="3.947" y="1.1">
+            CLICK TO DRAG
+          </tspan>
+        </text>
+      </g>
+      <defs>
+        <clipPath id="clip0_602_3393">
+          <path fill="#fff" d="M0 0H20V60H0z"></path>
+        </clipPath>
+      </defs>
+    </svg>
+  </>
 )
 
 function ControlledCarousel() {
@@ -26,7 +55,7 @@ function ControlledCarousel() {
           </a>
         </div>
         <div className="carouselDescription">
-          <div className="row justify-content-between">
+          <div className="row justify-content-between w-100">
             <div className="col-12 col-md-4 column-before">
               <h6>Before</h6>
             </div>

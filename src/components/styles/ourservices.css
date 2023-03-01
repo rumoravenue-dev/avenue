@@ -2,7 +2,7 @@
   margin-bottom: 100px;
 }
 
-.ourServices h2 {
+.ourServices h2, .heading-2 {
   font-family: 'Antonio';
   font-weight: 700;
   font-size: 92px;
@@ -695,7 +695,7 @@
    margin-left: 0px;
  }
  
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 
@@ -722,7 +722,7 @@
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 
@@ -757,7 +757,7 @@
 }
  
 @media (min-width: 577px) and (max-width: 992px ) {
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 

@@ -668,11 +668,6 @@ const TabContentAdditional = () => (
             <div className="row">
               <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                 <h2> OUR SERVICES </h2>
-                <p>
-                  {" "}
-                  One-stop-shop to solve all your presentation problems and
-                  headaches.{" "}
-                </p>
                 <div className="borderOurServices"></div>
               </div>
             </div>

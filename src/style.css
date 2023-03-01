@@ -64,6 +64,12 @@
   color: #FFFFFF;
 }
 
+.the-title.alt{
+  text-transform: none;
+  font-weight: 500;
+  font-family: "Poppins", 'sans-serif';
+}
+
 @media screen and (max-width: 350px) {
   .the-title {
       font-size: 34px;

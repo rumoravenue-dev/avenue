@@ -1,11 +1,11 @@
 export const accordionData = [
     {
       title: '01. My presentation needs to be strictly confidential. Will you sign an NDA?',
-      content: `Yes. We respect your privacy and believe that you have all the rights to protect your ideas and information.`
+      content: `Yes, we respect your privacy and believe that you have all the rights to protect your ideas and information.`
     },
     {
       title: '02. Do you work on rushed projects?',
-      content: `Yes! We work 24/7 so you don't have to. We'll hop on a call to determine a realistic approach to providing the quality you desire within your time limit.`
+      content: `Yes, we work 24/7 so you don't have to. We'll hop on a call to determine a realistic approach to providing the quality you desire within your time limit.`
     },
     {
       title: '03. Can you help me write content for my presentation?',
@@ -13,7 +13,7 @@ export const accordionData = [
     },
     {
       title: "04. What formats do you work with?",
-      content: `PowerPoint Presentation, Keynote, PDF, Canva`
+      content: `PowerPoint, Keynote, InDesign, and Canva are our primary expertise.`
     }
   ];
   
