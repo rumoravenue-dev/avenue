@@ -22,10 +22,10 @@ const Footer = () => {
                                     <a href="/about">About US</a>
                                 </div>
                                 <div className='col-6 col-md-6 footerLinks'>
-                                    <a href='https://www.linkedin.com/company/onlyfivepm/about/?viewAsMember=true'  target="_blank">Linkedin</a>
-                                    <a href='https://www.instagram.com/onlyfivepm/' target="_blank">Instagram</a>
-                                    <a href='https://www.tiktok.com/@onlyfivepm' target="_blank">Tiktok</a>
-                                    <a href='https://www.facebook.com/onlyfivepm' target="_blank">Facebook</a>
+                                    <a href='https://www.linkedin.com/company/onlyfivepm/about/?viewAsMember=true'  target="_blank"><img alt="" src="/assets/img/footer/linkedin-white.svg" /> Linkedin</a>
+                                    <a href='https://www.instagram.com/onlyfivepm/' target="_blank"><img alt="" src="/assets/img/footer/insta-white.svg" /> Instagram</a>
+                                    <a href='https://www.tiktok.com/@onlyfivepm' target="_blank"><img alt="" src="/assets/img/footer/tiktok-white.svg" /> Tiktok</a>
+                                    <a href='https://www.facebook.com/onlyfivepm' target="_blank"><img alt="" src="/assets/img/footer/facebook-white.svg" /> Facebook</a>
                                 </div>
                                 {/*
                                 <div className='col-12 col-md-4'>
