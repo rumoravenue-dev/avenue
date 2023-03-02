@@ -18,7 +18,7 @@ const Footer = () => {
                                 <div className='col-6 col-md-6 footerLinks'>
                                     <a href="/">Home</a>
                                     <a href="/services">Services</a>
-                                    <a href="/portfolio">Portfolio</a>
+                                    <a href="/portfolio">Our Work</a>
                                     <a href="/about">About US</a>
                                 </div>
                                 <div className='col-6 col-md-6 footerLinks'>
