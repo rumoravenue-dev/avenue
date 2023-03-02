@@ -66,19 +66,26 @@ const Services = () => {
                             <h2> OUR PROCESS </h2>
                         </div>
                     </div>
-                    <div className='col-6 secondColProcess topProcess'>
-                        <h3> 1. Discovery </h3>
-                        <p> We work with you to understand your goals, ask better questions, identify your audience, and build context. </p>
-                        <h3> 3. DESIGN </h3>
-                        <p> We leverage design to tell your story better. We’ll get people staring — and thinking. Clean, beautiful designs that help your narrative flow. </p>
-                        <h3> 5. DELIVERY </h3>
-                        <p> Finally, we will carefully collect and prepare all project files to ensure smooth and easy use in the future. </p>
-                    </div>
-                    <div className='col-6 thirdColProcess topProcess'>
-                        <h3> 2. Storytelling </h3>
-                        <p> We will develop a foundation of the deck. We’re going to tell a story — build tone, voice, and a foundational structure that will get people thinking. </p>
-                        <h3> 4. FEEDBACK </h3>
-                        <p> After each phase wraps up, we’ll present our work to collect and implement your feedback if such appears. </p>
+                    <div className='col-12 secondColProcess topProcess'>
+                        <div className='row'>
+                            <div className="col-12 col-md-4">
+                                <h3>Discover</h3>
+                                <p>Our team works with you to understand your goals, audience, and context, and develops a compelling story that engages your audience and 
+encourages them to think.</p>
+                            </div>
+                            <div className="col-12 col-md-4">
+                                <h3>Design</h3>
+                                <p>Our designers use clean and beautiful designs to bring your story to 
+life and captivate your audience, while incorporating your feedback to 
+meet your expectations and deliver the desired results.</p>
+                            </div>
+                            <div className="col-12 col-md-4">
+                                <h3>Deliver</h3>
+                                <p>Finally, we collect and prepare all project files carefully to ensure easy 
+future use, providing everything you need to make your presentation a 
+success.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <Spacer height={150} />
@@ -103,33 +110,29 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 firstColIconsAddons'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4 firstColIconsAddons'>
                             <img className='addonsServicesIMG' src='/assets/img/services/animations.svg' alt="icon animations" />
                             <h3> Animations </h3>
                         </div>
-                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4'>
                             <img className='addonsServicesIMG' src='/assets/img/services/infographics.svg' alt="icon complex infographics" />
                             <h3 className='complexInfoAddon'> Complex Infographics </h3>
                         </div>
-                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4'>
                             <img className='addonsServicesIMG' src='/assets/img/services/asset.svg' alt="icon asset sourcing" />
                             <h3> Asset Sourcing</h3>
                         </div>
-                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                    </div>
+                    <div className='row'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4'>
                             <img className='addonsServicesIMG' src='/assets/img/services/editing.svg' alt="icon photo editing" />
                             <h3> Photo Editing </h3>
                         </div>
-                    </div>
-                    <div className='row secondRowAddons'>
-                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
-                            <img className='addonsServicesIMG' src='/assets/img/services/custom.svg' alt="icon custom" />
-                            <h3> Custom <br /> <span> White Glove Service </span> </h3>
-                        </div>
-                        <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4'>
                             <img className='addonsServicesIMG' src='/assets/img/services/timeblock.svg' alt="icon time block off" />
                             <h3> Time Blocking</h3>
                         </div>
-                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
+                        <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-4'>
                             <img className='addonsServicesIMG' src='/assets/img/services/rush.svg' alt="icon rush" />
                             <h3> Rush <br /></h3>
                         </div>
