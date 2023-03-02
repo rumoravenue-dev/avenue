@@ -64,7 +64,6 @@ const Services = () => {
                     <div className='col-12'>
                         <div className='firstColProcess'>
                             <h2> OUR PROCESS </h2>
-                            <p> No need to overcomplicate it. We’re here to create phenomenal designs customized for you. </p>
                         </div>
                     </div>
                     <div className='col-6 secondColProcess topProcess'>
@@ -84,6 +83,7 @@ const Services = () => {
                 </div>
                 <Spacer height={150} />
             </section>
+            {/*
             <div className='container-carousel'>
                 <div className="container-wide">
                     <div className='goodToKnowText'>
@@ -92,13 +92,14 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <Presentation />
+            {/* <Presentation /> */ }
             <OurServices />
             <section className='addonsServices container-fluid'>
                 <div className='container-wide'>
                     <div className='row'>
                         <div className='col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12'>
-                            <h2> ADD-ONS </h2>
+                            <h2 className='pb-2 mb-4'> ADD-ONS </h2>
+                            <div className='mb-5'><h4 className='pb-5 text-white'>Upgrade your presentation with our premium add-ons to take your project to the next level.</h4></div>
                         </div>
                     </div>
                     <div className='row'>
@@ -112,7 +113,7 @@ const Services = () => {
                         </div>
                         <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
                             <img className='addonsServicesIMG' src='/assets/img/services/asset.svg' alt="icon asset sourcing" />
-                            <h3> Asset Sourcing <br /> <span> Based on asset </span> </h3>
+                            <h3> Asset Sourcing</h3>
                         </div>
                         <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
                             <img className='addonsServicesIMG' src='/assets/img/services/editing.svg' alt="icon photo editing" />
@@ -126,11 +127,11 @@ const Services = () => {
                         </div>
                         <div className='col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3'>
                             <img className='addonsServicesIMG' src='/assets/img/services/timeblock.svg' alt="icon time block off" />
-                            <h3> Time Block off <br /> <span> hourly </span> </h3>
+                            <h3> Time Blocking</h3>
                         </div>
                         <div className='col-12 col-sm-4 col-xl-4 col-lg-4 col-md-3'>
                             <img className='addonsServicesIMG' src='/assets/img/services/rush.svg' alt="icon rush" />
-                            <h3> Rush <br /> <span> +fee </span> </h3>
+                            <h3> Rush <br /></h3>
                         </div>
                     </div>
                 </div>
