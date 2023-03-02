@@ -57,6 +57,11 @@
   line-height: 28px;
   letter-spacing: 0.12em;
   color: #A0A0A0;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+.portfolioDetails.industry span:last-child{
+  margin-right: 0;
 }
 
 .portfolioDetails .tech-stack{
