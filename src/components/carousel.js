@@ -79,8 +79,8 @@ function ControlledCarousel() {
               customHandle={
                 <CustomHandle />
               }
-              image1="/assets/img/home/carousel/Gaylord_after.jpg"
-              image2="/assets/img/home/carousel/Gaylord-before.jpg"
+              image1="/assets/img/home/carousel/werx-after.jpg"
+              image2="/assets/img/home/carousel/werx-before.jpg"
               onSlide={() => {
                 console.log("sliding");
               }}
