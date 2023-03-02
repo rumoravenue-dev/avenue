@@ -9,9 +9,7 @@ const Brands = () => {
         <section className="brandsPartnerships justify-content-center align-items-center">
           <div className="row brandsPartnershipsRow justify-content-center align-items-center">
             <div className="col-12 col-sm-12 partnershipsTitle">
-              <h2>
-                We've built long lasting partnerships with the most ambitious brands.{" "}
-              </h2>
+              <h2>Brands we've helped around the clock</h2>
             </div>
           </div>
         </section>

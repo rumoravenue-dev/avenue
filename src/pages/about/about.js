@@ -23,7 +23,7 @@ function About() {
         <div className="row">
           <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainSomewhereText">
             <img className="sunsetImg" src="/assets/img/contact/Sunset.svg" alt="sunset" />
-            <h1>IT'S ONLY FIVEPM, LET'S GET TO WORK.</h1>
+            <h1>WE FOCUS ON PRESENTATIONS, EXCLUSIVELY.</h1>
           </div>
         </div>
       </section>
@@ -33,13 +33,18 @@ function About() {
           <Spacer height={150} />
           <div className="row">
             <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 weAreText">
-              <h1> Our presentation agency was created to fight against ineffective presentations. Good presentations can bring success, while bad ones can waste time and effort. We believe in the power of effective presentations to impact market share, promotions and people's opinions. </h1>
+              <h1>
+              At Five PM, our mission is to help our clients save time and succeed in their presentations. We are a team of experienced presentation designers, product designers, and developers who are passionate about creating engaging and effective presentations. 
+              <br /><br />
+              With Five PM, you can be sure that your presentation will be a powerful tool that delivers results.
+              </h1>
             </div>
           </div>
           <Spacer height={150} />
         </div>
       </section>
 
+      {/*
       <section className='weFocus container-fluid'>
         <div className='container-wide'>
           <Spacer height={120} />
@@ -54,6 +59,7 @@ function About() {
         </div>
       </section>
       <EyeOpening />
+      */}
 
       <Brands />
 

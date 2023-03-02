@@ -33,7 +33,7 @@ const Services = () => {
             <section className="homeMain mini" id="homeMain">
                 <div className="container-wide">
                 <div className="max-content wider">
-                    <h1 className="the-title"> We create eye-catching & eye-opening presentations that <span> educate</span>, <span> inspire</span> and <span> influence action </span> </h1>
+                    <h1 className="the-title">Powerful Presentations That <span>Educate</span>, <span>Inspire</span>, and <span>Influence Action</span>.</h1>
                     {/* <p>5pm is your outsourced in-house presentation team</p> */}
                 </div>
                 </div>
