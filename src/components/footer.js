@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className='col-12 col-md-12 col-xl-4 col-xxl-4 footerCopy'>
                             <p className='mt-4 lead mb-4'>We partner with agencies, corporations and startups to provide high-quality presentation design to communicate with teams, clients, shareholders, and consumers.</p>
                             {/* <button className='newProject'><a href='/newproject'>Start your project</a></button> */ }
-                            <p className='mt-5 d-none d-xl-block'>FIVE PM COPYRIGHT ALL RIGHTS RESERVED.</p>
+                            <p className='mt-5 d-none d-xl-block'>FIVEPM COPYRIGHT ALL RIGHTS RESERVED.</p>
                         </div>
                         <div className='col-12 col-md-12 col-xl-6 col-xxl-4'>
                             <div className='row'>

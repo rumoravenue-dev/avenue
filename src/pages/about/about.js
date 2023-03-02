@@ -14,7 +14,7 @@ function About() {
   return (
     <div className='containerAbout'>
       <Helmet>
-        <title> About - OnlyFivePM </title>
+        <title> About - Only fivepm </title>
       </Helmet>
 
       <Header contact={contact} />
@@ -34,9 +34,9 @@ function About() {
           <div className="row">
             <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 weAreText">
               <h1>
-              At Five PM, our mission is to help our clients save time and succeed in their presentations. We are a team of experienced presentation designers, product designers, and developers who are passionate about creating engaging and effective presentations. 
+              At fivepm, our mission is to help our clients save time and succeed in their presentations. We are a team of experienced presentation designers, product designers, and developers who are passionate about creating engaging and effective presentations. 
               <br /><br />
-              With Five PM, you can be sure that your presentation will be a powerful tool that delivers results.
+              With fivepm, you can be sure that your presentation will be a powerful tool that delivers results.
               </h1>
             </div>
           </div>

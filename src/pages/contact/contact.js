@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title> Contact - OnlyFivePM </title>
+        <title> Contact - Only fivepm </title>
       </Helmet>
 
       <div className="contact">
@@ -20,8 +20,8 @@ function Contact() {
           <div className="row">
             <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12 mainContent">
               <img src="/assets/img/contact/Vector.svg" alt="logo"/>
-              <h1>It’s only fivepm…<br/>
-              let’s get to work</h1> 
+              <h1>It’s only fivepm,<br/>
+              let’s get to work.</h1> 
             </div>
           </div>
         </section>

@@ -14,7 +14,7 @@ function getInContact(props) {
           <div className="sunset-banner--content">
             <img src="/assets/img/contact/Vector2.svg" alt="logo" className="logo"/>
             <div className="alt-text">
-              <h1>IT'S ONLYFIVE PM,</h1>
+              <h1>IT'S ONLY FIVEPM,</h1>
               <h1>LET'S GET TO WORK.</h1>
             </div>
           </div>

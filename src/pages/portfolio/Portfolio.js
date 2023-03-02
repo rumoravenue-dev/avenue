@@ -16,7 +16,7 @@ function Portfolio() {
   return (
     <>
       <Helmet>
-        <title> Portfolio - OnlyFivePM </title>
+        <title> Portfolio - Only fivepm </title>
       </Helmet>
       <Header />
       <TakeALook enableLazyBehaviour={true} />
