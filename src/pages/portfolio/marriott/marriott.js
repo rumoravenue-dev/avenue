@@ -20,13 +20,13 @@ const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfoli
 
 
 
-function Tmrw() {
+function Marriott() {
   const portfolio = true;
   let reactSwipeEl;
   // Modal.setAppElement('#portfolio');
 
-  const industries = ['Film' , 'EXPERIMENTAL'];
-  const tools = ['photoshop','powerpoint'];
+  const industries = ['HOSPITALITY'];
+  const tools = ['photoshop','indesign'];
   return (
     <>
       <Helmet>
@@ -38,14 +38,14 @@ function Tmrw() {
         <div className="container-wide">
           <Spacer height={130} />
           <div className="row titleContainer">
-            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/tmrw/TMRW.svg" title="tmrw" />
-            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/tmrw/tmrw-banner.png" title="tmrw" />
-            <SinglePortfolioChallenges text="The New York Latin Film Festival needed to pitch a new concept for culturally relevant events to HBO in light of the release of HBO Max and the proposed “Pa’lante” movement. We helped paint that picture through vivid visuals and a futuristic feel." />
+            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/marriott/Marriott-Ancillary.svg" title="Marriott Ancillary" />
+            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/marriott/Marriott-banner.png" title="Marriott Ancillary" />
+            <SinglePortfolioChallenges text="To help generate more ancillary revenue at Marriott hotels, the team at Marriott aimed to create a playbook to help guide stakeholders in the process based on proven tactics and real world examples from their family of hotels - and they turned to us to bring it to life. The result was a 5 page digital booklet with link outs to fillable pdf worksheets to execute on these strategies." />
             <SinglePortfolioIndstryAndTools industries={{industries}} tools={{tools}}/>
             <div className="col-12 col-sm-12 portfolioDetails">
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/diagonal.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/straight.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/hero-bottom.png" title="tmrw" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/marriott/diagonal.png" title="Marriott Ancillary" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/marriott/straight.png" title="Marriott Ancillary" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/marriott/hero-right.png" title="Marriott Ancillary" />
             </div>
           </div>
         </div>
@@ -57,4 +57,4 @@ function Tmrw() {
   );
 }
 
-export default Tmrw;
+export default Marriott;

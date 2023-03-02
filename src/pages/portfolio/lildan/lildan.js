@@ -20,13 +20,13 @@ const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfoli
 
 
 
-function Tmrw() {
+function LilDan() {
   const portfolio = true;
   let reactSwipeEl;
   // Modal.setAppElement('#portfolio');
 
-  const industries = ['Film' , 'EXPERIMENTAL'];
-  const tools = ['photoshop','powerpoint'];
+  const industries = ['Hip Hop' , 'RAP', 'Trap', 'Movie Industry'];
+  const tools = ['photoshop','illustrator','indesign','canva'];
   return (
     <>
       <Helmet>
@@ -38,14 +38,14 @@ function Tmrw() {
         <div className="container-wide">
           <Spacer height={130} />
           <div className="row titleContainer">
-            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/tmrw/TMRW.svg" title="tmrw" />
-            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/tmrw/tmrw-banner.png" title="tmrw" />
-            <SinglePortfolioChallenges text="The New York Latin Film Festival needed to pitch a new concept for culturally relevant events to HBO in light of the release of HBO Max and the proposed “Pa’lante” movement. We helped paint that picture through vivid visuals and a futuristic feel." />
+            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/lildan/LIL-DAN.svg" title="Lil Dan" />
+            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/lildan/lildan-banner.png" title="Lil Dan" />
+            <SinglePortfolioChallenges text="Craft a visually engaging and modern pitch deck that effectively presents new talents, artists, and their skills within the industry." />
             <SinglePortfolioIndstryAndTools industries={{industries}} tools={{tools}}/>
             <div className="col-12 col-sm-12 portfolioDetails">
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/diagonal.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/straight.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/hero-bottom.png" title="tmrw" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/lildan/diagonal.png" title="Lil Dan" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/lildan/straight.png" title="Lil Dan" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/lildan/hero-right.png" title="Lil Dan" />
             </div>
           </div>
         </div>
@@ -57,4 +57,4 @@ function Tmrw() {
   );
 }
 
-export default Tmrw;
+export default LilDan;

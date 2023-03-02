@@ -20,13 +20,13 @@ const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfoli
 
 
 
-function Tmrw() {
+function Gaylord() {
   const portfolio = true;
   let reactSwipeEl;
   // Modal.setAppElement('#portfolio');
 
-  const industries = ['Film' , 'EXPERIMENTAL'];
-  const tools = ['photoshop','powerpoint'];
+  const industries = ['HOSPITALITY'];
+  const tools = ['photoshop','indesign'];
   return (
     <>
       <Helmet>
@@ -38,14 +38,14 @@ function Tmrw() {
         <div className="container-wide">
           <Spacer height={130} />
           <div className="row titleContainer">
-            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/tmrw/TMRW.svg" title="tmrw" />
-            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/tmrw/tmrw-banner.png" title="tmrw" />
-            <SinglePortfolioChallenges text="The New York Latin Film Festival needed to pitch a new concept for culturally relevant events to HBO in light of the release of HBO Max and the proposed “Pa’lante” movement. We helped paint that picture through vivid visuals and a futuristic feel." />
+            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/gaylord/Gaylord-Hotels.svg" title="Gaylord" />
+            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/gaylord/gaylord-banner.png" title="Gaylord" />
+            <SinglePortfolioChallenges text="We developed and redesigned the gaylord Hotels Brand Positioning Presentation, creating a more modern look and feel that is clean, comprehensive and compliments the current Gaylord Hotels brand." />
             <SinglePortfolioIndstryAndTools industries={{industries}} tools={{tools}}/>
             <div className="col-12 col-sm-12 portfolioDetails">
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/diagonal.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/straight.png" title="tmrw" />
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/tmrw/hero-bottom.png" title="tmrw" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/gaylord/diagonal.png" title="Gaylord" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/gaylord/straight.png" title="Gaylord" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/gaylord/hero-right.png" title="Gaylord" />
             </div>
           </div>
         </div>
@@ -57,4 +57,4 @@ function Tmrw() {
   );
 }
 
-export default Tmrw;
+export default Gaylord;
