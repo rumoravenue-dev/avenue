@@ -44,10 +44,7 @@ const Services = () => {
                     <div className='row rowAproach justify-content-between'>
                         <div className='col-12 col-sm-5 col-xl-5 col-lg-5 col-md-5'>
                             <div className='firstColAproach'>
-                                <h2> We do this by following a simple approach: </h2>
-                                <h3> <a> SETTING A GOAL </a> </h3>
-                                <h3> <a> IDENTIFYING AUDIENCE </a> </h3>
-                                <h3> <a> CONTEXT IS KEY </a> </h3>
+                                <h3 className='lead text-white'>At Five PM, we believe that every presentation has the power to inspire action and drive meaningful change. That’s why we follow a simple, yet effective approach to create presentations that educate, engage and influence your audience.</h3>
                             </div>
                         </div>
                         <div className='col-12 col-sm-4 col-md-5'>

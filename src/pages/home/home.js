@@ -36,10 +36,9 @@ function App() {
           <div className="max-content center">
             <h3>
             We're dedicated to helping <strong>agencies, corporations, and startups</strong> create <strong>visually stunning presentations</strong> that captivate audiences and drive results.
-            </h3>
-            <h5>
+            <br /><br />
             Our team provides pixel-perfect designs that reflect your message while keeping your viewers engaged.
-            </h5>
+            </h3>
           </div>
           <div className="chomeCarousel">
             <ControlledCarousel />
