@@ -16,7 +16,7 @@ const SinglePortfolioIndstryAndTools = (props) => {
           )}
         </p>
       </div>
-      <div className="col-12 col-sm-7 portfolioDetails d-flex justify-content-end">
+      <div className="col-12 col-sm-5 portfolioDetails d-flex justify-content-end">
         <div className="d-inline-block">
           <h3>Tools Used</h3>
           <Spacer height={20} />
