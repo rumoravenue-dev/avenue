@@ -35,7 +35,8 @@
   line-height: 54px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #F4BD03;  
+  color: #F4BD03;
+  margin: 0;
 }
 .portfolioDetails p{
   font-family: 'Poppins';
@@ -59,6 +60,8 @@
   color: #A0A0A0;
   margin-right: 12px;
   text-transform: uppercase;
+  margin-bottom: 12px;
+  display: inline-block;
 }
 .portfolioDetails.industry span:last-child{
   margin-right: 0;
@@ -70,6 +73,7 @@
   align-items: flex-end;
   padding: 0px;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .portfolio-single-image{
@@ -91,12 +95,65 @@
   justify-content: center;
 }
 
-@media (min-width: 351px) and (max-width: 576px) {
-  .portfolio-single-title{
-    width:300px
+@media (max-width:767px) {
+
+  .portfolioDetails h3 {
+    font-size: 24px;
+    line-height: 31px;
   }
+
+  .portfolioDetails.industry span {
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .portfolioDetails .tech-stack {
+    gap: 12px;
+  }
+
+  .portfolioDetails p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .portfolioDetails .tech-stack img {
+    max-height: 40px;
+  }
+
   .relatedProjectContainer h2{
     font-size: 32px;
     line-height: 130%;
   }
+
+  .form-left-side h1 {
+    font-size: 32px;
+    line-height: 44px;
+    height: auto;
+    margin: 0 0 16px;
+  }
+
+  .form-left-side {
+    margin-top: 44px;
+  }
+
+  .form-left-side {
+    margin-left: 0;
+  }
+
+  .form-left-side h4 {
+    margin-bottom: 42px;
+  }
+
+  .form-right-side {
+    margin-bottom: 0;
+  }
+
+}
+
+@media (min-width: 351px) and (max-width: 576px) {
+  .portfolio-single-title{
+    width:300px
+  }
+  
 }
