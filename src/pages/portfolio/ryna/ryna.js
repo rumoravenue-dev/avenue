@@ -36,7 +36,7 @@ function Ryna() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/ryna/RYNA.svg" title="RYNA" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/ryna/ryna-banner.png" title="RYNA" />

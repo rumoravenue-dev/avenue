@@ -36,7 +36,7 @@ function Werx() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/werx/Werx.svg" title="Werx" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/werx/werx-banner.png" title="Werx" />

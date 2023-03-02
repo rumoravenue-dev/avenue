@@ -36,7 +36,7 @@ function Gaylord() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/gaylord/Gaylord-Hotels.svg" title="Gaylord" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/gaylord/gaylord-banner.png" title="Gaylord" />

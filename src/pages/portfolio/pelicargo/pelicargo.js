@@ -33,7 +33,7 @@ function Pelicargo() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/pelicargo/Pelicargo.svg" title="Pelicargo" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/pelicargo/pelicargo-banner.png" title="Pelicargo" />

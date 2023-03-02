@@ -36,7 +36,7 @@ function Tmrw() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/tmrw/TMRW.svg" title="tmrw" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/tmrw/tmrw-banner.png" title="tmrw" />

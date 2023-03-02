@@ -36,7 +36,7 @@ function Marriott() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/marriott/Marriott-Ancillary.svg" title="Marriott Ancillary" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/marriott/Marriott-banner.png" title="Marriott Ancillary" />

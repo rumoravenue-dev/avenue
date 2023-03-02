@@ -36,7 +36,7 @@ function LilDan() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/lildan/LIL-DAN.svg" title="Lil Dan" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/lildan/lildan-banner.png" title="Lil Dan" />

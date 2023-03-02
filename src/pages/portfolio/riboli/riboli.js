@@ -36,7 +36,7 @@ function Riboli() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/riboli/Riboli.svg" title="riboli" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/riboli/riboli-banner.png" title="riboli" />

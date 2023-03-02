@@ -36,7 +36,7 @@ function Stage() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/stage/Stags-Leap.svg" title="Stage Leap" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/stage/stage-banner.png" title="Stage Leap" />

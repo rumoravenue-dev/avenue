@@ -36,7 +36,7 @@ function Hennessy() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/hennessy/Hennessy-Le-Voyage.svg" title="Hennessy Le Voyage" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/hennessy/hennessy-banner.png" title="Hennessy Le Voyage" />

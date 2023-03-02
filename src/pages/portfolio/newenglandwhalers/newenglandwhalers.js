@@ -36,7 +36,7 @@ function NewEnglandWhalers() {
 
       <section className="singlePortfolio">
         <div className="container-wide">
-          <Spacer height={130} />
+          <Spacer height={218} />
           <div className="row titleContainer">
             <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/newenglandwhalers/New-England-Whalers.svg" title="New England Whalers" />
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/newenglandwhalers/newengland-banner.png" title="New England Whalers" />
