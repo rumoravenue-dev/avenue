@@ -67,6 +67,9 @@
   margin-right: 0;
 }
 
+.technologies-wrapper{
+  justify-content: flex-end;
+}
 .portfolioDetails .tech-stack{
   display: flex;
   flex-direction: row;
@@ -149,6 +152,9 @@
     margin-bottom: 0;
   }
 
+  .technologies-wrapper{
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 351px) and (max-width: 576px) {
