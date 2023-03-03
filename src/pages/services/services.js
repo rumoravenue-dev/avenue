@@ -50,7 +50,7 @@ const Services = () => {
                         <div className='col-12 col-sm-4 col-md-5'>
                             <div className='secondColAproach'>
                                 <LazyLoad threshold={1}>
-                                    <img className='imgModelAproach' src="/assets/img/services/model.webp" alt="model image" />
+                                    <img className='imgModelAproach' src="/assets/img/services/inspire.webp" alt="model image" />
                                 </LazyLoad>
                             </div>
                         </div>
