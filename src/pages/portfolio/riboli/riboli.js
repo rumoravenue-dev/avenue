@@ -42,6 +42,19 @@ function Riboli() {
             <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/riboli/riboli-banner.png" title="riboli" />
             <SinglePortfolioChallenges text="Riboli Family Wines, famous for their Stella brand, was looking to refresh their internal communications presentation. We utilized the brands colors and essence to create a sophisticated and timeless deck they could use for years to come." />
             <SinglePortfolioIndstryAndTools industries={{industries}} tools={{tools}}/>
+
+
+            <div className="col-12 col-sm-6 portfolioDetails">
+              <h3>Before</h3>
+              <Spacer height={20} />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/riboli/riboli-before.png" title="riboli" />
+            </div>
+            <div className="col-12 col-sm-6 portfolioDetails">
+              <h3>After</h3>
+              <Spacer height={20} />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/riboli/riboli-after.png" title="riboli" />
+            </div>
+
             <div className="col-12 col-sm-12 portfolioDetails">
               <SinglePortfolioImg image_url="/assets/img/portfolio/projects/riboli/diagonal.png" title="riboli" />
               <SinglePortfolioImg image_url="/assets/img/portfolio/projects/riboli/straight.png" title="riboli" />
@@ -50,7 +63,7 @@ function Riboli() {
           </div>
         </div>
       </section>
-      <SingleRelatedPortfolio portfolio={portfolioItems} />
+      <SingleRelatedPortfolio portfolioItems={portfolioItems} />
       <GetInContact portfolio={portfolio} />
       <Footer />
     </>

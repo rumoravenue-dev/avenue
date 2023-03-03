@@ -16,7 +16,7 @@ import Footer from "../../../components/footer";
 import "./../single-portfolio.css";
 
 
-const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfolio/projects/lildan/LILDAN1.webp', '/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/sliders/HENNESSY1.webp'];
+
 function Pelicargo() {
   const portfolio = true;
   let reactSwipeEl;
@@ -24,6 +24,9 @@ function Pelicargo() {
 
   const industries = ['Transportation','Softwares'];
   const tools = ['photoshop','illustrator','indesign','canva'];
+  const portfolioItems =  ['http://localhost:3000/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/portfolio/projects/lildan/LILDAN1.webp', '/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/sliders/HENNESSY1.webp', 'http://localhost:3000/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/portfolio/projects/lildan/LILDAN1.webp', '/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/sliders/HENNESSY1.webp'];
+
+
   return (
     <>
       <Helmet>
@@ -47,7 +50,7 @@ function Pelicargo() {
           </div>
         </div>
       </section>
-      <SingleRelatedPortfolio portfolio={portfolioItems} />
+      <SingleRelatedPortfolio portfolioItems={portfolioItems} />
       <GetInContact portfolio={portfolio} />
       <Footer />
     </>

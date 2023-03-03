@@ -6,7 +6,7 @@ const SinglePortfolioHeader = (props) => {
   return (
     <>
       <div className="col-12 col-sm-12 portifolioContent">
-        <a className="d-inline-block">
+        <a href="/portfolio" className="d-inline-block">
           <img
             className="portfolio-back"
             src="/assets/img/portfolio/chevron-left.svg"

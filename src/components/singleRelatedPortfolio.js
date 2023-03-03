@@ -10,10 +10,22 @@ const ITEMS_LOAD = 2;
 
 const SingleRelatedPortfolio = (props) => {
   let reactSwipeEl;
+ 
+  const inputArray = props.portfolioItems
 
-  const portfolioItems = props.portfolio;
+  const slides = inputArray.reduce((resultArray, item, index) => { 
+  const chunkIndex = Math.floor(index/ITEMS_LOAD)
 
+  if(!resultArray[chunkIndex]) {
+    resultArray[chunkIndex] = [] // start a new chunk
+  }
 
+  resultArray[chunkIndex].push(item)
+
+  return resultArray
+  }, [])
+
+  let slideCount = 1;
   return (
     <>
       <section className="mainPortfolio relatedProject">
@@ -30,24 +42,15 @@ const SingleRelatedPortfolio = (props) => {
                 ref={el => (reactSwipeEl = el)}
                 widthOfSiblingSlidePreview={950}
               >
-
-                <div className='carouselSlide'>
-                  <div className='slides'>
-                    <img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1"  />
-                    <img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" />
+                
+                {slides.map((value,key) =>
+                  <div className='carouselSlide' data-index={key+1}>
+                    <div className='slides'>
+                      <img className='slidesIMG' src={value[0]} alt="slide-1"  />
+                      <img className='slidesIMG' src={value[1]} alt="slide-1" />
+                    </div>
                   </div>
-                </div>
-                <div className='carouselSlide'>
-                  <div className='slides'>
-                    <img className='slidesIMG' src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1"/>
-                    <img className='slidesIMG' src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"/>
-                  </div>
-                </div>
-                <div className='carouselSlide'>
-                  
-                    <img className='slidesIMG' src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-2" />
-                  
-                </div>
+                )}
               </ReactSwipe>
 
               <div className='controls'>

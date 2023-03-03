@@ -83,7 +83,7 @@ function CarouselPort() {
         ref={el => (reactSwipeEl = el)}
         widthOfSiblingSlidePreview={950}
       >
-
+        {/* 
         <div className='carouselSlide'>
           <div className='slides'>
             <img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1" onClick={() => setisModalTMRW(true)} />
@@ -117,6 +117,46 @@ function CarouselPort() {
         <div className='carouselSlide'>
           <div className='slides'>
             <img className='slidesIMG' src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" onClick={() => setisModalWerx(true)} />
+          </div>
+          <div className='slides'>
+            
+          </div>
+        </div>
+      */}
+
+<div className='carouselSlide'>
+          <div className='slides'>
+            <a href="/portfolio/tmrw"><img className='slidesIMG' src='/assets/img/sliders/TMRW1.webp' alt="slide-1"/></a>
+            <a href="/portfolio/lildan"><img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" /></a>
+          </div>
+          <div className='slides'>
+            <a href="/portfolio/ryna"><img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" /></a>
+            <a href="/portfolio/riboli"><img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" /></a>
+          </div>
+        </div>
+        <div className='carouselSlide'>
+          <div className='slides'>
+            <a href="/portfolio/new-england-whalers"><img className='slidesIMG' src='/assets/img/sliders/NEWENGLAND1.webp' alt="slide-1" /></a>
+            <a href="/portfolio/hennessy"><img className='slidesIMG' src='/assets/img/sliders/HENNESSY1.webp' alt="slide-1"/></a>
+          </div>
+          <div className='slides'>
+            <img className='slidesIMG' src='/assets/img/sliders/INPREMISSE1.webp' alt="slide-1" onClick={() => setisModalInPremisse(true)} />
+            <a href="/portfolio/stage-leap"><img className='slidesIMG' src='/assets/img/sliders/GREENHOUSEWINE1.webp' alt="slide-1" /></a>
+          </div>
+        </div>
+        <div className='carouselSlide'>
+          <div className='slides'>
+            <a href="/portfolio/omit"><img className='slidesIMG' src='/assets/img/portfolio/projects/omit/Artboard 1 (1).webp' alt="slide-1"/></a>
+            <img className='slidesIMG' src='/assets/img/portfolio/projects/bookable/Artboard 1.webp' alt="slide-1" onClick={() => setisModalBookAble(true)} />
+          </div>
+          <div className='slides'>
+            <a href="/portfolio/pelicargo"><img className='slidesIMG' src='/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp' alt="slide-1"/></a>
+            <a href="/portfolio/gaylord"><img className='slidesIMG' src='/assets/img/portfolio/projects/gaylord/Gaylord_01.webp' alt="slide-1" /></a>
+          </div>
+        </div>
+        <div className='carouselSlide'>
+          <div className='slides'>
+            <a href="/portfolio/werx"><img className='slidesIMG' src='/assets/img/portfolio/projects/werx/werx1.webp' alt="slide-1" /></a>
           </div>
           <div className='slides'>
             

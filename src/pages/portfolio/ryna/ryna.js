@@ -48,7 +48,7 @@ function Ryna() {
           </div>
         </div>
       </section>
-      <SingleRelatedPortfolio portfolio={portfolioItems} />
+      <SingleRelatedPortfolio portfolioItems={portfolioItems} />
       <GetInContact portfolio={portfolio} />
       <Footer />
     </>
