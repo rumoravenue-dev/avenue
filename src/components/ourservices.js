@@ -15,16 +15,7 @@ const TabContentFunds = () => (
             <p>
               {" "}
               INVESTOR DECK{" "}
-              <a
-                href="contact"
-                className="arrowOurServices"
-              >
-                {" "}
-                <span className="textHover">
-                  {" "}
-                  →{" "}
-                </span>{" "}
-              </a>{" "}
+              
             </p>
           </div>
         </div>
@@ -37,16 +28,7 @@ const TabContentFunds = () => (
             <p>
               {" "}
               STARTUP PITCH{" "}
-              <a
-                href="contact"
-                className="arrowOurServices"
-              >
-                {" "}
-                <span className="textHover">
-                  {" "}
-                  →{" "}
-                </span>{" "}
-              </a>{" "}
+              
             </p>
           </div>
         </div>
@@ -75,18 +57,7 @@ const TabContentSell = () => (
               <p>
                 {" "}
                 BUSINESS PROPOSAL{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  <span class="arrow-wrapper"></span>
-                    {" "}
-                    <span className="textHover">
-                      {" "}
-                      →{" "}
-                    </span>{" "}
-                    
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -99,16 +70,7 @@ const TabContentSell = () => (
               <p>
                 {" "}
                 COMPANY PRESENTATION{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -121,16 +83,7 @@ const TabContentSell = () => (
               <p>
                 {" "}
                 PRODUCT PRESENTATION{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -145,16 +98,7 @@ const TabContentSell = () => (
               <p>
                 {" "}
                 SALES DECK{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -167,16 +111,7 @@ const TabContentSell = () => (
               <p>
                 {" "}
                 SERVICE DECK{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -196,16 +131,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 BIG NEWS DECK{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -218,16 +144,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 BRANDED TEMPLATE{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -240,16 +157,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 ON-BOARDING PRESENTATION{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -264,16 +172,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 POLICY DECK & PLAYBOOK{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -286,16 +185,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 PROGRESS REPORT{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -308,16 +198,7 @@ const TabContentHire = () => (
               <p>
                 {" "}
                 CORPORATE TRAINING{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -336,16 +217,7 @@ const TabContentPersonal = () => (
             <p>
               {" "}
               QUICK PRESENTATIONS{" "}
-              <a
-                href="contact"
-                className="arrowOurServices"
-              >
-                {" "}
-                <span className="textHover">
-                  {" "}
-                  →{" "}
-                </span>{" "}
-              </a>{" "}
+              
             </p>
           </div>
         </div>
@@ -358,16 +230,7 @@ const TabContentPersonal = () => (
             <p>
               {" "}
               WEDDING SLIDESHOWS{" "}
-              <a
-                href="contact"
-                className="arrowOurServices"
-              >
-                {" "}
-                <span className="textHover">
-                  {" "}
-                  →{" "}
-                </span>{" "}
-              </a>{" "}
+              
             </p>
           </div>
         </div>
@@ -380,16 +243,7 @@ const TabContentPersonal = () => (
             <p>
               {" "}
               BIRTHDAY SLIDESHOWS{" "}
-              <a
-                href="contact"
-                className="arrowOurServices"
-              >
-                {" "}
-                <span className="textHover">
-                  {" "}
-                  →{" "}
-                </span>{" "}
-              </a>{" "}
+              
             </p>
           </div>
         </div>
@@ -408,16 +262,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 1 PAGER INTRO{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -430,16 +275,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 AGENCY{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -452,16 +288,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 BRANDING{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -476,16 +303,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 REDESIGN{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -498,16 +316,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 REVIEW{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -520,16 +329,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 MAGAZINE{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -544,16 +344,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 PROGRESS REPORT{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -566,16 +357,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 CONFERENCE{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -588,16 +370,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 LEGAL PRESENTATIONS{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -612,16 +385,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 TRIAL EXHIBITS{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -634,16 +398,7 @@ const TabContentAdditional = () => (
               <p>
                 {" "}
                 EVENT TALKS{" "}
-                <a
-                  href="contact"
-                  className="arrowOurServices"
-                >
-                  {" "}
-                  <span className="textHover">
-                    {" "}
-                    →{" "}
-                  </span>{" "}
-                </a>{" "}
+                
               </p>
             </div>
           </div>
@@ -668,11 +423,6 @@ const TabContentAdditional = () => (
             <div className="row">
               <div className="col-12 col-sm-12 col-xl-12 col-lg-12 col-md-12">
                 <h2> OUR SERVICES </h2>
-                <p>
-                  {" "}
-                  One-stop-shop to solve all your presentation problems and
-                  headaches.{" "}
-                </p>
                 <div className="borderOurServices"></div>
               </div>
             </div>

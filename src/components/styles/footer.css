@@ -90,6 +90,13 @@ body {
     text-transform: uppercase;
     text-decoration: none!important;
     margin-bottom: 16px;
+    vertical-align: middle;
+}
+
+.footer .footerLinks img{
+    height: 25px;
+    position: relative;
+    top: -1px;
 }
 
 .footer .footerMedia {

@@ -2,7 +2,7 @@
   margin-bottom: 100px;
 }
 
-.ourServices h2 {
+.ourServices h2, .heading-2 {
   font-family: 'Antonio';
   font-weight: 700;
   font-size: 92px;
@@ -107,12 +107,14 @@
   display: flex;
 }
 
+/*
 .card-body:hover {
   background: linear-gradient(0deg, rgba(244, 189, 3, 0.8), rgba(244, 189, 3, 0.8)), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   margin-left: -1px;
   margin-top: -1px;
   border-radius: 12px;
 }
+*/
 
 .card-body .textHover {
   opacity: 0;
@@ -145,9 +147,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
-  padding-right: 70px;
 }
 
 .cardAgency {
@@ -166,8 +165,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardBranding {
@@ -186,8 +183,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardRedesign {
@@ -206,8 +201,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardReview {
@@ -226,8 +219,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardMagazine {
@@ -246,8 +237,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardProgressReport1 {
@@ -261,14 +250,20 @@
   border-radius: 12px;
 }
 
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.card-body p{
+  margin-bottom: 0;
+}
+
 .cardProgressReport1 p {
   font-family: 'Antonio';
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .cardConference {
@@ -287,8 +282,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardLegalPresentations {
@@ -307,8 +300,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 90px;
-  margin-left: 30px;
 }
 
 .cardTrialExhibits {
@@ -327,9 +318,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 30px;
-  padding-right: 60px;
 }
 
 .cardEventTalks {
@@ -348,9 +336,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 30px;
-  padding-right: 80px;
 }
 
 .cardInvestorDeck {
@@ -369,9 +354,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 10px;
-  padding-right: 70px;
 }
 
 .cardStartupPitch {
@@ -390,9 +372,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 70px;
 }
 
 .cardBusinessProposal {
@@ -411,9 +390,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 60px;
 }
 
 .cardCompanyPresentation {
@@ -432,9 +408,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 20px;
 }
 
 .cardProductPresentation {
@@ -453,9 +426,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 20px;
 }
 
 .cardSalesDeck {
@@ -474,8 +444,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardServiceDeck {
@@ -494,8 +462,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 130px;
-  margin-left: 20px;
 }
 
 .cardBigNewsDeck {
@@ -514,9 +480,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 95px;
-  margin-left: 20px;
-  padding-right: 60px;
 }
 
 .cardBrandedTemplate {
@@ -535,9 +498,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 95px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .cardBoardingPresentation {
@@ -556,9 +516,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 95px;
-  margin-left: 20px;
-  padding-right: 20px;
 }
 
 .cardPolicyPlaybook {
@@ -577,9 +534,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 95px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .cardProgressReport {
@@ -598,9 +552,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .cardTraining {
@@ -619,9 +570,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 90px;
-  margin-left: 10px;
-  padding-right: 20px;
 }
 
 .cardQuickPresentations {
@@ -640,8 +588,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 30px;
 }
 
 .cardWedding {
@@ -660,9 +606,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .cardBirthday {
@@ -681,9 +624,6 @@
   font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-left: 20px;
-  padding-right: 50px;
 }
 
 .colum-services .row .col-sm-9 {
@@ -695,7 +635,7 @@
    margin-left: 0px;
  }
  
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 
@@ -722,7 +662,7 @@
 }
 
 @media (min-width: 351px) and (max-width: 576px ) {
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 
@@ -757,7 +697,7 @@
 }
  
 @media (min-width: 577px) and (max-width: 992px ) {
- .ourServices h2 {
+ .ourServices h2, .heading-2 {
    font-size: 41px;
  }
 
@@ -924,189 +864,162 @@
  }
 
  .cardIntro p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardAgency p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardBranding p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardRedesign p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardReview p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardMagazine p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardProgressReport1 p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardConference p {
-   margin-top: 60px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardLegalPresentations p {
-   margin-top: 30px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardTrialExhibits p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardEventTalks p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardInvestorDeck p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardStartupPitch p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardBusinessProposal p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardCompanyPresentation p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardProductPresentation p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
  
  .cardSalesDeck p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardServiceDeck p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardBigNewsDeck p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardBrandedTemplate p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardBoardingPresentation p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardPolicyPlaybook p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardProgressReport p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardTraining p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardQuickPresentations p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
 
  .cardWedding p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;
  }
  
  .cardBirthday p {
-   margin-top: 50px;
    padding-right: 0px;
    font-size: 12px;
    margin-left: 0px;

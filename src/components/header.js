@@ -34,7 +34,7 @@ const Header = (props) => {
                   <a href="/services">SERVICES</a>
                 </div>
                 <div className='col col-md-auto headerLinks'>
-                  <a href="/portfolio">PORTFOLIO</a>
+                  <a href="/portfolio">OUR WORK</a>
                 </div>
                 <div className='col col-md-auto headerLinks'>
                   <a href="/about">ABOUT</a>

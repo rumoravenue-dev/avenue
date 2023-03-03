@@ -328,7 +328,7 @@ body {
     }
 }
 
-.chomeCarousel{ padding: 100px; }
+.chomeCarousel{ padding: 100px 150px; }
 @media screen and (max-width: 1366px){
     .chomeCarousel{ padding: 50px; }
 }
@@ -344,4 +344,8 @@ body {
     .accordionContent{
         padding-top: 0 !important;
     }
+}
+
+.text-white{
+    color: #fff;
 }

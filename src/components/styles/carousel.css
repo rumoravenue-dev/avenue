@@ -114,6 +114,21 @@
     }
 }
 
+.custom-handle--help{
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    z-index: 99;
+    min-width: 120px;
+}
+
 @media screen and (max-width: 480px) {
 
     .slider__handle{
@@ -127,13 +142,41 @@
     .slider__handle .custom-handle--inner{ stroke-width: 1.5; }
 }
 
+.carouselHome{
+    position: relative;
+}
+
+.controllerDrag{
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .controllerDrag{
+        top: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .controllerDrag{
+        top: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .controllerDrag{
+        top: -1rem;
+    }
+}
+
 .controllerDrag h6 {
     font-family: 'Antonio';
     font-style: Bold;
     font-size: 16px;
     line-height: 21px;
     line-height: 130%;
-    margin-top: -50px;
 }
 
 .carouselDescription .row {
