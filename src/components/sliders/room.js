@@ -17,16 +17,10 @@ function Carouselroom({ onClose = (props) => { } }) {
             <img src='/assets/img/portfolio/projects/room/room1.webp' alt="slide-1"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/room/room2.webp' alt="slide-2"/>
+            <img src='/assets/img/portfolio/projects/room/room-banner.png' alt="slide-2"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/room/room3.webp' alt="slide-3"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/room/room4.webp' alt="slide-4"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src='/assets/img/portfolio/projects/room/room5.webp' alt="slide-5"/>
+            <img src='/assets/img/portfolio/projects/room/diagonal.png' alt="slide-3"/>
           </Carousel.Item>
         </Carousel>
       </div>
