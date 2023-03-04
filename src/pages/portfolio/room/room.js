@@ -20,7 +20,7 @@ const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfoli
 
 
 
-function Ryna() {
+function room() {
   const portfolio = true;
   let reactSwipeEl;
   // Modal.setAppElement('#portfolio');
@@ -38,12 +38,12 @@ function Ryna() {
         <div className="container-wide">
           <Spacer height={218} />
           <div className="row titleContainer">
-            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/ryna/RYNA.svg" title="RYNA" />
-            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/ryna/ryna-banner.png" title="RYNA" />
-            <SinglePortfolioChallenges text="Develop a simple and concise pitch deck that demonstrates the potential of Ryna and their solution, business model, demand, and projections. Ryna streamlines the process of renting a new place or finding a roommate for women." />
+            <SinglePortfolioHeader titleImg="/assets/img/portfolio/projects/room/room.svg" title="room" />
+            <SinglePortfolioBanner banner_image="/assets/img/portfolio/projects/room/room-banner.png" title="room" />
+            <SinglePortfolioChallenges text="Develop a simple and concise pitch deck that demonstrates the potential of Room and their solution, business model, demand, and projections. Room streamlines the process of renting a new place." />
             <SinglePortfolioIndstryAndTools industries={{industries}} tools={{tools}}/>
             <div className="col-12 col-sm-12 portfolioDetails">
-              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/ryna/diagonal.png" title="RYNA" />
+              <SinglePortfolioImg image_url="/assets/img/portfolio/projects/room/diagonal.png" title="room" />
             </div>
           </div>
         </div>
@@ -55,4 +55,4 @@ function Ryna() {
   );
 }
 
-export default Ryna;
+export default room;

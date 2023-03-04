@@ -20,7 +20,7 @@ import CarouselGaylordHotels from './sliders/gaylordHotels'
 
 import CarouselLilDan from './sliders/lilDan';
 import CarouselWerx from './sliders/werx';
-import CarouselRyna from './sliders/ryna';
+import Carouselroom from './sliders/room';
 
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
@@ -42,7 +42,7 @@ function CarouselPort() {
 
   const [isModalLilDan, setIsModalLilDan] = useState(false)
   const [isModalWerx, setisModalWerx] = useState(false)
-  const [isModalRyna, setisModalRyna] = useState(false)
+  const [isModalroom, setisModalroom] = useState(false)
 
   let reactSwipeEl;
 
@@ -64,7 +64,7 @@ function CarouselPort() {
 
       {isModalLilDan ? (<Modal> <CarouselLilDan onClose={() => setIsModalLilDan(false)}/> </Modal>) : null}
       {isModalWerx ? (<Modal> <CarouselWerx onClose={() => setisModalWerx(false)}/> </Modal>) : null}
-      {isModalRyna ? (<Modal> <CarouselRyna onClose={() => setisModalRyna(false)}/> </Modal>) : null}
+      {isModalroom ? (<Modal> <Carouselroom onClose={() => setisModalroom(false)}/> </Modal>) : null}
 
       <div className='controls'>
         <div className='controlsPortfolio'>
@@ -90,7 +90,7 @@ function CarouselPort() {
             <img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" onClick={() => setIsModalLilDan(true)} />
           </div>
           <div className='slides'>
-            <img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" onClick={() => setisModalRyna(true)} />
+            <img className='slidesIMG' src='/assets/img/portfolio/projects/room/room1.webp' alt="slide-1" onClick={() => setisModalroom(true)} />
             <img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" onClick={() => setisModalRiboli(true)} />
           </div>
         </div>
@@ -130,7 +130,7 @@ function CarouselPort() {
             <a href="/portfolio/lildan"><img className='slidesIMG' src='/assets/img/portfolio/projects/lildan/LILDAN1.webp' alt="slide-1" /></a>
           </div>
           <div className='slides'>
-            <a href="/portfolio/ryna"><img className='slidesIMG' src='/assets/img/portfolio/projects/ryna/Ryna1.webp' alt="slide-1" /></a>
+            <a href="/portfolio/room"><img className='slidesIMG' src='/assets/img/portfolio/projects/room/room1.webp' alt="slide-1" /></a>
             <a href="/portfolio/riboli"><img className='slidesIMG' src='/assets/img/sliders/RIBOLI1.webp' alt="slide-1" /></a>
           </div>
         </div>

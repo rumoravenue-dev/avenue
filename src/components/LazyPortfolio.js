@@ -15,7 +15,7 @@ import CarouselGaylordHotels from "./sliders/gaylordHotels";
 
 import CarouselLilDan from "./sliders/lilDan";
 import CarouselWerx from "./sliders/werx";
-import CarouselRyna from "./sliders/ryna";
+import Carouselroom from "./sliders/room";
 import { useCallback, useEffect, useState } from "react";
 
 const portfolioItems = [
@@ -33,9 +33,9 @@ const portfolioItems = [
   },
   {
     id: 3,
-    src: "/assets/img/portfolio/projects/ryna/Ryna1.webp",
-    ModalComponent: CarouselRyna,
-    DetailUrl: '/portfolio/ryna',
+    src: "/assets/img/portfolio/projects/room/room1.webp",
+    ModalComponent: Carouselroom,
+    DetailUrl: '/portfolio/room',
   },
   {
     id: 4,

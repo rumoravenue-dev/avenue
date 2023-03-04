@@ -6,7 +6,7 @@ import Services from "./pages/services/services";
 import Contact from "./pages/contact/contact";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Pelicargo from "./pages/portfolio/pelicargo/pelicargo";
-import Ryna from "./pages/portfolio/ryna/ryna";
+import Room from "./pages/portfolio/room/room";
 import LilDan from "./pages/portfolio/lildan/lildan";
 import Werx from "./pages/portfolio/werx/werx";
 import Tmrw from "./pages/portfolio/tmrw/tmrw";
@@ -43,7 +43,7 @@ const App = () => {
                 <Route element={<Contact />} path="/contact" />
                 <Route element={<Portfolio />} path="/portfolio" />
                 <Route element={<Pelicargo />} path="/portfolio/pelicargo" />
-                <Route element={<Ryna />} path="/portfolio/ryna" />
+                <Route element={<Room />} path="/portfolio/room" />
                 <Route element={<LilDan />} path="/portfolio/lildan" />
                 <Route element={<Werx />} path="/portfolio/werx" />
                 <Route element={<Tmrw />} path="/portfolio/tmrw" />
