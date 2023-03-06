@@ -12,7 +12,6 @@ const SingleRelatedPortfolio = (props) => {
   let reactSwipeEl;
  
   const inputArray = props.portfolioItems
-
   const slides = inputArray.reduce((resultArray, item, index) => { 
   const chunkIndex = Math.floor(index/ITEMS_LOAD)
 
@@ -25,6 +24,11 @@ const SingleRelatedPortfolio = (props) => {
   return resultArray
   }, [])
 
+  {slides.map((value,key) =>
+    {if(value[0] in value){
+      console.log(value[0])
+    }}
+  )}
   let slideCount = 1;
   return (
     <>
@@ -44,10 +48,15 @@ const SingleRelatedPortfolio = (props) => {
               >
                 
                 {slides.map((value,key) =>
+                
                   <div className='carouselSlide' data-index={key+1}>
                     <div className='slides'>
-                      <img className='slidesIMG' src={value[0]} alt="slide-1"  />
-                      <img className='slidesIMG' src={value[1]} alt="slide-1" />
+                      <a href={value[0].DetailUrl}>
+                       <img className='slidesIMG' src={value[0].src} alt="slide-1"  />
+                      </a>
+                      <a href={value[1].DetailUrl}>
+                        <img className='slidesIMG' src={value[1].src} alt="slide-1" />
+                      </a>
                     </div>
                   </div>
                 )}
