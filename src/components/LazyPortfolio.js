@@ -55,12 +55,14 @@ const portfolioItems = [
     ModalComponent: CarouselHennessy,
     DetailUrl: '/portfolio/hennessy',
   },
+  /*
   {
     id: 7,
     src: "/assets/img/sliders/INPREMISSE1.webp",
     ModalComponent: CarouselInPremisse,
     DetailUrl: '/portfolio/tmrw',
   },
+  */
   {
     id: 8,
     src: "/assets/img/sliders/GREENHOUSEWINE1.webp",
