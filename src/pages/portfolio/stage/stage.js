@@ -16,7 +16,69 @@ import Footer from "../../../components/footer";
 import "./../single-portfolio.css";
 
 
-const portfolioItems =  ['/assets/img/sliders/TMRW1.webp', '/assets/img/portfolio/projects/lildan/LILDAN1.webp', '/assets/img/sliders/NEWENGLAND1.webp', '/assets/img/sliders/HENNESSY1.webp'];
+
+const portfolioItems = [
+  {
+    id: 1,
+    src: "/assets/img/sliders/TMRW1.webp",
+    DetailUrl: '/portfolio/tmrw',
+  },
+  {
+    id: 2,
+    src: "/assets/img/portfolio/projects/lildan/LILDAN1.webp",
+    DetailUrl: '/portfolio/lildan',
+  },
+  {
+    id: 3,
+    src: "/assets/img/portfolio/projects/room/room1.webp",
+    DetailUrl: '/portfolio/room',
+  },
+  {
+    id: 4,
+    src: "/assets/img/sliders/RIBOLI1.webp",
+    DetailUrl: '/portfolio/riboli',
+  },
+  {
+    id: 5,
+    src: "/assets/img/sliders/NEWENGLAND1.webp",
+    DetailUrl: '/portfolio/new-england-whalers',
+  },
+  {
+    id: 6,
+    src: "/assets/img/sliders/HENNESSY1.webp",
+    DetailUrl: '/portfolio/hennessy',
+  },
+  {
+    id: 7,
+    src: "/assets/img/sliders/INPREMISSE1.webp",
+    DetailUrl: '/portfolio/tmrw',
+  },
+  {
+    id: 9,
+    src: "/assets/img/portfolio/projects/omit/Artboard 1 (1).webp",
+    DetailUrl: '/portfolio/omit',
+  },
+  {
+    id: 10,
+    src: "/assets/img/portfolio/projects/bookable/Artboard 1.webp",
+    DetailUrl: '/portfolio/tmrw',
+  },
+  {
+    id: 11,
+    src: "/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp",
+    DetailUrl: '/portfolio/pelicargo',
+  },
+  {
+    id: 12,
+    src: "/assets/img/portfolio/projects/gaylord/Gaylord_01.webp",
+    DetailUrl: '/portfolio/gaylord',
+  },
+  {
+    id: 13,
+    src: "/assets/img/portfolio/projects/werx/werx1.webp",
+    DetailUrl: '/portfolio/werx',
+  },
+];
 
 
 
