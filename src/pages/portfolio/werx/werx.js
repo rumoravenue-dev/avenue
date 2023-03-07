@@ -10,77 +10,11 @@ import SinglePortfolioIndstryAndTools from "../../../components/singlePortfolioI
 import SinglePortfolioImg from "../../../components/singlePortfolioImg";
 import SingleRelatedPortfolio from "../../../components/singleRelatedPortfolio";
 import Footer from "../../../components/footer";
+import portfolioItems from '../../../common/portfolioItems';
 
 
 // import Modal from 'react-modal';
 import "./../single-portfolio.css";
-
-
-
-const portfolioItems = [
-  {
-    id: 1,
-    src: "/assets/img/sliders/TMRW1.webp",
-    DetailUrl: '/portfolio/tmrw',
-  },
-  {
-    id: 2,
-    src: "/assets/img/portfolio/projects/lildan/LILDAN1.webp",
-    DetailUrl: '/portfolio/lildan',
-  },
-  {
-    id: 3,
-    src: "/assets/img/portfolio/projects/room/room1.webp",
-    DetailUrl: '/portfolio/room',
-  },
-  {
-    id: 4,
-    src: "/assets/img/sliders/RIBOLI1.webp",
-    DetailUrl: '/portfolio/riboli',
-  },
-  {
-    id: 5,
-    src: "/assets/img/sliders/NEWENGLAND1.webp",
-    DetailUrl: '/portfolio/new-england-whalers',
-  },
-  {
-    id: 6,
-    src: "/assets/img/sliders/HENNESSY1.webp",
-    DetailUrl: '/portfolio/hennessy',
-  },
-  {
-    id: 7,
-    src: "/assets/img/sliders/INPREMISSE1.webp",
-    DetailUrl: '/portfolio/tmrw',
-  },
-  {
-    id: 8,
-    src: "/assets/img/sliders/GREENHOUSEWINE1.webp",
-    DetailUrl: '/portfolio/stage-leap',
-  },
-  {
-    id: 9,
-    src: "/assets/img/portfolio/projects/omit/Artboard 1 (1).webp",
-    DetailUrl: '/portfolio/omit',
-  },
-  {
-    id: 10,
-    src: "/assets/img/portfolio/projects/bookable/Artboard 1.webp",
-    DetailUrl: '/portfolio/tmrw',
-  },
-  {
-    id: 11,
-    src: "/assets/img/portfolio/projects/pelicargo/Pelicargo1.webp",
-    DetailUrl: '/portfolio/pelicargo',
-  },
-  {
-    id: 12,
-    src: "/assets/img/portfolio/projects/gaylord/Gaylord_01.webp",
-    DetailUrl: '/portfolio/gaylord',
-  }
-];
-
-
 
 function Werx() {
   const portfolio = true;

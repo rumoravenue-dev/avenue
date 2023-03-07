@@ -1,6 +1,7 @@
 
 import ReactSwipe from 'react-swipe';
 import Spacer from './spacer';
+import { useLocation } from 'react-router-dom'
 
 import { useCallback, useEffect, useState } from "react";
 
@@ -9,26 +10,22 @@ import { useCallback, useEffect, useState } from "react";
 const ITEMS_LOAD = 2;
 
 const SingleRelatedPortfolio = (props) => {
+
+  const { pathname } = useLocation();
+
   let reactSwipeEl;
  
-  const inputArray = props.portfolioItems
+  const inputArray = props.portfolioItems.filter(item => item.DetailUrl !== pathname)
+  console.log(inputArray)
   const slides = inputArray.reduce((resultArray, item, index) => { 
-  const chunkIndex = Math.floor(index/ITEMS_LOAD)
-
-  if(!resultArray[chunkIndex]) {
-    resultArray[chunkIndex] = [] // start a new chunk
-  }
-
-  resultArray[chunkIndex].push(item)
-
-  return resultArray
+    const chunkIndex = Math.floor(index/ITEMS_LOAD)
+    if(!resultArray[chunkIndex]) {
+      resultArray[chunkIndex] = [] // start a new chunk
+    }
+    resultArray[chunkIndex].push(item)
+    return resultArray
   }, [])
 
-  {slides.map((value,key) =>
-    {if(value[0] in value){
-      console.log(value[0])
-    }}
-  )}
   let slideCount = 1;
   return (
     <>
@@ -54,9 +51,12 @@ const SingleRelatedPortfolio = (props) => {
                       <a href={value[0].DetailUrl}>
                        <img className='slidesIMG' src={value[0].src} alt="slide-1"  />
                       </a>
+                      {
+                        value[1] ?
                       <a href={value[1].DetailUrl}>
                         <img className='slidesIMG' src={value[1].src} alt="slide-1" />
-                      </a>
+                      </a> : null
+                      }
                     </div>
                   </div>
                 )}
