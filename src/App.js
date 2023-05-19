@@ -19,6 +19,13 @@ import Stage from "./pages/portfolio/stage/stage";
 import NewEnglandWhalers from "./pages/portfolio/newenglandwhalers/newenglandwhalers";
 import About from "./pages/about/about";
 import StartANewProject from "./pages/startANewProject/startANewProject";
+import TagManager from 'react-gtm-module';
+
+TagManager.initialize({
+    gtmId: 'GTM-P57ZMVQ'
+})
+
+/*
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('G-Y824M0N6NS');
@@ -32,6 +39,7 @@ const GA = () => {
 
     return null
 }
+*/
 
 const App = () => {
     return (
