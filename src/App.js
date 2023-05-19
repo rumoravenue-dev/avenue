@@ -44,7 +44,7 @@ const GA = () => {
 const App = () => {
     return (
         <BrowserRouter>
-            <GA />
+            {/* <GA /> */ }
             <Routes>
                 <Route element={<Home />} path="/" />
                 <Route element={<Services />} path="/services" />
