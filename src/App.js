@@ -22,7 +22,7 @@ import StartANewProject from "./pages/startANewProject/startANewProject";
 import TagManager from 'react-gtm-module';
 
 TagManager.initialize({
-    gtmId: 'GTM-P57ZMVQ'
+    gtmId: 'GTM-K8ZL79LK'
 })
 
 /*
